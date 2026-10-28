@@ -1,0 +1,10 @@
+{
+  "version": "2.0",
+  "cases": 50,
+  "single_turn": 40,
+  "fixed_context": 10,
+  "sha256": "10f8e8f7f10e5617e3b3db207d49cee82f081a612765f485b716d2b9dc1e7901",
+  "status": "frozen; not yet run",
+  "design": "Score only final response of each case; identical supplied histories across models. Not an end-to-end generated conversation test.",
+  "archive": "data/archive/previous-test-90c68025e8fb.jsonl"
+}

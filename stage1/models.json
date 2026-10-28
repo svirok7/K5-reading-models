@@ -1,0 +1,56 @@
+{
+  "qwen": {
+    "label": "Qwen3-1.7B · local baseline",
+    "backend": "qwen",
+    "adapter": null
+  },
+  "sarvam": {
+    "label": "Sarvam-1 2B · local baseline",
+    "backend": "sarvam",
+    "adapter": null
+  },
+  "openai": {
+    "label": "OpenAI · API",
+    "backend": "openai"
+  },
+  "sft": {
+    "label": "Sarvam · SFT",
+    "backend": "sarvam",
+    "adapter": null,
+    "pending": true
+  },
+  "dpo": {
+    "label": "Sarvam · DPO",
+    "backend": "sarvam",
+    "adapter": null,
+    "pending": true
+  },
+  "rlhf": {
+    "label": "Sarvam · RLHF",
+    "backend": "sarvam",
+    "adapter": null,
+    "pending": true
+  },
+  "claude": {
+    "label": "Claude · API",
+    "backend": "claude"
+  },
+  "qwen_sft": {
+    "label": "Qwen3-1.7B · SFT",
+    "backend": "qwen",
+    "adapter": null,
+    "pending": true
+  },
+  "qwen_dpo": {
+    "label": "Qwen3-1.7B · DPO",
+    "backend": "qwen",
+    "adapter": null,
+    "pending": true
+  },
+  "qwen_rlhf": {
+    "label": "Qwen3-1.7B · RLHF",
+    "backend": "qwen",
+    "adapter": null,
+    "pending": true
+  }
+}

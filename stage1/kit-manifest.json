@@ -1,0 +1,10 @@
+{
+  "RUBRIC.md": "b0cf35738170abc15b033855e8e387d4c6e56199f8dd103909fcfe6f0d35b1d4",
+  "prompts/A.txt": "e023fc9a6acfd820602269e11619b1aa8d2e2bdec94dbe6eaa7a55bbc04a542d",
+  "prompts/B.txt": "9e50178ae9db06e585a2f13c6f57f1628d9f35401735377510deeba0d7eb33ed",
+  "data/dev.jsonl": "5407afb071c12dd6b4cf01a91737e34c64926be1a5db0bd0dff860cd5e74637e",
+  "data/test.jsonl": "10f8e8f7f10e5617e3b3db207d49cee82f081a612765f485b716d2b9dc1e7901",
+  "READER_PROFILE.txt": "065b3ab985cba131c8fe1cedfcb702e73e7ed5c04c87374a19d0261e86e646bf",
+  "data/dolch-through-grade1.json": "241bcf6dda3614c9a4bf90444d6ac72e94f283a7e127639c8d616c5c1d058863",
+  "data/benchmark-v2-manifest.json": "b09f7fe2f829c753167c45a24be5971b171f19538c0c74b22db9e3a321c80447"
+}

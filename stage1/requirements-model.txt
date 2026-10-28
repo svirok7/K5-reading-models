@@ -1,0 +1,7 @@
+torch>=2.4,<3
+transformers>=4.51,<5
+accelerate>=1,<2
+huggingface_hub>=0.28,<1
+peft>=0.14,<1
+safetensors>=0.4,<1
+# CUDA/Colab only: pip install bitsandbytes
