@@ -1,0 +1,43 @@
+{
+  "dataset_version": "synthetic-batch-002-v1",
+  "ids": [
+    "pilot-031",
+    "pilot-060"
+  ],
+  "count": 30,
+  "input_length_counts": {
+    "short": 12,
+    "medium": 12,
+    "long": 6
+  },
+  "category_counts": {
+    "everyday_social": 6,
+    "complex_speech": 6,
+    "questions_explanations": 6,
+    "short_stories": 4,
+    "emotions_boundaries_identity": 3,
+    "context_changes_corrections": 5
+  },
+  "context_dependent_count": 10,
+  "reading_profile_version": "1.5",
+  "training_format": "TRL conversational prompt/completion; completion_only_loss=True; Qwen3 native template enable_thinking=False; verify masks before training.",
+  "review_status": "model_reviewed_pending_human",
+  "provenance": "Authored and second-pass self-reviewed by current assistant, no generation API batch, no held-out data opened.",
+  "source_hashes": {
+    "READER_PROFILE.txt": "065b3ab985cba131c8fe1cedfcb702e73e7ed5c04c87374a19d0261e86e646bf",
+    "data/dolch-through-grade1.json": "241bcf6dda3614c9a4bf90444d6ac72e94f283a7e127639c8d616c5c1d058863",
+    "RUBRIC.md": "b0cf35738170abc15b033855e8e387d4c6e56199f8dd103909fcfe6f0d35b1d4",
+    "prompts/B.txt": "9e50178ae9db06e585a2f13c6f57f1628d9f35401735377510deeba0d7eb33ed",
+    "PROTOCOL.md": "6d0628497aaec15132fa1731b178835f1e5327b9fc49a1e097124da9bc87b861",
+    "engine.py": "e17bfad6e043a79774ec56e1cdad062fb756edba058114c921f770af0e611b17"
+  },
+  "artifact_hashes": {
+    "sft.jsonl": "77ae76c1b7c332f7df7d3a7b194c55bd6af56b920b9a061f50a883b903131da3",
+    "review.jsonl": "799c5a274724f53b23219958d5da8f06003ba7f36d0b8952510bd9b4fb6a4cb1",
+    "review.md": "9eed77eff9256dbc49885966742805206f39f6fe2133a1933d2ba045e99b89b1",
+    "system.txt": "448f111aa33a5fbf04a211dd7f8e409089dd593a195bbf76958d65dd057a0745",
+    "word-evidence.json": "36da4d56652a955c4438cd1893af548958a5f4abe50e6c8cc695b806354dd079"
+  },
+  "training_executed": false,
+  "tokenization_verified": false
+}

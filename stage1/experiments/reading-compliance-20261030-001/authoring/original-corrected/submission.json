@@ -1,0 +1,13 @@
+{
+  "source_sft_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+  "source_review_sha256": "4bea6c4aaf5ecde8218d6a998c4d7435ee217faa75dddd63b719cc79815e445b",
+  "sft_sha256": "2ec1428629a43b82226ced3717d05ae0286c7ea5e3c82f5e143394bcb304a209",
+  "review_sha256": "997c5c72f967984005b3f62b02034251ea339f7b52f1596e529e5e91a7071959",
+  "changes_sha256": "53c7c9faeb473311f98d05a0dfaed65a14edf963fc8c0aea64f9bc44f3122200",
+  "changed_ids": [
+    "pilot-032",
+    "pilot-045",
+    "pilot-065"
+  ],
+  "human_approved": false
+}

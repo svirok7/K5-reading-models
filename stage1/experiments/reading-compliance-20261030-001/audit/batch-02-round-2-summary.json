@@ -1,0 +1,11 @@
+{
+  "batch": 2,
+  "round": 2,
+  "source_sft_sha256": "2e499841106d39bb085045d43cc2d654585deb4f291ce893e0f2d0fbb8bb3d54",
+  "source_review_sha256": "22c53cd4edbaddbfef0c979cf0555870f40e51066860385c5bbbf17c72173435",
+  "rows_reviewed": 50,
+  "pass_count": 50,
+  "revision_case_indices_1based": [],
+  "status": "approved",
+  "review_method": "Independent manual full-record review and exact word-form inspection of every final response; no automated semantic judge; no test access."
+}

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "baseline": {
+    "README.md": "b11809463f4bdd07537eed590ed7875e8352eb15ba98081071ff6ad844b3c41c",
+    "audit.md": "dd168e669e29cfac3f4519e7e655a2f63ef71bfda8baa83abbbd50234576608f",
+    "manifest.json": "f5a7dbe7e696d268367759a8509626340fe6c99fb3529ec2dab090bfd4c42377",
+    "review.jsonl": "ce16396f4df618c2d59a8fcc6c4e9897df200e27b410136b48d0b21083bcc470",
+    "review.md": "029acc2b8e6c0d5292cdcce5e312fae59b47fc12c1d36cb22c8cc104be5b861a",
+    "sft.jsonl": "88aafaf21a2adfce992e5132c8abe48ed9d58c662f209782045d9662b1167bd8",
+    "word-evidence.json": "d4a64b3e3272edd8a4762e277a05d4060a9311ff3945a6967b6c547906e76fef"
+  },
+  "spec_files": {
+    "AUDITOR.md": "61ff9f55b14cb13f134c8ad05e6dbf560eb75df411a7c5c36c5f671ed00cead7",
+    "GENERATOR.md": "340e817c0cbb734e8e4f013acecc5ef95c6bfa57e7f82ed91731b531b1d67e9b",
+    "READER_PROFILE.txt": "065b3ab985cba131c8fe1cedfcb702e73e7ed5c04c87374a19d0261e86e646bf",
+    "RUBRIC.md": "b0cf35738170abc15b033855e8e387d4c6e56199f8dd103909fcfe6f0d35b1d4",
+    "dolch-through-grade1.json": "241bcf6dda3614c9a4bf90444d6ac72e94f283a7e127639c8d616c5c1d058863",
+    "spec.json": "96b1bbfc0bbea3b285a54ab5c22041920bc611c0a6a5d22ef9a4c65add19b0de",
+    "system.txt": "129a21f9b37e953c4b1d27d6ea015fc9775c32cabf6b7d8ef9bfde212d9ade6c"
+  }
+}

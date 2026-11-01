@@ -1,0 +1,23 @@
+{
+  "training": {
+    "mode": "lora",
+    "seed": 42,
+    "max_length": 2048,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "learning_rate": 0.0001,
+    "epochs": 1.0,
+    "microbatch": 1,
+    "gradient_accumulation": 8
+  },
+  "model": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "context": {
+    "kit_sha256": "5e6e3c3007c9d828c9a8d4f3290f78cc07050b0b96fea7137d07577516a5bc01",
+    "baseline_reference": "evaluation-sft-v1/baseline-reference/manifest.json sha256:9215dc370204863e1ff58383d6e6083e709a883af54e74f80f9d7a54c82b89b6",
+    "mode_reason": "Ordinary LoRA is the preferred initial experiment.",
+    "lora_failure_evidence": null
+  },
+  "source_manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3"
+}

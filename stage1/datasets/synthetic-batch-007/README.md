@@ -1,0 +1,11 @@
+# Synthetic batch 007: candidates pending independent audit
+
+50 original candidates, pilot-251 through pilot-300, authored by the SFT generator agent using gpt-6.1-sol with high reasoning effort. Independent audit and human review remain pending. generator-agent.json records the role and instruction sources read.
+
+sft.jsonl contains only prompt and completion. Its system message uses sft_pipeline_300/frozen/system.txt exactly, matching the accepted baseline. Only the final assistant completion is a training target. review.jsonl is line-aligned and supplies full context, target, word-choice reasoning, and specific spelling evidence for every distinct target and historical assistant word. Review metadata must not be fed to normal SFT.
+
+The final child inputs comprise exactly 20 short inputs (1–5 whitespace-separated words), 20 medium inputs (6–15), and 10 long inputs (16+). Exactly 16 records contain assistant history and require prior facts; the other 34 have no assistant history. Every assistant sentence has at most 12 words; targets contain at most one question. The generator checked spelling-evidence coverage, exact Dolch claims, schema alignment, the identical system profile, within-batch unique targets, and no exact target duplication against the accepted 250 examples (sft-200-v1 plus batch 006). These are generator checks, not independent phonics verification.
+
+Lexical selection remains the primary training objective. New words use supported closed syllables, blends, taught phonograms/endings, and regular s/es inflections. Meg, Ben, and Jill have explicit decoding evidence; names receive no automatic allowance. Listed irregular forms remain exact exceptions, with no automatic derivative or contraction allowance. The contextual cases recover prior people, choices, colours, locations, counts, objects, or activity order.
+
+Child speech is unrestricted. No held-out test data or test archives were opened and no training was run. Earlier batches and the accepted baseline were preserved. build_candidates.py is the authoring source; do not rerun it over audit corrections without incorporating those corrections first. This is the final requested batch through pilot-300.

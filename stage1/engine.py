@@ -122,7 +122,7 @@ class SarvamEngine:
         self.torch = torch
         self.max_tokens = max_tokens
         base = self.base_model
-        revision = model_info(base).sha
+        revision = getattr(self, 'base_revision', None) or model_info(base).sha
         kwargs = {'revision': revision}
         if torch.cuda.is_available():
             device, precision = 'cuda', '4-bit NF4 / float16 compute'
@@ -147,6 +147,8 @@ class SarvamEngine:
             config = json.loads((path / 'adapter_config.json').read_text())
             if config.get('base_model_name_or_path') != base:
                 raise ValueError(f'Adapter must be trained on {base}.')
+            if getattr(self, 'base_revision', None) and config.get('revision') != revision:
+                raise ValueError('Adapter revision must match the pinned base revision.')
             hasher = hashlib.sha256()
             for file in sorted(path.glob('*')):
                 if file.is_file() and file.suffix in ('.json', '.bin', '.safetensors'):
@@ -160,7 +162,7 @@ class SarvamEngine:
         self.metadata = {'backend': self.backend, 'model': base, 'revision': revision,
             'adapter': str(adapter) if adapter else None, 'adapter_hash': adapter_hash,
             'device': device, 'precision': precision, 'max_new_tokens': max_tokens, **self.generation_options,
-            'template': 'qwen-chat-v1; enable_thinking=False' if self.backend == 'qwen' else 'child-companion-transcript-v1',
+            'template': 'qwen-chat-v3; enable_thinking=False' if self.backend == 'qwen' else 'child-companion-transcript-v1',
             'hardware': torch.cuda.get_device_name(0) if device == 'cuda' else device}
         # One excluded warm-up, also catches device/runtime incompatibility early.
         self.generate(prompt_for('A'), [{'role': 'user', 'content': 'Hi.'}])
@@ -171,6 +173,9 @@ class SarvamEngine:
 
     def encode(self, instructions, messages):
         return self.tokenizer(transcript(instructions, messages), return_tensors='pt')
+
+    def decode_generated(self, generated):
+        return self.tokenizer.decode(generated, skip_special_tokens=True).strip(), {}
 
     def generate(self, instructions, messages):
         self.sync()
@@ -183,24 +188,33 @@ class SarvamEngine:
                 pad_token_id=self.tokenizer.eos_token_id)
         self.sync()
         generated = output[0, inputs.input_ids.shape[1]:]
-        text = self.tokenizer.decode(generated, skip_special_tokens=True).strip()
+        text, details = self.decode_generated(generated)
         eos = self.model.generation_config.eos_token_id or self.tokenizer.eos_token_id
         eos = eos if isinstance(eos, list) else [eos]
         ended = bool(len(generated) and generated[-1].item() in eos)
-        truncated = len(generated) >= self.max_tokens and not ended
+        truncated = (len(generated) >= self.max_tokens and not ended) or details.get('thinking_complete') is False
         return {'text': text, 'latency_s': time.perf_counter()-start,
                 'status': 'incomplete' if truncated else 'completed', 'truncated': truncated,
                 'usage': {'input_tokens': inputs.input_ids.shape[1], 'output_tokens': len(generated)},
-                'diagnostics': diagnostics(text)}
+                **details, 'diagnostics': diagnostics(text)}
 
 
 class QwenEngine(SarvamEngine):
     base_model = 'Qwen/Qwen3-1.7B'
+    base_revision = '70d244cc86ccca08cf5af4e1e306ecf908b1ad5e'
     backend = 'qwen'
     generation_options = {'do_sample': True, 'temperature': 0.7, 'top_p': 0.8, 'top_k': 20}
+
+    def __init__(self, adapter=None, max_tokens=128):
+        super().__init__(adapter=adapter, max_tokens=max_tokens)
+        self.metadata['enable_thinking'] = False
 
     def encode(self, instructions, messages):
         text = self.tokenizer.apply_chat_template(
             [{'role': 'system', 'content': instructions}, *messages],
             tokenize=False, add_generation_prompt=True, enable_thinking=False)
         return self.tokenizer(text, return_tensors='pt', add_special_tokens=False)
+
+    def decode_generated(self, generated):
+        text, _ = super().decode_generated(generated)
+        return text, {'thinking_complete': True, 'reasoning_tokens': 0}

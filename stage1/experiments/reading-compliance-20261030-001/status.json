@@ -1,0 +1,24 @@
+{
+  "experiment_id": "reading-compliance-20261030-001",
+  "status": "blocked_by_gpu_and_independent_worker_usage_limits",
+  "stages": {
+    "freeze": "complete_34_cases",
+    "training_code": "29_cpu_tests_pass",
+    "same_data": "executable_sealed_partial_notebook_gpu_blocked",
+    "expanded_data": "250_authored_150_independently_approved_50_missing_600_export_blocked",
+    "evaluation": "11_tests_pass_fresh_generations_and_quality_scores_blocked",
+    "delivery": "sealed_partial_package_verified"
+  },
+  "constraints": {
+    "held_out_test_access": false,
+    "live_ui_adapter_replacement": false,
+    "paid_evaluator_calls": false,
+    "compute_purchases": false
+  },
+  "new_examples_authored": 250,
+  "new_examples_independently_approved": 150,
+  "training_executed": false,
+  "quality_evaluation_executed": false,
+  "adoption_recommendation": "retain_current_reference_pending_evidence",
+  "resume_instructions": "RESUME.md"
+}

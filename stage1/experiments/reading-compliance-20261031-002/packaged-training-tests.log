@@ -1,0 +1,42 @@
+{'train_runtime': 0.0231, 'train_samples_per_second': 691.801, 'train_steps_per_second': 86.475, 'train_loss': 16.635208129882812, 'epoch': 1.0}
+test_1024_cannot_silently_truncate_and_overpadding_rejected (test_sft_train.CollatorTests.test_1024_cannot_silently_truncate_and_overpadding_rejected) ... ok
+test_actual_forward_batch_audit_rejects_changed_labels (test_sft_train.CollatorTests.test_actual_forward_batch_audit_rejects_changed_labels) ... ok
+test_eos_supervised_even_if_pad_id_equals_eos (test_sft_train.CollatorTests.test_eos_supervised_even_if_pad_id_equals_eos) ... ok
+test_prompt_label_leakage_and_target_dropping_rejected (test_sft_train.CollatorTests.test_prompt_label_leakage_and_target_dropping_rejected) ... ok
+test_real_collator_masks_all_300_and_history (test_sft_train.CollatorTests.test_real_collator_masks_all_300_and_history) ... ok
+test_smoke_selection_matches_full_first_group_then_longest_and_history (test_sft_train.CollatorTests.test_smoke_selection_matches_full_first_group_then_longest_and_history) ... ok
+test_tampered_manifest_and_training_bytes_rejected (test_sft_train.CollatorTests.test_tampered_manifest_and_training_bytes_rejected) ... ok
+test_transformers_trainer_dataloader_preserves_custom_masks (test_sft_train.CollatorTests.test_transformers_trainer_dataloader_preserves_custom_masks) ... ok
+test_checkpoint_manifest_can_be_rewritten_without_self_hash (test_sft_train.LoaderAndRecordTests.test_checkpoint_manifest_can_be_rewritten_without_self_hash) ... ok
+test_checkpoint_requires_bound_complete_untampered_optimizer_state (test_sft_train.LoaderAndRecordTests.test_checkpoint_requires_bound_complete_untampered_optimizer_state) ... ok
+test_cpu_toy_trainer_runs_sequential_accumulated_batches_and_gradient_checks (test_sft_train.LoaderAndRecordTests.test_cpu_toy_trainer_runs_sequential_accumulated_batches_and_gradient_checks) ... ok
+test_emulated_only_bf16_environment_selects_fp16 (test_sft_train.LoaderAndRecordTests.test_emulated_only_bf16_environment_selects_fp16) ... ok
+test_explicit_initial_scale_uses_public_state_and_checkpoint_restore_wins (test_sft_train.LoaderAndRecordTests.test_explicit_initial_scale_uses_public_state_and_checkpoint_restore_wins) ... ok
+test_identity_and_exported_adapter_record_bind_mode_and_revision (test_sft_train.LoaderAndRecordTests.test_identity_and_exported_adapter_record_bind_mode_and_revision) ... ok
+test_initial_scale_validation_and_bf16_does_not_create_scaler (test_sft_train.LoaderAndRecordTests.test_initial_scale_validation_and_bf16_does_not_create_scaler) ... ok
+test_lora_loader_never_quantizes_and_checkpoints_base (test_sft_train.LoaderAndRecordTests.test_lora_loader_never_quantizes_and_checkpoints_base) ... ok
+test_memory_target_includes_nonallocator_use_at_transient_peak (test_sft_train.LoaderAndRecordTests.test_memory_target_includes_nonallocator_use_at_transient_peak) ... ok
+test_mode_default_and_unknown_mode_rejected (test_sft_train.LoaderAndRecordTests.test_mode_default_and_unknown_mode_rejected) ... ok
+test_optimizer_skips_fail_without_inflating_applied_step_count (test_sft_train.LoaderAndRecordTests.test_optimizer_skips_fail_without_inflating_applied_step_count) ... ok
+test_qlora_loader_explicit_nf4_preparation (test_sft_train.LoaderAndRecordTests.test_qlora_loader_explicit_nf4_preparation) ... ok
+test_reload_autocast_requires_native_bf16 (test_sft_train.LoaderAndRecordTests.test_reload_autocast_requires_native_bf16) ... ok
+test_training_args_precision_and_smoke_accumulation (test_sft_train.LoaderAndRecordTests.test_training_args_precision_and_smoke_accumulation) ... ok
+test_flawed_assistant_histories_remain_entirely_masked (test_sft_train.MultiEpochTests.test_flawed_assistant_histories_remain_entirely_masked) ... ok
+test_integer_epochs_and_fixed_experiment_settings (test_sft_train.MultiEpochTests.test_integer_epochs_and_fixed_experiment_settings) ... ok
+test_production_args_retain_every_epoch_and_one_linear_schedule (test_sft_train.MultiEpochTests.test_production_args_retain_every_epoch_and_one_linear_schedule) ... ok
+test_real_tiny_peft_epoch_retention_reload_resume_and_hash_integrity (test_sft_train.MultiEpochTests.test_real_tiny_peft_epoch_retention_reload_resume_and_hash_integrity) ... /Users/viroksharma/Desktop/Personal/Projects for Fun/Reading-Model/stage1/.venv/lib/python3.11/site-packages/peft/tuners/lora/layer.py:2760: UserWarning: fan_in_fan_out is set to False but the target module is `Conv1D`. Setting fan_in_fan_out to True.
+  warnings.warn(
+`loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+/Users/viroksharma/Desktop/Personal/Projects for Fun/Reading-Model/stage1/.venv/lib/python3.11/site-packages/peft/tuners/lora/layer.py:2760: UserWarning: fan_in_fan_out is set to False but the target module is `Conv1D`. Setting fan_in_fan_out to True.
+  warnings.warn(
+/Users/viroksharma/Desktop/Personal/Projects for Fun/Reading-Model/stage1/.venv/lib/python3.11/site-packages/peft/tuners/lora/layer.py:2760: UserWarning: fan_in_fan_out is set to False but the target module is `Conv1D`. Setting fan_in_fan_out to True.
+  warnings.warn(
+ok
+test_successor_requires_explicit_immutable_hashes_and_clean_audit (test_sft_train.MultiEpochTests.test_successor_requires_explicit_immutable_hashes_and_clean_audit) ... ok
+test_three_epochs_apply114_and225_updates_and_normalize_partial_groups (test_sft_train.MultiEpochTests.test_three_epochs_apply114_and225_updates_and_normalize_partial_groups) ... ok
+test_optional_torchao_cleanup_is_scoped_recorded_and_clears_probe_cache (test_sft_train.NotebookPreflightTests.test_optional_torchao_cleanup_is_scoped_recorded_and_clears_probe_cache) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 4.661s
+
+OK

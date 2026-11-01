@@ -1,0 +1,11 @@
+{
+  "examples_checked": 250,
+  "all_actual_collator_masks_pass": true,
+  "supervised_tokens": 2674,
+  "max_sequence_tokens": 1831,
+  "model_or_gradients_tested": false,
+  "status": "mechanical_check_only_not_training_approval",
+  "independently_approved_rows": 150,
+  "unapproved_rows": 100,
+  "gpu_executed": false
+}

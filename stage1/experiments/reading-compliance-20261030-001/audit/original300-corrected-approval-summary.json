@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "rows": 300,
+  "original_source_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+  "corrected_sft_sha256": "2ec1428629a43b82226ced3717d05ae0286c7ea5e3c82f5e143394bcb304a209",
+  "corrected_review_sha256": "997c5c72f967984005b3f62b02034251ea339f7b52f1596e529e5e91a7071959",
+  "changes_sha256": "53c7c9faeb473311f98d05a0dfaed65a14edf963fc8c0aea64f9bc44f3122200",
+  "changed_original_indices_1based": [
+    32,
+    45,
+    65
+  ],
+  "semantic_pass": 300,
+  "reading_pass": 300,
+  "open_findings": [],
+  "human_approved": false,
+  "test_accessed": false
+}

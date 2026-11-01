@@ -1,0 +1,20 @@
+{
+  "status": "metadata_and_downloaded_state_hashes_verified",
+  "epoch": 1,
+  "updates": 38,
+  "planned_updates": 114,
+  "unique_rows": 300,
+  "complete_row_consumption": true,
+  "update_losses": 38,
+  "scaler": {
+    "scale": 1024.0,
+    "growth_factor": 2.0,
+    "backoff_factor": 0.5,
+    "growth_interval": 2000,
+    "_growth_tracker": 38
+  },
+  "scheduler_last_epoch": 38,
+  "resume_record_sha256": "9451c2e2d78a60083dd0369b00b4aec893651e05ce2ba0139ce797d9de8d4f93",
+  "all_large_files_downloaded_or_locally_verified": false,
+  "gpu_exact_reload": "runtime_full_run_verifies_each_retained_epoch_after_training"
+}

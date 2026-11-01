@@ -1,0 +1,42 @@
+{
+  "status": "evaluation_preparation_complete_no_model_execution",
+  "prepared_at": "2026-10-29T18:41:25.710200+00:00",
+  "baseline_manifest_sha256": "9215dc370204863e1ff58383d6e6083e709a883af54e74f80f9d7a54c82b89b6",
+  "baseline_records": 16,
+  "configuration_groups": 4,
+  "no_thinking_development_inputs": 13,
+  "current_template_development_inputs": 1,
+  "checks": {
+    "offline_unittests": {
+      "passed": 5,
+      "failed": 0
+    },
+    "script_compilation": "passed",
+    "frozen_reference_integrity": "passed",
+    "current_only_verify_plan": "passed",
+    "all_no_thinking_verify_plan": "passed"
+  },
+  "execution": {
+    "model_loaded": false,
+    "generations": 0,
+    "evaluator_calls": 0,
+    "paid_calls": 0,
+    "database_access": "read-only SQLite transaction",
+    "database_writes": 0,
+    "held_out_files_read": [],
+    "model_registry_or_engine_edits": false
+  },
+  "unverified": [
+    "Actual model/adapter inference and GPU memory behavior",
+    "Trained adapter availability/reload",
+    "Human ratings and measured SFT improvement"
+  ],
+  "files_sha256": {
+    "prepare_reference.py": "76cf7ccf484437b5102c9b8f2c0110f55a61151e1babb0f0377729e9eb447873",
+    "replay_development.py": "587ef032eb0d5761ff4a3485c7b976732ab8e5b60fcb8f3e2d42d78e12d499a4",
+    "compare_development.py": "c27c79ef7e3dcbe7aa149431c92309cf19830fa2afe1a7f0a342839f8fc701b0",
+    "test_evaluation.py": "60626c090e85210e5bdedc777bf0ab5888c2c2d70c03b1da79367a0dbc598a57",
+    "PROCEDURE.md": "a5504429a48811f16b75c3d2ece16e9f5bf2ed5cc0ec9478092fa1ec6d2f933f",
+    ".gitignore": "5f8552a49a84e79fb9b25c5fb4322027738df59323f0e911a7fa17443a81a2d7"
+  }
+}

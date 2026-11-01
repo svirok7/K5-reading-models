@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "training_tests": 29,
+  "evaluation_selection_tests": 11,
+  "generated_notebook_code_cells_compile": 8,
+  "kit_files_verified": 33,
+  "baseline_only_plan_verified": true,
+  "expanded_data_unapproved_and_not_packaged": true,
+  "prepared_model_tokenizer_files": 9,
+  "notebook_sha256": "59fbfd739ee7b1136b03fd377014d56669b7a0804e9a06f82458bf3bbf37b569",
+  "archive_sha256": "f28e9b44e280ff7e8b2328dd87ac4ea92205bf894a35878fbc738eb7c8850a5c",
+  "gpu_tests_executed": false,
+  "behavioral_evaluation_executed": false
+}

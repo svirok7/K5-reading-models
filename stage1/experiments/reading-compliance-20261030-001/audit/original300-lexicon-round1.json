@@ -1,0 +1,2240 @@
+{
+  "a": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "a"
+  },
+  "add": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "add"
+  },
+  "after": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "after"
+  },
+  "again": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "again"
+  },
+  "all": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "all"
+  },
+  "am": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "am"
+  },
+  "an": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "an"
+  },
+  "and": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "and"
+  },
+  "ant": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "ant"
+  },
+  "ants": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base ant plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "ants"
+  },
+  "any": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "any"
+  },
+  "are": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "are"
+  },
+  "as": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "as"
+  },
+  "ask": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "ask"
+  },
+  "at": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "at"
+  },
+  "ate": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "ate"
+  },
+  "away": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "away"
+  },
+  "back": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "back"
+  },
+  "bad": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bad"
+  },
+  "bag": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bag"
+  },
+  "bath": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bath"
+  },
+  "be": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "be"
+  },
+  "bed": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bed"
+  },
+  "bell": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bell"
+  },
+  "bells": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base bell plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "bells"
+  },
+  "ben": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "ben"
+  },
+  "bench": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bench"
+  },
+  "bends": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base bend plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "bends"
+  },
+  "bent": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bent"
+  },
+  "big": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "big"
+  },
+  "bill": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bill"
+  },
+  "bin": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bin"
+  },
+  "bit": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bit"
+  },
+  "black": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "black"
+  },
+  "blend": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "blend"
+  },
+  "blocks": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base block plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "blocks"
+  },
+  "blue": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "blue"
+  },
+  "box": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "box"
+  },
+  "branch": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "branch"
+  },
+  "brisk": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "brisk"
+  },
+  "brown": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "brown"
+  },
+  "bug": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bug"
+  },
+  "bugs": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base bug plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "bugs"
+  },
+  "bum": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bum"
+  },
+  "bun": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bun"
+  },
+  "buns": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base bun plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "buns"
+  },
+  "bus": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "bus"
+  },
+  "but": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "but"
+  },
+  "by": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "by"
+  },
+  "came": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "came"
+  },
+  "camp": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "camp"
+  },
+  "can": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "can"
+  },
+  "cannot": {
+    "eligible": true,
+    "evidence": "can + not; both parts supported closed syllables.",
+    "route": "supported_compound",
+    "word": "cannot"
+  },
+  "cap": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "cap"
+  },
+  "cat": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "cat"
+  },
+  "cats": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base cat plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "cats"
+  },
+  "chat": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "chat"
+  },
+  "check": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "check"
+  },
+  "chest": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "chest"
+  },
+  "chick": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "chick"
+  },
+  "chin": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "chin"
+  },
+  "clam": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "clam"
+  },
+  "clap": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "clap"
+  },
+  "cluck": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "cluck"
+  },
+  "come": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "come"
+  },
+  "could": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "could"
+  },
+  "crab": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "crab"
+  },
+  "cross": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "cross"
+  },
+  "crunch": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "crunch"
+  },
+  "cup": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "cup"
+  },
+  "cups": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base cup plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "cups"
+  },
+  "cut": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "cut"
+  },
+  "dad": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "dad"
+  },
+  "damp": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "damp"
+  },
+  "dash": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "dash"
+  },
+  "dent": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "dent"
+  },
+  "desk": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "desk"
+  },
+  "did": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "did"
+  },
+  "dip": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "dip"
+  },
+  "dish": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "dish"
+  },
+  "dishes": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base dish plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "dishes"
+  },
+  "do": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "do"
+  },
+  "dog": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "dog"
+  },
+  "dogs": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base dog plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "dogs"
+  },
+  "doll": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "doll"
+  },
+  "dots": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base dot plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "dots"
+  },
+  "down": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "down"
+  },
+  "dress": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "dress"
+  },
+  "drink": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "drink"
+  },
+  "drops": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base drop plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "drops"
+  },
+  "drum": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "drum"
+  },
+  "duck": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "duck"
+  },
+  "ducks": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base duck plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "ducks"
+  },
+  "dunk": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "dunk"
+  },
+  "dusk": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "dusk"
+  },
+  "eat": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "eat"
+  },
+  "egg": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "egg"
+  },
+  "eggs": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base egg plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "eggs"
+  },
+  "end": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "end"
+  },
+  "every": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "every"
+  },
+  "fast": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "fast"
+  },
+  "fell": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "fell"
+  },
+  "find": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "find"
+  },
+  "fins": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base fin plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "fins"
+  },
+  "fish": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "fish"
+  },
+  "fit": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "fit"
+  },
+  "fits": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base fit plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "fits"
+  },
+  "fix": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "fix"
+  },
+  "flag": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "flag"
+  },
+  "flags": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base flag plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "flags"
+  },
+  "flat": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "flat"
+  },
+  "fly": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "fly"
+  },
+  "fog": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "fog"
+  },
+  "for": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "for"
+  },
+  "four": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "four"
+  },
+  "fox": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "fox"
+  },
+  "frog": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "frog"
+  },
+  "from": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "from"
+  },
+  "fun": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "fun"
+  },
+  "funny": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "funny"
+  },
+  "gap": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "gap"
+  },
+  "get": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "get"
+  },
+  "gills": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base gill plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "gills"
+  },
+  "give": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "give"
+  },
+  "giving": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "giving"
+  },
+  "glum": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "glum"
+  },
+  "go": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "go"
+  },
+  "good": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "good"
+  },
+  "got": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "got"
+  },
+  "gran": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "gran"
+  },
+  "grass": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "grass"
+  },
+  "gull": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "gull"
+  },
+  "gust": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "gust"
+  },
+  "had": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "had"
+  },
+  "hand": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hand"
+  },
+  "has": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "has"
+  },
+  "hat": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hat"
+  },
+  "have": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "have"
+  },
+  "he": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "he"
+  },
+  "held": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "held"
+  },
+  "help": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "help"
+  },
+  "hen": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hen"
+  },
+  "her": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "her"
+  },
+  "here": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "here"
+  },
+  "hi": {
+    "eligible": true,
+    "evidence": "h + long i in an open syllable, explicitly exemplified by profile.",
+    "route": "open_syllable",
+    "word": "hi"
+  },
+  "hid": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hid"
+  },
+  "hill": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hill"
+  },
+  "him": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "him"
+  },
+  "his": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "his"
+  },
+  "hit": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hit"
+  },
+  "hop": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hop"
+  },
+  "hot": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hot"
+  },
+  "how": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "how"
+  },
+  "hug": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hug"
+  },
+  "hum": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "hum"
+  },
+  "i": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "i"
+  },
+  "if": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "if"
+  },
+  "in": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "in"
+  },
+  "into": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "into"
+  },
+  "is": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "is"
+  },
+  "it": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "it"
+  },
+  "jam": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "jam"
+  },
+  "jill": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "jill"
+  },
+  "jump": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "jump"
+  },
+  "just": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "just"
+  },
+  "know": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "know"
+  },
+  "last": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "last"
+  },
+  "left": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "left"
+  },
+  "leg": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "leg"
+  },
+  "legs": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base leg plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "legs"
+  },
+  "less": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "less"
+  },
+  "let": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "let"
+  },
+  "lid": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "lid"
+  },
+  "like": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "like"
+  },
+  "list": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "list"
+  },
+  "little": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "little"
+  },
+  "live": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "live"
+  },
+  "lock": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "lock"
+  },
+  "log": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "log"
+  },
+  "long": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "long"
+  },
+  "look": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "look"
+  },
+  "lot": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "lot"
+  },
+  "lunch": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "lunch"
+  },
+  "lungs": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base lung plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "lungs"
+  },
+  "make": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "make"
+  },
+  "map": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "map"
+  },
+  "mask": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "mask"
+  },
+  "mat": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "mat"
+  },
+  "may": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "may"
+  },
+  "me": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "me"
+  },
+  "meg": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "meg"
+  },
+  "melt": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "melt"
+  },
+  "mend": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "mend"
+  },
+  "mess": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "mess"
+  },
+  "milk": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "milk"
+  },
+  "miss": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "miss"
+  },
+  "mix": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "mix"
+  },
+  "moth": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "moth"
+  },
+  "mud": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "mud"
+  },
+  "mug": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "mug"
+  },
+  "mum": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "mum"
+  },
+  "must": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "must"
+  },
+  "my": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "my"
+  },
+  "nap": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "nap"
+  },
+  "new": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "new"
+  },
+  "next": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "next"
+  },
+  "no": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "no"
+  },
+  "not": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "not"
+  },
+  "now": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "now"
+  },
+  "nut": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "nut"
+  },
+  "nuts": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base nut plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "nuts"
+  },
+  "of": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "of"
+  },
+  "off": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "off"
+  },
+  "old": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "old"
+  },
+  "on": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "on"
+  },
+  "once": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "once"
+  },
+  "one": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "one"
+  },
+  "open": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "open"
+  },
+  "or": {
+    "eligible": true,
+    "evidence": "Explicit curriculum Leap Word or.",
+    "route": "curriculum_leap",
+    "word": "or"
+  },
+  "our": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "our"
+  },
+  "out": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "out"
+  },
+  "over": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "over"
+  },
+  "pack": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pack"
+  },
+  "pan": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pan"
+  },
+  "path": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "path"
+  },
+  "peg": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "peg"
+  },
+  "pegs": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base peg plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "pegs"
+  },
+  "pen": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pen"
+  },
+  "pens": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base pen plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "pens"
+  },
+  "pet": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pet"
+  },
+  "pick": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pick"
+  },
+  "pig": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pig"
+  },
+  "pin": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pin"
+  },
+  "pink": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pink"
+  },
+  "pit": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pit"
+  },
+  "plan": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "plan"
+  },
+  "play": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "play"
+  },
+  "please": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "please"
+  },
+  "plod": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "plod"
+  },
+  "plum": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "plum"
+  },
+  "plums": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base plum plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "plums"
+  },
+  "pond": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pond"
+  },
+  "pot": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "pot"
+  },
+  "press": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "press"
+  },
+  "pretty": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "pretty"
+  },
+  "put": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "put"
+  },
+  "quack": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "quack"
+  },
+  "quick": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "quick"
+  },
+  "quilt": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "quilt"
+  },
+  "rag": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "rag"
+  },
+  "rags": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base rag plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "rags"
+  },
+  "ran": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "ran"
+  },
+  "rat": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "rat"
+  },
+  "red": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "red"
+  },
+  "rest": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "rest"
+  },
+  "rex": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "rex"
+  },
+  "ride": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "ride"
+  },
+  "ring": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "ring"
+  },
+  "rip": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "rip"
+  },
+  "rock": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "rock"
+  },
+  "round": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "round"
+  },
+  "rug": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "rug"
+  },
+  "run": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "run"
+  },
+  "rush": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "rush"
+  },
+  "sad": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sad"
+  },
+  "said": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "said"
+  },
+  "sand": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sand"
+  },
+  "sat": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sat"
+  },
+  "saw": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "saw"
+  },
+  "say": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "say"
+  },
+  "see": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "see"
+  },
+  "sent": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sent"
+  },
+  "she": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "she"
+  },
+  "shell": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "shell"
+  },
+  "shells": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base shell plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "shells"
+  },
+  "shock": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "shock"
+  },
+  "shop": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "shop"
+  },
+  "shut": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "shut"
+  },
+  "sing": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sing"
+  },
+  "sink": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sink"
+  },
+  "sip": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sip"
+  },
+  "sit": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sit"
+  },
+  "six": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "six"
+  },
+  "skip": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "skip"
+  },
+  "slid": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "slid"
+  },
+  "slug": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "slug"
+  },
+  "slugs": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base slug plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "slugs"
+  },
+  "smell": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "smell"
+  },
+  "snap": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "snap"
+  },
+  "snug": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "snug"
+  },
+  "so": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "so"
+  },
+  "sock": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sock"
+  },
+  "socks": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base sock plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "socks"
+  },
+  "some": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "some"
+  },
+  "song": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "song"
+  },
+  "soon": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "soon"
+  },
+  "spin": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "spin"
+  },
+  "splint": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "splint"
+  },
+  "sprang": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sprang"
+  },
+  "sprint": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sprint"
+  },
+  "stack": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "stack"
+  },
+  "stacks": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base stack plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "stacks"
+  },
+  "stamps": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base stamp plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "stamps"
+  },
+  "step": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "step"
+  },
+  "stick": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "stick"
+  },
+  "sticks": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base stick plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "sticks"
+  },
+  "still": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "still"
+  },
+  "stop": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "stop"
+  },
+  "strings": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base string plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "strings"
+  },
+  "strum": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "strum"
+  },
+  "stuck": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "stuck"
+  },
+  "stump": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "stump"
+  },
+  "sun": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "sun"
+  },
+  "sunset": {
+    "eligible": true,
+    "evidence": "sun + set; both parts supported closed syllables.",
+    "route": "supported_compound",
+    "word": "sunset"
+  },
+  "swim": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "swim"
+  },
+  "take": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "take"
+  },
+  "tap": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "tap"
+  },
+  "tell": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "tell"
+  },
+  "tent": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "tent"
+  },
+  "thank": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "thank"
+  },
+  "that": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "that"
+  },
+  "the": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "the"
+  },
+  "them": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "them"
+  },
+  "then": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "then"
+  },
+  "there": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "there"
+  },
+  "they": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "they"
+  },
+  "thick": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "thick"
+  },
+  "thin": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "thin"
+  },
+  "thing": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "thing"
+  },
+  "things": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base thing plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "things"
+  },
+  "think": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "think"
+  },
+  "this": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "this"
+  },
+  "three": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "three"
+  },
+  "thump": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "thump"
+  },
+  "tin": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "tin"
+  },
+  "tip": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "tip"
+  },
+  "to": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "to"
+  },
+  "too": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "too"
+  },
+  "top": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "top"
+  },
+  "trim": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "trim"
+  },
+  "trip": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "trip"
+  },
+  "truck": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "truck"
+  },
+  "trunk": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "trunk"
+  },
+  "tug": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "tug"
+  },
+  "twig": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "twig"
+  },
+  "two": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "two"
+  },
+  "under": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "under"
+  },
+  "up": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "up"
+  },
+  "vet": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "vet"
+  },
+  "walk": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "walk"
+  },
+  "want": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "want"
+  },
+  "was": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "was"
+  },
+  "we": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "we"
+  },
+  "well": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "well"
+  },
+  "went": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "went"
+  },
+  "were": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "were"
+  },
+  "wet": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "wet"
+  },
+  "what": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "what"
+  },
+  "when": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "when"
+  },
+  "where": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "where"
+  },
+  "white": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "white"
+  },
+  "who": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "who"
+  },
+  "wig": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "wig"
+  },
+  "will": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "will"
+  },
+  "win": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "win"
+  },
+  "wind": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "wind"
+  },
+  "wings": {
+    "eligible": true,
+    "evidence": "Supported closed-syllable base wing plus taught s/es inflection.",
+    "route": "supported_s_es",
+    "word": "wings"
+  },
+  "wink": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "wink"
+  },
+  "with": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "with"
+  },
+  "yellow": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "yellow"
+  },
+  "yes": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "yes"
+  },
+  "you": {
+    "eligible": true,
+    "evidence": "Exact case-insensitive form in frozen cumulative133 list.",
+    "route": "exact_dolch",
+    "word": "you"
+  },
+  "zip": {
+    "eligible": true,
+    "evidence": "Manually checked short-vowel closed syllable with taught consonants/blends/digraphs, ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_closed_syllable",
+    "word": "zip"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "count": 600,
+  "new_count": 300,
+  "original_changes": 3,
+  "new_category_counts": {
+    "meaning_preserving_explanation": 50,
+    "exact_forms_lexical_boundaries": 50,
+    "corrections_refusals_topic_changes": 50,
+    "honest_identity_personal_experience": 50,
+    "emotional_support_safe_relevant_help": 50,
+    "long_history_tracking_recovery": 50
+  },
+  "new_history_required": 150,
+  "new_3_to_5_prior_assistant_turns": 150,
+  "new_intentional_semantic_flawed_rows": 64,
+  "new_rows_with_any_annotated_history_flaw": 143,
+  "sft_sha256": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+  "review_sha256": "07a4aced136602c4c88555e93bff7a9194ba9e2bb94bea4e46059efa17e6ca81",
+  "frozen_eval_and_baseline_hashes_unchanged": true,
+  "final_completion_only_schema": true,
+  "all_history_words_accounted_for": true,
+  "human_approved": false,
+  "structural_validation": "pass",
+  "semantic_validation": "independent manual full-record review; see audit artifacts"
+}

@@ -1,0 +1,38 @@
+{
+  "plan_sha256": "9277deeec7d2c6c628e3b2254fa6b499401f51bd789c57ec97b63c8ab4c9704a",
+  "status": "preparing",
+  "completed_runs": [],
+  "results": {
+    "current": "/content/drive/MyDrive/Reading-Model/sft/reading-compliance-20261031-002/evaluation/current"
+  },
+  "invocations": [
+    {
+      "environment": {
+        "python": "3.13.16",
+        "packages": {
+          "torch": "2.11.0+cu130",
+          "transformers": "4.57.6",
+          "peft": "0.21.2",
+          "accelerate": "1.15.0",
+          "tokenizers": "0.22.2",
+          "huggingface_hub": "0.36.2",
+          "safetensors": "0.8.0"
+        },
+        "mode": "lora",
+        "gpu": "Tesla T4",
+        "cuda_runtime": "13.0",
+        "gpu_memory_bytes": 15637086208,
+        "initial_free_bytes": 15527116800,
+        "allocator_config": {
+          "PYTORCH_ALLOC_CONF": null,
+          "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"
+        },
+        "allocator_backend": "native",
+        "native_bf16_supported": false,
+        "compute_dtype": "float16"
+      },
+      "only": null,
+      "resume": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "responses": 34,
+  "incomplete": 1,
+  "manifest_sha256": "612abd361927e652392c7cb23e25d1b5d8ce6bc1b9c7e98b205bc330da9e35e2",
+  "responses_sha256": "f88ec044164d09f2fa0a84b7b92b60faf7b4c32336248919226574ae997b197b",
+  "hardware": "Tesla T4",
+  "precision": "float16",
+  "cuda": "13.0",
+  "generation": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_new_tokens": 128
+  },
+  "quality_scored": false
+}

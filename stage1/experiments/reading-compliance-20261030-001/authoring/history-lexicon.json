@@ -1,0 +1,906 @@
+{
+  "6": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Numeral: no exact word-form or supported decoding evidence is supplied for this digit in this benchmark."
+  },
+  "about": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Initial unstressed vowel plus ou spelling; not an explicitly supported compound or exact list form."
+  },
+  "across": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable form with unstressed initial vowel; no clear taught-pattern evidence for the whole spelling."
+  },
+  "alive": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "alone": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "always": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ay vowel team plus complex multisyllable form is not established; exact form is not listed."
+  },
+  "another": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unstressed vowels plus er ending in a multisyllable form; exact form is not listed."
+  },
+  "answer": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent w and er ending are not established; exact form is not listed."
+  },
+  "anyone": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Complex unlisted compound built from exceptional listed forms; no independent taught-pattern proof for this whole exact spelling."
+  },
+  "anything": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Complex unlisted compound with exceptional any; no independent taught-pattern proof for this whole exact spelling."
+  },
+  "asked": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "baby": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Multisyllable word with final y=/ee/, not established by the unenumerated additional-y heading."
+  },
+  "beach": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "bee": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "been": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "before": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable form with unstressed initial vowel and ore/r-controlled spelling; no whole-form taught-pattern evidence."
+  },
+  "birds": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ir r-controlled vowel; s does not establish unsupported bird spelling."
+  },
+  "blame": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "board": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "boat": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "both": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Long o in a closed syllable is not established; exact form is not listed."
+  },
+  "bottom": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable form with unstressed second vowel; no explicit taught-pattern evidence for the whole form."
+  },
+  "boxes": {
+    "status": "supported",
+    "evidence": "box (b + short o + x /ks/) + es ending, lesson42"
+  },
+  "boy": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "oy vowel team is not established; exact form is not listed."
+  },
+  "building": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "buzz": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Final zz spelling is not explicitly established by ff/ll/ss rules; no exact list entry or separate supplied taught-pattern evidence."
+  },
+  "call": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted al vowel sound not established by unenumerated additional-a heading."
+  },
+  "car": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "carry": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ar sound in a multisyllable form plus final y=/ee/; no exact list entry."
+  },
+  "change": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e spelling and soft g are not established by the supported first-sound patterns; no exact list entry."
+  },
+  "changed": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "changes": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "charge": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ar spelling plus soft g/silent e; no exact list entry."
+  },
+  "choice": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "choose": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "claim": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ai vowel team not established; exact form is not listed."
+  },
+  "clapped": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "claps": {
+    "status": "supported",
+    "evidence": "clap (cl + short a + p) + s ending, lesson42"
+  },
+  "clear": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ea/ear spelling not established; exact form is not listed."
+  },
+  "clue": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "coat": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "cold": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Long o in a closed syllable is not established; exact form is not listed."
+  },
+  "comes": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "correct": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unstressed initial vowel in an unlisted multisyllable form; no explicit whole-form decoding evidence."
+  },
+  "counting": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "cousin": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ou irregular vowel and unstressed second syllable; no exact list entry."
+  },
+  "crabs": {
+    "status": "supported",
+    "evidence": "crab (cr + short a + b) + s ending, lesson42"
+  },
+  "crown": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ow vowel spelling not established; exact form is not listed."
+  },
+  "different": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted complex multisyllable form and unstressed vowels; no explicit whole-form decoding evidence."
+  },
+  "does": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "doing": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ing derivative of listed do, not covered by supported s/es endings."
+  },
+  "done": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "o vowel exception and silent-e spelling; no exact list entry."
+  },
+  "door": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "oo/r vowel spelling not established; exact form is not listed."
+  },
+  "downed": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "dragon": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable form with unstressed second vowel; no explicit whole-form decoding evidence."
+  },
+  "drove": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "each": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "easy": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "edit": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable form without explicit whole-word taught-pattern evidence; simple closed-syllable heading is not blanket permission."
+  },
+  "equal": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "exact": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Initial unstressed vowel and x=/gz/ in a multisyllable word are not explicitly established."
+  },
+  "example": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Initial unstressed vowel, x=/gz/, and unstressed final syllable are not explicitly established."
+  },
+  "fall": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "al vowel sound is not established by the unenumerated additional-a heading; all exact exception does not license fall."
+  },
+  "farm": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "feel": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "feelings": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "fingers": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable base with er ending; s does not establish its unsupported spelling."
+  },
+  "first": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "five": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "flew": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ew vowel spelling not established; exact form is not listed."
+  },
+  "floor": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "folders": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unestablished long-o closed syllable plus er ending; s does not establish the base."
+  },
+  "food": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "form": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "freezing": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "full": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted /oo/ sound of u is not established by the unenumerated additional-u heading."
+  },
+  "funnier": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "game": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "gave": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "gifts": {
+    "status": "supported",
+    "evidence": "gift (g + short i + final ft blend) + s ending, lesson42"
+  },
+  "gives": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "goes": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "going": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "gone": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted o/silent-e spelling; go exact entry does not grant this changed form."
+  },
+  "groups": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "grown": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "guessing": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "happened": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "happens": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable base with unstressed vowel; s does not supply whole-base decoding evidence."
+  },
+  "hard": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "hear": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "heard": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "heart": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "helps": {
+    "status": "supported",
+    "evidence": "help (h + short e + final lp blend) + s ending, lesson42"
+  },
+  "hide": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "hint": {
+    "status": "supported",
+    "evidence": "h + short i + final nt blend"
+  },
+  "hold": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Long o in a closed syllable is not established; exact form is not listed."
+  },
+  "home": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "hurt": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "jar": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "keep": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "key": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "kid": {
+    "status": "supported",
+    "evidence": "k + short i + d"
+  },
+  "kids": {
+    "status": "supported",
+    "evidence": "kid (k + short i + d) + s ending, lesson42"
+  },
+  "kind": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Long i in a closed syllable is not established; exact form is not listed."
+  },
+  "king": {
+    "status": "supported",
+    "evidence": "k + short i + ng digraph, lesson36"
+  },
+  "knows": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "lands": {
+    "status": "supported",
+    "evidence": "land (l + short a + final nd blend) + s ending, lesson42"
+  },
+  "leave": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "leaves": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "letters": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "likes": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "line": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "listen": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent t and unstressed final syllable; no exact list entry."
+  },
+  "looking": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "loud": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "made": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "many": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted additional-a vowel and final y sound; no explicit whole-form evidence."
+  },
+  "maps": {
+    "status": "supported",
+    "evidence": "map (m + short a + p) + s ending, lesson42"
+  },
+  "mark": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "mean": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ea vowel team not established; exact form is not listed."
+  },
+  "meaning": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ea vowel team plus unlisted ing derivative."
+  },
+  "means": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ea vowel team; s does not establish the unsupported base."
+  },
+  "meant": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Irregular ea vowel spelling not established; exact form is not listed."
+  },
+  "middle": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted unstressed final le syllable, not covered by simple closed/open syllables."
+  },
+  "mind": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Long i in a closed syllable is not established; exact form is not listed."
+  },
+  "more": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "mouth": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "moved": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "need": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "nest": {
+    "status": "supported",
+    "evidence": "n + short e + final st blend"
+  },
+  "never": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable form with er ending; no whole-form taught-pattern evidence."
+  },
+  "nobody": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable compound with final y and unstressed vowel; no whole-form evidence."
+  },
+  "note": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "number": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "order": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "other": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "others": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "page": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "part": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "people": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "eo vowel spelling plus unstressed final le syllable; no exact list entry."
+  },
+  "person": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "piano": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Complex multisyllable vowel sequence and stress are not established; no exact list entry."
+  },
+  "place": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "plain": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "planned": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "plant": {
+    "status": "supported",
+    "evidence": "initial pl blend + short a + final nt blend"
+  },
+  "pose": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "postpone": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted long-o closed/silent-e multisyllable form; no explicit taught-pattern evidence."
+  },
+  "pretend": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable form with unstressed first vowel; no explicit whole-form evidence."
+  },
+  "question": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "qu is supported, but the remaining complex tion spelling is not established; no exact list entry."
+  },
+  "rad": {
+    "status": "supported",
+    "evidence": "r + short a + d"
+  },
+  "real": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ea vowel sequence not established; exact form is not listed."
+  },
+  "role": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "room": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "rule": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "sack": {
+    "status": "supported",
+    "evidence": "s + short a + ck, lesson34"
+  },
+  "same": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "says": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "scare": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "scene": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "school": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ch=/k/ plus oo vowel team is not explicitly established; no exact list entry."
+  },
+  "screen": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "secret": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted multisyllable form with unstressed second vowel; no explicit whole-form evidence."
+  },
+  "sees": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "sentence": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Soft c, silent e, and unstressed multisyllable form are not explicitly established."
+  },
+  "set": {
+    "status": "supported",
+    "evidence": "s + short e + t"
+  },
+  "shapes": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "sheet": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "shelf": {
+    "status": "supported",
+    "evidence": "sh + short e + final lf blend"
+  },
+  "ship": {
+    "status": "supported",
+    "evidence": "sh + short i + p"
+  },
+  "short": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "should": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent l and irregular ou spelling not established; exact form is not listed."
+  },
+  "show": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "sign": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent g and long i in closed syllable not established; exact form is not listed."
+  },
+  "simple": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted unstressed final le syllable; no explicit whole-form evidence."
+  },
+  "size": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "slick": {
+    "status": "supported",
+    "evidence": "initial sl blend + short i + ck, lesson34"
+  },
+  "someone": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted complex compound made from exceptional listed forms; no independent whole-form taught-pattern evidence."
+  },
+  "sore": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "sort": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "sound": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "sounds": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "space": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "stay": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ay vowel team not established; exact form is not listed."
+  },
+  "stays": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "story": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "straight": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "such": {
+    "status": "supported",
+    "evidence": "s + short u + first ch sound"
+  },
+  "talk": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "al vowel sound and silent l are not established; exact form is not listed."
+  },
+  "taller": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted ed/ing/ier/er inflection or derivative; the benchmark does not grant these suffix rules from an allowed base."
+  },
+  "taps": {
+    "status": "supported",
+    "evidence": "tap (t + short a + p) + s ending, lesson42"
+  },
+  "taste": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "teacher": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "tells": {
+    "status": "supported",
+    "evidence": "tell (t + short e + ll, lesson29) + s ending, lesson42"
+  },
+  "ten": {
+    "status": "supported",
+    "evidence": "t + short e + n"
+  },
+  "test": {
+    "status": "supported",
+    "evidence": "t + short e + final st blend"
+  },
+  "than": {
+    "status": "supported",
+    "evidence": "voiced th + short a + n"
+  },
+  "their": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "eir vowel/r-controlled spelling not established; exact form is not listed."
+  },
+  "those": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "tile": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "time": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "touch": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ou irregular vowel spelling not established; exact form is not listed."
+  },
+  "toy": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "oy vowel team not established; exact form is not listed."
+  },
+  "track": {
+    "status": "supported",
+    "evidence": "initial tr blend + short a + ck, lesson34"
+  },
+  "true": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "truth": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted long-u closed-syllable spelling is not established by the supplied outline."
+  },
+  "try": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Final y long-i sound is not established by the unenumerated additional-y heading; no exact list entry."
+  },
+  "tub": {
+    "status": "supported",
+    "evidence": "t + short u + b"
+  },
+  "turn": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "unplug": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Unlisted prefixed multisyllable form; prefix un- is not a listed curriculum rule or a compound of standalone supported words."
+  },
+  "use": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent-e, complex vowel spelling, or additional consonant sound not established for this unlisted exact form."
+  },
+  "uses": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "usual": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Complex multisyllable vowels and s=/zh/ are not established; exact form is not listed."
+  },
+  "wants": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Exact unlisted derivative or irregular form; a listed-only irregular base does not automatically license this form. No separate taught-pattern evidence is established here."
+  },
+  "way": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "ay vowel team not established; exact form is not listed."
+  },
+  "whole": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent w/wh plus silent e spelling not established; exact form is not listed."
+  },
+  "word": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "words": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "work": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "worries": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  },
+  "would": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent l and irregular ou vowel spelling not established; exact form is not listed."
+  },
+  "write": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent w and silent-e long-i spelling not established; exact form is not listed."
+  },
+  "wrong": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Silent w spelling not established; exact form is not listed."
+  },
+  "year": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "Untaught vowel-team or vowel-sequence spelling; no exact Dolch entry for this form."
+  },
+  "your": {
+    "status": "unsupported_by_benchmark",
+    "evidence": "R-controlled spelling or r-controlled unstressed syllable not established by the supplied outline; exact form is not listed."
+  }
+}

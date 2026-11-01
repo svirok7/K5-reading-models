@@ -1,0 +1,11 @@
+{
+  "gpu": "Tesla T4",
+  "capability": [
+    7,
+    5
+  ],
+  "bf16_including_emulation": true,
+  "bf16_native": false,
+  "optimization_started": false,
+  "action": "Fix native BF16 detection, retain LoRA, use a fresh run with updated helper and kit"
+}

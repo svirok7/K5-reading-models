@@ -1,0 +1,55 @@
+{
+  "version": "sft-300-v2",
+  "count": 300,
+  "artifacts": {
+    "sft.jsonl": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+    "review.jsonl": "4bea6c4aaf5ecde8218d6a998c4d7435ee217faa75dddd63b719cc79815e445b",
+    "audit.json": "8f43f944dd91da7fddda7151199ad12fa34efd1a36da4849b645e5d2a39a1630",
+    "audit.md": "dc58e20841ace63d73082d251b523c51140ecf80b15eb1d221b4be27e201d30c"
+  },
+  "source_dataset": "datasets/sft-300-v1",
+  "base_v1_hashes": {
+    "sft.jsonl": "b10b797e6951ca8dacf81da3956ada6094b5c9393dbfb06dcff5438ff1c327f3",
+    "review.jsonl": "b5b661afb9f3973121cb1366442b79cca5fffe949b9b591dad0500e8c9f7cf1b",
+    "manifest.json": "34bd274a0c48e83f60b037d85c360341de82233fd0d7acf6ad35071dd0d7b21b"
+  },
+  "spec_sha256": "bb34c2e66a9dbbe2684e574790f5d120ede4aa58174cf2d030b0837c75d9c760",
+  "changed_ids": [
+    "pilot-057",
+    "pilot-065",
+    "pilot-096",
+    "pilot-186"
+  ],
+  "unchanged_row_count": 296,
+  "change_log": "changes.jsonl",
+  "change_log_sha256": "b6db0e8fd7378c74907a54d0bec0c21bbac606be3a1302662219b904cd0463d9",
+  "frozen_data": true,
+  "audit_status": "independently_reviewed_pending_human",
+  "review_status": "independently_reviewed_pending_human",
+  "human_approved": false,
+  "tokenization_verified": false,
+  "training_executed": false,
+  "audit_report": "audit.json",
+  "audit_summary": "audit.md",
+  "audit": {
+    "auditor": {
+      "agent_id": "/root/auditor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    "examples_reviewed": 300,
+    "pass": 300,
+    "open_findings": 0,
+    "resolved_findings": 4,
+    "sft_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+    "review_sha256": "4bea6c4aaf5ecde8218d6a998c4d7435ee217faa75dddd63b719cc79815e445b",
+    "report_sha256": "8f43f944dd91da7fddda7151199ad12fa34efd1a36da4849b645e5d2a39a1630"
+  },
+  "actual_final_input_length_counts": {
+    "short": 121,
+    "medium": 121,
+    "long": 58
+  },
+  "history_rows": 97,
+  "historical_assistant_turns": 144
+}

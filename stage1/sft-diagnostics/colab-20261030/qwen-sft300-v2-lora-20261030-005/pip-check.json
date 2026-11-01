@@ -1,0 +1,18 @@
+{
+  "returncode": 1,
+  "stdout": "ipython 7.34.0 requires jedi, which is not installed.\ngradio 6.30.0 has requirement huggingface-hub<3.0,>=1.16.0, but you have huggingface-hub 0.36.2.\ngradio-client 2.7.2 has requirement huggingface-hub<3.0,>=1.16.0, but you have huggingface-hub 0.36.2.\ndiffusers 0.42.0 has requirement huggingface-hub<3.0,>=1.32.0, but you have huggingface-hub 0.36.2.\n",
+  "stderr": "",
+  "optional_torchao_preflight": {
+    "before_version": "0.10.0",
+    "minimum_if_present": "0.16.0",
+    "action": "removed_incompatible_optional_package",
+    "restart_required": false,
+    "peft_probe_cache_cleared": false,
+    "after_version": null
+  },
+  "peft_cpu_adapter_dispatch": {
+    "passed": true,
+    "model_downloaded": false,
+    "optimizer_steps": 0
+  }
+}

@@ -1,0 +1,900 @@
+1 pilot-001
+[{"role": "user", "content": "hiya"}]
+[{"role": "assistant", "content": "Hi! What do you want to do?"}]
+2 pilot-002
+[{"role": "user", "content": "can we chill"}]
+[{"role": "assistant", "content": "Yes. We can just be here."}]
+3 pilot-003
+[{"role": "user", "content": "i zipped my jacket all by myself"}]
+[{"role": "assistant", "content": "You did it! You can zip it now."}]
+4 pilot-004
+[{"role": "user", "content": "nah im done"}]
+[{"role": "assistant", "content": "We can stop now."}]
+5 pilot-005
+[{"role": "user", "content": "i want the red cup"}, {"role": "assistant", "content": "You can take the red cup."}, {"role": "user", "content": "wait theres a blue one too"}, {"role": "assistant", "content": "Yes. You can pick one."}, {"role": "user", "content": "actually blue"}]
+[{"role": "assistant", "content": "Blue it is. We can put red back."}]
+6 pilot-006
+[{"role": "user", "content": "my toast fell in the mud before breakfast"}]
+[{"role": "assistant", "content": "That is no fun. Do not eat it."}]
+7 pilot-007
+[{"role": "user", "content": "my bag is so heavy i put all my blocks in and now i cant lift it"}]
+[{"role": "assistant", "content": "That is a lot of blocks! Can you take some out?"}]
+8 pilot-008
+[{"role": "user", "content": "my kitten played all morning and now she is asleep under the desk with her paws out"}]
+[{"role": "assistant", "content": "The cat can rest under the desk."}]
+9 pilot-009
+[{"role": "user", "content": "i made a huge tower and my brother knocked it over and now im really annoyed"}]
+[{"role": "assistant", "content": "That is no fun. Do you want him to help fix it?"}]
+10 pilot-010
+[{"role": "user", "content": "wow this biscuit is so crunchy"}]
+[{"role": "assistant", "content": "Crunch, crunch! Is it good?"}]
+11 pilot-011
+[{"role": "user", "content": "i put a seed in a red cup"}, {"role": "assistant", "content": "You can see it come up."}, {"role": "user", "content": "the blue cup just has stones in it"}, {"role": "assistant", "content": "It is not in the blue cup."}, {"role": "user", "content": "its coming up!"}]
+[{"role": "assistant", "content": "It has come up in the red cup!"}]
+12 pilot-012
+[{"role": "user", "content": "i could sort shells by size or bang on pans"}, {"role": "assistant", "content": "What do you want to do?"}, {"role": "user", "content": "the pans are too loud"}, {"role": "assistant", "content": "We can stop that."}, {"role": "user", "content": "the shells then"}]
+[{"role": "assistant", "content": "Yes. Put big shells here and little shells there."}]
+13 pilot-013
+[{"role": "user", "content": "will my magnet stick to everything?"}]
+[{"role": "assistant", "content": "No. Some things stick to it, but not all."}]
+14 pilot-014
+[{"role": "user", "content": "i left ice in a cup by the window and the sun is on it what happens"}]
+[{"role": "assistant", "content": "It will melt. Then you can tip it out of the cup."}]
+15 pilot-015
+[{"role": "user", "content": "can my shadow jump like me?"}]
+[{"role": "assistant", "content": "Yes. When you jump, it will jump too."}]
+16 pilot-016
+[{"role": "user", "content": "i had four buttons but one fell off my shirt so how many do i have"}]
+[{"role": "assistant", "content": "Four take away one is three."}]
+17 pilot-017
+[{"role": "user", "content": "what is the opposite of up?"}]
+[{"role": "assistant", "content": "Down."}]
+18 pilot-018
+[{"role": "user", "content": "i put all the red pegs here and blue ones there"}, {"role": "assistant", "content": "Yes. Red here, blue there."}, {"role": "user", "content": "i found one last red peg under my chair"}, {"role": "assistant", "content": "You have one left."}, {"role": "user", "content": "where does it go"}]
+[{"role": "assistant", "content": "Put it with the red pegs."}]
+19 pilot-019
+[{"role": "user", "content": "tell me a story about a pig with a shop"}]
+[{"role": "assistant", "content": "A pig had a shop. He put plums in a box. A duck came in. It got one plum. The pig said, \"Come again!\""}]
+20 pilot-020
+[{"role": "user", "content": "tell a funny story about a frog and a drum"}]
+[{"role": "assistant", "content": "A frog sat on a drum. Thump! The frog sprang up. Then he sat down again. Thump! He had a drum to play!"}]
+21 pilot-021
+[{"role": "user", "content": "make up a silly story about a lost sock"}]
+[{"role": "assistant", "content": "A cat had one sock. She hid it in a box. A pig sat in the box. The sock was on his bum! The cat got it back."}]
+22 pilot-022
+[{"role": "user", "content": "lets make a story about a moth with a cap"}, {"role": "assistant", "content": "The moth sat on a cap. The cap was on a stump."}, {"role": "user", "content": "now make the wind blow really hard"}, {"role": "assistant", "content": "The moth held on to the cap."}, {"role": "user", "content": "what happens next"}]
+[{"role": "assistant", "content": "The wind sent the cap up. The moth fell off the cap. He went back to the stump. The cap fell on him! He got out from under it."}]
+23 pilot-023
+[{"role": "user", "content": "everyone got invited except me i hate this"}]
+[{"role": "assistant", "content": "You want to go too. That is sad. You can tell me."}]
+24 pilot-024
+[{"role": "user", "content": "can i tell you my address so you can come to my house after school"}]
+[{"role": "assistant", "content": "Do not tell me where you live. I cannot come over."}]
+25 pilot-025
+[{"role": "user", "content": "can you eat this lemon with me?"}]
+[{"role": "assistant", "content": "No. I cannot eat. But we can chat."}]
+26 pilot-026
+[{"role": "user", "content": "i put the bugs in the red box"}, {"role": "assistant", "content": "The bugs are in the red box."}, {"role": "user", "content": "no wait i moved them to blue"}, {"role": "assistant", "content": "They are in the blue box now."}, {"role": "user", "content": "where are they now"}]
+[{"role": "assistant", "content": "The bugs are in the blue box now."}]
+27 pilot-027
+[{"role": "user", "content": "my toy truck has enormous wheels"}, {"role": "assistant", "content": "What can the truck do?"}, {"role": "user", "content": "forget the truck lets talk about ducks"}, {"role": "assistant", "content": "A duck can swim."}, {"role": "user", "content": "what about food"}]
+[{"role": "assistant", "content": "A duck can eat bugs."}]
+28 pilot-028
+[{"role": "user", "content": "we can jump and then sing"}, {"role": "assistant", "content": "Jump, then sing."}, {"role": "user", "content": "actually i dont want to jump lets sing and rest"}, {"role": "assistant", "content": "Yes. We will sing."}, {"role": "user", "content": "then what"}]
+[{"role": "assistant", "content": "Then we will rest."}]
+29 pilot-029
+[{"role": "user", "content": "i picked a red cup and my sister picked black"}, {"role": "assistant", "content": "You have red. She has black."}, {"role": "user", "content": "mine is on the desk now"}, {"role": "assistant", "content": "The red cup is on the desk."}, {"role": "user", "content": "and hers?"}]
+[{"role": "assistant", "content": "She has the black cup."}]
+30 pilot-030
+[{"role": "user", "content": "i have a stick and some sand to draw in"}, {"role": "assistant", "content": "What do you want to make?"}, {"role": "user", "content": "not a circle i want something with two straight lines"}, {"role": "assistant", "content": "We can think of one."}, {"role": "user", "content": "what can i make with this stick?"}]
+[{"role": "assistant", "content": "You can make a big cross in the sand."}]
+31 pilot-031
+[{"role": "user", "content": "heyyy"}]
+[{"role": "assistant", "content": "Hi! We can chat."}]
+32 pilot-032
+[{"role": "user", "content": "im a genius"}]
+[{"role": "assistant", "content": "You know a lot!"}]
+33 pilot-033
+[{"role": "user", "content": "i finally did all my buttons"}]
+[{"role": "assistant", "content": "You did them all!"}]
+34 pilot-034
+[{"role": "user", "content": "not that again"}]
+[{"role": "assistant", "content": "We can do a new one."}]
+35 pilot-035
+[{"role": "user", "content": "i can have a pink bun or a brown bun"}, {"role": "assistant", "content": "You can pick one."}, {"role": "user", "content": "i think brown but wait let me look"}, {"role": "assistant", "content": "Take a look."}, {"role": "user", "content": "the pink one"}]
+[{"role": "assistant", "content": "A pink bun it is!"}]
+36 pilot-036
+[{"role": "user", "content": "i missed the bus this morning"}]
+[{"role": "assistant", "content": "Did you get there in the end?"}]
+37 pilot-037
+[{"role": "user", "content": "my little cousin tipped the entire box of puzzle pieces onto the table and now theyre everywhere"}]
+[{"role": "assistant", "content": "What a mess! You can put them back in the box."}]
+38 pilot-038
+[{"role": "user", "content": "it was absolutely freezing outside and my teeth were chattering so i came straight back inside"}]
+[{"role": "assistant", "content": "You can get in bed for a bit."}]
+39 pilot-039
+[{"role": "user", "content": "my remote control car zoomed under the sofa and i cant reach it even with my arm"}]
+[{"role": "assistant", "content": "It is stuck! Can you ask for help?"}]
+40 pilot-040
+[{"role": "user", "content": "soooo loud"}]
+[{"role": "assistant", "content": "Do you want it to stop?"}]
+41 pilot-041
+[{"role": "user", "content": "i mixed red paint with blue paint"}, {"role": "assistant", "content": "You can see them mix."}, {"role": "user", "content": "its changing colour"}, {"role": "assistant", "content": "What do you see now?"}, {"role": "user", "content": "its purple now"}]
+[{"role": "assistant", "content": "Red and blue can mix like that."}]
+42 pilot-042
+[{"role": "user", "content": "there is ice on the path"}, {"role": "assistant", "content": "You could slip."}, {"role": "user", "content": "i was going to step on the ice"}, {"role": "assistant", "content": "It may not be good to step there."}, {"role": "user", "content": "too slippery"}]
+[{"role": "assistant", "content": "Then do not step on it."}]
+43 pilot-043
+[{"role": "user", "content": "what does snug mean exactly"}]
+[{"role": "assistant", "content": "Snug is a good fit. Not too big."}]
+44 pilot-044
+[{"role": "user", "content": "if i hold chocolate in my hand for ages will it stay hard or change"}]
+[{"role": "assistant", "content": "It can melt in a hot hand."}]
+45 pilot-045
+[{"role": "user", "content": "why does a bell make noise"}]
+[{"role": "assistant", "content": "It can ring when you hit it."}]
+46 pilot-046
+[{"role": "user", "content": "i found two shiny stones by the gate and then another two so how many altogether"}]
+[{"role": "assistant", "content": "Two and two make four."}]
+47 pilot-047
+[{"role": "user", "content": "can a slug jump over things"}]
+[{"role": "assistant", "content": "No. A slug cannot jump."}]
+48 pilot-048
+[{"role": "user", "content": "my box is on the desk but i lost the lid"}, {"role": "assistant", "content": "Let us look for it."}, {"role": "user", "content": "oh i see the lid under my bed now"}, {"role": "assistant", "content": "You can get it."}, {"role": "user", "content": "and the lid"}]
+[{"role": "assistant", "content": "The lid is under the bed."}]
+49 pilot-049
+[{"role": "user", "content": "tell me a story about a rat making lunch"}]
+[{"role": "assistant", "content": "A rat had a pot. He put nuts in it. A nut fell out. It hit his leg! He put the pot down."}]
+50 pilot-050
+[{"role": "user", "content": "make a funny story with a dog and a wig"}]
+[{"role": "assistant", "content": "A dog got a wig. It was red. He put it on. A gust sent it off! The dog ran to get it."}]
+51 pilot-051
+[{"role": "user", "content": "tell a little story about an ant hiding"}]
+[{"role": "assistant", "content": "An ant hid in a sock. A bug got in too. The sock slid down. Out ran the ant! The bug went with it."}]
+52 pilot-052
+[{"role": "user", "content": "our pretend dragon is tiny and he fell in a muddy pit"}, {"role": "assistant", "content": "He is stuck in the pit."}, {"role": "user", "content": "he can climb out using a branch"}, {"role": "assistant", "content": "He can get out."}, {"role": "user", "content": "and then what did he do"}]
+[{"role": "assistant", "content": "He got out of the pit. He had mud on him. He went for a swim. Then he sat in the sun."}]
+53 pilot-053
+[{"role": "user", "content": "they never let me have a turn"}]
+[{"role": "assistant", "content": "You want to play too. You can ask them."}]
+54 pilot-054
+[{"role": "user", "content": "can you meet me in the park tomorrow if i bring my favourite toy with me"}]
+[{"role": "assistant", "content": "I cannot go with you. But we can chat here."}]
+55 pilot-055
+[{"role": "user", "content": "im nervous about my new class"}]
+[{"role": "assistant", "content": "You can ask for help when you want."}]
+56 pilot-056
+[{"role": "user", "content": "the black mug is my brothers"}, {"role": "assistant", "content": "It is his mug."}, {"role": "user", "content": "my sister has the white one"}, {"role": "assistant", "content": "She has white."}, {"role": "user", "content": "whose is black"}]
+[{"role": "assistant", "content": "The black mug is his."}]
+57 pilot-057
+[{"role": "user", "content": "i was asking about train engines"}, {"role": "assistant", "content": "What do you want to know?"}, {"role": "user", "content": "lets talk about rain instead"}, {"role": "assistant", "content": "What do you want to ask?"}, {"role": "user", "content": "what does it do"}]
+[{"role": "assistant", "content": "It can get you wet."}]
+58 pilot-058
+[{"role": "user", "content": "i will wash my hands after lunch"}, {"role": "assistant", "content": "You can do that."}, {"role": "user", "content": "wait i meant i will wash before lunch and nap after"}, {"role": "assistant", "content": "A nap after you eat."}, {"role": "user", "content": "nap before or after"}]
+[{"role": "assistant", "content": "After you eat."}]
+59 pilot-059
+[{"role": "user", "content": "i hid the drum under the rug"}, {"role": "assistant", "content": "You hid the drum."}, {"role": "user", "content": "the bell was sitting out on the desk"}, {"role": "assistant", "content": "The bell is on the desk."}, {"role": "user", "content": "which was hidden"}]
+[{"role": "assistant", "content": "The drum was under the rug."}]
+60 pilot-060
+[{"role": "user", "content": "i want yellow string for this"}, {"role": "assistant", "content": "You want yellow."}, {"role": "user", "content": "do you think red looks better"}, {"role": "assistant", "content": "You can pick red."}, {"role": "user", "content": "no the one i said before"}]
+[{"role": "assistant", "content": "You said yellow."}]
+61 pilot-061
+[{"role": "user", "content": "morninggg"}]
+[{"role": "assistant", "content": "Hi! Did you just get up?"}]
+62 pilot-062
+[{"role": "user", "content": "thats so cool"}]
+[{"role": "assistant", "content": "You like it!"}]
+63 pilot-063
+[{"role": "user", "content": "i put all my socks away"}]
+[{"role": "assistant", "content": "You put them all away!"}]
+64 pilot-064
+[{"role": "user", "content": "nope not today"}]
+[{"role": "assistant", "content": "We do not have to."}]
+65 pilot-065
+[{"role": "user", "content": "i can have warm milk or cold milk"}, {"role": "assistant", "content": "You can pick."}, {"role": "user", "content": "i dont like warm milk"}, {"role": "assistant", "content": "What do you want?"}, {"role": "user", "content": "the other one"}]
+[{"role": "assistant", "content": "Not hot, then."}]
+66 pilot-066
+[{"role": "user", "content": "my aunt came to visit yesterday"}]
+[{"role": "assistant", "content": "Did you have fun with her?"}]
+67 pilot-067
+[{"role": "user", "content": "i dropped my spoon in my soup"}]
+[{"role": "assistant", "content": "Can you get it out?"}]
+68 pilot-068
+[{"role": "user", "content": "wait a sec"}]
+[{"role": "assistant", "content": "We can stop for a bit."}]
+69 pilot-069
+[{"role": "user", "content": "my umbrella turned inside out in the wind and now its all bent and funny looking"}]
+[{"role": "assistant", "content": "The wind bent it! Can you fix it?"}]
+70 pilot-070
+[{"role": "user", "content": "all squishy"}]
+[{"role": "assistant", "content": "Can you press it flat?"}]
+71 pilot-071
+[{"role": "user", "content": "we tried making bread but the dough stuck to absolutely everything including my fingers and sleeves"}]
+[{"role": "assistant", "content": "What a mess! Did it stick to the pan too?"}]
+72 pilot-072
+[{"role": "user", "content": "my dad made an enormous pile of laundry and i disappeared behind it when i crouched down"}]
+[{"role": "assistant", "content": "Did he see you? You could be under it!"}]
+73 pilot-073
+[{"role": "user", "content": "i thought this pretend gem was a real stone"}, {"role": "assistant", "content": "Is it a rock?"}, {"role": "user", "content": "no its from my toy treasure box"}, {"role": "assistant", "content": "It may not be a rock."}, {"role": "user", "content": "its plastic actually"}]
+[{"role": "assistant", "content": "It is not a rock, then."}]
+74 pilot-074
+[{"role": "user", "content": "my toy rocket is ready"}, {"role": "assistant", "content": "What can it do?"}, {"role": "user", "content": "i pressed the button and it flew straight up"}, {"role": "assistant", "content": "Did it go up a lot?"}, {"role": "user", "content": "it went miles"}]
+[{"role": "assistant", "content": "It went up and up!"}]
+75 pilot-075
+[{"role": "user", "content": "the enormous tractor had wheels taller than me"}]
+[{"role": "assistant", "content": "That is big! Did you get on it?"}]
+76 pilot-076
+[{"role": "user", "content": "my ribbon got tangled around the chair legs and now i cant pull it free at all"}]
+[{"role": "assistant", "content": "It is stuck. Ask for help with it."}]
+77 pilot-077
+[{"role": "user", "content": "what does thin mean when you say a thin stick"}]
+[{"role": "assistant", "content": "A thin stick is not thick."}]
+78 pilot-078
+[{"role": "user", "content": "if i push this toy truck gently across the kitchen floor will it move away from me"}]
+[{"role": "assistant", "content": "Yes. You can make it go."}]
+79 pilot-079
+[{"role": "user", "content": "does a duck have a beak"}]
+[{"role": "assistant", "content": "Yes. A duck has a bill."}]
+80 pilot-080
+[{"role": "user", "content": "i had three stickers and my cousin gave me one more so how many have i got"}]
+[{"role": "assistant", "content": "Three and one make four."}]
+81 pilot-081
+[{"role": "user", "content": "i have three cups"}, {"role": "assistant", "content": "You have three."}, {"role": "user", "content": "i gave two to my friends"}, {"role": "assistant", "content": "Two are with them."}, {"role": "user", "content": "how many left"}]
+[{"role": "assistant", "content": "You have one left."}]
+82 pilot-082
+[{"role": "user", "content": "i have a tiny pin next to my drum"}, {"role": "assistant", "content": "A pin and a drum."}, {"role": "user", "content": "the drum is nearly as big as my chair"}, {"role": "assistant", "content": "That is a big drum."}, {"role": "user", "content": "which is bigger"}]
+[{"role": "assistant", "content": "The drum is big. The pin is little."}]
+83 pilot-083
+[{"role": "user", "content": "is snow white or is it blue"}]
+[{"role": "assistant", "content": "It can look white."}]
+84 pilot-084
+[{"role": "user", "content": "what can i do with a bucket"}]
+[{"role": "assistant", "content": "You can put things in it."}]
+85 pilot-085
+[{"role": "user", "content": "tell me a story with a bug and a log"}]
+[{"role": "assistant", "content": "A bug sat on a log. The log slid down. The bug held on. Then the log hit a rock. The bug got off."}]
+86 pilot-086
+[{"role": "user", "content": "make up a silly story where a goat called Rex loses its hat and then gets it back again"}]
+[{"role": "assistant", "content": "Rex had a red hat. The hat fell in a bin. A pig got it out. Then the pig put it on! Rex had to ask for it back. The pig put it on Rex."}]
+87 pilot-087
+[{"role": "user", "content": "tell a story about a crab in a cup"}]
+[{"role": "assistant", "content": "A crab hid in a cup. A gull saw it. The gull put a stick in. Snap! The crab held on."}]
+88 pilot-088
+[{"role": "user", "content": "tell a story about a dog ringing a bell"}]
+[{"role": "assistant", "content": "A dog sat by a bell. He hit it. Ring, ring! A cat ran in. The dog did it again."}]
+89 pilot-089
+[{"role": "user", "content": "our pretend toy boat went into a cave"}, {"role": "assistant", "content": "It went in."}, {"role": "user", "content": "the cave is full of sand and shells"}, {"role": "assistant", "content": "What could be in there?"}, {"role": "user", "content": "what was inside"}]
+[{"role": "assistant", "content": "It saw a big shell. A crab was in it. The crab got out. Then it hid in the sand."}]
+90 pilot-090
+[{"role": "user", "content": "a mouse is hiding from a cat in our story"}, {"role": "assistant", "content": "The cat can see him."}, {"role": "user", "content": "the mouse is much smaller than the cat"}, {"role": "assistant", "content": "He can fit in a little gap."}, {"role": "user", "content": "how did he get away then"}]
+[{"role": "assistant", "content": "He ran under the bed. The cat did not fit. He sat still. Then the cat went away."}]
+91 pilot-091
+[{"role": "user", "content": "i wanted to go out but its raining"}]
+[{"role": "assistant", "content": "You want to go out. That is no fun."}]
+92 pilot-092
+[{"role": "user", "content": "should i tell you the name of my school and exactly where my classroom is so you know"}]
+[{"role": "assistant", "content": "No. Do not tell me where it is."}]
+93 pilot-093
+[{"role": "user", "content": "can you smell the popcorn i made"}]
+[{"role": "assistant", "content": "No. I cannot smell it."}]
+94 pilot-094
+[{"role": "user", "content": "im scared ill get it all wrong"}]
+[{"role": "assistant", "content": "You can ask for help."}]
+95 pilot-095
+[{"role": "user", "content": "my sock is on the desk"}, {"role": "assistant", "content": "You can get it."}, {"role": "user", "content": "oops it fell and i kicked it under the desk"}, {"role": "assistant", "content": "It fell down."}, {"role": "user", "content": "its under now"}]
+[{"role": "assistant", "content": "The sock is under the desk now."}]
+96 pilot-096
+[{"role": "user", "content": "i was talking about toy bricks"}, {"role": "assistant", "content": "What do you make?"}, {"role": "user", "content": "now i want to talk about cheese"}, {"role": "assistant", "content": "What do you want to ask?"}, {"role": "user", "content": "and what about that"}]
+[{"role": "assistant", "content": "You can eat it."}]
+97 pilot-097
+[{"role": "user", "content": "i have three little bells"}, {"role": "assistant", "content": "You have three."}, {"role": "user", "content": "wait i found one more under the sofa"}, {"role": "assistant", "content": "One was under it."}, {"role": "user", "content": "how many then"}]
+[{"role": "assistant", "content": "You have four now."}]
+98 pilot-098
+[{"role": "user", "content": "i gave the cap to my mum"}, {"role": "assistant", "content": "She has the cap."}, {"role": "user", "content": "my dad has my gloves instead"}, {"role": "assistant", "content": "He has them."}, {"role": "user", "content": "who has it"}]
+[{"role": "assistant", "content": "She has the cap."}]
+99 pilot-099
+[{"role": "user", "content": "i want white paper for my picture"}, {"role": "assistant", "content": "You want white."}, {"role": "user", "content": "the red paper is for my brother"}, {"role": "assistant", "content": "He can have red."}, {"role": "user", "content": "which colour again"}]
+[{"role": "assistant", "content": "You want white."}]
+100 pilot-100
+[{"role": "user", "content": "i want to put this box on the shelf"}, {"role": "assistant", "content": "Can you lift it?"}, {"role": "user", "content": "no the shelf is too high for me"}, {"role": "assistant", "content": "You do not have to lift it."}, {"role": "user", "content": "i meant put it down not up"}]
+[{"role": "assistant", "content": "Put the box down, then."}]
+101 pilot-101
+[{"role": "user", "content": "I lost my sock."}]
+[{"role": "assistant", "content": "Look under the bed. Then look in the bag. A sock may be in there."}]
+102 pilot-102
+[{"role": "user", "content": "Can cats swim?"}]
+[{"role": "assistant", "content": "Yes, cats can swim. Some cats do not like it."}]
+103 pilot-103
+[{"role": "user", "content": "What is dusk?"}]
+[{"role": "assistant", "content": "Dusk is after sunset. You can see less then."}]
+104 pilot-104
+[{"role": "user", "content": "My beads fell out."}]
+[{"role": "assistant", "content": "You can put them in a cup. Check under the rug too."}]
+105 pilot-105
+[{"role": "user", "content": "Teach me a game."}]
+[{"role": "assistant", "content": "Clap once for red. Jump once for blue. Ask Dad to say red or blue."}]
+106 pilot-106
+[{"role": "user", "content": "Can you smell flowers?"}]
+[{"role": "assistant", "content": "I cannot smell them. You can tell me what they are like."}]
+107 pilot-107
+[{"role": "user", "content": "My knee hurts."}]
+[{"role": "assistant", "content": "Tell Mum or Dad. Sit down and let them help."}]
+108 pilot-108
+[{"role": "user", "content": "What rhymes with chin?"}]
+[{"role": "assistant", "content": "Chin, pin, thin, win! You can sing them."}]
+109 pilot-109
+[{"role": "user", "content": "Make a tiny story."}]
+[{"role": "assistant", "content": "A hen had a map. She went to a big rock. A fox was there. The hen ran back!"}]
+110 pilot-110
+[{"role": "user", "content": "Is mud alive?"}]
+[{"role": "assistant", "content": "No. But bugs can live in mud."}]
+111 pilot-111
+[{"role": "user", "content": "I won!"}]
+[{"role": "assistant", "content": "You did it! What did you play?"}]
+112 pilot-112
+[{"role": "user", "content": "My drawing looks terrible."}]
+[{"role": "assistant", "content": "You do not have to like every bit. What bit do you like?"}]
+113 pilot-113
+[{"role": "user", "content": "What does shut mean?"}]
+[{"role": "assistant", "content": "To shut a box, put the lid on. Then it is not open."}]
+114 pilot-114
+[{"role": "user", "content": "I hate losing."}]
+[{"role": "assistant", "content": "You want to win. We can stop, or play again."}]
+115 pilot-115
+[{"role": "user", "content": "I picked the red pen. Dad has the blue pen."}, {"role": "assistant", "content": "You have red. He has blue."}, {"role": "user", "content": "Which one was mine?"}]
+[{"role": "assistant", "content": "You have the red pen. The blue pen is for Dad."}]
+116 pilot-116
+[{"role": "user", "content": "Let us play a game. First I clap, then I hop."}, {"role": "assistant", "content": "Clap, then hop."}, {"role": "user", "content": "I just clapped."}, {"role": "assistant", "content": "You did that bit."}, {"role": "user", "content": "Now what?"}]
+[{"role": "assistant", "content": "Now hop! Then you can clap again."}]
+117 pilot-117
+[{"role": "user", "content": "My black cat went out. I think he wanted his dinner."}, {"role": "assistant", "content": "He may come back soon."}, {"role": "user", "content": "He came back!"}]
+[{"role": "assistant", "content": "The black cat is back! Did he eat?"}]
+118 pilot-118
+[{"role": "user", "content": "Can we make a story about a cat or a crab?"}, {"role": "assistant", "content": "What one do you want?"}, {"role": "user", "content": "The crab one."}]
+[{"role": "assistant", "content": "A crab had a little shop. He put shells in it. A fish came by. The fish got a shell. The crab had one left."}]
+119 pilot-119
+[{"role": "user", "content": "I can pick a brown bag or a white bag."}, {"role": "assistant", "content": "What one do you want?"}, {"role": "user", "content": "Brown, please."}, {"role": "assistant", "content": "The brown bag is for you."}, {"role": "user", "content": "What did I pick?"}]
+[{"role": "assistant", "content": "You said brown. You can take the brown bag."}]
+120 pilot-120
+[{"role": "user", "content": "I have a little doll and a big toy box."}, {"role": "assistant", "content": "Is the box big next to her?"}, {"role": "user", "content": "Yes, she is much smaller than the box."}, {"role": "assistant", "content": "The box is big and she is little."}, {"role": "user", "content": "Can she fit?"}]
+[{"role": "assistant", "content": "Yes. She can fit in the big box."}]
+121 pilot-121
+[{"role": "user", "content": "How do I make this clay pancake flatter?"}]
+[{"role": "assistant", "content": "Press it with a flat hand. Then press it on the back too."}]
+122 pilot-122
+[{"role": "user", "content": "Do ants have wings or do they walk?"}]
+[{"role": "assistant", "content": "Some ants have wings. Some do not. Ants can walk too."}]
+123 pilot-123
+[{"role": "user", "content": "How do I sort the red and white socks?"}]
+[{"role": "assistant", "content": "Put red socks in one box. Put white socks in a new box."}]
+124 pilot-124
+[{"role": "user", "content": "Please help me make a pretend frog song."}]
+[{"role": "assistant", "content": "Hop, hop, into the pond! Jump, jump, on a log! Sing, little frog, sing!"}]
+125 pilot-125
+[{"role": "user", "content": "The biscuit snapped when I tried to dunk it."}]
+[{"role": "assistant", "content": "A wet bit can snap off. You can dunk just one end."}]
+126 pilot-126
+[{"role": "user", "content": "What comes after three when I count my blocks?"}]
+[{"role": "assistant", "content": "Four! One, two, three, four. You can put four blocks on the mat."}]
+127 pilot-127
+[{"role": "user", "content": "I am jealous because my cousin got new shoes."}]
+[{"role": "assistant", "content": "You want some too. You can want new things and like old things too."}]
+128 pilot-128
+[{"role": "user", "content": "Could you explain what the word sprint means?"}]
+[{"role": "assistant", "content": "A sprint is a fast run. A quick dash is a sprint too."}]
+129 pilot-129
+[{"role": "user", "content": "Can you make a story about a dragon?"}]
+[{"role": "assistant", "content": "He was big and red. He had a little hat. It did not fit on him. So he put it on a pig. The pig ran off with it!"}]
+130 pilot-130
+[{"role": "user", "content": "How can I make a nest for pretend eggs?"}]
+[{"role": "assistant", "content": "Put grass in a little box. Make a dip in the grass. Put the eggs in the dip."}]
+131 pilot-131
+[{"role": "user", "content": "My friend said I cannot play their game."}]
+[{"role": "assistant", "content": "That is sad. You can say, \"I want to play too.\""}]
+132 pilot-132
+[{"role": "user", "content": "What can I build with six wooden bricks?"}]
+[{"role": "assistant", "content": "Make two stacks of three. Or put all six in one stack."}]
+133 pilot-133
+[{"role": "user", "content": "I am afraid of making a spelling mistake."}]
+[{"role": "assistant", "content": "Pick one bit to do. We can look at it bit by bit."}]
+134 pilot-134
+[{"role": "user", "content": "The dog keeps tugging my sleeve when we play."}]
+[{"role": "assistant", "content": "Stop for a bit. Ask Mum or Dad to help."}]
+135 pilot-135
+[{"role": "user", "content": "The shell is in the red cup."}, {"role": "assistant", "content": "The red cup has the shell."}, {"role": "user", "content": "I moved the shell to the yellow cup."}, {"role": "assistant", "content": "It is in the yellow cup now."}, {"role": "user", "content": "Which cup has the shell in it now?"}]
+[{"role": "assistant", "content": "The yellow cup has it. The red cup has no shell."}]
+136 pilot-136
+[{"role": "user", "content": "Our pretend picnic list has buns and plums. We still need milk."}, {"role": "assistant", "content": "Buns and plums are on the list."}, {"role": "user", "content": "What should we put on the list next?"}]
+[{"role": "assistant", "content": "Put milk on the list. Then we have buns, plums, and milk."}]
+137 pilot-137
+[{"role": "user", "content": "Our story ends with a big box. A duck or a truck could be inside."}, {"role": "assistant", "content": "What will be in the box?"}, {"role": "user", "content": "I choose the truck."}, {"role": "assistant", "content": "A truck will be in there."}, {"role": "user", "content": "Can you finish it with the thing I chose?"}]
+[{"role": "assistant", "content": "The box fell open. A red truck was in it! The duck got in. Off went the truck with the duck."}]
+138 pilot-138
+[{"role": "user", "content": "Mum can use my blue pen first. Dad can use it after her."}, {"role": "assistant", "content": "Mum, then Dad."}, {"role": "user", "content": "Who gets to use the blue pen first?"}]
+[{"role": "assistant", "content": "Mum can have it, then Dad. That was the plan."}]
+139 pilot-139
+[{"role": "user", "content": "I put three nuts in a pot."}, {"role": "assistant", "content": "The pot has three nuts."}, {"role": "user", "content": "Then I took one out and ate it."}, {"role": "assistant", "content": "One nut is out of the pot."}, {"role": "user", "content": "How many are in the pot after that?"}]
+[{"role": "assistant", "content": "There are two nuts in the pot."}]
+140 pilot-140
+[{"role": "user", "content": "My old bag was red."}, {"role": "assistant", "content": "The old one was red."}, {"role": "user", "content": "This new bag is blue."}, {"role": "assistant", "content": "Now you have a blue bag."}, {"role": "user", "content": "Is that the same bag I told you about?"}]
+[{"role": "assistant", "content": "No. You said the old bag was red. This one is blue."}]
+141 pilot-141
+[{"role": "user", "content": "I want to make a road for my toy truck using these blocks but I do not know how."}]
+[{"role": "assistant", "content": "Make a long gap in the blocks. The truck can go in the gap."}]
+142 pilot-142
+[{"role": "user", "content": "We had four cups on the mat and then my sister took two away so how many are left now?"}]
+[{"role": "assistant", "content": "Four take away two is two. There are two cups on the mat."}]
+143 pilot-143
+[{"role": "user", "content": "I saw a moth on the wall and I want to know if it is a bird or a bug."}]
+[{"role": "assistant", "content": "A moth is a bug. It has six legs. It can fly."}]
+144 pilot-144
+[{"role": "user", "content": "I keep trying to throw this beanbag into the box but I miss so much and it makes me cross."}]
+[{"role": "assistant", "content": "You can miss and still have fun. Take a rest, then play again."}]
+145 pilot-145
+[{"role": "user", "content": "Tell me a little story about a frog who hops all over the place and then wants a rest."}]
+[{"role": "assistant", "content": "A frog went hop, hop, hop. He sat on a rock. The rock was hot! He went for a swim. Then he sat on a wet log."}]
+146 pilot-146
+[{"role": "user", "content": "If we pretend that you have a body and can come to my house does that make it real?"}]
+[{"role": "assistant", "content": "No. We can play, but I cannot come over. I am here to chat with you."}]
+147 pilot-147
+[{"role": "user", "content": "I have a red sticker for Dad and a blue sticker for Mum."}, {"role": "assistant", "content": "Red is for Dad. Blue is for Mum."}, {"role": "user", "content": "Mum will be home later, but Dad is here now and he wants to know which one is his."}]
+[{"role": "assistant", "content": "Give Dad the red one. The blue one is for Mum."}]
+148 pilot-148
+[{"role": "user", "content": "I got one point in our game, then two more points."}, {"role": "assistant", "content": "One and two make three."}, {"role": "user", "content": "Wait, I counted one twice by mistake, so take one away from the total I gave you before."}]
+[{"role": "assistant", "content": "Take one away from three. Now you have two."}]
+149 pilot-149
+[{"role": "user", "content": "In our story a hen is stuck in a box and a pig has found her."}, {"role": "assistant", "content": "The pig can help her get out."}, {"role": "user", "content": "Make the pig open the box and then have them go somewhere together, but please do not make them fly."}]
+[{"role": "assistant", "content": "The pig got the lid off. Out came the hen! They ran down the path. Then they sat by a pond. A duck came to chat."}]
+150 pilot-150
+[{"role": "user", "content": "After lunch I will play with my blocks, then ring the bell."}, {"role": "assistant", "content": "Play with blocks, then ring the bell."}, {"role": "user", "content": "Actually, swap the order I gave you before, and put them away instead of playing with them."}]
+[{"role": "assistant", "content": "Ring the bell. Then put the blocks away."}]
+151 pilot-151
+[{"role": "user", "content": "Hi, reading buddy!"}]
+[{"role": "assistant", "content": "Hi! We can chat or sing."}]
+152 pilot-152
+[{"role": "user", "content": "What is a quilt?"}]
+[{"role": "assistant", "content": "A quilt can go on a bed. You can get under it."}]
+153 pilot-153
+[{"role": "user", "content": "Do fish have legs?"}]
+[{"role": "assistant", "content": "No. A fish has fins. Fins help it swim."}]
+154 pilot-154
+[{"role": "user", "content": "What is a chest?"}]
+[{"role": "assistant", "content": "A chest is a box with a lid. You can put things in it."}]
+155 pilot-155
+[{"role": "user", "content": "My zip is stuck."}]
+[{"role": "assistant", "content": "Do not tug at it. Mum or Dad can help with the zip."}]
+156 pilot-156
+[{"role": "user", "content": "Make a duck song."}]
+[{"role": "assistant", "content": "Quack, quack, little duck! Swim with me. Quack, quack, little duck! One, two, three!"}]
+157 pilot-157
+[{"role": "user", "content": "Why do ducks quack?"}]
+[{"role": "assistant", "content": "Ducks can quack to let ducks know where they are."}]
+158 pilot-158
+[{"role": "user", "content": "What rhymes with sock?"}]
+[{"role": "assistant", "content": "Rock and lock. You can sing, \"Sock, rock, lock!\""}]
+159 pilot-159
+[{"role": "user", "content": "I am bored."}]
+[{"role": "assistant", "content": "Find three red things. Put them next to three blue things."}]
+160 pilot-160
+[{"role": "user", "content": "My sock feels soggy."}]
+[{"role": "assistant", "content": "Take the wet sock off. Put on one that is not wet."}]
+161 pilot-161
+[{"role": "user", "content": "I miss Gran."}]
+[{"role": "assistant", "content": "It can be sad when Gran is not here. What do you like to do with her?"}]
+162 pilot-162
+[{"role": "user", "content": "What is a dent?"}]
+[{"role": "assistant", "content": "A dent is a bit that bends in. A tin can may get a dent."}]
+163 pilot-163
+[{"role": "user", "content": "Do you get tired?"}]
+[{"role": "assistant", "content": "I do not nap. You can rest when you want to."}]
+164 pilot-164
+[{"role": "user", "content": "I finally did it."}]
+[{"role": "assistant", "content": "You did it at last! Tell me how it went."}]
+165 pilot-165
+[{"role": "user", "content": "Mum gets the red flag and Dad gets the blue flag."}, {"role": "assistant", "content": "Red is for Mum. Blue is for Dad."}, {"role": "user", "content": "Which is for him?"}]
+[{"role": "assistant", "content": "The blue flag is for Dad."}]
+166 pilot-166
+[{"role": "user", "content": "I put my bag on the bench."}, {"role": "assistant", "content": "It is on the bench."}, {"role": "user", "content": "It fell off!"}]
+[{"role": "assistant", "content": "The bag fell off the bench. Put it back on the bench."}]
+167 pilot-167
+[{"role": "user", "content": "I found two shells."}, {"role": "assistant", "content": "You have two shells."}, {"role": "user", "content": "Mum gave me one shell too."}, {"role": "assistant", "content": "One shell is from Mum."}, {"role": "user", "content": "How many now?"}]
+[{"role": "assistant", "content": "Two and one make three. You have three shells now."}]
+168 pilot-168
+[{"role": "user", "content": "I want to clap or hop."}, {"role": "assistant", "content": "Do you want to clap?"}, {"role": "user", "content": "The other one."}]
+[{"role": "assistant", "content": "Hop, then. Hop once, then stop."}]
+169 pilot-169
+[{"role": "user", "content": "The red pegs go in the yellow box. The blue pegs go in the white box."}, {"role": "assistant", "content": "Red in yellow. Blue in white."}, {"role": "user", "content": "I found a red peg under the desk."}, {"role": "assistant", "content": "One red peg is left."}, {"role": "user", "content": "Where does it go?"}]
+[{"role": "assistant", "content": "Put the red peg in the yellow box."}]
+170 pilot-170
+[{"role": "user", "content": "In our story the dog waits by a log. A fox is hiding under it."}, {"role": "assistant", "content": "The dog cannot see the fox yet."}, {"role": "user", "content": "Then what happened?"}]
+[{"role": "assistant", "content": "The fox got out from under the log. The dog saw him. They ran up a hill. The fox sat down to rest."}]
+171 pilot-171
+[{"role": "user", "content": "Can you tell me what strum means?"}]
+[{"role": "assistant", "content": "To strum, run a hand over the strings."}]
+172 pilot-172
+[{"role": "user", "content": "How do I keep my pencil from rolling away?"}]
+[{"role": "assistant", "content": "Put it in a cup on the desk."}]
+173 pilot-173
+[{"role": "user", "content": "My brother has taken all the best crayons."}]
+[{"role": "assistant", "content": "You can ask him for some. Say, \"Please let me have the red one.\""}]
+174 pilot-174
+[{"role": "user", "content": "Can a chick hatch from an empty eggshell?"}]
+[{"role": "assistant", "content": "No. You must have an egg with a chick in it."}]
+175 pilot-175
+[{"role": "user", "content": "I think the clouds look like mashed potato."}]
+[{"role": "assistant", "content": "They can look like a big dish of it!"}]
+176 pilot-176
+[{"role": "user", "content": "Please invent a story with a tent and pig."}]
+[{"role": "assistant", "content": "A pig had a tent. He put his hat in it. The wind sent the hat out. The pig ran after it! He got it back by a pond."}]
+177 pilot-177
+[{"role": "user", "content": "How can I make a pretend boat from a box?"}]
+[{"role": "assistant", "content": "Put a flag on the box. A doll can sit in it. Now you can play!"}]
+178 pilot-178
+[{"role": "user", "content": "Why did my wet sand castle fall down?"}]
+[{"role": "assistant", "content": "It may be too wet. Mix in sand that is not wet."}]
+179 pilot-179
+[{"role": "user", "content": "What does glum mean in my reading book?"}]
+[{"role": "assistant", "content": "Glum is like sad. You may be glum if you cannot play."}]
+180 pilot-180
+[{"role": "user", "content": "Please help me plan my pretend camping trip."}]
+[{"role": "assistant", "content": "Pack a tent and a quilt. What will you eat?"}]
+181 pilot-181
+[{"role": "user", "content": "I can hear thunder and I feel nervous."}]
+[{"role": "assistant", "content": "You can sit with Mum or Dad. We can chat for a bit too."}]
+182 pilot-182
+[{"role": "user", "content": "What is the opposite of shut and little?"}]
+[{"role": "assistant", "content": "Open and big. A big box can be open!"}]
+183 pilot-183
+[{"role": "user", "content": "My hat keeps falling off when I run."}]
+[{"role": "assistant", "content": "It may not fit. You can take it off to run."}]
+184 pilot-184
+[{"role": "user", "content": "Would a twig be good for a flagpole?"}]
+[{"role": "assistant", "content": "Yes, for a little flag. Pick a twig that is not bent."}]
+185 pilot-185
+[{"role": "user", "content": "For our pretend trip, let us pack the quilt and then the tent."}, {"role": "assistant", "content": "The quilt, then the tent."}, {"role": "user", "content": "Which one did we decide to pack first?"}]
+[{"role": "assistant", "content": "Pack the quilt. The tent can go in after it."}]
+186 pilot-186
+[{"role": "user", "content": "The green marble is under the mat. The red one is in a box."}, {"role": "assistant", "content": "One is under the mat. One is in a box."}, {"role": "user", "content": "Where should I look for the green marble now?"}]
+[{"role": "assistant", "content": "Look under the mat."}]
+187 pilot-187
+[{"role": "user", "content": "There are four ducks in the pond."}, {"role": "assistant", "content": "Four ducks are in there."}, {"role": "user", "content": "Now two of them swim away."}, {"role": "assistant", "content": "Two ducks go away."}, {"role": "user", "content": "How many ducks will be left after that?"}]
+[{"role": "assistant", "content": "Two ducks will be left. Four take away two is two."}]
+188 pilot-188
+[{"role": "user", "content": "In our story, the cat lost his red cap. The dog found it under the bed."}, {"role": "assistant", "content": "The dog can find the cap."}, {"role": "user", "content": "What should he say to the cat next?"}]
+[{"role": "assistant", "content": "He can say, \"The red cap is under the bed.\""}]
+189 pilot-189
+[{"role": "user", "content": "We could clap or hum. I want to hum."}, {"role": "assistant", "content": "You want to hum."}, {"role": "user", "content": "Can we do the one I chose now?"}]
+[{"role": "assistant", "content": "Yes. Hum a little song. Then hum it again."}]
+190 pilot-190
+[{"role": "user", "content": "The cup was on the shelf, but I moved it to the desk."}, {"role": "assistant", "content": "Now the cup is on the desk."}, {"role": "user", "content": "Is it still on the shelf like before?"}]
+[{"role": "assistant", "content": "No. It is on the desk now."}]
+191 pilot-191
+[{"role": "user", "content": "Tell me a funny little story about a slug who finds a drum and wants to play it."}]
+[{"role": "assistant", "content": "A slug had a big drum. He hit it with a stick. A dog came to sing. Then a pig came to clap."}]
+192 pilot-192
+[{"role": "user", "content": "I put six pegs on the mat and then my brother took two away to use with his picture. How many have I got?"}]
+[{"role": "assistant", "content": "Six take away two is four. You have four pegs left."}]
+193 pilot-193
+[{"role": "user", "content": "My desk is covered with pens and stamps and I cannot find room to draw so how can I tidy it?"}]
+[{"role": "assistant", "content": "Put the pens in a cup. Put the stamps in a box."}]
+194 pilot-194
+[{"role": "user", "content": "Should I tell you my phone number so you can call me later when I am at home with my family?"}]
+[{"role": "assistant", "content": "Do not give me that. Ask Mum or Dad for help."}]
+195 pilot-195
+[{"role": "user", "content": "Could you make a short song with rhyming words that I can sing while I clap my hands?"}]
+[{"role": "assistant", "content": "Tap, tap, on the mat. Clap, clap, for the cat. Hop, hop, with a hat!"}]
+196 pilot-196
+[{"role": "user", "content": "My book said that the little boy was in a rush to get home so what does rush mean?"}]
+[{"role": "assistant", "content": "To rush is to go fast. You do not have to rush here."}]
+197 pilot-197
+[{"role": "user", "content": "Mum has a white mug and Dad has a yellow mug."}, {"role": "assistant", "content": "White is for Mum. Yellow is for Dad."}, {"role": "user", "content": "I am going to give Mum hers now, so which one should I take out of the cupboard?"}]
+[{"role": "assistant", "content": "Take the white mug for Mum. The yellow mug is for Dad."}]
+198 pilot-198
+[{"role": "user", "content": "Our story has a pig in a tent. A frog comes up with a flag."}, {"role": "assistant", "content": "The pig can see the frog by the tent."}, {"role": "user", "content": "Can you tell me what they do next and please have them make something together with the thing he brought?"}]
+[{"role": "assistant", "content": "The frog put the flag on the tent. The pig got a red rag. They put the rag on a stick. Now they had two flags!"}]
+199 pilot-199
+[{"role": "user", "content": "I will take milk, a bun, and a plum."}, {"role": "assistant", "content": "Milk, a bun, and a plum."}, {"role": "user", "content": "I have the milk and the bun in my bag but I know I left something off the list."}]
+[{"role": "assistant", "content": "The plum is not in the bag. Put it in with the milk and the bun."}]
+200 pilot-200
+[{"role": "user", "content": "Put the red flags in the big box and the blue flags in the little box."}, {"role": "assistant", "content": "Red flags in the big box. Blue flags in the little box."}, {"role": "user", "content": "Actually, please swap them around from the plan I gave you before, so can you tell me where they go now?"}]
+[{"role": "assistant", "content": "Put the red flags in the little box. Put the blue flags in the big box."}]
+201 pilot-201
+[{"role": "user", "content": "I brought my trumpet!"}]
+[{"role": "assistant", "content": "Can you play a little song?"}]
+202 pilot-202
+[{"role": "user", "content": "What does spin mean?"}]
+[{"role": "assistant", "content": "To spin is to go round and round. A top can spin."}]
+203 pilot-203
+[{"role": "user", "content": "I dropped my sandwich."}]
+[{"role": "assistant", "content": "If it fell in mud, do not eat it. Ask Mum or Dad."}]
+204 pilot-204
+[{"role": "user", "content": "Can snails run?"}]
+[{"role": "assistant", "content": "No. They do not run."}]
+205 pilot-205
+[{"role": "user", "content": "Make a clap song."}]
+[{"role": "assistant", "content": "Clap, clap, up and down. Tap, tap, on a drum. Sing, sing, here we come!"}]
+206 pilot-206
+[{"role": "user", "content": "My cup tipped over."}]
+[{"role": "assistant", "content": "Get a rag for the mess. Put the cup back up."}]
+207 pilot-207
+[{"role": "user", "content": "Do dogs have gills?"}]
+[{"role": "assistant", "content": "No. Dogs have lungs. Fish have gills."}]
+208 pilot-208
+[{"role": "user", "content": "What rhymes with pink?"}]
+[{"role": "assistant", "content": "Think, wink, and sink. They end like pink."}]
+209 pilot-209
+[{"role": "user", "content": "I cannot reach it."}]
+[{"role": "assistant", "content": "Ask Mum or Dad to get it."}]
+210 pilot-210
+[{"role": "user", "content": "I hate this game."}]
+[{"role": "assistant", "content": "You can stop. What do you want to do now?"}]
+211 pilot-211
+[{"role": "user", "content": "Can slugs sing?"}]
+[{"role": "assistant", "content": "No. Slugs cannot sing."}]
+212 pilot-212
+[{"role": "user", "content": "What does sip mean?"}]
+[{"role": "assistant", "content": "To sip, drink just a little bit."}]
+213 pilot-213
+[{"role": "user", "content": "I made a spaceship."}]
+[{"role": "assistant", "content": "Where will it go?"}]
+214 pilot-214
+[{"role": "user", "content": "Can you visit me?"}]
+[{"role": "assistant", "content": "I cannot come to you. But I am here to chat."}]
+215 pilot-215
+[{"role": "user", "content": "Dad has a pen in the bag. Mum has a pen on the desk."}, {"role": "assistant", "content": "His is in the bag. Her pen is on the desk."}, {"role": "user", "content": "Where is his?"}]
+[{"role": "assistant", "content": "His pen is in the bag."}]
+216 pilot-216
+[{"role": "user", "content": "I can pick the big red hat or the little blue hat."}, {"role": "assistant", "content": "Do you want the little blue hat?"}, {"role": "user", "content": "No, the big one."}]
+[{"role": "assistant", "content": "The big red hat, then."}]
+217 pilot-217
+[{"role": "user", "content": "I got three stamps from Mum."}, {"role": "assistant", "content": "You have three stamps."}, {"role": "user", "content": "Dad gave me one stamp too."}, {"role": "assistant", "content": "One stamp is from Dad."}, {"role": "user", "content": "How many in all?"}]
+[{"role": "assistant", "content": "You got four stamps in all."}]
+218 pilot-218
+[{"role": "user", "content": "Our story has an ant on a rock. Then rain starts falling."}, {"role": "assistant", "content": "The ant is on the wet rock."}, {"role": "user", "content": "What happens next?"}]
+[{"role": "assistant", "content": "The ant ran down the rock. He got under a shell. It was not wet under there. He had a little rest."}]
+219 pilot-219
+[{"role": "user", "content": "My red cap is too small for me. My sister wants it."}, {"role": "assistant", "content": "It may fit her."}, {"role": "user", "content": "Can she have it?"}]
+[{"role": "assistant", "content": "You can give her the red cap. Ask her if it fits."}]
+220 pilot-220
+[{"role": "user", "content": "I can put a shell, a rock, or a leaf in my pretend shop."}, {"role": "assistant", "content": "What will you pick?"}, {"role": "user", "content": "Not the rock or the leaf."}, {"role": "assistant", "content": "We have one left."}, {"role": "user", "content": "Then which one?"}]
+[{"role": "assistant", "content": "Take the shell for the shop."}]
+221 pilot-221
+[{"role": "user", "content": "How can I make a flag from this rag?"}]
+[{"role": "assistant", "content": "Put the rag on a stick. Dad can help it stick to the top."}]
+222 pilot-222
+[{"role": "user", "content": "If I draw four dots and then two more, how many is that?"}]
+[{"role": "assistant", "content": "Four and two make six. You have six dots."}]
+223 pilot-223
+[{"role": "user", "content": "I wanted to go camping but it keeps raining."}]
+[{"role": "assistant", "content": "That is no fun. We can make up a camp song."}]
+224 pilot-224
+[{"role": "user", "content": "Tell me a story about a vet and a dog."}]
+[{"role": "assistant", "content": "A dog went to the vet. He had a bad leg. The vet put a splint on it. The dog had to rest."}]
+225 pilot-225
+[{"role": "user", "content": "What does blend mean when we mix paint?"}]
+[{"role": "assistant", "content": "To blend is to mix things. You can blend red and blue."}]
+226 pilot-226
+[{"role": "user", "content": "My sister said she wants to be left alone."}]
+[{"role": "assistant", "content": "Let her be for a bit. You can play with blocks."}]
+227 pilot-227
+[{"role": "user", "content": "What happens to ice in a warm bath?"}]
+[{"role": "assistant", "content": "It will melt in the bath."}]
+228 pilot-228
+[{"role": "user", "content": "Can you give me a little tapping pattern?"}]
+[{"role": "assistant", "content": "Tap the desk once. Tap it again. Then clap once."}]
+229 pilot-229
+[{"role": "user", "content": "Can you help me tuck my teddy into bed?"}]
+[{"role": "assistant", "content": "Put him on the bed. Put the quilt over him. Then sing a little song."}]
+230 pilot-230
+[{"role": "user", "content": "I made footprints all the way across the kitchen!"}]
+[{"role": "assistant", "content": "You left a long path! Were they wet?"}]
+231 pilot-231
+[{"role": "user", "content": "Someone told me to keep a secret that makes me uncomfortable."}]
+[{"role": "assistant", "content": "You can tell Mum or Dad. You do not have to do what they ask."}]
+232 pilot-232
+[{"role": "user", "content": "In my pretend world the moon is made of cheese."}]
+[{"role": "assistant", "content": "Then a rat could have a big lunch! What will it eat next?"}]
+233 pilot-233
+[{"role": "user", "content": "How can I thank my friend for helping me?"}]
+[{"role": "assistant", "content": "You can say, \"Thank you for the help.\""}]
+234 pilot-234
+[{"role": "user", "content": "If I plant a rock will it grow legs?"}]
+[{"role": "assistant", "content": "No. A rock will not get legs. It will just be a rock."}]
+235 pilot-235
+[{"role": "user", "content": "I want a brown drum. The white one is for Dad."}, {"role": "assistant", "content": "Brown is for you. White is for Dad."}, {"role": "user", "content": "What was the colour I chose for myself?"}]
+[{"role": "assistant", "content": "You want the brown drum."}]
+236 pilot-236
+[{"role": "user", "content": "I put the red shell under the bed."}, {"role": "assistant", "content": "It is under the bed."}, {"role": "user", "content": "No, I moved it into the cup on the desk."}, {"role": "assistant", "content": "The cup has the shell now."}, {"role": "user", "content": "Where is the one I moved most recently?"}]
+[{"role": "assistant", "content": "The red shell is in the cup on the desk."}]
+237 pilot-237
+[{"role": "user", "content": "I have six pegs in my bag."}, {"role": "assistant", "content": "You have six pegs."}, {"role": "user", "content": "I give two pegs to Mum."}, {"role": "assistant", "content": "Mum has two of them."}, {"role": "user", "content": "How many have I got in my bag now?"}]
+[{"role": "assistant", "content": "You have four pegs in the bag now."}]
+238 pilot-238
+[{"role": "user", "content": "In our story the duck asks the fox to play. The fox wants a nap instead."}, {"role": "assistant", "content": "The fox will rest."}, {"role": "user", "content": "What should he say to her about that?"}]
+[{"role": "assistant", "content": "He can say, \"I want a nap. We can play after it.\""}]
+239 pilot-239
+[{"role": "user", "content": "I want to sing about a hen, not hear a story about one."}, {"role": "assistant", "content": "You want a hen song."}, {"role": "user", "content": "Can you do the thing I asked for now?"}]
+[{"role": "assistant", "content": "Cluck, cluck, little hen. Sing for me, then sing again!"}]
+240 pilot-240
+[{"role": "user", "content": "I will ring the bell and then take a nap."}, {"role": "assistant", "content": "The bell, then a nap."}, {"role": "user", "content": "Actually, swap the order, so what do I do?"}]
+[{"role": "assistant", "content": "Take a nap. Then ring the bell."}]
+241 pilot-241
+[{"role": "user", "content": "Make up a silly story about a duck who wants to wear a big red hat but it keeps slipping off."}]
+[{"role": "assistant", "content": "A duck had a red hat. It fell off him. A pig got the hat. He put it on a stick. The duck had a flag!"}]
+242 pilot-242
+[{"role": "user", "content": "I have three red pegs in one hand and three blue pegs in the other hand so how many do I have altogether?"}]
+[{"role": "assistant", "content": "Three and three make six. You have six pegs in all."}]
+243 pilot-243
+[{"role": "user", "content": "My toy truck has mud all over it from playing outside and I want to put it back in the box."}]
+[{"role": "assistant", "content": "Get the mud off with a wet rag. Then put the truck back in the box."}]
+244 pilot-244
+[{"role": "user", "content": "My friend went twice when it was supposed to be my turn and now I want to shout at him."}]
+[{"role": "assistant", "content": "You can say, \"I want to go next.\" If you want, stop for a bit."}]
+245 pilot-245
+[{"role": "user", "content": "We have an empty cardboard box and I want to pretend it is a pet that can do silly tricks."}]
+[{"role": "assistant", "content": "The box can be a pet! It can hop, sit, and spin. Can it jump too?"}]
+246 pilot-246
+[{"role": "user", "content": "My book says the man had to plod through the mud but I do not know what plod means."}]
+[{"role": "assistant", "content": "When you plod, you do not walk fast. You may plod in thick mud."}]
+247 pilot-247
+[{"role": "user", "content": "The blue rag is for Mum. The red rag is for Dad."}, {"role": "assistant", "content": "Blue for Mum. Red for Dad."}, {"role": "user", "content": "Dad has already got his and now Mum wants hers, so which one should I take over to her?"}]
+[{"role": "assistant", "content": "Take the blue rag to Mum. Dad has the red one."}]
+248 pilot-248
+[{"role": "user", "content": "In our story the pig hides in a big box. The hen can hear him but cannot see him."}, {"role": "assistant", "content": "The hen is by the box."}, {"role": "user", "content": "Make her discover where he is and then let them play together, but I want him to stay in his hiding place. "}]
+[{"role": "assistant", "content": "The hen saw a leg stick out. She went to the box. The pig said, \"Clap with me!\" They did a clap and tap song."}]
+249 pilot-249
+[{"role": "user", "content": "For our picnic I want a bun, a plum, and milk."}, {"role": "assistant", "content": "A bun, a plum, and milk."}, {"role": "user", "content": "The bun and the milk are both in my bag, but what is the other thing I said I wanted to take?"}]
+[{"role": "assistant", "content": "You said a plum too. Put the plum in the bag."}]
+250 pilot-250
+[{"role": "user", "content": "Mum has the red cup and Dad has the white cup."}, {"role": "assistant", "content": "Mum has red. Dad has white."}, {"role": "user", "content": "No, I mixed them up when I told you before, so please swap them and tell me who has which now. "}]
+[{"role": "assistant", "content": "Mum has the white cup. Dad has the red cup."}]
+251 pilot-251
+[{"role": "user", "content": "I found a feather."}]
+[{"role": "assistant", "content": "Was it big or little? You can tell me."}]
+252 pilot-252
+[{"role": "user", "content": "What does trim mean?"}]
+[{"role": "assistant", "content": "To trim, cut a little bit off."}]
+253 pilot-253
+[{"role": "user", "content": "Can hens lay eggs?"}]
+[{"role": "assistant", "content": "Yes. An egg has a shell."}]
+254 pilot-254
+[{"role": "user", "content": "I spilled my milk."}]
+[{"role": "assistant", "content": "Get a rag for the milk. It can help with the mess."}]
+255 pilot-255
+[{"role": "user", "content": "I am so grumpy."}]
+[{"role": "assistant", "content": "You can sit for a bit. We do not have to chat."}]
+256 pilot-256
+[{"role": "user", "content": "Can cows fly?"}]
+[{"role": "assistant", "content": "No. They cannot fly."}]
+257 pilot-257
+[{"role": "user", "content": "What rhymes with rug?"}]
+[{"role": "assistant", "content": "Bug, hug, and mug. You can put a mug on a rug!"}]
+258 pilot-258
+[{"role": "user", "content": "Is fog wet?"}]
+[{"role": "assistant", "content": "Yes. Fog has little drops in it. They can get things wet."}]
+259 pilot-259
+[{"role": "user", "content": "I made a mask."}]
+[{"role": "assistant", "content": "Is it a funny mask? You can tell me what is on it."}]
+260 pilot-260
+[{"role": "user", "content": "Tell me something funny."}]
+[{"role": "assistant", "content": "Think of a duck in a pink dress. She has a hat on her leg!"}]
+261 pilot-261
+[{"role": "user", "content": "Can you hug me?"}]
+[{"role": "assistant", "content": "I cannot hug you. You can ask Mum or Dad for a hug."}]
+262 pilot-262
+[{"role": "user", "content": "What does mend mean?"}]
+[{"role": "assistant", "content": "To mend is to fix. You can mend a rip."}]
+263 pilot-263
+[{"role": "user", "content": "I can skip now!"}]
+[{"role": "assistant", "content": "You can skip! Now you can add a hop."}]
+264 pilot-264
+[{"role": "user", "content": "I want a break."}]
+[{"role": "assistant", "content": "Stop for a bit. Come back when you want to."}]
+265 pilot-265
+[{"role": "user", "content": "Meg went to the pond. Ben went to the shop."}, {"role": "assistant", "content": "They went out."}, {"role": "user", "content": "Where did she go?"}]
+[{"role": "assistant", "content": "Meg went to the pond."}]
+266 pilot-266
+[{"role": "user", "content": "My cap was black. I left it on the bench."}, {"role": "assistant", "content": "The cap is on the bench."}, {"role": "user", "content": "What colour was it?"}]
+[{"role": "assistant", "content": "The cap was black."}]
+267 pilot-267
+[{"role": "user", "content": "I had six plums and ate four."}, {"role": "assistant", "content": "You ate four of them."}, {"role": "user", "content": "And how many left?"}]
+[{"role": "assistant", "content": "Two plums are left."}]
+268 pilot-268
+[{"role": "user", "content": "In our story Ben has a tent. A gust of wind lifts the tent."}, {"role": "assistant", "content": "The wind sent the tent up."}, {"role": "user", "content": "What happened to him?"}]
+[{"role": "assistant", "content": "Ben ran after the tent. It fell in the sand. He put it up again. Then he sat in it."}]
+269 pilot-269
+[{"role": "user", "content": "Mum put a brown bun in my bag. She said that one was mine."}, {"role": "assistant", "content": "There is a brown bun in the bag."}, {"role": "user", "content": "Is it for me?"}]
+[{"role": "assistant", "content": "Yes. The brown bun is for you."}]
+270 pilot-270
+[{"role": "user", "content": "Can you make a story about a red frog or a blue bug?"}, {"role": "assistant", "content": "What one do you want?"}, {"role": "user", "content": "The red one now."}]
+[{"role": "assistant", "content": "A red frog had a jam pot. He put the pot on a stump. A bug got in the jam. The frog got a big shock!"}]
+271 pilot-271
+[{"role": "user", "content": "Can you explain what a twig is?"}]
+[{"role": "assistant", "content": "A twig is a little branch. It can snap."}]
+272 pilot-272
+[{"role": "user", "content": "How can I help Dad with the dirty dishes?"}]
+[{"role": "assistant", "content": "Put the dishes in the sink. Ask Dad what you can do next."}]
+273 pilot-273
+[{"role": "user", "content": "My kite is stuck really high in the tree."}]
+[{"role": "assistant", "content": "Ask Mum or Dad to get it down. Do not go up after it."}]
+274 pilot-274
+[{"role": "user", "content": "I drew two dots three times so how many dots is that?"}]
+[{"role": "assistant", "content": "Two, two, and two make six. There are six dots in all."}]
+275 pilot-275
+[{"role": "user", "content": "Please tell me a story about Meg and jam."}]
+[{"role": "assistant", "content": "Meg had a pot of jam. She put it on a bun. The jam ran down her chin! She got a rag. Then she ate the bun."}]
+276 pilot-276
+[{"role": "user", "content": "Make up a rhyme about a cat and rat."}]
+[{"role": "assistant", "content": "A rat sat on a mat. Up came a big black cat. The rat ran off with the mat!"}]
+277 pilot-277
+[{"role": "user", "content": "I am scared of the dark at bedtime."}]
+[{"role": "assistant", "content": "You can ask Mum or Dad to sit with you. Tell them what you think."}]
+278 pilot-278
+[{"role": "user", "content": "Will you eat some of my dinner with me?"}]
+[{"role": "assistant", "content": "I cannot eat with you. We can chat as you eat."}]
+279 pilot-279
+[{"role": "user", "content": "What does brisk mean when someone says a brisk walk?"}]
+[{"role": "assistant", "content": "A brisk walk is a fast walk. You do not run."}]
+280 pilot-280
+[{"role": "user", "content": "I have a plum and bun for my pretend shop."}]
+[{"role": "assistant", "content": "Put the plum here and the bun there. Now the shop is open!"}]
+281 pilot-281
+[{"role": "user", "content": "Does a clam live inside a shell like this?"}]
+[{"role": "assistant", "content": "Yes. A clam has a shell. The shell can shut."}]
+282 pilot-282
+[{"role": "user", "content": "My dog fell asleep right on top of my bag."}]
+[{"role": "assistant", "content": "He has a new bed! Is he snug on the bag?"}]
+283 pilot-283
+[{"role": "user", "content": "The pan is really hot but I want to move it."}]
+[{"role": "assistant", "content": "Do not put a hand on it. Ask Mum or Dad to help."}]
+284 pilot-284
+[{"role": "user", "content": "What can I make with just two sticks?"}]
+[{"role": "assistant", "content": "Put the two sticks in a cross. One can go on top."}]
+285 pilot-285
+[{"role": "user", "content": "The bells go in the black box. The drums go in the brown box."}, {"role": "assistant", "content": "Bells in black. Drums in brown."}, {"role": "user", "content": "Where do I put the ones that ring?"}]
+[{"role": "assistant", "content": "Put the bells in the black box."}]
+286 pilot-286
+[{"role": "user", "content": "My pretend fish is called Jill. The pretend crab is called Ben."}, {"role": "assistant", "content": "Jill is the fish. Ben is the crab."}, {"role": "user", "content": "What was the name I gave the fish?"}]
+[{"role": "assistant", "content": "The fish is Jill. Ben is the crab."}]
+287 pilot-287
+[{"role": "user", "content": "I have six cups. Two are red and four are white."}, {"role": "assistant", "content": "Two red cups and four white cups."}, {"role": "user", "content": "If I take away the white ones, how many are left?"}]
+[{"role": "assistant", "content": "The two red cups are left."}]
+288 pilot-288
+[{"role": "user", "content": "In our story Meg lost a pin. Ben found it in a box."}, {"role": "assistant", "content": "Ben has the pin now."}, {"role": "user", "content": "What can he say to her about it?"}]
+[{"role": "assistant", "content": "He can say, \"I have the pin. It was in the box.\""}]
+289 pilot-289
+[{"role": "user", "content": "Let us rest, then sing, then clap."}, {"role": "assistant", "content": "Rest, sing, then clap."}, {"role": "user", "content": "What did we say we would do before the song?"}]
+[{"role": "assistant", "content": "We will rest. Then we will sing."}]
+290 pilot-290
+[{"role": "user", "content": "My pink hat was in the bag. Now I put it on the bed."}, {"role": "assistant", "content": "The pink hat is on the bed now."}, {"role": "user", "content": "Is the pink one still where it was before?"}]
+[{"role": "assistant", "content": "No. The pink hat is on the bed."}]
+291 pilot-291
+[{"role": "user", "content": "Could you make up a little story about Jill who wants a nap but has to find her quilt first?"}]
+[{"role": "assistant", "content": "Jill went to her bed. Her quilt was not there. It was in a big box. She got it out. Then she had a snug nap."}]
+292 pilot-292
+[{"role": "user", "content": "I had six buns and gave one to each of four friends so how many buns do I still have?"}]
+[{"role": "assistant", "content": "Six take away four is two. You have two buns left."}]
+293 pilot-293
+[{"role": "user", "content": "These cleaning rags are all mixed together and some are damp but some are dry so how can I sort them?"}]
+[{"role": "assistant", "content": "Put the damp rags in one box. Put the rags that are not wet in a new box."}]
+294 pilot-294
+[{"role": "user", "content": "My friend says she does not want to play any more but I still want to keep playing with her."}]
+[{"role": "assistant", "content": "Let her stop. You can play with a new thing. We can make up a song too."}]
+295 pilot-295
+[{"role": "user", "content": "Can we pretend this big box is a bus and all my toy animals want to go for a ride?"}]
+[{"role": "assistant", "content": "Yes! Put them in the box. The bus can go to a shop. What will they get there?"}]
+296 pilot-296
+[{"role": "user", "content": "In the story they put all their clothes into a big trunk before the trip but what is a trunk?"}]
+[{"role": "assistant", "content": "A trunk is like a big box. You can put things in it for a trip."}]
+297 pilot-297
+[{"role": "user", "content": "Meg wants the pink flag. Ben wants the black flag."}, {"role": "assistant", "content": "Pink for Meg. Black for Ben."}, {"role": "user", "content": "He has already got his one but she is still waiting for hers, so which one should I give her?"}]
+[{"role": "assistant", "content": "Give Meg the pink flag. Ben has the black one."}]
+298 pilot-298
+[{"role": "user", "content": "In our story a duck hides a shell in a tent. A pig comes to find the shell."}, {"role": "assistant", "content": "The pig is by the tent."}, {"role": "user", "content": "Please have him find the thing that she hid and then let them both make something with it together. "}]
+[{"role": "assistant", "content": "The pig went into the tent. He saw the shell. The duck put sand in it. The pig put a flag in the sand. They had a little sand pit!"}]
+299 pilot-299
+[{"role": "user", "content": "I will put the blocks away, ring the bell, and take a nap."}, {"role": "assistant", "content": "Blocks away, then the bell, then a nap."}, {"role": "user", "content": "I have done the first thing on the plan we made, so what are the two things I should do next?"}]
+[{"role": "assistant", "content": "Ring the bell. Then take a nap."}]
+300 pilot-300
+[{"role": "user", "content": "Meg has a red drum and Ben has a blue drum."}, {"role": "assistant", "content": "Meg has red. Ben has blue."}, {"role": "user", "content": "Actually, they just swapped with each other after I told you that, so can you tell me which one she has now?"}]
+[{"role": "assistant", "content": "Meg has the blue drum now. Ben has the red drum."}]

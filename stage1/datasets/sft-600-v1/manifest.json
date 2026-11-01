@@ -1,0 +1,69 @@
+{
+  "version": "sft-600-v1",
+  "count": 600,
+  "source_dataset": "datasets/sft-300-v2",
+  "source_sft_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+  "source_review_sha256": "4bea6c4aaf5ecde8218d6a998c4d7435ee217faa75dddd63b719cc79815e445b",
+  "original_row_count": 300,
+  "new_row_count": 300,
+  "changed_ids": [
+    "pilot-032",
+    "pilot-045",
+    "pilot-065"
+  ],
+  "unchanged_original_row_count": 297,
+  "change_log": "changes.jsonl",
+  "change_log_sha256": "53c7c9faeb473311f98d05a0dfaed65a14edf963fc8c0aea64f9bc44f3122200",
+  "frozen_data": true,
+  "frozen_at_utc": "2026-10-31T09:32:13.525747+00:00",
+  "audit_status": "independently_reviewed_pending_human",
+  "review_status": "independently_reviewed_pending_human",
+  "human_approved": false,
+  "tokenization_verified": false,
+  "training_executed": false,
+  "audit_report": "audit.json",
+  "audit_summary": "audit.md",
+  "audit": {
+    "auditor": {
+      "agent_id": "/root/reviewer",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high"
+    },
+    "examples_reviewed": 600,
+    "pass": 600,
+    "open_findings": 0,
+    "sft_sha256": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+    "review_sha256": "07a4aced136602c4c88555e93bff7a9194ba9e2bb94bea4e46059efa17e6ca81",
+    "report_sha256": "a7c9c33d39043711ad409fc454bf9177bdd169c40eedbc9211fb45366fa73a43"
+  },
+  "new_category_counts": {
+    "meaning_preserving_explanation": 50,
+    "exact_forms_lexical_boundaries": 50,
+    "corrections_refusals_topic_changes": 50,
+    "honest_identity_personal_experience": 50,
+    "emotional_support_safe_relevant_help": 50,
+    "long_history_tracking_recovery": 50
+  },
+  "new_history_rows": 150,
+  "new_3_to_5_prior_assistant_turns": 150,
+  "new_intentional_semantic_flawed_rows": 64,
+  "new_rows_with_any_annotated_history_flaw": 143,
+  "supervision": "final_completion_only",
+  "spec_sha256": "065b3ab985cba131c8fe1cedfcb702e73e7ed5c04c87374a19d0261e86e646bf",
+  "expanded_prompt_sha256": "129a21f9b37e953c4b1d27d6ea015fc9775c32cabf6b7d8ef9bfde212d9ade6c",
+  "artifacts": {
+    "README.md": "9f4f531e4c5a285d4a22aa26c8ed9cca8f06a4d545097e17502aaebfc0c0a50f",
+    "audit-history.jsonl": "bf43991aed67b9c82fc4bd4199ff0cff01b2219c2201b5803ccb0ba84b287435",
+    "audit-rows.jsonl": "4f84c73c88af489eddb3e1c292f8d9e0dd55aa138d48b22c6425852d822b35cf",
+    "audit.json": "a7c9c33d39043711ad409fc454bf9177bdd169c40eedbc9211fb45366fa73a43",
+    "audit.md": "db733793d41c56429de0759e440d9fd801e1f726bfa269ea67728b9557d78203",
+    "changes.jsonl": "53c7c9faeb473311f98d05a0dfaed65a14edf963fc8c0aea64f9bc44f3122200",
+    "history-flaws.jsonl": "9d12b3f10fecdb07e971aa5df91313ab1d8d36ed6f6bde5518761d33e4dbdc40",
+    "history-lexicon.json": "73f74483bfb87e9f3849a229c21da7e83e3cedb7f3336b2b60bf74fac5d0bbfb",
+    "original-changes-independent-approval.jsonl": "b33588b0a0df79001b65ca8639cf8cc5c035818fb804cecd47d2316a8a82830c",
+    "provenance.json": "34c43af2eb6d88be675b3a024238436ee5852a0adcd36cad7ae8dd63367b1063",
+    "review.jsonl": "07a4aced136602c4c88555e93bff7a9194ba9e2bb94bea4e46059efa17e6ca81",
+    "sft.jsonl": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+    "validation.json": "cd6ba6d645887adb5b8ec5869914c7993d3c4190e41f726e70e0c31b5e8d99e1"
+  }
+}

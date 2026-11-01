@@ -1,0 +1,33 @@
+{
+  "checkpoint_step": 150,
+  "old_log_sha256": "6b4e69636400aa23573ddb293e1e5464f741b12d133b5a30457ed4453e6c9358",
+  "resumed_log_sha256": "ac223f418bf831d7c38774800f50e40244c4b8872fddf92260004ae903226de3",
+  "pre_checkpoint_metric_prefix_equal": true,
+  "replayed_updates": [
+    {
+      "step": 151,
+      "old_loss": 0.5992,
+      "resumed_loss": 0.5992,
+      "learning_rate_equal": true
+    },
+    {
+      "step": 152,
+      "old_loss": 0.975,
+      "resumed_loss": 0.9747,
+      "learning_rate_equal": true
+    },
+    {
+      "step": 153,
+      "old_loss": 0.6007,
+      "resumed_loss": 0.6006,
+      "learning_rate_equal": true
+    },
+    {
+      "step": 154,
+      "old_loss": 0.8579,
+      "resumed_loss": 0.8588,
+      "learning_rate_equal": true
+    }
+  ],
+  "interpretation": "FP16 continuation metrics are not bitwise identical; do not claim an uninterrupted deterministic trajectory. Checkpoint byte/state validation is a separate gate."
+}

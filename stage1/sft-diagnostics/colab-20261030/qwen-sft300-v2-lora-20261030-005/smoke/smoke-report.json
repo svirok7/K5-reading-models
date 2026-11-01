@@ -1,0 +1,191 @@
+{
+  "passed": false,
+  "mode": "lora",
+  "identity": {
+    "model": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "mode": "lora",
+    "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+    "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+    "config": {
+      "mode": "lora",
+      "seed": 42,
+      "max_length": 2048,
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "learning_rate": 0.0001,
+      "epochs": 1.0,
+      "microbatch": 1,
+      "gradient_accumulation": 8,
+      "fp16_initial_scale": 1024.0
+    },
+    "helper_sha256": "558131872cdb10337cbc1dfdb2909e19432a6927cab4481ca48917c0dbe2bef8",
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "enable_thinking": false,
+    "packing": false,
+    "train_examples": 300,
+    "internal_validation_examples": 0,
+    "context": {
+      "precision_scale_evidence": {
+        "path": "/content/drive/MyDrive/Reading-Model/sft/qwen-sft300-v2-lora-scale-diagnostic-004/fp16-scale-replay.json",
+        "sha256": "42d7718fba78104d36435d1b2cda89a3a2bb1fb3e3b0331fbf7404ae87ab400d",
+        "chosen_initial_scale": 1024,
+        "dropout_scope": "Identical between scale trials; exact failed Trainer dropout stream unverified"
+      },
+      "kit_sha256": "53516179b02f2b63a4040461bbcb0fdae38f6d3cec9b17dc3c5e92a564f719c0",
+      "baseline_reference": "evaluation-sft-v1/baseline-reference/manifest.json sha256:9215dc370204863e1ff58383d6e6083e709a883af54e74f80f9d7a54c82b89b6",
+      "mode_reason": "Ordinary LoRA is the preferred initial experiment.",
+      "lora_failure_evidence": null
+    }
+  },
+  "status": "insufficient_headroom",
+  "environment": {
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "tokenizers": "0.22.2",
+      "huggingface_hub": "0.36.2",
+      "safetensors": "0.8.0"
+    },
+    "mode": "lora",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "13.0",
+    "gpu_memory_bytes": 15637086208,
+    "initial_free_bytes": 11422990336,
+    "native_bf16_supported": false,
+    "compute_dtype": "float16"
+  },
+  "mask_report": {
+    "examples_checked": 300,
+    "all_actual_collator_masks_pass": true,
+    "supervised_tokens": 4683,
+    "max_sequence_tokens": 1825,
+    "model_or_gradients_tested": false
+  },
+  "representative_ids": [
+    "pilot-043",
+    "pilot-062",
+    "pilot-287",
+    "pilot-161",
+    "pilot-031",
+    "pilot-266",
+    "pilot-173",
+    "pilot-206",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005"
+  ],
+  "longest_sequence_tokens": 1825,
+  "parameter_checks": {
+    "trainable_parameters": 17432576,
+    "total_parameters": 1738007552,
+    "base_frozen": true,
+    "trainable_dtype": "float32"
+  },
+  "initial_adapter_fingerprint": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+  "precision": {
+    "configured_fp16_initial_scale": 1024.0,
+    "applied": true,
+    "checkpoint_restore_order": "Trainer restores checkpoint scaler after this initialization",
+    "initial_scaler_state_before_checkpoint_restore": {
+      "scale": 1024.0,
+      "growth_factor": 2.0,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 0
+    }
+  },
+  "optimizer_steps": 2,
+  "training_loss": 6.779061317443848,
+  "actual_batch_ids": [
+    "pilot-043",
+    "pilot-062",
+    "pilot-287",
+    "pilot-161",
+    "pilot-031",
+    "pilot-266",
+    "pilot-173",
+    "pilot-206",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005"
+  ],
+  "actual_batch_masks_verified": true,
+  "nonzero_finite_gradient_steps": 2,
+  "adapter_updated": true,
+  "base_frozen": true,
+  "smoke_adapter_fingerprint": "fa4d99c5c767f57df93a22c6a52ef00a2cc7f9c6f35f7a77161f84018e0693e3",
+  "training_memory": {
+    "total_bytes": 15637086208,
+    "peak_allocated_bytes": 7309106688,
+    "peak_reserved_bytes": 14738784256,
+    "minimum_sampled_driver_free_bytes": 748486656,
+    "initial_nonallocator_bytes": 149815296,
+    "free_memory_margin_fraction": 0.04786612071097178,
+    "required_margin_fraction": 0.15,
+    "headroom_passed": false,
+    "margin_scope": "Operational target: sampled driver free and peak reserved plus initial nonallocator use; external changes between samples may be missed"
+  },
+  "optimizer_update_checks": {
+    "gradient_steps_checked": 2,
+    "applied_optimizer_steps": 2,
+    "skipped_optimizer_steps": 0,
+    "starting_global_step": 0,
+    "training_start_scaler_state": {
+      "scale": 1024.0,
+      "growth_factor": 2.0,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 0
+    },
+    "scaler_state_after_last_update": {
+      "scale": 1024.0,
+      "growth_factor": 2.0,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 2
+    }
+  },
+  "save_reload_weights_equal": true,
+  "reload_loss": 8.059490203857422,
+  "inference_verified": true,
+  "generated_token_ids": [
+    20720,
+    768,
+    3363,
+    10655,
+    323,
+    42435,
+    13,
+    1084
+  ],
+  "generated_text": "Snug means comfortable and cozy. It",
+  "memory_including_reload": {
+    "total_bytes": 15637086208,
+    "peak_allocated_bytes": 7309106688,
+    "peak_reserved_bytes": 14738784256,
+    "minimum_sampled_driver_free_bytes": 748486656,
+    "initial_nonallocator_bytes": 149815296,
+    "free_memory_margin_fraction": 0.04786612071097178,
+    "required_margin_fraction": 0.15,
+    "headroom_passed": false,
+    "margin_scope": "Operational target: sampled driver free and peak reserved plus initial nonallocator use; external changes between samples may be missed"
+  },
+  "headroom_passed": false,
+  "failure_kind": "insufficient_headroom",
+  "smoke_weights_discarded_before_full_run": true
+}

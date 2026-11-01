@@ -1,0 +1,12 @@
+{
+  "checkpoint-38": {
+    "completed_epoch": 1,
+    "global_step": 38,
+    "resume_record_sha256": "9451c2e2d78a60083dd0369b00b4aec893651e05ce2ba0139ce797d9de8d4f93"
+  },
+  "checkpoint-76": {
+    "completed_epoch": 2,
+    "global_step": 76,
+    "resume_record_sha256": "78e13f8450adc97c1ca4fda3ab21ab1bf3c42d5da471bf3e11ffe84da1c41b49"
+  }
+}

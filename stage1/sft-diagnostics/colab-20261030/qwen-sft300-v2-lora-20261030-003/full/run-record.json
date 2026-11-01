@@ -1,0 +1,133 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "mode": "lora",
+  "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+  "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+  "config": {
+    "mode": "lora",
+    "seed": 42,
+    "max_length": 2048,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "learning_rate": 0.0001,
+    "epochs": 1.0,
+    "microbatch": 1,
+    "gradient_accumulation": 8
+  },
+  "helper_sha256": "31fd122e1f4b4a6f3a4169a3f0a0265ba89b23b704943919e2cf7adc02a7c96f",
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "enable_thinking": false,
+  "packing": false,
+  "train_examples": 300,
+  "internal_validation_examples": 0,
+  "context": {
+    "dependency_remediation": {
+      "reason": "PEFT construction rejected unused preinstalled torchao 0.10.0 before training",
+      "mode": "lora",
+      "optimizer_steps_before_failure": 0,
+      "torchao_before": "0.10.0",
+      "pip_stdout": "Found existing installation: torchao 0.10.0\nUninstalling torchao-0.10.0:\n  Successfully uninstalled torchao-0.10.0\n",
+      "memory_after_cleanup": {
+        "allocated": 0,
+        "reserved": 0,
+        "driver_free": 15510339584
+      }
+    },
+    "kit_sha256": "03e3bec63f2b5a347b8666fdeaced1fdde472e2cc113f74a58e8e69d5ca148d2",
+    "baseline_reference": "evaluation-sft-v1/baseline-reference/manifest.json sha256:9215dc370204863e1ff58383d6e6083e709a883af54e74f80f9d7a54c82b89b6",
+    "mode_reason": "Ordinary LoRA is the preferred initial experiment.",
+    "lora_failure_evidence": null
+  },
+  "identity": {
+    "model": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "mode": "lora",
+    "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+    "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+    "config": {
+      "mode": "lora",
+      "seed": 42,
+      "max_length": 2048,
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "learning_rate": 0.0001,
+      "epochs": 1.0,
+      "microbatch": 1,
+      "gradient_accumulation": 8
+    },
+    "helper_sha256": "31fd122e1f4b4a6f3a4169a3f0a0265ba89b23b704943919e2cf7adc02a7c96f",
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "enable_thinking": false,
+    "packing": false,
+    "train_examples": 300,
+    "internal_validation_examples": 0,
+    "context": {
+      "dependency_remediation": {
+        "reason": "PEFT construction rejected unused preinstalled torchao 0.10.0 before training",
+        "mode": "lora",
+        "optimizer_steps_before_failure": 0,
+        "torchao_before": "0.10.0",
+        "pip_stdout": "Found existing installation: torchao 0.10.0\nUninstalling torchao-0.10.0:\n  Successfully uninstalled torchao-0.10.0\n",
+        "memory_after_cleanup": {
+          "allocated": 0,
+          "reserved": 0,
+          "driver_free": 15510339584
+        }
+      },
+      "kit_sha256": "03e3bec63f2b5a347b8666fdeaced1fdde472e2cc113f74a58e8e69d5ca148d2",
+      "baseline_reference": "evaluation-sft-v1/baseline-reference/manifest.json sha256:9215dc370204863e1ff58383d6e6083e709a883af54e74f80f9d7a54c82b89b6",
+      "mode_reason": "Ordinary LoRA is the preferred initial experiment.",
+      "lora_failure_evidence": null
+    }
+  },
+  "environment": {
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "tokenizers": "0.22.2",
+      "huggingface_hub": "0.36.2",
+      "safetensors": "0.8.0"
+    },
+    "mode": "lora",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "13.0",
+    "gpu_memory_bytes": 15637086208,
+    "initial_free_bytes": 11999707136,
+    "native_bf16_supported": false,
+    "compute_dtype": "float16"
+  },
+  "audit_status": "independently_reviewed_pending_human",
+  "fresh_after_smoke": true,
+  "baseline_rerun": false,
+  "status": "failed",
+  "quality_improvement_verified": false,
+  "smoke_report_sha256": "2766aac4a031d54d09aee008720bca69049d1a8faf25b14380db92b8f38014d2",
+  "mask_report": {
+    "examples_checked": 300,
+    "all_actual_collator_masks_pass": true,
+    "supervised_tokens": 4683,
+    "max_sequence_tokens": 1825,
+    "model_or_gradients_tested": false
+  },
+  "error_type": "ValueError",
+  "error": "Missing/nonfinite adapter gradients",
+  "failure_kind": "runtime_error",
+  "automatic_fallback": false,
+  "failure_memory": {
+    "total_bytes": 15637086208,
+    "peak_allocated_bytes": 7076812800,
+    "peak_reserved_bytes": 11033116672,
+    "minimum_sampled_driver_free_bytes": 4454154240,
+    "initial_nonallocator_bytes": 149815296,
+    "free_memory_margin_fraction": 0.2848455384047979,
+    "required_margin_fraction": 0.15,
+    "headroom_passed": true,
+    "margin_scope": "Operational target: sampled driver free and peak reserved plus initial nonallocator use; external changes between samples may be missed"
+  }
+}

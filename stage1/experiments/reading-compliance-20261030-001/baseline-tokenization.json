@@ -1,0 +1,11 @@
+{
+  "examples_checked": 300,
+  "all_actual_collator_masks_pass": true,
+  "supervised_tokens": 4683,
+  "max_sequence_tokens": 1825,
+  "model_or_gradients_tested": false,
+  "dataset_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+  "tokenizer_source": "historical pinned adapter tokenizer files; local_files_only",
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "gpu_executed": false
+}

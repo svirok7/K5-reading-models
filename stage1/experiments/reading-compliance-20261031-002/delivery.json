@@ -1,0 +1,11 @@
+{
+  "status": "prepared_pending_execution",
+  "archive_sha256": "24be38ca94a924e635e6f06c7086cef1db1b41f0803e8d3ec411482d230424fb",
+  "notebook_sha256": "9dd7bcaf8f563b80a4464db28aaecb6e7c10a10bda2d1bcec4c820e419659c74",
+  "plan_sha256": "9277deeec7d2c6c628e3b2254fa6b499401f51bd789c57ec97b63c8ab4c9704a",
+  "dataset_manifest_sha256": "932e287304906a7e8dbf1f293011d0592a2a847e9450837081e0324f31024df3",
+  "expanded_data_approved": true,
+  "frozen_manifest_sha256": "de653bb59391303b437816c9a423ccee6bfa97afc9d96d7a6b105c5910be9331",
+  "kit_files": 36,
+  "kit_bytes": 331492
+}

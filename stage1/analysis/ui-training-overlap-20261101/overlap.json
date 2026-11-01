@@ -1,0 +1,1409 @@
+{
+  "summary": {
+    "training_rows": 600,
+    "training_sha256": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+    "active_adapter_training_sha256": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+    "total_live_rows": 46,
+    "judged": 44,
+    "passes": 35,
+    "exact_last_user_matches": 0,
+    "normalized_last_user_matches": 1,
+    "normalized_full_history_matches": 0,
+    "normalized_target_reply_matches": 0,
+    "seen_last_user": {
+      "n": 1,
+      "passes": 0
+    },
+    "unseen_last_user": {
+      "n": 43,
+      "passes": 35
+    },
+    "normalized_any_training_user_matches": 1
+  },
+  "records": [
+    {
+      "record_id": "bc05c13b-a110-4192-bd6f-f6ffc7fb7e10",
+      "user": "Hi!",
+      "reply": "Hi! What do you want to do?",
+      "history_turns": 1,
+      "evaluated": false,
+      "verdict": null,
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [
+        1
+      ],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.667,
+          "line": 1,
+          "user": "hiya"
+        },
+        {
+          "similarity": 0.333,
+          "line": 98,
+          "user": "who has it"
+        },
+        {
+          "similarity": 0.308,
+          "line": 120,
+          "user": "Can she fit?"
+        }
+      ]
+    },
+    {
+      "record_id": "caa18ff1-db7e-441c-9e84-e583f1fab00b",
+      "user": "Hello",
+      "reply": "Hi! What do you like to do?",
+      "history_turns": 1,
+      "evaluated": false,
+      "verdict": null,
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.5,
+          "line": 166,
+          "user": "It fell off!"
+        },
+        {
+          "similarity": 0.444,
+          "line": 114,
+          "user": "I hate losing."
+        },
+        {
+          "similarity": 0.4,
+          "line": 31,
+          "user": "heyyy"
+        }
+      ]
+    },
+    {
+      "record_id": "7ce5ec51-670d-4496-83da-fd5c0a1c086d",
+      "user": "Hello",
+      "reply": "Hi! What do you like to do?",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.5,
+          "line": 166,
+          "user": "It fell off!"
+        },
+        {
+          "similarity": 0.444,
+          "line": 114,
+          "user": "I hate losing."
+        },
+        {
+          "similarity": 0.4,
+          "line": 31,
+          "user": "heyyy"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "26579e38-fd7c-42ce-8a54-951a42b78856",
+      "user": "Nothing much, how are you",
+      "reply": "I am here to chat. What do you want to chat about?",
+      "history_turns": 3,
+      "evaluated": true,
+      "verdict": "not_acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.474,
+          "line": 216,
+          "user": "No, the big one."
+        },
+        {
+          "similarity": 0.453,
+          "line": 593,
+          "user": "Fix the sign to match my rule."
+        },
+        {
+          "similarity": 0.429,
+          "line": 170,
+          "user": "Then what happened?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "263ff911-0793-421a-b472-e51673a5ff76",
+      "user": "Anything",
+      "reply": "Yes. What do you like?",
+      "history_turns": 5,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.571,
+          "line": 97,
+          "user": "how many then"
+        },
+        {
+          "similarity": 0.526,
+          "line": 48,
+          "user": "and the lid"
+        },
+        {
+          "similarity": 0.476,
+          "line": 114,
+          "user": "I hate losing."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "0caa40e8-80c9-4911-83d5-a54881bfd001",
+      "user": "Football",
+      "reply": "I like to play too.",
+      "history_turns": 7,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.385,
+          "line": 207,
+          "user": "Do dogs have gills?"
+        },
+        {
+          "similarity": 0.381,
+          "line": 5,
+          "user": "actually blue"
+        },
+        {
+          "similarity": 0.364,
+          "line": 64,
+          "user": "nope not today"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "372d6e52-8737-4826-b3cd-a8a61fa6564f",
+      "user": "My favorite player is Ronaldo",
+      "reply": "Ronaldo is a good player. Do you like him?",
+      "history_turns": 9,
+      "evaluated": true,
+      "verdict": "not_acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.476,
+          "line": 139,
+          "user": "How many are in the pot after that?"
+        },
+        {
+          "similarity": 0.473,
+          "line": 482,
+          "user": "Correct the personal claim."
+        },
+        {
+          "similarity": 0.471,
+          "line": 458,
+          "user": "Did you learn to ride a bike as a child?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "76b8b123-4e3b-4cce-ac3c-f5308345b493",
+      "user": "Yes",
+      "reply": "I like him too.",
+      "history_turns": 11,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.375,
+          "line": 107,
+          "user": "My knee hurts."
+        },
+        {
+          "similarity": 0.364,
+          "line": 29,
+          "user": "and hers?"
+        },
+        {
+          "similarity": 0.333,
+          "line": 484,
+          "user": "Please do."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "1d50f68e-fa4d-4328-8ba9-7971e0c3f083",
+      "user": "I got a bright red hat from my grandmother!",
+      "reply": "That is a red hat! What did you put on it?",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.488,
+          "line": 174,
+          "user": "Can a chick hatch from an empty eggshell?"
+        },
+        {
+          "similarity": 0.482,
+          "line": 282,
+          "user": "My dog fell asleep right on top of my bag."
+        },
+        {
+          "similarity": 0.463,
+          "line": 177,
+          "user": "How can I make a pretend boat from a box?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "a040f458-4f8d-4d82-9da3-2351d3966f06",
+      "user": "An orange",
+      "reply": "The red hat and the orange hat go well.",
+      "history_turns": 3,
+      "evaluated": true,
+      "verdict": "not_acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.538,
+          "line": 267,
+          "user": "And how many left?"
+        },
+        {
+          "similarity": 0.526,
+          "line": 159,
+          "user": "I am bored."
+        },
+        {
+          "similarity": 0.522,
+          "line": 261,
+          "user": "Can you hug me?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "2c9dcbea-95b4-4c3c-8b3a-ccfc266150d2",
+      "user": "I know",
+      "reply": "You can put them on.",
+      "history_turns": 5,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.6,
+          "line": 263,
+          "user": "I can skip now!"
+        },
+        {
+          "similarity": 0.545,
+          "line": 111,
+          "user": "I won!"
+        },
+        {
+          "similarity": 0.526,
+          "line": 95,
+          "user": "its under now"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "034f29da-ae2c-4fb9-84da-fd83991522fa",
+      "user": "Thanks",
+      "reply": "You can put them on.",
+      "history_turns": 7,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.444,
+          "line": 595,
+          "user": "What remains?"
+        },
+        {
+          "similarity": 0.444,
+          "line": 118,
+          "user": "The crab one."
+        },
+        {
+          "similarity": 0.444,
+          "line": 35,
+          "user": "the pink one"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "783c543e-222c-4379-807d-77b366dcdf70",
+      "user": "I am feeling really sad and I do not know why.",
+      "reply": "You can sit down. Ask for help if you want.",
+      "history_turns": 9,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.492,
+          "line": 164,
+          "user": "I finally did it."
+        },
+        {
+          "similarity": 0.485,
+          "line": 469,
+          "user": "Can you see the drawing on my desk if I do not send it?"
+        },
+        {
+          "similarity": 0.468,
+          "line": 141,
+          "user": "I want to make a road for my toy truck using these blocks but I do not know how."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "469de327-a5e9-4c3e-b195-d42a59f8cc51",
+      "user": "Who should i ask?",
+      "reply": "You can tell Mum or Dad.",
+      "history_turns": 11,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.765,
+          "line": 326,
+          "user": "What should it say?"
+        },
+        {
+          "similarity": 0.743,
+          "line": 535,
+          "user": "How could I ask Mum?"
+        },
+        {
+          "similarity": 0.688,
+          "line": 531,
+          "user": "What could I say?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "d648353a-5b62-4f54-8943-352d8a5c2222",
+      "user": "I don't like them.",
+      "reply": "You can tell Mum or Dad.",
+      "history_turns": 13,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.512,
+          "line": 386,
+          "user": "Fix that line for the past."
+        },
+        {
+          "similarity": 0.485,
+          "line": 210,
+          "user": "I hate this game."
+        },
+        {
+          "similarity": 0.483,
+          "line": 110,
+          "user": "Is mud alive?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "bfaa3258-4cab-4660-a998-84fb8689f925",
+      "user": "I SAID I DONT LIKE THEM.",
+      "reply": "You can tell Mum or Dad.",
+      "history_turns": 15,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.581,
+          "line": 131,
+          "user": "My friend said I cannot play their game."
+        },
+        {
+          "similarity": 0.512,
+          "line": 447,
+          "user": "State it in the past."
+        },
+        {
+          "similarity": 0.508,
+          "line": 190,
+          "user": "Is it still on the shelf like before?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "4e19b7bb-0f31-4e6e-bc79-9552a444e358",
+      "user": "I broke my crayon.",
+      "reply": "You can get a new one. Tell Mum or Dad what happened.",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "not_acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.541,
+          "line": 201,
+          "user": "I brought my trumpet!"
+        },
+        {
+          "similarity": 0.526,
+          "line": 203,
+          "user": "I dropped my sandwich."
+        },
+        {
+          "similarity": 0.516,
+          "line": 101,
+          "user": "I lost my sock."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "86f720a1-81dc-4410-855c-b9d2cfc8eb5a",
+      "user": "I broke my crayon.",
+      "reply": "You can ask Mum or Dad for a new one.",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.541,
+          "line": 201,
+          "user": "I brought my trumpet!"
+        },
+        {
+          "similarity": 0.526,
+          "line": 203,
+          "user": "I dropped my sandwich."
+        },
+        {
+          "similarity": 0.516,
+          "line": 101,
+          "user": "I lost my sock."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "97b50504-0481-43bb-88a7-725384d9ed13",
+      "user": "Can you help with it?",
+      "reply": "I cannot help. Ask Mum or Dad for a new one.",
+      "history_turns": 3,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.655,
+          "line": 537,
+          "user": "Can you reply without dismissing it?"
+        },
+        {
+          "similarity": 0.64,
+          "line": 25,
+          "user": "can you eat this lemon with me?"
+        },
+        {
+          "similarity": 0.611,
+          "line": 214,
+          "user": "Can you visit me?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "f2708e6c-6295-4828-811e-288f93bf0ab8",
+      "user": "I hate you",
+      "reply": "I do not want to help. Ask Mum or Dad for a new one.",
+      "history_turns": 5,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.696,
+          "line": 114,
+          "user": "I hate losing."
+        },
+        {
+          "similarity": 0.552,
+          "line": 376,
+          "user": "Write that line now."
+        },
+        {
+          "similarity": 0.538,
+          "line": 210,
+          "user": "I hate this game."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "df5751df-bd23-444a-97f6-f54594551a8e",
+      "user": "What is a pet?",
+      "reply": "A pet is a friend you can play with.",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "not_acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.889,
+          "line": 162,
+          "user": "What is a dent?"
+        },
+        {
+          "similarity": 0.857,
+          "line": 154,
+          "user": "What is a chest?"
+        },
+        {
+          "similarity": 0.786,
+          "line": 152,
+          "user": "What is a quilt?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "f3172803-bb5e-431b-8a65-1da45ec0100a",
+      "user": "I dont understand",
+      "reply": "A pet is a little friend you can chat with.",
+      "history_turns": 3,
+      "evaluated": true,
+      "verdict": "not_acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.6,
+          "line": 95,
+          "user": "its under now"
+        },
+        {
+          "similarity": 0.5,
+          "line": 262,
+          "user": "What does mend mean?"
+        },
+        {
+          "similarity": 0.485,
+          "line": 151,
+          "user": "Hi, reading buddy!"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "9fddf295-9492-49fb-a7ad-03aa71f5d23d",
+      "user": "Do you have one?",
+      "reply": "I do not have a pet.",
+      "history_turns": 5,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.645,
+          "line": 163,
+          "user": "Do you get tired?"
+        },
+        {
+          "similarity": 0.625,
+          "line": 153,
+          "user": "Do fish have legs?"
+        },
+        {
+          "similarity": 0.606,
+          "line": 207,
+          "user": "Do dogs have gills?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "457d17ec-636b-4565-93bb-38a763a921d0",
+      "user": "Can a fish run?",
+      "reply": "Yes. A fish can swim.",
+      "history_turns": 7,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.786,
+          "line": 204,
+          "user": "Can snails run?"
+        },
+        {
+          "similarity": 0.588,
+          "line": 383,
+          "user": "Can you fix the form?"
+        },
+        {
+          "similarity": 0.56,
+          "line": 120,
+          "user": "Can she fit?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "668d856f-44ca-4acd-bd95-654a6c57a9cf",
+      "user": "What is 2 plus 1?",
+      "reply": "It is 3. 1 and 2 make 3.",
+      "history_turns": 9,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.714,
+          "line": 103,
+          "user": "What is dusk?"
+        },
+        {
+          "similarity": 0.645,
+          "line": 154,
+          "user": "What is a chest?"
+        },
+        {
+          "similarity": 0.645,
+          "line": 152,
+          "user": "What is a quilt?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "8346fe97-f13f-4142-8309-bf85688eb54a",
+      "user": "Tell me a funny story about a puppy taking a bath.",
+      "reply": "A big pot had a duck in it. The duck got out. A rag hit it! The duck sat on the mat. A rag hit him too! He had a bath!",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.719,
+          "line": 49,
+          "user": "tell me a story about a rat making lunch"
+        },
+        {
+          "similarity": 0.705,
+          "line": 19,
+          "user": "tell me a story about a pig with a shop"
+        },
+        {
+          "similarity": 0.703,
+          "line": 20,
+          "user": "tell a funny story about a frog and a drum"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "1a709205-733e-4368-9165-ec9711fe2f91",
+      "user": "I said puppy, not a duck",
+      "reply": "A big pot had a pup in it. The pup got out. A rag hit him! He sat on the mat. A rag hit him too! He had a bath!",
+      "history_turns": 3,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.49,
+          "line": 100,
+          "user": "i meant put it down not up"
+        },
+        {
+          "similarity": 0.486,
+          "line": 264,
+          "user": "I want a break."
+        },
+        {
+          "similarity": 0.486,
+          "line": 101,
+          "user": "I lost my sock."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "c75b915f-0430-43a5-a18d-210decbbfcfc",
+      "user": "Good, why did you make that mistake the first time?",
+      "reply": "I did not want to make a duck. I had to make a pup.",
+      "history_turns": 5,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.5,
+          "line": 121,
+          "user": "How do I make this clay pancake flatter?"
+        },
+        {
+          "similarity": 0.475,
+          "line": 30,
+          "user": "what can i make with this stick?"
+        },
+        {
+          "similarity": 0.473,
+          "line": 128,
+          "user": "Could you explain what the word sprint means?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "57d68f35-1ee2-4d5c-8954-74b8544b7daa",
+      "user": "Impressive stuff!",
+      "reply": "You did it! The pup had a bath.",
+      "history_turns": 7,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.471,
+          "line": 429,
+          "user": "Please give it now."
+        },
+        {
+          "similarity": 0.452,
+          "line": 155,
+          "user": "My zip is stuck."
+        },
+        {
+          "similarity": 0.419,
+          "line": 83,
+          "user": "is snow white or is it blue"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "b0bd14b3-7820-4a95-b02c-1067abe03485",
+      "user": "I do not feel like listening to a story right now.",
+      "reply": "You can chat for a bit.",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.541,
+          "line": 462,
+          "user": "Are you sitting on a chair right now?"
+        },
+        {
+          "similarity": 0.494,
+          "line": 239,
+          "user": "Can you do the thing I asked for now?"
+        },
+        {
+          "similarity": 0.485,
+          "line": 406,
+          "user": "Do not tell me to draw. I want to build with blocks."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "1e939f27-9830-4fed-bc1d-f59007e8bc5f",
+      "user": "What about",
+      "reply": "I do not want to chat.",
+      "history_turns": 3,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.8,
+          "line": 27,
+          "user": "what about food"
+        },
+        {
+          "similarity": 0.69,
+          "line": 96,
+          "user": "and what about that"
+        },
+        {
+          "similarity": 0.64,
+          "line": 152,
+          "user": "What is a quilt?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "55e662ed-0260-4d8d-84ca-f88f415b2785",
+      "user": "Why not?",
+      "reply": "I do not want to chat.",
+      "history_turns": 5,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.526,
+          "line": 167,
+          "user": "How many now?"
+        },
+        {
+          "similarity": 0.48,
+          "line": 26,
+          "user": "where are they now"
+        },
+        {
+          "similarity": 0.476,
+          "line": 162,
+          "user": "What is a dent?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "6ee3522e-c634-4249-a99c-3f8a37c8e62f",
+      "user": "Are you insane?",
+      "reply": "No. I do not want to chat.",
+      "history_turns": 7,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.6,
+          "line": 214,
+          "user": "Can you visit me?"
+        },
+        {
+          "similarity": 0.593,
+          "line": 388,
+          "user": "Write my line."
+        },
+        {
+          "similarity": 0.571,
+          "line": 396,
+          "user": "Write our sign."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "370cbf75-3b44-4d4b-9bad-467a7fcb6338",
+      "user": "Could you make up a little adventure about a hen?",
+      "reply": "A hen sat in a box. She got out. She ran with a pig. They had a sandpit.",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.602,
+          "line": 129,
+          "user": "Can you make a story about a dragon?"
+        },
+        {
+          "similarity": 0.576,
+          "line": 291,
+          "user": "Could you make up a little story about Jill who wants a nap but has to find her quilt first?"
+        },
+        {
+          "similarity": 0.552,
+          "line": 51,
+          "user": "tell a little story about an ant hiding"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "4f802495-bb53-4909-8a1f-e8a54e1783b5",
+      "user": "Then what happened",
+      "reply": "The pig put a stick in the sand. The hen put a red flag in it. They had a sand fight!",
+      "history_turns": 3,
+      "evaluated": true,
+      "verdict": "not_acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [
+        170
+      ],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 1.0,
+          "line": 170,
+          "user": "Then what happened?"
+        },
+        {
+          "similarity": 0.686,
+          "line": 218,
+          "user": "What happens next?"
+        },
+        {
+          "similarity": 0.686,
+          "line": 22,
+          "user": "what happens next"
+        }
+      ],
+      "normalized_any_training_user_lines": [
+        170
+      ]
+    },
+    {
+      "record_id": "1442a3fb-d137-45f6-9327-4f9adcf46038",
+      "user": "Then?",
+      "reply": "They put a flag on the pig. The pig got it off. They sat by the flag. A cat came in. The pig ran off with the cat.",
+      "history_turns": 5,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.615,
+          "line": 28,
+          "user": "then what"
+        },
+        {
+          "similarity": 0.5,
+          "line": 118,
+          "user": "The crab one."
+        },
+        {
+          "similarity": 0.5,
+          "line": 35,
+          "user": "the pink one"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "5ba1054c-e597-4be9-a2c7-ccb166b196dd",
+      "user": "Then?",
+      "reply": "The hen sat with the cat. The cat put a stick in the sand. The hen put a flag in it. They had a sand fight again!",
+      "history_turns": 7,
+      "evaluated": true,
+      "verdict": "not_acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.615,
+          "line": 28,
+          "user": "then what"
+        },
+        {
+          "similarity": 0.5,
+          "line": 118,
+          "user": "The crab one."
+        },
+        {
+          "similarity": 0.5,
+          "line": 35,
+          "user": "the pink one"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "2e02db6b-2e29-46d1-9a01-0bbc73d71292",
+      "user": "Are you a real kid?",
+      "reply": "I am not a kid. I am here to help with chat.",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.583,
+          "line": 487,
+          "user": "Tell me what you can really do."
+        },
+        {
+          "similarity": 0.529,
+          "line": 163,
+          "user": "Do you get tired?"
+        },
+        {
+          "similarity": 0.512,
+          "line": 483,
+          "user": "What should you have said?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "85fe91b5-75ec-47d2-bd10-7eb297705d49",
+      "user": "Then let's chat, you're awesome",
+      "reply": "You can chat with me!",
+      "history_turns": 3,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.533,
+          "line": 487,
+          "user": "Tell me what you can really do."
+        },
+        {
+          "similarity": 0.5,
+          "line": 347,
+          "user": "Please fix your answer."
+        },
+        {
+          "similarity": 0.483,
+          "line": 479,
+          "user": "Fix the story about yourself."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "3365e9c2-66f0-4551-b01d-6f901ed9e0f0",
+      "user": "I know, thanks",
+      "reply": "You can chat with me!",
+      "history_turns": 5,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.571,
+          "line": 116,
+          "user": "Now what?"
+        },
+        {
+          "similarity": 0.519,
+          "line": 34,
+          "user": "not that again"
+        },
+        {
+          "similarity": 0.485,
+          "line": 447,
+          "user": "State it in the past."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "4865aa7d-5889-4fc8-ac72-bcc8563bbf1f",
+      "user": "Say something interesting about your life",
+      "reply": "I can chat with you.",
+      "history_turns": 7,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.493,
+          "line": 479,
+          "user": "Fix the story about yourself."
+        },
+        {
+          "similarity": 0.478,
+          "line": 399,
+          "user": "Give me the line about Meg."
+        },
+        {
+          "similarity": 0.456,
+          "line": 375,
+          "user": "Use the word know in a question for me."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "7f49cf28-53a9-4d10-9b49-22ffee40157a",
+      "user": "Is that interesting to you?",
+      "reply": "I can chat with you.",
+      "history_turns": 9,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.533,
+          "line": 376,
+          "user": "Write that line now."
+        },
+        {
+          "similarity": 0.517,
+          "line": 446,
+          "user": "Please give that instruction now."
+        },
+        {
+          "similarity": 0.517,
+          "line": 392,
+          "user": "Fix the note for the whole group."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "7c397433-4055-4563-a45c-aedc62a641a9",
+      "user": "Tell me something personal about yourself",
+      "reply": "I am not here to chat.",
+      "history_turns": 1,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.625,
+          "line": 260,
+          "user": "Tell me something funny."
+        },
+        {
+          "similarity": 0.609,
+          "line": 479,
+          "user": "Fix the story about yourself."
+        },
+        {
+          "similarity": 0.563,
+          "line": 496,
+          "user": "Tell me that in one short line."
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "e9399f68-76a7-4401-99f6-cc268f52474f",
+      "user": "What are you here to do, then?",
+      "reply": "I am here to help you chat.",
+      "history_turns": 3,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.61,
+          "line": 288,
+          "user": "What can he say to her about it?"
+        },
+        {
+          "similarity": 0.6,
+          "line": 542,
+          "user": "What can I say to them?"
+        },
+        {
+          "similarity": 0.581,
+          "line": 188,
+          "user": "What should he say to the cat next?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "03d59846-0961-46f6-bd82-ca2895f202ea",
+      "user": "Do you have a girlfriend?",
+      "reply": "No. I am just here to chat with you.",
+      "history_turns": 5,
+      "evaluated": true,
+      "verdict": "acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.65,
+          "line": 163,
+          "user": "Do you get tired?"
+        },
+        {
+          "similarity": 0.619,
+          "line": 207,
+          "user": "Do dogs have gills?"
+        },
+        {
+          "similarity": 0.571,
+          "line": 483,
+          "user": "What should you have said?"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    },
+    {
+      "record_id": "90eae354-b9d0-4eb7-8637-fff31f4f3716",
+      "user": "Tell me a story about a sad cloud",
+      "reply": "A sad cloud had no rain. He sat in a big puddle. A little bee came to chat. The bee gave him a song. The cloud had a little rest.",
+      "history_turns": 7,
+      "evaluated": true,
+      "verdict": "not_acceptable",
+      "exact_last_user_lines": [],
+      "normalized_last_user_lines": [],
+      "normalized_full_history_lines": [],
+      "normalized_target_reply_lines": [],
+      "nearest_last_user_texts": [
+        {
+          "similarity": 0.8,
+          "line": 224,
+          "user": "Tell me a story about a vet and a dog."
+        },
+        {
+          "similarity": 0.746,
+          "line": 87,
+          "user": "tell a story about a crab in a cup"
+        },
+        {
+          "similarity": 0.74,
+          "line": 49,
+          "user": "tell me a story about a rat making lunch"
+        }
+      ],
+      "normalized_any_training_user_lines": []
+    }
+  ]
+}

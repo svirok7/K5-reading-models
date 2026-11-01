@@ -1,0 +1,46 @@
+{
+  "dataset_version": "synthetic-batch-002-v1.1",
+  "ids": [
+    "pilot-031",
+    "pilot-060"
+  ],
+  "count": 30,
+  "input_length_counts": {
+    "short": 12,
+    "medium": 12,
+    "long": 6
+  },
+  "category_counts": {
+    "everyday_social": 6,
+    "complex_speech": 6,
+    "questions_explanations": 6,
+    "short_stories": 4,
+    "emotions_boundaries_identity": 3,
+    "context_changes_corrections": 5
+  },
+  "context_dependent_count": 10,
+  "reading_profile_version": "1.5",
+  "training_format": "TRL conversational prompt/completion; completion_only_loss=True; Qwen3 native template enable_thinking=False; verify masks before training.",
+  "review_status": "model_reviewed_pending_human",
+  "provenance": "Authored and second-pass self-reviewed by current assistant, no generation API batch, no held-out data opened.",
+  "source_hashes": {
+    "READER_PROFILE.txt": "065b3ab985cba131c8fe1cedfcb702e73e7ed5c04c87374a19d0261e86e646bf",
+    "data/dolch-through-grade1.json": "241bcf6dda3614c9a4bf90444d6ac72e94f283a7e127639c8d616c5c1d058863",
+    "RUBRIC.md": "b0cf35738170abc15b033855e8e387d4c6e56199f8dd103909fcfe6f0d35b1d4",
+    "prompts/B.txt": "9e50178ae9db06e585a2f13c6f57f1628d9f35401735377510deeba0d7eb33ed",
+    "PROTOCOL.md": "6d0628497aaec15132fa1731b178835f1e5327b9fc49a1e097124da9bc87b861",
+    "engine.py": "e17bfad6e043a79774ec56e1cdad062fb756edba058114c921f770af0e611b17"
+  },
+  "artifact_hashes": {
+    "sft.jsonl": "35738228ab2a4111a12c7f20e7c2e269eaab6e0c8cbcbb55b388558f9dc40687",
+    "review.jsonl": "372bda05286c4b1c5eb9020aad2ac7245669e1b7010e56cb7af29ce78da58761",
+    "review.md": "fd513610baa01990bd1ff0dffe2555f0242da0f727eb362e3d262b3c4ecb7482",
+    "system.txt": "448f111aa33a5fbf04a211dd7f8e409089dd593a195bbf76958d65dd057a0745",
+    "word-evidence.json": "fb1d9443be71fb31bb8de4f39a25f29d6c5aa619ce81ae67db6476ac60edf04a",
+    "audit.md": "6cb66035da39e5813cd1aa137284098e64daa08ed43b91528f3cfd8751e4b7f5",
+    "build_batch.py": "63188d6357be9dc95e057c3015b58f61bc8848f91b123c992d6391131fd22a0b"
+  },
+  "training_executed": false,
+  "tokenization_verified": false,
+  "audit": "audit.md; all 30 targets and 40 historical assistant replies model-reviewed; exact membership and SFT alignment checked."
+}

@@ -1,0 +1,16 @@
+{
+  "completed": true,
+  "updates": 225,
+  "epoch_rows": [
+    600,
+    600,
+    600
+  ],
+  "resume_start": 150,
+  "resumed_applied_updates": 75,
+  "resumed_skipped_updates": 0,
+  "epoch_reloads_verified": 3,
+  "operational_headroom": 0.43679668738448385,
+  "logs_match_ledger": true,
+  "large_artifacts": "verified_in_runtime_and_retained_in_Drive; not_downloaded_locally"
+}

@@ -17,7 +17,7 @@ Open http://127.0.0.1:8765. The UI and OpenAI backend use Python's standard libr
 
 - **Conversation:** choose Qwen, Sarvam, OpenAI, or Claude and prompt A/B. Switching models or prompts starts a new conversation, so one model's answers do not silently contaminate another's context.
 - **OpenAI:** enter an accessible API model ID and key in the connection card. The key is kept in server memory only, not browser storage or project files. It can also come from the OPENAI_API_KEY environment variable. Never paste a key into chat, commit it, or put it in the notebook source. Requests are billable to your API account. No key validation request is made when saving settings.
-- **Qwen:** Qwen3-1.7B uses its native chat template with a system message and thinking disabled. Sampling uses temperature 0.7, top-p 0.8, top-k 20; settings are recorded with latency and scores. It runs locally without an API key and requires the model dependencies below. First use downloads weights. Qwen SFT/DPO/RLHF entries stay disabled until real adapters are configured.
+- **Qwen:** Qwen3-1.7B uses its native chat template with a system message and thinking disabled. Sampling uses temperature 0.7, top-p 0.8, top-k 20, with a 128-token reply limit. Settings are recorded with latency and scores, separately from earlier thinking runs. It runs locally without an API key and requires the model dependencies below. First use downloads weights. Qwen SFT/DPO/RLHF entries stay disabled until real adapters are configured.
 - **Sarvam:** live chat uses this machine's compute. First use downloads model weights; model loading is excluded from displayed response latency. MPS uses float16, CPU float32, CUDA 4-bit NF4. Local feasibility depends on available RAM; this machine's memory could not be inspected during preparation. No model weights were downloaded during preparation.
 - **Future variants:** SFT, DPO, and RLHF are disabled until you train them. Put the absolute local adapter directory in the corresponding `adapter` field in models.json. Sarvam entries require adapters trained on `sarvamai/sarvam-1`; Qwen entries require adapters trained on `Qwen/Qwen3-1.7B`. Use the same conversation template as engine.py when preparing SFT data, or explicitly update and version the template for all comparisons. The UI reloads the adapter when you select it. The same precision/device must be used for fair checkpoint comparisons.
 - **Blind review:** import real JSONL outputs from the notebook/runner. Multiple files are merged; the latest retry for a case/condition/run replaces the earlier record. Answer order is randomized per case for this browser session. Score 0–4, add notes/flags, and record pair preferences. Reveal identities after rating. Export reviews before closing; scores are not persisted automatically. Export includes the identity mapping and raw results, so do not show it to blinded raters before completion.
@@ -110,3 +110,20 @@ Use the same Qwen chat template, thinking setting, and generation settings for b
 
 
 Current benchmark (v1.5): end of AAR Level 1 plus the explicit cumulative Dolch preprimer/primer/first-grade list in data/dolch-through-grade1.json. Spoken child input is unrestricted. Expanded profiles and exact prompts are saved per response. New Prompt A and B hashes require new comparison runs. Do not pool older profiles with v1.5 results.
+
+## First 300-example SFT experiment
+
+`sft_colab.ipynb` now defaults to ordinary LoRA on the pinned Qwen3-1.7B revision, with an explicit NF4 QLoRA fallback only after a recorded memory failure. The distributed notebook keeps both GPU execution switches off. The minimal `reading-sft-colab-v2.zip` contains training text, its original manifest, the helper, requirements, and a file-hash manifest; run `python3 build_sft_kit.py` after implementation edits to rebuild it and refresh the notebook's ZIP pin.
+
+The helper checks final-completion labels on all 300 examples and in actual forward batches, freezes the base, uses FP32 adapters with mixed precision, verifies two representative optimizer updates and a 15% operational memory margin, then starts a fresh one-epoch adapter. Completion requires final adapter reload and generation. Checkpoint resume is explicit and bound to configuration, hashes, dependencies, precision, and optimizer/RNG state. `SFT_INDEPENDENT_REVIEW.md` records the independent implementation review; `sft-colab-validation.json` distinguishes offline checks, runtime preflight, and real model execution.
+
+`evaluation-sft-v1/PROCEDURE.md` documents the frozen saved Qwen reference and development replay/comparison tools. Its conversation snapshot stays local and outside the training kit. Template, rubric, settings, and hardware groups remain separate. A real trained adapter and completed run record are required before adapter replay or enabling the existing Qwen SFT option. Held-out content remains untouched.
+
+
+For this workstation, the existing shared key source is Orbi's `.env.local`. Start Reading Lab with:
+
+```sh
+.venv/bin/python server.py --env-file /Users/viroksharma/Desktop/Orbi/mvp-v2/.env.local
+```
+
+Keys entered in Settings are memory-only and disappear when the server stops. Restart with the command above to reload them without copying credentials into this project.

@@ -1,0 +1,65 @@
+{
+  "candidate_count": 45,
+  "case_count": 34,
+  "decision_counts": {
+    "exclude_duplicate": 7,
+    "exclude_training_overlap": 4,
+    "retain": 34
+  },
+  "experiment_id": "reading-compliance-20261030-001",
+  "files": {
+    "README.md": "de8eb8addf587d1ffb1786a1b3663b036356f827f3b88b7e96ef58c7e7f6e3b8",
+    "candidates.jsonl": "6f9c405a67278340431e3adfa707e176efca7c7c26dad1cef9aa22dd35b1167f",
+    "cases.jsonl": "e10475288e724ab8e41b2fc9e1200910785d4ec52b1c729e83c579a704fb5e19",
+    "exclusions.jsonl": "47c5bd6c7ecc4fbffd112bef33c9f24e12b5edbafa9e5081916fd0819ae8a962",
+    "freeze.py": "f39315dec9d9904507c6b3c2a5f6dfa75f06b724605bbaa6684b74bc5d781971",
+    "overlap-review.jsonl": "7f1aadebf26207cb085c431ed037f8fc95f2c568a079f080feaf668132e379ca",
+    "prompt-B.txt": "129a21f9b37e953c4b1d27d6ea015fc9775c32cabf6b7d8ef9bfde212d9ade6c",
+    "source-records.jsonl": "c648306bd206cb1770cb535fff7816c61dfc8e477ab5977b900e45f2ef1fed3c",
+    "training-history-snapshot.jsonl": "85a3a3a7331ac57bbbd60d65f0354a7ab70409e08bf1baf92bd597a5a5c05165"
+  },
+  "frozen_at_utc": "2026-10-30T13:41:34.620784+00:00",
+  "generation": {
+    "do_sample": true,
+    "enable_thinking": false,
+    "max_new_tokens": 128,
+    "temperature": 0.7,
+    "top_k": 20,
+    "top_p": 0.8
+  },
+  "historical_13_replay_included": false,
+  "history_counts": {
+    "multi_turn": 18,
+    "single_turn": 16
+  },
+  "input_hash_spec": "SHA256(UTF8(canonical_json({prompt,messages})))",
+  "prompt_hash": "129a21f9b37e953c4b1d27d6ea015fc9775c32cabf6b7d8ef9bfde212d9ade6c",
+  "retained_source_counts": {
+    "dev": 18,
+    "saved_sft_ui": 16
+  },
+  "review_method": "Independent manual full-history semantic review of all 45 candidates against all 300 training histories; exact full-history de-duplication.",
+  "schema_version": 1,
+  "seed_spec": "(42 + int(SHA256(case_id UTF-8).hexdigest()[:8],16)) % 2**32",
+  "source_counts": {
+    "dev": 20,
+    "saved_sft_ui": 25
+  },
+  "source_database": {
+    "access": "mode=ro",
+    "path": "runs/conversation-results.sqlite3",
+    "record_snapshot_file": "source-records.jsonl",
+    "selected_records": 25,
+    "selection_adapter_suffix": "/runs/qwen-sft300-v2-lora-allocator-20261030-008/adapter"
+  },
+  "source_hashes": {
+    "READER_PROFILE.txt": "065b3ab985cba131c8fe1cedfcb702e73e7ed5c04c87374a19d0261e86e646bf",
+    "data/dev.jsonl": "5407afb071c12dd6b4cf01a91737e34c64926be1a5db0bd0dff860cd5e74637e",
+    "data/dolch-through-grade1.json": "241bcf6dda3614c9a4bf90444d6ac72e94f283a7e127639c8d616c5c1d058863",
+    "datasets/sft-300-v2/sft.jsonl": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+    "engine.py": "95f45b74234ad4ae22d0ded12fd30277dad1fc23b8d8347103a9c18fe77666d3",
+    "prompts/B.txt": "9e50178ae9db06e585a2f13c6f57f1628d9f35401735377510deeba0d7eb33ed"
+  },
+  "status": "frozen",
+  "test_data_accessed": false
+}

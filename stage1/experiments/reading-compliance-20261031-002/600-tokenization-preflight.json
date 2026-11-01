@@ -1,0 +1,15 @@
+{
+  "examples_checked": 600,
+  "all_actual_collator_masks_pass": true,
+  "supervised_tokens": 7894,
+  "max_sequence_tokens": 1889,
+  "model_or_gradients_tested": false,
+  "sft_sha256": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+  "status": "passed_on_exact_independently_approved_sealed600",
+  "unique_features": 600,
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "gpu_executed": false,
+  "model_loaded": false,
+  "dataset_manifest_sha256": "932e287304906a7e8dbf1f293011d0592a2a847e9450837081e0324f31024df3",
+  "independent_approval": "600pass_0open_pending_human"
+}

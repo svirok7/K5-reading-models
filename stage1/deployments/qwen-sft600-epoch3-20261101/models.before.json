@@ -1,0 +1,56 @@
+{
+  "qwen": {
+    "label": "Qwen3-1.7B \u00b7 local baseline",
+    "backend": "qwen",
+    "adapter": null
+  },
+  "sarvam": {
+    "label": "Sarvam-1 2B \u00b7 local baseline",
+    "backend": "sarvam",
+    "adapter": null
+  },
+  "openai": {
+    "label": "OpenAI \u00b7 API",
+    "backend": "openai"
+  },
+  "sft": {
+    "label": "Sarvam \u00b7 SFT",
+    "backend": "sarvam",
+    "adapter": null,
+    "pending": true
+  },
+  "dpo": {
+    "label": "Sarvam \u00b7 DPO",
+    "backend": "sarvam",
+    "adapter": null,
+    "pending": true
+  },
+  "rlhf": {
+    "label": "Sarvam \u00b7 RLHF",
+    "backend": "sarvam",
+    "adapter": null,
+    "pending": true
+  },
+  "claude": {
+    "label": "Claude \u00b7 API",
+    "backend": "claude"
+  },
+  "qwen_sft": {
+    "label": "Qwen3-1.7B \u00b7 SFT",
+    "backend": "qwen",
+    "adapter": "/Users/viroksharma/Desktop/Personal/Projects for Fun/Reading-Model/stage1/runs/qwen-sft300-v2-lora-allocator-20261030-008/adapter",
+    "pending": false
+  },
+  "qwen_dpo": {
+    "label": "Qwen3-1.7B \u00b7 DPO",
+    "backend": "qwen",
+    "adapter": null,
+    "pending": true
+  },
+  "qwen_rlhf": {
+    "label": "Qwen3-1.7B \u00b7 RLHF",
+    "backend": "qwen",
+    "adapter": null,
+    "pending": true
+  }
+}

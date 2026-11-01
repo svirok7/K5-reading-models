@@ -1,0 +1,12 @@
+{
+  "status": "validated",
+  "generator_agent": "/root/generator",
+  "correction_round": 2,
+  "started_at": "2026-10-28T14:14:28.486630+00:00",
+  "hashes": {
+    "sft_sha256": "6b15a392b84c1171b9e10d1f3e9080b65b932ddafa1aa0a8ef3bc2828c5c6e01",
+    "review_sha256": "77a4dc94c6b02a40d692b00c7c728f01e0bf91e569659fdac996d1916c1b0d1a"
+  },
+  "validated_at": "2026-10-28T14:15:35.892711+00:00",
+  "errors": []
+}

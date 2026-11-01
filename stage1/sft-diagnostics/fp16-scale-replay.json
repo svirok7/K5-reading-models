@@ -1,0 +1,197 @@
+{
+  "status": "completed",
+  "diagnostic_only": true,
+  "purpose": "fresh-identical-weights/same-failed-eight-rows no-update FP16 scale comparison",
+  "failed_run_evidence": {
+    "global_step": 0,
+    "scale": 65536.0,
+    "found_inf": 1,
+    "finite_accumulated_forward_loss": 7.057,
+    "nonfinite_gradient_tensor_count": 392
+  },
+  "row_ids": [
+    "pilot-043",
+    "pilot-062",
+    "pilot-287",
+    "pilot-161",
+    "pilot-031",
+    "pilot-266",
+    "pilot-173",
+    "pilot-206"
+  ],
+  "scales": [
+    65536.0,
+    1024.0,
+    256.0
+  ],
+  "config": {
+    "mode": "lora",
+    "seed": 42,
+    "max_length": 2048,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "learning_rate": 0.0001,
+    "epochs": 1.0,
+    "microbatch": 1,
+    "gradient_accumulation": 8
+  },
+  "helper_sha256": "31fd122e1f4b4a6f3a4169a3f0a0265ba89b23b704943919e2cf7adc02a7c96f",
+  "optimizer_steps_total": 0,
+  "trials": [
+    {
+      "initial_scale": 65536.0,
+      "microbatch_losses": [
+        1.4822914600372314,
+        0.634343147277832,
+        0.4292057752609253,
+        1.1396275758743286,
+        0.8342486023902893,
+        0.23415020108222961,
+        1.215894103050232,
+        1.0874149799346924
+      ],
+      "supervised_tokens": 99,
+      "optimizer_steps": 0,
+      "adapter_fingerprint_before": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+      "scaled_nonfinite_elements": 2523152,
+      "unscaled_nonfinite_elements": 2523152,
+      "all_grads_present": true,
+      "gradient_tensor_count": 392,
+      "nonfinite_gradient_tensor_count": 58,
+      "any_nonzero_gradient": true,
+      "finite_unscaled_norm": null,
+      "adapter_fingerprint_after": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+      "adapter_fingerprint_unchanged": true
+    },
+    {
+      "initial_scale": 1024.0,
+      "microbatch_losses": [
+        1.4822914600372314,
+        0.634343147277832,
+        0.4292057752609253,
+        1.1396275758743286,
+        0.8342486023902893,
+        0.23415020108222961,
+        1.215894103050232,
+        1.0874149799346924
+      ],
+      "supervised_tokens": 99,
+      "optimizer_steps": 0,
+      "adapter_fingerprint_before": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+      "scaled_nonfinite_elements": 0,
+      "unscaled_nonfinite_elements": 0,
+      "all_grads_present": true,
+      "gradient_tensor_count": 392,
+      "nonfinite_gradient_tensor_count": 0,
+      "any_nonzero_gradient": true,
+      "finite_unscaled_norm": 26.67669356691012,
+      "adapter_fingerprint_after": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+      "adapter_fingerprint_unchanged": true
+    },
+    {
+      "initial_scale": 256.0,
+      "microbatch_losses": [
+        1.4822914600372314,
+        0.634343147277832,
+        0.4292057752609253,
+        1.1396275758743286,
+        0.8342486023902893,
+        0.23415020108222961,
+        1.215894103050232,
+        1.0874149799346924
+      ],
+      "supervised_tokens": 99,
+      "optimizer_steps": 0,
+      "adapter_fingerprint_before": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+      "scaled_nonfinite_elements": 0,
+      "unscaled_nonfinite_elements": 0,
+      "all_grads_present": true,
+      "gradient_tensor_count": 392,
+      "nonfinite_gradient_tensor_count": 0,
+      "any_nonzero_gradient": true,
+      "finite_unscaled_norm": 26.676295835124666,
+      "adapter_fingerprint_after": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+      "adapter_fingerprint_unchanged": true
+    }
+  ],
+  "environment": {
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "tokenizers": "0.22.2",
+      "huggingface_hub": "0.36.2",
+      "safetensors": "0.8.0"
+    },
+    "mode": "lora",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "13.0",
+    "gpu_memory_bytes": 15637086208,
+    "initial_free_bytes": 15527116800,
+    "native_bf16_supported": false,
+    "compute_dtype": "float16"
+  },
+  "mask_report": {
+    "examples_checked": 300,
+    "all_actual_collator_masks_pass": true,
+    "supervised_tokens": 4683,
+    "max_sequence_tokens": 1825,
+    "model_or_gradients_tested": false
+  },
+  "identity": {
+    "model": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "mode": "lora",
+    "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+    "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+    "config": {
+      "mode": "lora",
+      "seed": 42,
+      "max_length": 2048,
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "learning_rate": 0.0001,
+      "epochs": 1.0,
+      "microbatch": 1,
+      "gradient_accumulation": 8
+    },
+    "helper_sha256": "31fd122e1f4b4a6f3a4169a3f0a0265ba89b23b704943919e2cf7adc02a7c96f",
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "enable_thinking": false,
+    "packing": false,
+    "train_examples": 300,
+    "internal_validation_examples": 0,
+    "context": {}
+  },
+  "sequence_lengths": [
+    1745,
+    1737,
+    1780,
+    1752,
+    1737,
+    1768,
+    1757,
+    1747
+  ],
+  "supervised_tokens": 99,
+  "normalization": "sum CE per microbatch / total supervised tokens in all 8 microbatches; no additional division",
+  "parameter_checks": {
+    "trainable_parameters": 17432576,
+    "total_parameters": 1738007552,
+    "base_frozen": true,
+    "trainable_dtype": "float32"
+  },
+  "initial_adapter_fingerprint": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+  "reference_smoke": {
+    "path": "/content/drive/MyDrive/Reading-Model/sft/qwen-sft300-v2-lora-20261030-003/smoke/smoke-report.json",
+    "sha256": "dcbb57368042894b0f485826300d494d615c79f2896f252b26c5b02bc3ed4984",
+    "fresh_initial_fingerprint_matches": true
+  },
+  "final_adapter_fingerprint": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+  "all_trials_same_weights": true,
+  "observed_high_scale_overflow_and_lower_scale_finite": true
+}

@@ -1,0 +1,125 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "mode": "lora",
+  "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+  "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+  "dataset_version": "sft-300-v2",
+  "config": {
+    "mode": "lora",
+    "seed": 42,
+    "max_length": 2048,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "learning_rate": 0.0001,
+    "epochs": 3,
+    "dataset_version": "sft-300-v2",
+    "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+    "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+    "train_examples": 300,
+    "microbatch": 1,
+    "gradient_accumulation": 8,
+    "fp16_initial_scale": 1024.0
+  },
+  "helper_sha256": "1d19f350b8cbc7b38106c4795a28186a944bd39e60265f9837deac1d8df22ecb",
+  "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "enable_thinking": false,
+  "packing": false,
+  "train_examples": 300,
+  "internal_validation_examples": 0,
+  "context": {
+    "plan_sha256": "9277deeec7d2c6c628e3b2254fa6b499401f51bd789c57ec97b63c8ab4c9704a",
+    "frozen_manifest_sha256": "de653bb59391303b437816c9a423ccee6bfa97afc9d96d7a6b105c5910be9331",
+    "allocator_config": "expandable_segments:True",
+    "comparison": "current SFT adapter; no new base-model run",
+    "lr_policy": "linear decay across all three epochs"
+  },
+  "identity": {
+    "model": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "mode": "lora",
+    "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+    "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+    "dataset_version": "sft-300-v2",
+    "config": {
+      "mode": "lora",
+      "seed": 42,
+      "max_length": 2048,
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "learning_rate": 0.0001,
+      "epochs": 3,
+      "dataset_version": "sft-300-v2",
+      "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+      "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+      "train_examples": 300,
+      "microbatch": 1,
+      "gradient_accumulation": 8,
+      "fp16_initial_scale": 1024.0
+    },
+    "helper_sha256": "1d19f350b8cbc7b38106c4795a28186a944bd39e60265f9837deac1d8df22ecb",
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "enable_thinking": false,
+    "packing": false,
+    "train_examples": 300,
+    "internal_validation_examples": 0,
+    "context": {
+      "plan_sha256": "9277deeec7d2c6c628e3b2254fa6b499401f51bd789c57ec97b63c8ab4c9704a",
+      "frozen_manifest_sha256": "de653bb59391303b437816c9a423ccee6bfa97afc9d96d7a6b105c5910be9331",
+      "allocator_config": "expandable_segments:True",
+      "comparison": "current SFT adapter; no new base-model run",
+      "lr_policy": "linear decay across all three epochs"
+    }
+  },
+  "environment": {
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "tokenizers": "0.22.2",
+      "huggingface_hub": "0.36.2",
+      "safetensors": "0.8.0"
+    },
+    "mode": "lora",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "13.0",
+    "gpu_memory_bytes": 15637086208,
+    "initial_free_bytes": 15443230720,
+    "allocator_config": {
+      "PYTORCH_ALLOC_CONF": null,
+      "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"
+    },
+    "allocator_backend": "native",
+    "native_bf16_supported": false,
+    "compute_dtype": "float16"
+  },
+  "audit_status": "independently_reviewed_pending_human",
+  "fresh_after_smoke": true,
+  "baseline_rerun": false,
+  "status": "training_started",
+  "quality_improvement_verified": false,
+  "smoke_report_sha256": "4c3967d4b91721b17f726edf948db8e230c84bf75c331cdef2bfc49221c00c48",
+  "mask_report": {
+    "examples_checked": 300,
+    "all_actual_collator_masks_pass": true,
+    "supervised_tokens": 4683,
+    "max_sequence_tokens": 1825,
+    "model_or_gradients_tested": false
+  },
+  "precision": {
+    "configured_fp16_initial_scale": 1024.0,
+    "applied": true,
+    "checkpoint_restore_order": "Trainer restores checkpoint scaler after this initialization",
+    "initial_scaler_state_before_checkpoint_restore": {
+      "scale": 1024.0,
+      "growth_factor": 2.0,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 0
+    }
+  }
+}

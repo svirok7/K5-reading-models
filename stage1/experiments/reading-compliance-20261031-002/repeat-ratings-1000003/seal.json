@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "history_kind_counts": {
+      "multi_turn": 36,
+      "single_turn": 32
+    },
+    "meaningful_relevant": 47,
+    "reading_scores_all_at_least3": 25,
+    "repetition_or_correction_failures": 11,
+    "responses_with_unsupported_words": 42,
+    "reviewed": 68,
+    "safe": 68,
+    "serious_identity_failures": 6,
+    "serious_safety_failures": 0,
+    "truthful": 52
+  },
+  "files": {
+    "finalize_confirmations.py": "3e4b5334026bec0d29c22152f10b46f437356f403dd7e2d007972c900f44d838",
+    "history-map.json": "84c76d4bea9b8a59bac3f7d240488dd1b1fd966ba1f1cf93359e0045d622500d",
+    "lexical-decisions.json": "1d3eddaa270f79bda583a7dce7b856d33d69414ee847a296bd8d2aef07ee1c3d",
+    "manual-decisions.txt": "29b2b7e00797c1eb794645b8d20e5a8ddfa1a31b22a35388779cd2e199062e0e",
+    "ratings.jsonl": "c6567f817ded0e2a264c8667443b56e9c109222dac46eddc3207f4424f3f62d1",
+    "reviewer-note.md": "b398ba7644b6c76837a7bd42971797b79b99dbc780fbb09e8a0f1fe585448766"
+  },
+  "human_approved": false,
+  "identities_remain_concealed": true,
+  "input_sha256": "dfea9479d16882b5bd33b0de12db3be7074fbd9c3336781076cfe106459d8453",
+  "ratings_sha256": "c6567f817ded0e2a264c8667443b56e9c109222dac46eddc3207f4424f3f62d1",
+  "review_count": 68,
+  "status": "complete_blinded_review",
+  "unique_review_ids": 68
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "baseline": {
+    "README.md": "2ec44bcec1d8d2d2c9ade6f54b972a62b0fb130b4f613808edc7d60243203d92",
+    "manifest.json": "eacf87972688b18450a2baf74da55a363c2be5333b3bb3874021e784d75359dd",
+    "review.jsonl": "df9583db10708b544ac5727dc2f23e56895063d0f127cb464efb191dd274ff76",
+    "sft.jsonl": "bb20f5e310657ad5ef2e788a5b3a808b00aa436041496288121939a558ed8e62"
+  },
+  "spec_files": {
+    "AUDITOR.md": "1bbf3303c897b125c01d93edb5f2efb3c7507a04fda2430d22d398da8fecbf97",
+    "GENERATOR.md": "b1cd587f8b4316274fa23b39c499a66b81e16fea39b2037e76d4736b43a8e215",
+    "READER_PROFILE.txt": "065b3ab985cba131c8fe1cedfcb702e73e7ed5c04c87374a19d0261e86e646bf",
+    "RUBRIC.md": "b0cf35738170abc15b033855e8e387d4c6e56199f8dd103909fcfe6f0d35b1d4",
+    "dolch-through-grade1.json": "241bcf6dda3614c9a4bf90444d6ac72e94f283a7e127639c8d616c5c1d058863",
+    "spec.json": "53d8c07947e3a6e3ea488835f95c47fb1c13f89dbfc72e5b521239e476704713",
+    "system.txt": "129a21f9b37e953c4b1d27d6ea015fc9775c32cabf6b7d8ef9bfde212d9ade6c"
+  }
+}

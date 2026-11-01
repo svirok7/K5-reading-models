@@ -1,0 +1,8 @@
+{
+  "global_step": 225,
+  "completed_epoch": 3,
+  "downloaded_files_hashes_match": true,
+  "downloaded_metadata_files": 8,
+  "training_ledger_matches_completed_run": true,
+  "large_weights_and_optimizer": "retained_and_verified_in_runtime_not_downloaded_locally"
+}

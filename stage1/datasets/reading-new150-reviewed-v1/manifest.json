@@ -1,0 +1,50 @@
+{
+  "version": "reading-new150-reviewed-v1",
+  "count": 150,
+  "purpose": "Partial new-example artifact; not the requested600-example successor and not authorized for a training run",
+  "frozen_data": true,
+  "training_approved_for_requested_run": false,
+  "audit_status": "independently_reviewed_pending_human",
+  "human_approved": false,
+  "audit": {
+    "pass_count": 150,
+    "open_findings": 0,
+    "auditor_agent": "/root/reviewer",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high"
+  },
+  "source_batches": [
+    {
+      "batch": 1,
+      "submission_sft_sha256": "d6c72ae616e6a698f77632d6b1e24447e8d1dd18d3ca6fb46d709eac06805315",
+      "submission_review_sha256": "9c6fdce1d00acecae6041775a1c2dfe55998e20929e2a1ae553971fbc4aa4f1f",
+      "independent_summary_sha256": "f27d00ac026601a43595f07398316d8f2d4253f57aed2695d02e9eec0e4616db",
+      "independent_report_sha256": "e3070d5dc532441ddcaf36850580e59f2dc65a039d34a84254ca037e154e267a",
+      "correction_round": 2
+    },
+    {
+      "batch": 2,
+      "submission_sft_sha256": "2e499841106d39bb085045d43cc2d654585deb4f291ce893e0f2d0fbb8bb3d54",
+      "submission_review_sha256": "22c53cd4edbaddbfef0c979cf0555870f40e51066860385c5bbbf17c72173435",
+      "independent_summary_sha256": "4eacf5aad743f76e8163f17ec34ce375143f4d6b1b0552c86f7700e95056400c",
+      "independent_report_sha256": "61d57812ad9d42f4284114a671df2245943d6c136bec1ae33f9fa3b2350dcd9e",
+      "correction_round": 2
+    },
+    {
+      "batch": 3,
+      "submission_sft_sha256": "6b141c7a97f66cccdaecb6250079da83f3b0f4833f4ed96e35268a761afcc13f",
+      "submission_review_sha256": "9bfad622a66c602cd833354027c989e99dcf92f15d4dea5f61355ccd6f4c6a7e",
+      "independent_summary_sha256": "27908e4e18a3639644de53cdeefae6a08499cb4004b0f6b4ee5e2c1355d61982",
+      "independent_report_sha256": "7244b0640c0c5319c91d0fe5555e05679d54c170b0d082f6d50f1f0c4a197d7f",
+      "correction_round": 2
+    }
+  ],
+  "artifacts": {
+    "review.jsonl": "65e5949edc8d5136f93b7f9ed351f63754f5cd7e120b16323a49a204c4b7bdfe",
+    "independent-audit.jsonl": "533153247b645d11712808259abab0e3f9aa42b487e28e0c74fd21cf816cbe58",
+    "sft.jsonl": "d86adca298f7e1198013de4b40631e49ccf12b19b82ecfef2ad636d91c4e0d6f"
+  },
+  "remaining_new_examples": 150,
+  "experiment": "experiments/reading-compliance-20261030-001",
+  "limitation": "Batch4 requires a correction/review;batch5 lacks independent review;batch6 is not authored. The original300 corrections and full600 export remain pending."
+}

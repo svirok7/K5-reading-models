@@ -1,0 +1,10 @@
+{
+  "archive_sha256": "24be38ca94a924e635e6f06c7086cef1db1b41f0803e8d3ec411482d230424fb",
+  "plan_sha256": "9277deeec7d2c6c628e3b2254fa6b499401f51bd789c57ec97b63c8ab4c9704a",
+  "notebook_sha256": "9dd7bcaf8f563b80a4464db28aaecb6e7c10a10bda2d1bcec4c820e419659c74",
+  "all_current_code_matches_plan_and_kit": true,
+  "original_source_snapshot_unchanged": true,
+  "frozen_inputs_byte_identical_to001": true,
+  "archive_files": 36,
+  "gpu_executed": false
+}

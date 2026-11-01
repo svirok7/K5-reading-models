@@ -1,0 +1,842 @@
+{
+  "1": {
+    "eligible": false,
+    "pattern": "Numeral glyph; no exact word-form or phonics allowance for digits is specified.",
+    "route": "unsupported_by_benchmark"
+  },
+  "2": {
+    "eligible": false,
+    "pattern": "Numeral glyph; no exact word-form or phonics allowance for digits is specified.",
+    "route": "unsupported_by_benchmark"
+  },
+  "3": {
+    "eligible": false,
+    "pattern": "Numeral glyph; no exact word-form or phonics allowance for digits is specified.",
+    "route": "unsupported_by_benchmark"
+  },
+  "a": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "am": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "and": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "are": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "ask": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "at": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "away": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "bag": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "ball": {
+    "eligible": false,
+    "pattern": "Unlisted al vowel sound; the exact word all does not establish this spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "bank": {
+    "eligible": true,
+    "pattern": "b + short a + taught nk.",
+    "route": "supported_decoding"
+  },
+  "bath": {
+    "eligible": true,
+    "pattern": "Short a in the ordinary short-a pronunciation plus taught th.",
+    "route": "supported_decoding"
+  },
+  "bear": {
+    "eligible": false,
+    "pattern": "Unlisted ear vowel/r-controlled spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "bears": {
+    "eligible": false,
+    "pattern": "Unsupported bear spelling plus s; no independently supported base.",
+    "route": "unsupported_by_benchmark"
+  },
+  "bella": {
+    "eligible": false,
+    "pattern": "Unlisted multisyllable name with unstressed final a; names have no automatic allowance.",
+    "route": "unsupported_by_benchmark"
+  },
+  "big": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "bird": {
+    "eligible": false,
+    "pattern": "Unlisted ir r-controlled spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "birds": {
+    "eligible": false,
+    "pattern": "Unsupported bird spelling plus s.",
+    "route": "unsupported_by_benchmark"
+  },
+  "bit": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "box": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "bright": {
+    "eligible": false,
+    "pattern": "Unlisted igh spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "broke": {
+    "eligible": false,
+    "pattern": "Unlisted o-consonant-e spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "call": {
+    "eligible": false,
+    "pattern": "Unlisted al vowel sound; listed all does not license call.",
+    "route": "unsupported_by_benchmark"
+  },
+  "can": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "can't": {
+    "eligible": false,
+    "pattern": "Unlisted contraction; no automatic contraction/apostrophe-omission allowance.",
+    "route": "unsupported_by_benchmark"
+  },
+  "cat": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "chat": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "clap": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "clouds": {
+    "eligible": false,
+    "pattern": "Unlisted ou vowel sequence in cloud plus s.",
+    "route": "unsupported_by_benchmark"
+  },
+  "crayon": {
+    "eligible": false,
+    "pattern": "Unlisted ay vowel sequence and complex multisyllable spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "ct": {
+    "eligible": false,
+    "pattern": "Unrecognized consonant-only token; no supported word spelling is established.",
+    "route": "unsupported_by_benchmark"
+  },
+  "dad": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "did": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "do": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "doctor": {
+    "eligible": false,
+    "pattern": "Unlisted multisyllable form with or/r-controlled ending.",
+    "route": "unsupported_by_benchmark"
+  },
+  "dog": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "don't": {
+    "eligible": false,
+    "pattern": "Unlisted contraction; exact do/not forms do not license the contraction.",
+    "route": "unsupported_by_benchmark"
+  },
+  "dry": {
+    "eligible": false,
+    "pattern": "Unlisted final y=/long i/; the unenumerated additional-y heading is insufficient.",
+    "route": "unsupported_by_benchmark"
+  },
+  "eat": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "eggs": {
+    "eligible": true,
+    "pattern": "Short-vowel egg plus taught s ending.",
+    "route": "supported_decoding"
+  },
+  "feeling": {
+    "eligible": false,
+    "pattern": "Unlisted ee base spelling plus ing; no automatic ing allowance.",
+    "route": "unsupported_by_benchmark"
+  },
+  "fell": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "fine": {
+    "eligible": false,
+    "pattern": "Unlisted i-consonant-e spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "flew": {
+    "eligible": false,
+    "pattern": "Unlisted ew vowel sequence.",
+    "route": "unsupported_by_benchmark"
+  },
+  "for": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "friend": {
+    "eligible": false,
+    "pattern": "Unlisted ie vowel spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "frog": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "from": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "full": {
+    "eligible": false,
+    "pattern": "Unlisted u=/oo/ correspondence; the additional-u heading does not establish it.",
+    "route": "unsupported_by_benchmark"
+  },
+  "get": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "go": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "got": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "had": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "happy": {
+    "eligible": false,
+    "pattern": "Unlisted multisyllable spelling with final y=/ee/.",
+    "route": "unsupported_by_benchmark"
+  },
+  "has": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "hat": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "have": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "he": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "head": {
+    "eligible": false,
+    "pattern": "Unlisted ea vowel spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "help": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "hen": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "hens": {
+    "eligible": true,
+    "pattern": "Short-vowel hen plus taught s ending.",
+    "route": "supported_decoding"
+  },
+  "her": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "here": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "him": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "hop": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "hug": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "i": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "i'm": {
+    "eligible": false,
+    "pattern": "Unlisted contraction; no automatic contraction allowance.",
+    "route": "unsupported_by_benchmark"
+  },
+  "in": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "is": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "it": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "it's": {
+    "eligible": false,
+    "pattern": "Unlisted contraction; exact it/is forms do not license the contraction.",
+    "route": "unsupported_by_benchmark"
+  },
+  "jump": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "just": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "kid": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "kind": {
+    "eligible": false,
+    "pattern": "Unlisted long i in a closed syllable; no explicit whole-form evidence.",
+    "route": "unsupported_by_benchmark"
+  },
+  "know": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "lay": {
+    "eligible": false,
+    "pattern": "Unlisted ay vowel team; listed play does not license this pattern.",
+    "route": "unsupported_by_benchmark"
+  },
+  "leg": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "let": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "lid": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "like": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "little": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "log": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "look": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "looks": {
+    "eligible": false,
+    "pattern": "Listed-only look has an unsupported oo base spelling for an automatic s derivative.",
+    "route": "unsupported_by_benchmark"
+  },
+  "loud": {
+    "eligible": false,
+    "pattern": "Unlisted ou vowel sequence.",
+    "route": "unsupported_by_benchmark"
+  },
+  "make": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "max": {
+    "eligible": true,
+    "pattern": "Short a plus taught x=/ks/; a name receives no blanket exception.",
+    "route": "supported_decoding"
+  },
+  "me": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "means": {
+    "eligible": false,
+    "pattern": "Unlisted ea spelling in mean plus s.",
+    "route": "unsupported_by_benchmark"
+  },
+  "much": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "mud": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "mum": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "mummy": {
+    "eligible": false,
+    "pattern": "Unlisted multisyllable name/form with final y=/ee/.",
+    "route": "unsupported_by_benchmark"
+  },
+  "named": {
+    "eligible": false,
+    "pattern": "Unlisted silent-e base plus ed; no automatic ed allowance.",
+    "route": "unsupported_by_benchmark"
+  },
+  "nest": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "new": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "nice": {
+    "eligible": false,
+    "pattern": "Unlisted i-consonant-e and soft-c spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "no": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "not": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "nut": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "of": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "on": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "one": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "or": {
+    "eligible": true,
+    "pattern": "Explicit curriculum Leap Word.",
+    "route": "curriculum_leap"
+  },
+  "other": {
+    "eligible": false,
+    "pattern": "Unlisted multisyllable form with non-short-o vowel and er ending.",
+    "route": "unsupported_by_benchmark"
+  },
+  "out": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "path": {
+    "eligible": true,
+    "pattern": "Short a in the ordinary short-a pronunciation plus taught th.",
+    "route": "supported_decoding"
+  },
+  "pet": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "pig": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "piggy": {
+    "eligible": false,
+    "pattern": "Unlisted multisyllable derivative with final y=/ee/.",
+    "route": "unsupported_by_benchmark"
+  },
+  "play": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "plus": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "pup": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "puppy": {
+    "eligible": false,
+    "pattern": "Unlisted multisyllable spelling with final y=/ee/.",
+    "route": "unsupported_by_benchmark"
+  },
+  "put": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "rag": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "ran": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "read": {
+    "eligible": false,
+    "pattern": "Unlisted ea vowel spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "red": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "rhyme": {
+    "eligible": false,
+    "pattern": "Unlisted rh and y-consonant-e spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "run": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "sad": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "sat": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "saw": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "say": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "see": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "she": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "shut": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "sing": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "sky": {
+    "eligible": false,
+    "pattern": "Unlisted final y=/long i/; no explicit whole-form allowance.",
+    "route": "unsupported_by_benchmark"
+  },
+  "slid": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "slide": {
+    "eligible": false,
+    "pattern": "Unlisted i-consonant-e spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "smart": {
+    "eligible": false,
+    "pattern": "Unlisted ar r-controlled spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "some": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "spots": {
+    "eligible": true,
+    "pattern": "spot (sp + short o + t) plus taught s ending.",
+    "route": "supported_decoding"
+  },
+  "stick": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "talk": {
+    "eligible": false,
+    "pattern": "Unlisted al vowel spelling and silent l.",
+    "route": "unsupported_by_benchmark"
+  },
+  "tell": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "that": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "the": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "them": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "then": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "they": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "three": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "tilly": {
+    "eligible": false,
+    "pattern": "Unlisted multisyllable name with final y=/ee/.",
+    "route": "unsupported_by_benchmark"
+  },
+  "to": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "too": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "took": {
+    "eligible": false,
+    "pattern": "Unlisted oo vowel sequence.",
+    "route": "unsupported_by_benchmark"
+  },
+  "towel": {
+    "eligible": false,
+    "pattern": "Unlisted ow vowel sequence and multisyllable spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "tree": {
+    "eligible": false,
+    "pattern": "Unlisted ee vowel team.",
+    "route": "unsupported_by_benchmark"
+  },
+  "tub": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "two": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "up": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "use": {
+    "eligible": false,
+    "pattern": "Unlisted u-consonant-e spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "very": {
+    "eligible": false,
+    "pattern": "Unlisted multisyllable form with final y=/ee/.",
+    "route": "unsupported_by_benchmark"
+  },
+  "was": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "water": {
+    "eligible": false,
+    "pattern": "Unlisted vowel correspondence and er/multisyllable spelling.",
+    "route": "unsupported_by_benchmark"
+  },
+  "we": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "wet": {
+    "eligible": true,
+    "pattern": "Supported short-vowel closed syllable with taught consonants, blends/digraphs and ff/ll/ss/ck/ng/nk as applicable.",
+    "route": "supported_decoding"
+  },
+  "with": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "yes": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "you": {
+    "eligible": true,
+    "pattern": "Exact form in the supplied cumulative133 list.",
+    "route": "exact_dolch"
+  },
+  "your": {
+    "eligible": false,
+    "pattern": "Unlisted ou/r-controlled spelling.",
+    "route": "unsupported_by_benchmark"
+  }
+}

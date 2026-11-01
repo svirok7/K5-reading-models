@@ -1,0 +1,17 @@
+{
+  "checkpoint-75": {
+    "completed_epoch": 1,
+    "global_step": 75,
+    "resume_record_sha256": "fe3f0510bf0c828f96c4c7fb21509e1b85f11301cca250ec7c45f06a46d627b6"
+  },
+  "checkpoint-150": {
+    "completed_epoch": 2,
+    "global_step": 150,
+    "resume_record_sha256": "3353fdf4071d605218c8c2356268155a24eaf835dd4d1a6e87de12452949cb85"
+  },
+  "checkpoint-225": {
+    "completed_epoch": 3,
+    "global_step": 225,
+    "resume_record_sha256": "1138bc944bf1fd4511111f0f0de7e2475a813b26c2a316d2124eb701c6b1dd01"
+  }
+}

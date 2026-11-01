@@ -1,0 +1,7 @@
+sft-600-v1 contains the independently reviewed successor to sft-300-v2: 300 original examples, with three explicit semantic repairs, plus 300 newly authored examples.
+
+Only prompt and completion appear in sft.jsonl. The system message is the complete current condition-B reading prompt. Historical assistant turns, including explicitly annotated semantic and reading-profile defects, are input only. Only the final completion is supervised. Metadata and sound/list evidence live in review.jsonl; complete historical word findings live in history-flaws.jsonl and history-lexicon.json.
+
+The new examples have six primary categories of 50 each, exactly 150 history-required rows, 150 rows with 3–5 prior assistant turns, and 64 rows with intentional semantic recovery. Including lexical history defects, 143 new rows have explicitly annotated history flaws. The other 150 new rows use self-contained child requests or multi-event accounts.
+
+The final independent audit is audit.json. changes.jsonl preserves exact before/after original repairs. provenance.json binds all seven approved source artifacts and their independent reports. All artifacts are hashed in manifest.json and the manifest is hashed separately. Files are read-only; create a new dataset version for further changes. Human approval is false. Training and GPU execution are separate tasks, with no model-quality claim in this dataset release.

@@ -1,0 +1,17 @@
+{
+  "status": "metadata_and_downloaded_state_hashes_verified",
+  "epochs": 2,
+  "updates": 76,
+  "per_epoch_rows": [
+    300,
+    300
+  ],
+  "update_losses": 76,
+  "scale": 1024.0,
+  "scheduler_epoch": 76,
+  "retained_index": [
+    "checkpoint-38",
+    "checkpoint-76"
+  ],
+  "large_files_local_verification": false
+}

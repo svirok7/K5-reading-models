@@ -1,0 +1,197 @@
+{
+  "passed": true,
+  "mode": "lora",
+  "identity": {
+    "model": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "mode": "lora",
+    "data_sha256": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+    "manifest_sha256": "932e287304906a7e8dbf1f293011d0592a2a847e9450837081e0324f31024df3",
+    "dataset_version": "sft-600-v1",
+    "config": {
+      "mode": "lora",
+      "seed": 42,
+      "max_length": 2048,
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "learning_rate": 0.0001,
+      "epochs": 3,
+      "dataset_version": "sft-600-v1",
+      "data_sha256": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+      "manifest_sha256": "932e287304906a7e8dbf1f293011d0592a2a847e9450837081e0324f31024df3",
+      "train_examples": 600,
+      "microbatch": 1,
+      "gradient_accumulation": 8,
+      "fp16_initial_scale": 1024.0
+    },
+    "helper_sha256": "1d19f350b8cbc7b38106c4795a28186a944bd39e60265f9837deac1d8df22ecb",
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "enable_thinking": false,
+    "packing": false,
+    "train_examples": 600,
+    "internal_validation_examples": 0,
+    "context": {
+      "plan_sha256": "9277deeec7d2c6c628e3b2254fa6b499401f51bd789c57ec97b63c8ab4c9704a",
+      "frozen_manifest_sha256": "de653bb59391303b437816c9a423ccee6bfa97afc9d96d7a6b105c5910be9331",
+      "allocator_config": "expandable_segments:True",
+      "comparison": "current SFT adapter; no new base-model run",
+      "lr_policy": "linear decay across all three epochs"
+    }
+  },
+  "feature_collection_sha256": "7f46d0111857d158a0b403e4acfc3dbb5635c463d4a3f56b6995ecf73bd37e22",
+  "status": "passed",
+  "environment": {
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "tokenizers": "0.22.2",
+      "huggingface_hub": "0.36.2",
+      "safetensors": "0.8.0"
+    },
+    "mode": "lora",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "13.0",
+    "gpu_memory_bytes": 15637086208,
+    "initial_free_bytes": 15439036416,
+    "allocator_config": {
+      "PYTORCH_ALLOC_CONF": null,
+      "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"
+    },
+    "allocator_backend": "native",
+    "native_bf16_supported": false,
+    "compute_dtype": "float16"
+  },
+  "mask_report": {
+    "examples_checked": 600,
+    "all_actual_collator_masks_pass": true,
+    "supervised_tokens": 7894,
+    "max_sequence_tokens": 1889,
+    "model_or_gradients_tested": false
+  },
+  "representative_ids": [
+    "pilot-343",
+    "pilot-464",
+    "pilot-555",
+    "pilot-443",
+    "pilot-163",
+    "pilot-471",
+    "pilot-527",
+    "pilot-103",
+    "pilot-576",
+    "pilot-005",
+    "pilot-576",
+    "pilot-005",
+    "pilot-576",
+    "pilot-005",
+    "pilot-576",
+    "pilot-005"
+  ],
+  "longest_sequence_tokens": 1889,
+  "parameter_checks": {
+    "trainable_parameters": 17432576,
+    "total_parameters": 1738007552,
+    "base_frozen": true,
+    "trainable_dtype": "float32"
+  },
+  "initial_adapter_fingerprint": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+  "precision": {
+    "configured_fp16_initial_scale": 1024.0,
+    "applied": true,
+    "checkpoint_restore_order": "Trainer restores checkpoint scaler after this initialization",
+    "initial_scaler_state_before_checkpoint_restore": {
+      "scale": 1024.0,
+      "growth_factor": 2.0,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 0
+    }
+  },
+  "optimizer_steps": 2,
+  "training_loss": 7.8987815380096436,
+  "actual_batch_ids": [
+    "pilot-343",
+    "pilot-464",
+    "pilot-555",
+    "pilot-443",
+    "pilot-163",
+    "pilot-471",
+    "pilot-527",
+    "pilot-103",
+    "pilot-576",
+    "pilot-005",
+    "pilot-576",
+    "pilot-005",
+    "pilot-576",
+    "pilot-005",
+    "pilot-576",
+    "pilot-005"
+  ],
+  "actual_batch_masks_verified": true,
+  "nonzero_finite_gradient_steps": 2,
+  "adapter_updated": true,
+  "base_frozen": true,
+  "smoke_adapter_fingerprint": "dfad2aaeb4b3c61d29608dd7b2278eb05d6032fa63db111b40cedb67b134ceb0",
+  "training_memory": {
+    "total_bytes": 15637086208,
+    "peak_allocated_bytes": 7431904256,
+    "peak_reserved_bytes": 8237613056,
+    "minimum_sampled_driver_free_bytes": 7247560704,
+    "initial_nonallocator_bytes": 151912448,
+    "free_memory_margin_fraction": 0.46348537109759724,
+    "required_margin_fraction": 0.15,
+    "headroom_passed": true,
+    "margin_scope": "Operational target: sampled driver free and peak reserved plus initial nonallocator use; external changes between samples may be missed"
+  },
+  "optimizer_update_checks": {
+    "gradient_steps_checked": 2,
+    "applied_optimizer_steps": 2,
+    "skipped_optimizer_steps": 0,
+    "starting_global_step": 0,
+    "training_start_scaler_state": {
+      "scale": 1024.0,
+      "growth_factor": 2.0,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 0
+    },
+    "scaler_state_after_last_update": {
+      "scale": 1024.0,
+      "growth_factor": 2.0,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 2
+    }
+  },
+  "save_reload_weights_equal": true,
+  "reload_loss": 5.868429183959961,
+  "inference_verified": true,
+  "generated_token_ids": [
+    37,
+    309,
+    3304,
+    3363,
+    1602,
+    28956,
+    13,
+    8627
+  ],
+  "generated_text": "Famished means very hungry. Full",
+  "memory_including_reload": {
+    "total_bytes": 15637086208,
+    "peak_allocated_bytes": 7431904256,
+    "peak_reserved_bytes": 8237613056,
+    "minimum_sampled_driver_free_bytes": 7247560704,
+    "initial_nonallocator_bytes": 151912448,
+    "free_memory_margin_fraction": 0.46348537109759724,
+    "required_margin_fraction": 0.15,
+    "headroom_passed": true,
+    "margin_scope": "Operational target: sampled driver free and peak reserved plus initial nonallocator use; external changes between samples may be missed"
+  },
+  "headroom_passed": true,
+  "failure_kind": null,
+  "smoke_weights_discarded_before_full_run": true
+}

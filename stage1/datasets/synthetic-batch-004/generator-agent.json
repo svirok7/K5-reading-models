@@ -1,0 +1,28 @@
+{
+  "generator_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "agent_role": "SFT generator",
+  "agent_task": "/root/generator",
+  "batch": "synthetic-batch-004",
+  "id_range": [
+    "pilot-101",
+    "pilot-150"
+  ],
+  "instruction_sources_read": [
+    "READER_PROFILE.txt",
+    "RUBRIC.md",
+    "datasets/sft-100-v1/README.md",
+    "datasets/sft-100-v1/audit.md",
+    "datasets/sft-100-v1/sft.jsonl",
+    "datasets/sft-100-v1/review.jsonl",
+    "data/dolch-through-grade1.json"
+  ],
+  "prior_target_sources_checked": [
+    "datasets/sft-100-v1/review.jsonl",
+    "datasets/synthetic-batch-002/review.jsonl",
+    "datasets/synthetic-batch-003/review.jsonl"
+  ],
+  "held_out_data_opened": false,
+  "audit_approval": false,
+  "system_sha256": "129a21f9b37e953c4b1d27d6ea015fc9775c32cabf6b7d8ef9bfde212d9ade6c"
+}

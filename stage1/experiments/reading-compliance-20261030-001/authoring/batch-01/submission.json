@@ -1,0 +1,7 @@
+{
+  "batch": 1,
+  "count": 50,
+  "sft_sha256": "d6c72ae616e6a698f77632d6b1e24447e8d1dd18d3ca6fb46d709eac06805315",
+  "review_sha256": "9c6fdce1d00acecae6041775a1c2dfe55998e20929e2a1ae553971fbc4aa4f1f",
+  "correction_round": 0
+}

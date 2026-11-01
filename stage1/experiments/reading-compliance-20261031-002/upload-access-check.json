@@ -1,0 +1,10 @@
+{
+  "observed_date": "2026-10-31",
+  "T4_allocated": true,
+  "notebook_url": "https://colab.research.google.com/drive/1D0ALzTGKxm4KWfvmaWOBVm2wht4lpRnl?authuser=1",
+  "upload_attempted_artifact": "reading-compliance-20261030-001/reading-compliance-colab.zip",
+  "upload_completed": false,
+  "automatic_review_rejection": "Local project code/data upload to Colab requires explicit trusted-user authorization for the exact payload and destination.",
+  "explicit_approval_requested": true,
+  "gpu_training_executed": false
+}

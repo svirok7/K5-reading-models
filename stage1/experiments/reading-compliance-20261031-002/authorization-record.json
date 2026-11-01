@@ -1,0 +1,16 @@
+{
+  "source": "trusted_user_replies_in_this_chat",
+  "approved_actions": [
+    {
+      "payload": "001reading-compliance-colab.zip247KB",
+      "destination": "GoogleColabruntime",
+      "answer": "Approve Colab upload"
+    },
+    {
+      "payload": "002fullreading-compliance-colab.zip332KBincluding600-exampledataset",
+      "destination": "sameGoogleColabruntime",
+      "answer": "Approve full experiment upload"
+    }
+  ],
+  "scope": "Execute the two bounded reading-model experiments; no purchases or liveUIadapterreplacement"
+}

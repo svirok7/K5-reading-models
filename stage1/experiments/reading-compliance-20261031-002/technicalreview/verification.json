@@ -1,0 +1,23 @@
+{
+  "notebook_code_cells_compiled": 8,
+  "builder_called": false,
+  "tests": {
+    "training_helper": 29,
+    "evaluation_selection_execution": 19
+  },
+  "commands": [
+    "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m unittest test_sft_train -q",
+    "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m unittest discover -s experiments/reading-compliance-20261031-002 -p test_*.py -q"
+  ],
+  "source_hashes": {
+    "evaluate.py": "179e8b1dbfa7d11a9122438b93febdc3a9175c1cb5da862826cf4bc1a5ba72c4",
+    "execute.py": "367212e866b3dec3188480497cd1ba089959ff32f745143c5fbcd8fa4e5e2aaa",
+    "choose_checkpoint.py": "0dc183842b49386370bbda9f86b6b91b201b4ca34ff924484fcc70f06e1a4c28",
+    "repeat_seeds.py": "7ab4e110e51b2c11502901af767a236bb90b84997d0fe5d4f2ec357ef86f2e4f",
+    "test_evaluate.py": "f706857e1dd6fc5e6b0377a7c635d407aaaab3ab4608a28456e87c9c132a4bed",
+    "test_selection.py": "075b47ee6a5628e286ae1918035552baba01aa805f75468ef225cf0132823faa",
+    "test_execution.py": "dd82c77c750f879f0a6310090e8b108e0b6a0bf788ffca70693a553c52626d2b"
+  },
+  "gpu_executed": false,
+  "heldout_or_archive_contents_read": false
+}

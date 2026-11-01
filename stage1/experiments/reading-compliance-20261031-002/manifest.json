@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "experiment_id": "reading-compliance-20261031-002",
+  "status": "prepared_for_authorized_execution",
+  "data": {
+    "source": "datasets/sft-300-v2",
+    "successor": "datasets/sft-600-v1",
+    "successor_count": 600,
+    "successor_manifest_sha256": "932e287304906a7e8dbf1f293011d0592a2a847e9450837081e0324f31024df3",
+    "independent_agent_review": "600pass_0open",
+    "human_review_pending": true
+  },
+  "files": {
+    "plan.json": "9277deeec7d2c6c628e3b2254fa6b499401f51bd789c57ec97b63c8ab4c9704a",
+    "delivery.json": "8b97afe34c20f7c87f31e6d319c0907af34fb7a97eeda528fcb860154d69ed08",
+    "reading-compliance-colab.zip": "24be38ca94a924e635e6f06c7086cef1db1b41f0803e8d3ec411482d230424fb",
+    "reading_compliance_colab.ipynb": "9dd7bcaf8f563b80a4464db28aaecb6e7c10a10bda2d1bcec4c820e419659c74",
+    "verification.json": "f8c47cc440821e623ed6df8770c4bd7ddd8390e106a891b1f69231e44c3d58f8",
+    "600-tokenization-preflight.json": "7f3e3a54fff57d9f65ded13958b926b53c6df0963d990977ec59f20ccf30d8c6",
+    "prepared-model-artifacts.json": "9213a331cc020990fb27b14c4d252b7892070ff211ebb753396bee33679196ab",
+    "authorization-record.json": "7342ffb3cfc847cea9c12ff92e9a99fe5ec4e08e90a7c32a9f5cab9322fd4f48",
+    "technicalreview/INDEPENDENT_REVIEW.md": "385225017a0dee0d0579ddd1d1e677aecc95b48ad358baf53582c8c3ab365ff9",
+    "technicalreview/sealed-verification.json": "3b30c752173f5d8ef9be2f53ceabd2a94ed770526aca8ca39797cf75a271e86d"
+  },
+  "frozen_inputs": "byte-identical_to001_34cases",
+  "mutable_status": "status.json",
+  "execution_constraints": {
+    "no_test_access": true,
+    "no_purchases": true,
+    "no_paid_evaluator": true,
+    "no_live_ui_replacement": true
+  },
+  "initial_execution": {
+    "training_executed": false,
+    "quality_evaluation_executed": false
+  },
+  "runtime_notebook_url": "https://colab.research.google.com/drive/1gqdgp3o34M-f9nPTNI5xQ_vAS8kSrmTj?authuser=1"
+}

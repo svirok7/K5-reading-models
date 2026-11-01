@@ -1,0 +1,19 @@
+{
+  "python": "3.13.16",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "peft": "0.21.2",
+    "accelerate": "1.15.0",
+    "tokenizers": "0.22.2",
+    "huggingface_hub": "0.36.2",
+    "safetensors": "0.8.0"
+  },
+  "mode": "lora",
+  "gpu": "Tesla T4",
+  "cuda_runtime": "13.0",
+  "gpu_memory_bytes": 15637086208,
+  "initial_free_bytes": 15527116800,
+  "native_bf16_supported": false,
+  "compute_dtype": "float16"
+}

@@ -1,0 +1,20 @@
+{
+  "selected": "expanded600-epoch3",
+  "artifact_url": "https://drive.google.com/drive/folders/1MfZq5vhaOMKgfRFkEdV_P-TNo3ErW9-C",
+  "selected_resume_record_sha256": "1138bc944bf1fd4511111f0f0de7e2475a813b26c2a316d2124eb701c6b1dd01",
+  "final_decision_sha256": "ec5c68184d2de93d04c3c9826952ce3f2be2b9b44d3d33cf76d38c91abdc560a",
+  "primary_summary_sha256": "80014b044251908ebc769742e9ea6f5bd3fa9205480ecff7b6191f2a0586adb7",
+  "primary_ratings_sha256": "7214601001070ef1cc1b7c31b88cbca976af93565340797755969c3808011e44",
+  "repeat_summary_sha256": {
+    "1000003": "b796aea75307cfd3b319e6a9e493a148f08ac2c0ce11ad88dab44e1b93e44920",
+    "2000003": "c439bda5ff4afc38c90e9899d41ad232e2712ee732819feafd345c0707bd675a"
+  },
+  "repeat_ratings_sha256": {
+    "1000003": "c6567f817ded0e2a264c8667443b56e9c109222dac46eddc3207f4424f3f62d1",
+    "2000003": "616eb6c3dd77c746c6c895d1ea59c0814fe34d3baf8f6882c6173b86dcd083d6"
+  },
+  "independent_cases": 34,
+  "total_raw_response_records_reviewed": 374,
+  "human_review_pending": true,
+  "live_ui_changed": false
+}

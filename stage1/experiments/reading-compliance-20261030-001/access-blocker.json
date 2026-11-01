@@ -1,0 +1,28 @@
+{
+  "observed_date_local": "2026-10-30",
+  "timezone": "Asia/Kolkata",
+  "workflow_url": "https://colab.research.google.com/drive/1GC5ijOkkXFBZeMnLO6PDmWrVB5DSjroJ?authuser=1",
+  "action": "Connect T4",
+  "dialog_title": "Cannot connect to GPU backend",
+  "dialog_text": "You cannot currently connect to a GPU due to usage limits in Colab.",
+  "local_probe": {
+    "torch": "2.14.1",
+    "cuda_available": false,
+    "mps_available": false
+  },
+  "training_executed": false,
+  "purchases": false,
+  "fallback": "Complete code, tests, independently audited data and executable notebook; GPU smoke, training and fresh evaluation pending.",
+  "independent_worker_access_blocker": {
+    "workers": [
+      "/root/author",
+      "/root/reviewer",
+      "/root/training"
+    ],
+    "configured_model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "error": "You\u2019ve hit your usage limit.",
+    "service_rendered_retry_time": "11:17 PM; timezone not verified",
+    "purchases": false
+  }
+}

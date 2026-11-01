@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "created_at": "2026-10-28T14:36:17.429183+00:00",
+  "frozen_manifest_sha256": "bb34c2e66a9dbbe2684e574790f5d120ede4aa58174cf2d030b0837c75d9c760",
+  "batches": {
+    "006": {
+      "status": "accepted",
+      "generator_agent": "/root/generator",
+      "correction_round": 0,
+      "started_at": "2026-10-28T14:36:17.503541+00:00",
+      "generator": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "hashes": {
+        "sft_sha256": "a17dfffc89c5d0aad8711f8863ea7eba2066a4d3a05cb646b426a128bd72cbaf",
+        "review_sha256": "cc636820ab37e22e987e61163e149793e8927ada30a2a1697d5b57b3bc6ef989"
+      },
+      "validated_at": "2026-10-28T14:41:35.258540+00:00",
+      "errors": [],
+      "audit": {
+        "path": "checkpoints/006/round-0-audit.json",
+        "sha256": "7c19d1fa6497f3ac7c3e5d5fee731afbb26ddcbf89c8f27072dc3409ddabe72e"
+      },
+      "blocked_ids": [],
+      "accepted_at": "2026-10-28T14:44:04.396326+00:00",
+      "review_status": "independent_model_reviewed_pending_human"
+    },
+    "007": {
+      "status": "accepted",
+      "generator_agent": "/root/generator",
+      "correction_round": 0,
+      "started_at": "2026-10-28T14:44:04.423232+00:00",
+      "generator": {
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "high"
+      },
+      "hashes": {
+        "sft_sha256": "2d139adbaf5f2dee2ef86af002465043ec0399d62d66701cf974c02517fc4b54",
+        "review_sha256": "3955157f7bc10c92ed7826b82d382ce64f08a57646a2de193c88be4bc7a2d39b"
+      },
+      "validated_at": "2026-10-28T14:51:02.541448+00:00",
+      "errors": [],
+      "audit": {
+        "path": "checkpoints/007/round-0-audit.json",
+        "sha256": "beb1ef82a1f10d94afa1c9e6aeba16a4af74c7c7b83acd1581405627656e9ba6"
+      },
+      "blocked_ids": [],
+      "accepted_at": "2026-10-28T14:53:26.538721+00:00",
+      "review_status": "independent_model_reviewed_pending_human"
+    }
+  },
+  "export": {
+    "status": "exported",
+    "path": "/Users/viroksharma/Desktop/Personal/Projects for Fun/Reading-Model/stage1/datasets/sft-300-v1",
+    "hashes": {
+      "sft.jsonl": "b10b797e6951ca8dacf81da3956ada6094b5c9393dbfb06dcff5438ff1c327f3",
+      "review.jsonl": "b5b661afb9f3973121cb1366442b79cca5fffe949b9b591dad0500e8c9f7cf1b"
+    },
+    "exported_at": "2026-10-28T14:53:26.592223+00:00"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "version": "sft-200-v1",
+  "count": 200,
+  "artifacts": {
+    "sft.jsonl": "bb20f5e310657ad5ef2e788a5b3a808b00aa436041496288121939a558ed8e62",
+    "review.jsonl": "df9583db10708b544ac5727dc2f23e56895063d0f127cb464efb191dd274ff76"
+  },
+  "spec_sha256": "abe144fa530582a8dccf231cf99a8a59715bf2e64402f78c3851eebb49ab3819",
+  "baseline_hashes": {
+    "README.md": "b11809463f4bdd07537eed590ed7875e8352eb15ba98081071ff6ad844b3c41c",
+    "audit.md": "dd168e669e29cfac3f4519e7e655a2f63ef71bfda8baa83abbbd50234576608f",
+    "manifest.json": "f5a7dbe7e696d268367759a8509626340fe6c99fb3529ec2dab090bfd4c42377",
+    "review.jsonl": "ce16396f4df618c2d59a8fcc6c4e9897df200e27b410136b48d0b21083bcc470",
+    "review.md": "029acc2b8e6c0d5292cdcce5e312fae59b47fc12c1d36cb22c8cc104be5b861a",
+    "sft.jsonl": "88aafaf21a2adfce992e5132c8abe48ed9d58c662f209782045d9662b1167bd8",
+    "word-evidence.json": "d4a64b3e3272edd8a4762e277a05d4060a9311ff3945a6967b6c547906e76fef"
+  },
+  "batch_checkpoints": {
+    "004": {
+      "status": "accepted",
+      "generator_agent": "/root/generator",
+      "correction_round": 2,
+      "started_at": "2026-10-28T14:14:28.486630+00:00",
+      "hashes": {
+        "sft_sha256": "6b15a392b84c1171b9e10d1f3e9080b65b932ddafa1aa0a8ef3bc2828c5c6e01",
+        "review_sha256": "77a4dc94c6b02a40d692b00c7c728f01e0bf91e569659fdac996d1916c1b0d1a"
+      },
+      "validated_at": "2026-10-28T14:15:35.892711+00:00",
+      "errors": [],
+      "audit": {
+        "path": "checkpoints/004/round-2-audit.json",
+        "sha256": "e0d82a0d06e2bb1cbdf6b32b07755f5bf6bdf8808c17daaaedfd4dd755d33973"
+      },
+      "blocked_ids": [],
+      "accepted_at": "2026-10-28T14:17:02.610128+00:00",
+      "review_status": "independent_model_reviewed_pending_human"
+    },
+    "005": {
+      "status": "accepted",
+      "generator_agent": "/root/generator",
+      "correction_round": 0,
+      "started_at": "2026-10-28T14:17:02.639832+00:00",
+      "hashes": {
+        "sft_sha256": "a5fe96aba85131b180b3814bce7771b06a8737fc9a0fcd055be67cf54a303385",
+        "review_sha256": "5cc2df3595362e0a70f968caaa85c24dceb16a9d3c89a6c034c8a66fe4964156"
+      },
+      "validated_at": "2026-10-28T14:25:44.763878+00:00",
+      "errors": [],
+      "audit": {
+        "path": "checkpoints/005/round-0-audit.json",
+        "sha256": "58d41de7542a9c606358a7af5c36024e61862d2c0bfed53a180f5d89524e5dc3"
+      },
+      "blocked_ids": [],
+      "accepted_at": "2026-10-28T14:28:16.924775+00:00",
+      "review_status": "independent_model_reviewed_pending_human"
+    }
+  },
+  "review_status": "new_100_independent_model_reviewed_pending_human; baseline_preserved",
+  "tokenization_verified": false,
+  "training_executed": false
+}

@@ -1,0 +1,192 @@
+{
+  "passed": true,
+  "mode": "lora",
+  "identity": {
+    "model": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "mode": "lora",
+    "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+    "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+    "config": {
+      "mode": "lora",
+      "seed": 42,
+      "max_length": 2048,
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "learning_rate": 0.0001,
+      "epochs": 1,
+      "microbatch": 1,
+      "gradient_accumulation": 8,
+      "fp16_initial_scale": 1024
+    },
+    "helper_sha256": "777e78d03b131e03ff12a125153d692afe85e092ea307297914bd4f8a9252275",
+    "chat_template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "enable_thinking": false,
+    "packing": false,
+    "train_examples": 300,
+    "internal_validation_examples": 0,
+    "context": {
+      "kit_sha256": "84df1923ca4101eaefb4548687c27ff5c5737405eb388bbe11b935ef50bec939",
+      "baseline_reference": "evaluation-sft-v1/baseline-reference/manifest.json sha256:9215dc370204863e1ff58383d6e6083e709a883af54e74f80f9d7a54c82b89b6",
+      "allocator_config": "expandable_segments:True",
+      "mode_reason": "User-authorized allocator experiment: expandable_segments:True; prior clean LoRA/QLoRA missed15% margin.",
+      "lora_failure_evidence": null
+    }
+  },
+  "status": "passed",
+  "environment": {
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "tokenizers": "0.22.2",
+      "huggingface_hub": "0.36.2",
+      "safetensors": "0.8.0",
+      "bitsandbytes": "0.49.2"
+    },
+    "mode": "lora",
+    "gpu": "Tesla T4",
+    "cuda_runtime": "13.0",
+    "gpu_memory_bytes": 15637086208,
+    "initial_free_bytes": 15527116800,
+    "allocator_config": {
+      "PYTORCH_ALLOC_CONF": null,
+      "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"
+    },
+    "allocator_backend": "native",
+    "native_bf16_supported": false,
+    "compute_dtype": "float16"
+  },
+  "mask_report": {
+    "examples_checked": 300,
+    "all_actual_collator_masks_pass": true,
+    "supervised_tokens": 4683,
+    "max_sequence_tokens": 1825,
+    "model_or_gradients_tested": false
+  },
+  "representative_ids": [
+    "pilot-043",
+    "pilot-062",
+    "pilot-287",
+    "pilot-161",
+    "pilot-031",
+    "pilot-266",
+    "pilot-173",
+    "pilot-206",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005"
+  ],
+  "longest_sequence_tokens": 1825,
+  "parameter_checks": {
+    "trainable_parameters": 17432576,
+    "total_parameters": 1738007552,
+    "base_frozen": true,
+    "trainable_dtype": "float32"
+  },
+  "initial_adapter_fingerprint": "e9fd6f40dba90a498d2991d1f5c53b63538c6f2d2b37a9da09dae4bf5394d12b",
+  "precision": {
+    "configured_fp16_initial_scale": 1024,
+    "applied": true,
+    "checkpoint_restore_order": "Trainer restores checkpoint scaler after this initialization",
+    "initial_scaler_state_before_checkpoint_restore": {
+      "scale": 1024,
+      "growth_factor": 2,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 0
+    }
+  },
+  "optimizer_steps": 2,
+  "training_loss": 6.779061317443848,
+  "actual_batch_ids": [
+    "pilot-043",
+    "pilot-062",
+    "pilot-287",
+    "pilot-161",
+    "pilot-031",
+    "pilot-266",
+    "pilot-173",
+    "pilot-206",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005",
+    "pilot-022",
+    "pilot-005"
+  ],
+  "actual_batch_masks_verified": true,
+  "nonzero_finite_gradient_steps": 2,
+  "adapter_updated": true,
+  "base_frozen": true,
+  "smoke_adapter_fingerprint": "5aa3ea137785a69e5b27d2914dd6707bb6960608d29ca47e73463b4c45c66964",
+  "training_memory": {
+    "total_bytes": 15637086208,
+    "peak_allocated_bytes": 7307075072,
+    "peak_reserved_bytes": 8489271296,
+    "minimum_sampled_driver_free_bytes": 6997999616,
+    "initial_nonallocator_bytes": 109969408,
+    "free_memory_margin_fraction": 0.44752580646513246,
+    "required_margin_fraction": 0.15,
+    "headroom_passed": true,
+    "margin_scope": "Operational target: sampled driver free and peak reserved plus initial nonallocator use; external changes between samples may be missed"
+  },
+  "optimizer_update_checks": {
+    "gradient_steps_checked": 2,
+    "applied_optimizer_steps": 2,
+    "skipped_optimizer_steps": 0,
+    "starting_global_step": 0,
+    "training_start_scaler_state": {
+      "scale": 1024,
+      "growth_factor": 2,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 0
+    },
+    "scaler_state_after_last_update": {
+      "scale": 1024,
+      "growth_factor": 2,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 2
+    }
+  },
+  "save_reload_weights_equal": true,
+  "reload_loss": 8.066768646240234,
+  "inference_verified": true,
+  "generated_token_ids": [
+    20720,
+    768,
+    3363,
+    10655,
+    323,
+    42435,
+    13,
+    1084
+  ],
+  "generated_text": "Snug means comfortable and cozy. It",
+  "memory_including_reload": {
+    "total_bytes": 15637086208,
+    "peak_allocated_bytes": 7307075072,
+    "peak_reserved_bytes": 8489271296,
+    "minimum_sampled_driver_free_bytes": 6997999616,
+    "initial_nonallocator_bytes": 109969408,
+    "free_memory_margin_fraction": 0.44752580646513246,
+    "required_margin_fraction": 0.15,
+    "headroom_passed": true,
+    "margin_scope": "Operational target: sampled driver free and peak reserved plus initial nonallocator use; external changes between samples may be missed"
+  },
+  "headroom_passed": true,
+  "failure_kind": null,
+  "smoke_weights_discarded_before_full_run": true
+}

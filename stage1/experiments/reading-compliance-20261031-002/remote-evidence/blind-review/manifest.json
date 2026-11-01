@@ -1,0 +1,47 @@
+{
+  "frozen_manifest_sha256": "de653bb59391303b437816c9a423ccee6bfa97afc9d96d7a6b105c5910be9331",
+  "review_sha256": "728a00882bf9a2fcdaf738fc2fe128ac833e7746dc985c6d77491bcecf70d3e6",
+  "identity_key_sha256": "0aa21b4d343132db3416c76b8ad89a02139f94852fc91d89030d29c2fd59b58e",
+  "inference_group": {
+    "base_model": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "template": "qwen-chat-v3; enable_thinking=False",
+    "enable_thinking": false,
+    "generation": {
+      "do_sample": true,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "max_new_tokens": 128
+    },
+    "precision": "float16",
+    "hardware": "Tesla T4",
+    "cuda": "13.0",
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "tokenizers": "0.22.2",
+      "huggingface_hub": "0.36.2",
+      "safetensors": "0.8.0"
+    },
+    "seed_offset": 0,
+    "model_tokenizer_artifacts_sha256": "8922df67227a992c8624e60442f0b455a7a7e5804de384861f931e0d77025b85",
+    "actual_parameter_dtypes": {
+      "torch.float16": 310,
+      "torch.float32": 392
+    },
+    "attention_implementation": "sdpa"
+  },
+  "candidate_record_hashes": {
+    "current": "e663915ce39d7d9fc344865102e81da2498832063af334ea25b17c262cdc49cc",
+    "same300-epoch1": "9451c2e2d78a60083dd0369b00b4aec893651e05ce2ba0139ce797d9de8d4f93",
+    "same300-epoch2": "78e13f8450adc97c1ca4fda3ab21ab1bf3c42d5da471bf3e11ffe84da1c41b49",
+    "same300-epoch3": "758cd5b2bddfbddfceab4bfef94606ffc2bea8cb75eaca55945a64ddb82f6fb7",
+    "expanded600-epoch1": "fe3f0510bf0c828f96c4c7fb21509e1b85f11301cca250ec7c45f06a46d627b6",
+    "expanded600-epoch2": "3353fdf4071d605218c8c2356268155a24eaf835dd4d1a6e87de12452949cb85",
+    "expanded600-epoch3": "1138bc944bf1fd4511111f0f0de7e2475a813b26c2a316d2124eb701c6b1dd01"
+  }
+}

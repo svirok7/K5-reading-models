@@ -1,0 +1,69 @@
+{
+  "scope": "Offline tokenization and manual label construction feasibility; no trainer/collator/model/gradient step verified",
+  "dataset": "/Users/viroksharma/Desktop/Personal/Projects for Fun/Reading-Model/stage1/datasets/sft-300-v1",
+  "row_count": 300,
+  "dataset_sha256": {
+    "sft.jsonl": "b10b797e6951ca8dacf81da3956ada6094b5c9393dbfb06dcff5438ff1c327f3",
+    "review.jsonl": "b5b661afb9f3973121cb1366442b79cca5fffe949b9b591dad0500e8c9f7cf1b"
+  },
+  "tokenizer_model": "Qwen/Qwen3-1.7B",
+  "cached_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "tokenizer_file_sha256": {
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197"
+  },
+  "transformers_version": "4.57.6",
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "model_config_max_position_embeddings": 40960,
+  "tokenizer_model_max_length": 131072,
+  "eos_token_id": 151645,
+  "pad_token_id": 151643,
+  "native_template_supports_generation_mask": false,
+  "historical_assistant_turns": 144,
+  "full_sequence_tokens": {
+    "min": 1737,
+    "median": 1757.5,
+    "p95": 1800,
+    "max": 1825,
+    "sum": 529486
+  },
+  "prompt_tokens": {
+    "min": 1729,
+    "median": 1738.0,
+    "p95": 1785,
+    "max": 1795,
+    "sum": 524798
+  },
+  "supervised_suffix_tokens_including_termination": {
+    "min": 4,
+    "median": 15.0,
+    "p95": 32,
+    "max": 44,
+    "sum": 4688
+  },
+  "raw_target_tokens": {
+    "min": 2,
+    "median": 13.0,
+    "p95": 30,
+    "max": 42,
+    "sum": 4088
+  },
+  "longest_row": {
+    "id": "pilot-022",
+    "tokens": 1825
+  },
+  "rows_exceeding_sequence_limit": {
+    "1024": 300,
+    "2048": 0,
+    "2560": 0,
+    "3072": 0,
+    "4096": 0
+  },
+  "prefix_boundary_errors": [],
+  "feasibility_passed": true,
+  "actual_training_collator_verified": false,
+  "model_loaded": false,
+  "training_executed": false,
+  "held_out_opened": false
+}

@@ -1,0 +1,1 @@
+Restore the qwen_sft object from models.before.json into stage1/models.json, then refresh the UI. The previous adapter remains at its original path. The server reads the registry per request and reloads the engine when the adapter identity changes.

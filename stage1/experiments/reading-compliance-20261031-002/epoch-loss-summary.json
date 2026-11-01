@@ -1,0 +1,36 @@
+{
+  "same300": [
+    {
+      "epoch": 1,
+      "updates": 38,
+      "mean_logged_update_loss": 2.432186842105263
+    },
+    {
+      "epoch": 2,
+      "updates": 38,
+      "mean_logged_update_loss": 1.1728473684210527
+    },
+    {
+      "epoch": 3,
+      "updates": 38,
+      "mean_logged_update_loss": 0.8821526315789474
+    }
+  ],
+  "expanded600": [
+    {
+      "epoch": 1,
+      "updates": 75,
+      "mean_logged_update_loss": 1.9573106666666666
+    },
+    {
+      "epoch": 2,
+      "updates": 75,
+      "mean_logged_update_loss": 0.9328826666666666
+    },
+    {
+      "epoch": 3,
+      "updates": 75,
+      "mean_logged_update_loss": 0.6231186666666667
+    }
+  ]
+}

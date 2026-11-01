@@ -1,0 +1,26 @@
+{
+  "current": {
+    "responses": 34,
+    "truncated": 1,
+    "manifest_sha256": "612abd361927e652392c7cb23e25d1b5d8ce6bc1b9c7e98b205bc330da9e35e2",
+    "response_sha256": "f88ec044164d09f2fa0a84b7b92b60faf7b4c32336248919226574ae997b197b"
+  },
+  "same300-epoch1": {
+    "responses": 34,
+    "truncated": 0,
+    "manifest_sha256": "247982d7656c41e1f486d6283a60a695f4b58a5c78b15a604a3bcc8b0d523435",
+    "response_sha256": "d2c3107cc472dded9fc8fc73bfb52cf162468a5a653912d2b6e4a5110e2f6935"
+  },
+  "same300-epoch2": {
+    "responses": 34,
+    "truncated": 0,
+    "manifest_sha256": "87adbb467f61fcac8e7ae88b57b68d8c0201e764a6695b14d268bc3e116a6121",
+    "response_sha256": "62a0abe7cd4d5649e69c8f7a5a756efd26c0fd1af5f59f021cabaaa2426da461"
+  },
+  "same300-epoch3": {
+    "responses": 34,
+    "truncated": 0,
+    "manifest_sha256": "c63dace53591012cbc66e4699315fcb29bac8dab3eadfbe0764bc4aa17054add",
+    "response_sha256": "1bec4021fcf0d15369e97b6b5ebbfa74c60a304c018727bb03379f1f5600ef7b"
+  }
+}

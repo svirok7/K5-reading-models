@@ -1,0 +1,300 @@
+{"messages":[{"content":"hiya","role":"user"}],"training_index_1based":1}
+{"messages":[{"content":"can we chill","role":"user"}],"training_index_1based":2}
+{"messages":[{"content":"i zipped my jacket all by myself","role":"user"}],"training_index_1based":3}
+{"messages":[{"content":"nah im done","role":"user"}],"training_index_1based":4}
+{"messages":[{"content":"i want the red cup","role":"user"},{"content":"You can take the red cup.","role":"assistant"},{"content":"wait theres a blue one too","role":"user"},{"content":"Yes. You can pick one.","role":"assistant"},{"content":"actually blue","role":"user"}],"training_index_1based":5}
+{"messages":[{"content":"my toast fell in the mud before breakfast","role":"user"}],"training_index_1based":6}
+{"messages":[{"content":"my bag is so heavy i put all my blocks in and now i cant lift it","role":"user"}],"training_index_1based":7}
+{"messages":[{"content":"my kitten played all morning and now she is asleep under the desk with her paws out","role":"user"}],"training_index_1based":8}
+{"messages":[{"content":"i made a huge tower and my brother knocked it over and now im really annoyed","role":"user"}],"training_index_1based":9}
+{"messages":[{"content":"wow this biscuit is so crunchy","role":"user"}],"training_index_1based":10}
+{"messages":[{"content":"i put a seed in a red cup","role":"user"},{"content":"You can see it come up.","role":"assistant"},{"content":"the blue cup just has stones in it","role":"user"},{"content":"It is not in the blue cup.","role":"assistant"},{"content":"its coming up!","role":"user"}],"training_index_1based":11}
+{"messages":[{"content":"i could sort shells by size or bang on pans","role":"user"},{"content":"What do you want to do?","role":"assistant"},{"content":"the pans are too loud","role":"user"},{"content":"We can stop that.","role":"assistant"},{"content":"the shells then","role":"user"}],"training_index_1based":12}
+{"messages":[{"content":"will my magnet stick to everything?","role":"user"}],"training_index_1based":13}
+{"messages":[{"content":"i left ice in a cup by the window and the sun is on it what happens","role":"user"}],"training_index_1based":14}
+{"messages":[{"content":"can my shadow jump like me?","role":"user"}],"training_index_1based":15}
+{"messages":[{"content":"i had four buttons but one fell off my shirt so how many do i have","role":"user"}],"training_index_1based":16}
+{"messages":[{"content":"what is the opposite of up?","role":"user"}],"training_index_1based":17}
+{"messages":[{"content":"i put all the red pegs here and blue ones there","role":"user"},{"content":"Yes. Red here, blue there.","role":"assistant"},{"content":"i found one last red peg under my chair","role":"user"},{"content":"You have one left.","role":"assistant"},{"content":"where does it go","role":"user"}],"training_index_1based":18}
+{"messages":[{"content":"tell me a story about a pig with a shop","role":"user"}],"training_index_1based":19}
+{"messages":[{"content":"tell a funny story about a frog and a drum","role":"user"}],"training_index_1based":20}
+{"messages":[{"content":"make up a silly story about a lost sock","role":"user"}],"training_index_1based":21}
+{"messages":[{"content":"lets make a story about a moth with a cap","role":"user"},{"content":"The moth sat on a cap. The cap was on a stump.","role":"assistant"},{"content":"now make the wind blow really hard","role":"user"},{"content":"The moth held on to the cap.","role":"assistant"},{"content":"what happens next","role":"user"}],"training_index_1based":22}
+{"messages":[{"content":"everyone got invited except me i hate this","role":"user"}],"training_index_1based":23}
+{"messages":[{"content":"can i tell you my address so you can come to my house after school","role":"user"}],"training_index_1based":24}
+{"messages":[{"content":"can you eat this lemon with me?","role":"user"}],"training_index_1based":25}
+{"messages":[{"content":"i put the bugs in the red box","role":"user"},{"content":"The bugs are in the red box.","role":"assistant"},{"content":"no wait i moved them to blue","role":"user"},{"content":"They are in the blue box now.","role":"assistant"},{"content":"where are they now","role":"user"}],"training_index_1based":26}
+{"messages":[{"content":"my toy truck has enormous wheels","role":"user"},{"content":"What can the truck do?","role":"assistant"},{"content":"forget the truck lets talk about ducks","role":"user"},{"content":"A duck can swim.","role":"assistant"},{"content":"what about food","role":"user"}],"training_index_1based":27}
+{"messages":[{"content":"we can jump and then sing","role":"user"},{"content":"Jump, then sing.","role":"assistant"},{"content":"actually i dont want to jump lets sing and rest","role":"user"},{"content":"Yes. We will sing.","role":"assistant"},{"content":"then what","role":"user"}],"training_index_1based":28}
+{"messages":[{"content":"i picked a red cup and my sister picked black","role":"user"},{"content":"You have red. She has black.","role":"assistant"},{"content":"mine is on the desk now","role":"user"},{"content":"The red cup is on the desk.","role":"assistant"},{"content":"and hers?","role":"user"}],"training_index_1based":29}
+{"messages":[{"content":"i have a stick and some sand to draw in","role":"user"},{"content":"What do you want to make?","role":"assistant"},{"content":"not a circle i want something with two straight lines","role":"user"},{"content":"We can think of one.","role":"assistant"},{"content":"what can i make with this stick?","role":"user"}],"training_index_1based":30}
+{"messages":[{"content":"heyyy","role":"user"}],"training_index_1based":31}
+{"messages":[{"content":"im a genius","role":"user"}],"training_index_1based":32}
+{"messages":[{"content":"i finally did all my buttons","role":"user"}],"training_index_1based":33}
+{"messages":[{"content":"not that again","role":"user"}],"training_index_1based":34}
+{"messages":[{"content":"i can have a pink bun or a brown bun","role":"user"},{"content":"You can pick one.","role":"assistant"},{"content":"i think brown but wait let me look","role":"user"},{"content":"Take a look.","role":"assistant"},{"content":"the pink one","role":"user"}],"training_index_1based":35}
+{"messages":[{"content":"i missed the bus this morning","role":"user"}],"training_index_1based":36}
+{"messages":[{"content":"my little cousin tipped the entire box of puzzle pieces onto the table and now theyre everywhere","role":"user"}],"training_index_1based":37}
+{"messages":[{"content":"it was absolutely freezing outside and my teeth were chattering so i came straight back inside","role":"user"}],"training_index_1based":38}
+{"messages":[{"content":"my remote control car zoomed under the sofa and i cant reach it even with my arm","role":"user"}],"training_index_1based":39}
+{"messages":[{"content":"soooo loud","role":"user"}],"training_index_1based":40}
+{"messages":[{"content":"i mixed red paint with blue paint","role":"user"},{"content":"You can see them mix.","role":"assistant"},{"content":"its changing colour","role":"user"},{"content":"What do you see now?","role":"assistant"},{"content":"its purple now","role":"user"}],"training_index_1based":41}
+{"messages":[{"content":"there is ice on the path","role":"user"},{"content":"You could slip.","role":"assistant"},{"content":"i was going to step on the ice","role":"user"},{"content":"It may not be good to step there.","role":"assistant"},{"content":"too slippery","role":"user"}],"training_index_1based":42}
+{"messages":[{"content":"what does snug mean exactly","role":"user"}],"training_index_1based":43}
+{"messages":[{"content":"if i hold chocolate in my hand for ages will it stay hard or change","role":"user"}],"training_index_1based":44}
+{"messages":[{"content":"why does a bell make noise","role":"user"}],"training_index_1based":45}
+{"messages":[{"content":"i found two shiny stones by the gate and then another two so how many altogether","role":"user"}],"training_index_1based":46}
+{"messages":[{"content":"can a slug jump over things","role":"user"}],"training_index_1based":47}
+{"messages":[{"content":"my box is on the desk but i lost the lid","role":"user"},{"content":"Let us look for it.","role":"assistant"},{"content":"oh i see the lid under my bed now","role":"user"},{"content":"You can get it.","role":"assistant"},{"content":"and the lid","role":"user"}],"training_index_1based":48}
+{"messages":[{"content":"tell me a story about a rat making lunch","role":"user"}],"training_index_1based":49}
+{"messages":[{"content":"make a funny story with a dog and a wig","role":"user"}],"training_index_1based":50}
+{"messages":[{"content":"tell a little story about an ant hiding","role":"user"}],"training_index_1based":51}
+{"messages":[{"content":"our pretend dragon is tiny and he fell in a muddy pit","role":"user"},{"content":"He is stuck in the pit.","role":"assistant"},{"content":"he can climb out using a branch","role":"user"},{"content":"He can get out.","role":"assistant"},{"content":"and then what did he do","role":"user"}],"training_index_1based":52}
+{"messages":[{"content":"they never let me have a turn","role":"user"}],"training_index_1based":53}
+{"messages":[{"content":"can you meet me in the park tomorrow if i bring my favourite toy with me","role":"user"}],"training_index_1based":54}
+{"messages":[{"content":"im nervous about my new class","role":"user"}],"training_index_1based":55}
+{"messages":[{"content":"the black mug is my brothers","role":"user"},{"content":"It is his mug.","role":"assistant"},{"content":"my sister has the white one","role":"user"},{"content":"She has white.","role":"assistant"},{"content":"whose is black","role":"user"}],"training_index_1based":56}
+{"messages":[{"content":"i was asking about train engines","role":"user"},{"content":"What do you want to know?","role":"assistant"},{"content":"lets talk about rain instead","role":"user"},{"content":"What do you want to ask?","role":"assistant"},{"content":"what does it do","role":"user"}],"training_index_1based":57}
+{"messages":[{"content":"i will wash my hands after lunch","role":"user"},{"content":"You can do that.","role":"assistant"},{"content":"wait i meant i will wash before lunch and nap after","role":"user"},{"content":"A nap after you eat.","role":"assistant"},{"content":"nap before or after","role":"user"}],"training_index_1based":58}
+{"messages":[{"content":"i hid the drum under the rug","role":"user"},{"content":"You hid the drum.","role":"assistant"},{"content":"the bell was sitting out on the desk","role":"user"},{"content":"The bell is on the desk.","role":"assistant"},{"content":"which was hidden","role":"user"}],"training_index_1based":59}
+{"messages":[{"content":"i want yellow string for this","role":"user"},{"content":"You want yellow.","role":"assistant"},{"content":"do you think red looks better","role":"user"},{"content":"You can pick red.","role":"assistant"},{"content":"no the one i said before","role":"user"}],"training_index_1based":60}
+{"messages":[{"content":"morninggg","role":"user"}],"training_index_1based":61}
+{"messages":[{"content":"thats so cool","role":"user"}],"training_index_1based":62}
+{"messages":[{"content":"i put all my socks away","role":"user"}],"training_index_1based":63}
+{"messages":[{"content":"nope not today","role":"user"}],"training_index_1based":64}
+{"messages":[{"content":"i can have warm milk or cold milk","role":"user"},{"content":"You can pick.","role":"assistant"},{"content":"i dont like warm milk","role":"user"},{"content":"What do you want?","role":"assistant"},{"content":"the other one","role":"user"}],"training_index_1based":65}
+{"messages":[{"content":"my aunt came to visit yesterday","role":"user"}],"training_index_1based":66}
+{"messages":[{"content":"i dropped my spoon in my soup","role":"user"}],"training_index_1based":67}
+{"messages":[{"content":"wait a sec","role":"user"}],"training_index_1based":68}
+{"messages":[{"content":"my umbrella turned inside out in the wind and now its all bent and funny looking","role":"user"}],"training_index_1based":69}
+{"messages":[{"content":"all squishy","role":"user"}],"training_index_1based":70}
+{"messages":[{"content":"we tried making bread but the dough stuck to absolutely everything including my fingers and sleeves","role":"user"}],"training_index_1based":71}
+{"messages":[{"content":"my dad made an enormous pile of laundry and i disappeared behind it when i crouched down","role":"user"}],"training_index_1based":72}
+{"messages":[{"content":"i thought this pretend gem was a real stone","role":"user"},{"content":"Is it a rock?","role":"assistant"},{"content":"no its from my toy treasure box","role":"user"},{"content":"It may not be a rock.","role":"assistant"},{"content":"its plastic actually","role":"user"}],"training_index_1based":73}
+{"messages":[{"content":"my toy rocket is ready","role":"user"},{"content":"What can it do?","role":"assistant"},{"content":"i pressed the button and it flew straight up","role":"user"},{"content":"Did it go up a lot?","role":"assistant"},{"content":"it went miles","role":"user"}],"training_index_1based":74}
+{"messages":[{"content":"the enormous tractor had wheels taller than me","role":"user"}],"training_index_1based":75}
+{"messages":[{"content":"my ribbon got tangled around the chair legs and now i cant pull it free at all","role":"user"}],"training_index_1based":76}
+{"messages":[{"content":"what does thin mean when you say a thin stick","role":"user"}],"training_index_1based":77}
+{"messages":[{"content":"if i push this toy truck gently across the kitchen floor will it move away from me","role":"user"}],"training_index_1based":78}
+{"messages":[{"content":"does a duck have a beak","role":"user"}],"training_index_1based":79}
+{"messages":[{"content":"i had three stickers and my cousin gave me one more so how many have i got","role":"user"}],"training_index_1based":80}
+{"messages":[{"content":"i have three cups","role":"user"},{"content":"You have three.","role":"assistant"},{"content":"i gave two to my friends","role":"user"},{"content":"Two are with them.","role":"assistant"},{"content":"how many left","role":"user"}],"training_index_1based":81}
+{"messages":[{"content":"i have a tiny pin next to my drum","role":"user"},{"content":"A pin and a drum.","role":"assistant"},{"content":"the drum is nearly as big as my chair","role":"user"},{"content":"That is a big drum.","role":"assistant"},{"content":"which is bigger","role":"user"}],"training_index_1based":82}
+{"messages":[{"content":"is snow white or is it blue","role":"user"}],"training_index_1based":83}
+{"messages":[{"content":"what can i do with a bucket","role":"user"}],"training_index_1based":84}
+{"messages":[{"content":"tell me a story with a bug and a log","role":"user"}],"training_index_1based":85}
+{"messages":[{"content":"make up a silly story where a goat called Rex loses its hat and then gets it back again","role":"user"}],"training_index_1based":86}
+{"messages":[{"content":"tell a story about a crab in a cup","role":"user"}],"training_index_1based":87}
+{"messages":[{"content":"tell a story about a dog ringing a bell","role":"user"}],"training_index_1based":88}
+{"messages":[{"content":"our pretend toy boat went into a cave","role":"user"},{"content":"It went in.","role":"assistant"},{"content":"the cave is full of sand and shells","role":"user"},{"content":"What could be in there?","role":"assistant"},{"content":"what was inside","role":"user"}],"training_index_1based":89}
+{"messages":[{"content":"a mouse is hiding from a cat in our story","role":"user"},{"content":"The cat can see him.","role":"assistant"},{"content":"the mouse is much smaller than the cat","role":"user"},{"content":"He can fit in a little gap.","role":"assistant"},{"content":"how did he get away then","role":"user"}],"training_index_1based":90}
+{"messages":[{"content":"i wanted to go out but its raining","role":"user"}],"training_index_1based":91}
+{"messages":[{"content":"should i tell you the name of my school and exactly where my classroom is so you know","role":"user"}],"training_index_1based":92}
+{"messages":[{"content":"can you smell the popcorn i made","role":"user"}],"training_index_1based":93}
+{"messages":[{"content":"im scared ill get it all wrong","role":"user"}],"training_index_1based":94}
+{"messages":[{"content":"my sock is on the desk","role":"user"},{"content":"You can get it.","role":"assistant"},{"content":"oops it fell and i kicked it under the desk","role":"user"},{"content":"It fell down.","role":"assistant"},{"content":"its under now","role":"user"}],"training_index_1based":95}
+{"messages":[{"content":"i was talking about toy bricks","role":"user"},{"content":"What do you make?","role":"assistant"},{"content":"now i want to talk about cheese","role":"user"},{"content":"What do you want to ask?","role":"assistant"},{"content":"and what about that","role":"user"}],"training_index_1based":96}
+{"messages":[{"content":"i have three little bells","role":"user"},{"content":"You have three.","role":"assistant"},{"content":"wait i found one more under the sofa","role":"user"},{"content":"One was under it.","role":"assistant"},{"content":"how many then","role":"user"}],"training_index_1based":97}
+{"messages":[{"content":"i gave the cap to my mum","role":"user"},{"content":"She has the cap.","role":"assistant"},{"content":"my dad has my gloves instead","role":"user"},{"content":"He has them.","role":"assistant"},{"content":"who has it","role":"user"}],"training_index_1based":98}
+{"messages":[{"content":"i want white paper for my picture","role":"user"},{"content":"You want white.","role":"assistant"},{"content":"the red paper is for my brother","role":"user"},{"content":"He can have red.","role":"assistant"},{"content":"which colour again","role":"user"}],"training_index_1based":99}
+{"messages":[{"content":"i want to put this box on the shelf","role":"user"},{"content":"Can you lift it?","role":"assistant"},{"content":"no the shelf is too high for me","role":"user"},{"content":"You do not have to lift it.","role":"assistant"},{"content":"i meant put it down not up","role":"user"}],"training_index_1based":100}
+{"messages":[{"content":"I lost my sock.","role":"user"}],"training_index_1based":101}
+{"messages":[{"content":"Can cats swim?","role":"user"}],"training_index_1based":102}
+{"messages":[{"content":"What is dusk?","role":"user"}],"training_index_1based":103}
+{"messages":[{"content":"My beads fell out.","role":"user"}],"training_index_1based":104}
+{"messages":[{"content":"Teach me a game.","role":"user"}],"training_index_1based":105}
+{"messages":[{"content":"Can you smell flowers?","role":"user"}],"training_index_1based":106}
+{"messages":[{"content":"My knee hurts.","role":"user"}],"training_index_1based":107}
+{"messages":[{"content":"What rhymes with chin?","role":"user"}],"training_index_1based":108}
+{"messages":[{"content":"Make a tiny story.","role":"user"}],"training_index_1based":109}
+{"messages":[{"content":"Is mud alive?","role":"user"}],"training_index_1based":110}
+{"messages":[{"content":"I won!","role":"user"}],"training_index_1based":111}
+{"messages":[{"content":"My drawing looks terrible.","role":"user"}],"training_index_1based":112}
+{"messages":[{"content":"What does shut mean?","role":"user"}],"training_index_1based":113}
+{"messages":[{"content":"I hate losing.","role":"user"}],"training_index_1based":114}
+{"messages":[{"content":"I picked the red pen. Dad has the blue pen.","role":"user"},{"content":"You have red. He has blue.","role":"assistant"},{"content":"Which one was mine?","role":"user"}],"training_index_1based":115}
+{"messages":[{"content":"Let us play a game. First I clap, then I hop.","role":"user"},{"content":"Clap, then hop.","role":"assistant"},{"content":"I just clapped.","role":"user"},{"content":"You did that bit.","role":"assistant"},{"content":"Now what?","role":"user"}],"training_index_1based":116}
+{"messages":[{"content":"My black cat went out. I think he wanted his dinner.","role":"user"},{"content":"He may come back soon.","role":"assistant"},{"content":"He came back!","role":"user"}],"training_index_1based":117}
+{"messages":[{"content":"Can we make a story about a cat or a crab?","role":"user"},{"content":"What one do you want?","role":"assistant"},{"content":"The crab one.","role":"user"}],"training_index_1based":118}
+{"messages":[{"content":"I can pick a brown bag or a white bag.","role":"user"},{"content":"What one do you want?","role":"assistant"},{"content":"Brown, please.","role":"user"},{"content":"The brown bag is for you.","role":"assistant"},{"content":"What did I pick?","role":"user"}],"training_index_1based":119}
+{"messages":[{"content":"I have a little doll and a big toy box.","role":"user"},{"content":"Is the box big next to her?","role":"assistant"},{"content":"Yes, she is much smaller than the box.","role":"user"},{"content":"The box is big and she is little.","role":"assistant"},{"content":"Can she fit?","role":"user"}],"training_index_1based":120}
+{"messages":[{"content":"How do I make this clay pancake flatter?","role":"user"}],"training_index_1based":121}
+{"messages":[{"content":"Do ants have wings or do they walk?","role":"user"}],"training_index_1based":122}
+{"messages":[{"content":"How do I sort the red and white socks?","role":"user"}],"training_index_1based":123}
+{"messages":[{"content":"Please help me make a pretend frog song.","role":"user"}],"training_index_1based":124}
+{"messages":[{"content":"The biscuit snapped when I tried to dunk it.","role":"user"}],"training_index_1based":125}
+{"messages":[{"content":"What comes after three when I count my blocks?","role":"user"}],"training_index_1based":126}
+{"messages":[{"content":"I am jealous because my cousin got new shoes.","role":"user"}],"training_index_1based":127}
+{"messages":[{"content":"Could you explain what the word sprint means?","role":"user"}],"training_index_1based":128}
+{"messages":[{"content":"Can you make a story about a dragon?","role":"user"}],"training_index_1based":129}
+{"messages":[{"content":"How can I make a nest for pretend eggs?","role":"user"}],"training_index_1based":130}
+{"messages":[{"content":"My friend said I cannot play their game.","role":"user"}],"training_index_1based":131}
+{"messages":[{"content":"What can I build with six wooden bricks?","role":"user"}],"training_index_1based":132}
+{"messages":[{"content":"I am afraid of making a spelling mistake.","role":"user"}],"training_index_1based":133}
+{"messages":[{"content":"The dog keeps tugging my sleeve when we play.","role":"user"}],"training_index_1based":134}
+{"messages":[{"content":"The shell is in the red cup.","role":"user"},{"content":"The red cup has the shell.","role":"assistant"},{"content":"I moved the shell to the yellow cup.","role":"user"},{"content":"It is in the yellow cup now.","role":"assistant"},{"content":"Which cup has the shell in it now?","role":"user"}],"training_index_1based":135}
+{"messages":[{"content":"Our pretend picnic list has buns and plums. We still need milk.","role":"user"},{"content":"Buns and plums are on the list.","role":"assistant"},{"content":"What should we put on the list next?","role":"user"}],"training_index_1based":136}
+{"messages":[{"content":"Our story ends with a big box. A duck or a truck could be inside.","role":"user"},{"content":"What will be in the box?","role":"assistant"},{"content":"I choose the truck.","role":"user"},{"content":"A truck will be in there.","role":"assistant"},{"content":"Can you finish it with the thing I chose?","role":"user"}],"training_index_1based":137}
+{"messages":[{"content":"Mum can use my blue pen first. Dad can use it after her.","role":"user"},{"content":"Mum, then Dad.","role":"assistant"},{"content":"Who gets to use the blue pen first?","role":"user"}],"training_index_1based":138}
+{"messages":[{"content":"I put three nuts in a pot.","role":"user"},{"content":"The pot has three nuts.","role":"assistant"},{"content":"Then I took one out and ate it.","role":"user"},{"content":"One nut is out of the pot.","role":"assistant"},{"content":"How many are in the pot after that?","role":"user"}],"training_index_1based":139}
+{"messages":[{"content":"My old bag was red.","role":"user"},{"content":"The old one was red.","role":"assistant"},{"content":"This new bag is blue.","role":"user"},{"content":"Now you have a blue bag.","role":"assistant"},{"content":"Is that the same bag I told you about?","role":"user"}],"training_index_1based":140}
+{"messages":[{"content":"I want to make a road for my toy truck using these blocks but I do not know how.","role":"user"}],"training_index_1based":141}
+{"messages":[{"content":"We had four cups on the mat and then my sister took two away so how many are left now?","role":"user"}],"training_index_1based":142}
+{"messages":[{"content":"I saw a moth on the wall and I want to know if it is a bird or a bug.","role":"user"}],"training_index_1based":143}
+{"messages":[{"content":"I keep trying to throw this beanbag into the box but I miss so much and it makes me cross.","role":"user"}],"training_index_1based":144}
+{"messages":[{"content":"Tell me a little story about a frog who hops all over the place and then wants a rest.","role":"user"}],"training_index_1based":145}
+{"messages":[{"content":"If we pretend that you have a body and can come to my house does that make it real?","role":"user"}],"training_index_1based":146}
+{"messages":[{"content":"I have a red sticker for Dad and a blue sticker for Mum.","role":"user"},{"content":"Red is for Dad. Blue is for Mum.","role":"assistant"},{"content":"Mum will be home later, but Dad is here now and he wants to know which one is his.","role":"user"}],"training_index_1based":147}
+{"messages":[{"content":"I got one point in our game, then two more points.","role":"user"},{"content":"One and two make three.","role":"assistant"},{"content":"Wait, I counted one twice by mistake, so take one away from the total I gave you before.","role":"user"}],"training_index_1based":148}
+{"messages":[{"content":"In our story a hen is stuck in a box and a pig has found her.","role":"user"},{"content":"The pig can help her get out.","role":"assistant"},{"content":"Make the pig open the box and then have them go somewhere together, but please do not make them fly.","role":"user"}],"training_index_1based":149}
+{"messages":[{"content":"After lunch I will play with my blocks, then ring the bell.","role":"user"},{"content":"Play with blocks, then ring the bell.","role":"assistant"},{"content":"Actually, swap the order I gave you before, and put them away instead of playing with them.","role":"user"}],"training_index_1based":150}
+{"messages":[{"content":"Hi, reading buddy!","role":"user"}],"training_index_1based":151}
+{"messages":[{"content":"What is a quilt?","role":"user"}],"training_index_1based":152}
+{"messages":[{"content":"Do fish have legs?","role":"user"}],"training_index_1based":153}
+{"messages":[{"content":"What is a chest?","role":"user"}],"training_index_1based":154}
+{"messages":[{"content":"My zip is stuck.","role":"user"}],"training_index_1based":155}
+{"messages":[{"content":"Make a duck song.","role":"user"}],"training_index_1based":156}
+{"messages":[{"content":"Why do ducks quack?","role":"user"}],"training_index_1based":157}
+{"messages":[{"content":"What rhymes with sock?","role":"user"}],"training_index_1based":158}
+{"messages":[{"content":"I am bored.","role":"user"}],"training_index_1based":159}
+{"messages":[{"content":"My sock feels soggy.","role":"user"}],"training_index_1based":160}
+{"messages":[{"content":"I miss Gran.","role":"user"}],"training_index_1based":161}
+{"messages":[{"content":"What is a dent?","role":"user"}],"training_index_1based":162}
+{"messages":[{"content":"Do you get tired?","role":"user"}],"training_index_1based":163}
+{"messages":[{"content":"I finally did it.","role":"user"}],"training_index_1based":164}
+{"messages":[{"content":"Mum gets the red flag and Dad gets the blue flag.","role":"user"},{"content":"Red is for Mum. Blue is for Dad.","role":"assistant"},{"content":"Which is for him?","role":"user"}],"training_index_1based":165}
+{"messages":[{"content":"I put my bag on the bench.","role":"user"},{"content":"It is on the bench.","role":"assistant"},{"content":"It fell off!","role":"user"}],"training_index_1based":166}
+{"messages":[{"content":"I found two shells.","role":"user"},{"content":"You have two shells.","role":"assistant"},{"content":"Mum gave me one shell too.","role":"user"},{"content":"One shell is from Mum.","role":"assistant"},{"content":"How many now?","role":"user"}],"training_index_1based":167}
+{"messages":[{"content":"I want to clap or hop.","role":"user"},{"content":"Do you want to clap?","role":"assistant"},{"content":"The other one.","role":"user"}],"training_index_1based":168}
+{"messages":[{"content":"The red pegs go in the yellow box. The blue pegs go in the white box.","role":"user"},{"content":"Red in yellow. Blue in white.","role":"assistant"},{"content":"I found a red peg under the desk.","role":"user"},{"content":"One red peg is left.","role":"assistant"},{"content":"Where does it go?","role":"user"}],"training_index_1based":169}
+{"messages":[{"content":"In our story the dog waits by a log. A fox is hiding under it.","role":"user"},{"content":"The dog cannot see the fox yet.","role":"assistant"},{"content":"Then what happened?","role":"user"}],"training_index_1based":170}
+{"messages":[{"content":"Can you tell me what strum means?","role":"user"}],"training_index_1based":171}
+{"messages":[{"content":"How do I keep my pencil from rolling away?","role":"user"}],"training_index_1based":172}
+{"messages":[{"content":"My brother has taken all the best crayons.","role":"user"}],"training_index_1based":173}
+{"messages":[{"content":"Can a chick hatch from an empty eggshell?","role":"user"}],"training_index_1based":174}
+{"messages":[{"content":"I think the clouds look like mashed potato.","role":"user"}],"training_index_1based":175}
+{"messages":[{"content":"Please invent a story with a tent and pig.","role":"user"}],"training_index_1based":176}
+{"messages":[{"content":"How can I make a pretend boat from a box?","role":"user"}],"training_index_1based":177}
+{"messages":[{"content":"Why did my wet sand castle fall down?","role":"user"}],"training_index_1based":178}
+{"messages":[{"content":"What does glum mean in my reading book?","role":"user"}],"training_index_1based":179}
+{"messages":[{"content":"Please help me plan my pretend camping trip.","role":"user"}],"training_index_1based":180}
+{"messages":[{"content":"I can hear thunder and I feel nervous.","role":"user"}],"training_index_1based":181}
+{"messages":[{"content":"What is the opposite of shut and little?","role":"user"}],"training_index_1based":182}
+{"messages":[{"content":"My hat keeps falling off when I run.","role":"user"}],"training_index_1based":183}
+{"messages":[{"content":"Would a twig be good for a flagpole?","role":"user"}],"training_index_1based":184}
+{"messages":[{"content":"For our pretend trip, let us pack the quilt and then the tent.","role":"user"},{"content":"The quilt, then the tent.","role":"assistant"},{"content":"Which one did we decide to pack first?","role":"user"}],"training_index_1based":185}
+{"messages":[{"content":"The green marble is under the mat. The red one is in a box.","role":"user"},{"content":"One is under the mat. One is in a box.","role":"assistant"},{"content":"Where should I look for the green marble now?","role":"user"}],"training_index_1based":186}
+{"messages":[{"content":"There are four ducks in the pond.","role":"user"},{"content":"Four ducks are in there.","role":"assistant"},{"content":"Now two of them swim away.","role":"user"},{"content":"Two ducks go away.","role":"assistant"},{"content":"How many ducks will be left after that?","role":"user"}],"training_index_1based":187}
+{"messages":[{"content":"In our story, the cat lost his red cap. The dog found it under the bed.","role":"user"},{"content":"The dog can find the cap.","role":"assistant"},{"content":"What should he say to the cat next?","role":"user"}],"training_index_1based":188}
+{"messages":[{"content":"We could clap or hum. I want to hum.","role":"user"},{"content":"You want to hum.","role":"assistant"},{"content":"Can we do the one I chose now?","role":"user"}],"training_index_1based":189}
+{"messages":[{"content":"The cup was on the shelf, but I moved it to the desk.","role":"user"},{"content":"Now the cup is on the desk.","role":"assistant"},{"content":"Is it still on the shelf like before?","role":"user"}],"training_index_1based":190}
+{"messages":[{"content":"Tell me a funny little story about a slug who finds a drum and wants to play it.","role":"user"}],"training_index_1based":191}
+{"messages":[{"content":"I put six pegs on the mat and then my brother took two away to use with his picture. How many have I got?","role":"user"}],"training_index_1based":192}
+{"messages":[{"content":"My desk is covered with pens and stamps and I cannot find room to draw so how can I tidy it?","role":"user"}],"training_index_1based":193}
+{"messages":[{"content":"Should I tell you my phone number so you can call me later when I am at home with my family?","role":"user"}],"training_index_1based":194}
+{"messages":[{"content":"Could you make a short song with rhyming words that I can sing while I clap my hands?","role":"user"}],"training_index_1based":195}
+{"messages":[{"content":"My book said that the little boy was in a rush to get home so what does rush mean?","role":"user"}],"training_index_1based":196}
+{"messages":[{"content":"Mum has a white mug and Dad has a yellow mug.","role":"user"},{"content":"White is for Mum. Yellow is for Dad.","role":"assistant"},{"content":"I am going to give Mum hers now, so which one should I take out of the cupboard?","role":"user"}],"training_index_1based":197}
+{"messages":[{"content":"Our story has a pig in a tent. A frog comes up with a flag.","role":"user"},{"content":"The pig can see the frog by the tent.","role":"assistant"},{"content":"Can you tell me what they do next and please have them make something together with the thing he brought?","role":"user"}],"training_index_1based":198}
+{"messages":[{"content":"I will take milk, a bun, and a plum.","role":"user"},{"content":"Milk, a bun, and a plum.","role":"assistant"},{"content":"I have the milk and the bun in my bag but I know I left something off the list.","role":"user"}],"training_index_1based":199}
+{"messages":[{"content":"Put the red flags in the big box and the blue flags in the little box.","role":"user"},{"content":"Red flags in the big box. Blue flags in the little box.","role":"assistant"},{"content":"Actually, please swap them around from the plan I gave you before, so can you tell me where they go now?","role":"user"}],"training_index_1based":200}
+{"messages":[{"content":"I brought my trumpet!","role":"user"}],"training_index_1based":201}
+{"messages":[{"content":"What does spin mean?","role":"user"}],"training_index_1based":202}
+{"messages":[{"content":"I dropped my sandwich.","role":"user"}],"training_index_1based":203}
+{"messages":[{"content":"Can snails run?","role":"user"}],"training_index_1based":204}
+{"messages":[{"content":"Make a clap song.","role":"user"}],"training_index_1based":205}
+{"messages":[{"content":"My cup tipped over.","role":"user"}],"training_index_1based":206}
+{"messages":[{"content":"Do dogs have gills?","role":"user"}],"training_index_1based":207}
+{"messages":[{"content":"What rhymes with pink?","role":"user"}],"training_index_1based":208}
+{"messages":[{"content":"I cannot reach it.","role":"user"}],"training_index_1based":209}
+{"messages":[{"content":"I hate this game.","role":"user"}],"training_index_1based":210}
+{"messages":[{"content":"Can slugs sing?","role":"user"}],"training_index_1based":211}
+{"messages":[{"content":"What does sip mean?","role":"user"}],"training_index_1based":212}
+{"messages":[{"content":"I made a spaceship.","role":"user"}],"training_index_1based":213}
+{"messages":[{"content":"Can you visit me?","role":"user"}],"training_index_1based":214}
+{"messages":[{"content":"Dad has a pen in the bag. Mum has a pen on the desk.","role":"user"},{"content":"His is in the bag. Her pen is on the desk.","role":"assistant"},{"content":"Where is his?","role":"user"}],"training_index_1based":215}
+{"messages":[{"content":"I can pick the big red hat or the little blue hat.","role":"user"},{"content":"Do you want the little blue hat?","role":"assistant"},{"content":"No, the big one.","role":"user"}],"training_index_1based":216}
+{"messages":[{"content":"I got three stamps from Mum.","role":"user"},{"content":"You have three stamps.","role":"assistant"},{"content":"Dad gave me one stamp too.","role":"user"},{"content":"One stamp is from Dad.","role":"assistant"},{"content":"How many in all?","role":"user"}],"training_index_1based":217}
+{"messages":[{"content":"Our story has an ant on a rock. Then rain starts falling.","role":"user"},{"content":"The ant is on the wet rock.","role":"assistant"},{"content":"What happens next?","role":"user"}],"training_index_1based":218}
+{"messages":[{"content":"My red cap is too small for me. My sister wants it.","role":"user"},{"content":"It may fit her.","role":"assistant"},{"content":"Can she have it?","role":"user"}],"training_index_1based":219}
+{"messages":[{"content":"I can put a shell, a rock, or a leaf in my pretend shop.","role":"user"},{"content":"What will you pick?","role":"assistant"},{"content":"Not the rock or the leaf.","role":"user"},{"content":"We have one left.","role":"assistant"},{"content":"Then which one?","role":"user"}],"training_index_1based":220}
+{"messages":[{"content":"How can I make a flag from this rag?","role":"user"}],"training_index_1based":221}
+{"messages":[{"content":"If I draw four dots and then two more, how many is that?","role":"user"}],"training_index_1based":222}
+{"messages":[{"content":"I wanted to go camping but it keeps raining.","role":"user"}],"training_index_1based":223}
+{"messages":[{"content":"Tell me a story about a vet and a dog.","role":"user"}],"training_index_1based":224}
+{"messages":[{"content":"What does blend mean when we mix paint?","role":"user"}],"training_index_1based":225}
+{"messages":[{"content":"My sister said she wants to be left alone.","role":"user"}],"training_index_1based":226}
+{"messages":[{"content":"What happens to ice in a warm bath?","role":"user"}],"training_index_1based":227}
+{"messages":[{"content":"Can you give me a little tapping pattern?","role":"user"}],"training_index_1based":228}
+{"messages":[{"content":"Can you help me tuck my teddy into bed?","role":"user"}],"training_index_1based":229}
+{"messages":[{"content":"I made footprints all the way across the kitchen!","role":"user"}],"training_index_1based":230}
+{"messages":[{"content":"Someone told me to keep a secret that makes me uncomfortable.","role":"user"}],"training_index_1based":231}
+{"messages":[{"content":"In my pretend world the moon is made of cheese.","role":"user"}],"training_index_1based":232}
+{"messages":[{"content":"How can I thank my friend for helping me?","role":"user"}],"training_index_1based":233}
+{"messages":[{"content":"If I plant a rock will it grow legs?","role":"user"}],"training_index_1based":234}
+{"messages":[{"content":"I want a brown drum. The white one is for Dad.","role":"user"},{"content":"Brown is for you. White is for Dad.","role":"assistant"},{"content":"What was the colour I chose for myself?","role":"user"}],"training_index_1based":235}
+{"messages":[{"content":"I put the red shell under the bed.","role":"user"},{"content":"It is under the bed.","role":"assistant"},{"content":"No, I moved it into the cup on the desk.","role":"user"},{"content":"The cup has the shell now.","role":"assistant"},{"content":"Where is the one I moved most recently?","role":"user"}],"training_index_1based":236}
+{"messages":[{"content":"I have six pegs in my bag.","role":"user"},{"content":"You have six pegs.","role":"assistant"},{"content":"I give two pegs to Mum.","role":"user"},{"content":"Mum has two of them.","role":"assistant"},{"content":"How many have I got in my bag now?","role":"user"}],"training_index_1based":237}
+{"messages":[{"content":"In our story the duck asks the fox to play. The fox wants a nap instead.","role":"user"},{"content":"The fox will rest.","role":"assistant"},{"content":"What should he say to her about that?","role":"user"}],"training_index_1based":238}
+{"messages":[{"content":"I want to sing about a hen, not hear a story about one.","role":"user"},{"content":"You want a hen song.","role":"assistant"},{"content":"Can you do the thing I asked for now?","role":"user"}],"training_index_1based":239}
+{"messages":[{"content":"I will ring the bell and then take a nap.","role":"user"},{"content":"The bell, then a nap.","role":"assistant"},{"content":"Actually, swap the order, so what do I do?","role":"user"}],"training_index_1based":240}
+{"messages":[{"content":"Make up a silly story about a duck who wants to wear a big red hat but it keeps slipping off.","role":"user"}],"training_index_1based":241}
+{"messages":[{"content":"I have three red pegs in one hand and three blue pegs in the other hand so how many do I have altogether?","role":"user"}],"training_index_1based":242}
+{"messages":[{"content":"My toy truck has mud all over it from playing outside and I want to put it back in the box.","role":"user"}],"training_index_1based":243}
+{"messages":[{"content":"My friend went twice when it was supposed to be my turn and now I want to shout at him.","role":"user"}],"training_index_1based":244}
+{"messages":[{"content":"We have an empty cardboard box and I want to pretend it is a pet that can do silly tricks.","role":"user"}],"training_index_1based":245}
+{"messages":[{"content":"My book says the man had to plod through the mud but I do not know what plod means.","role":"user"}],"training_index_1based":246}
+{"messages":[{"content":"The blue rag is for Mum. The red rag is for Dad.","role":"user"},{"content":"Blue for Mum. Red for Dad.","role":"assistant"},{"content":"Dad has already got his and now Mum wants hers, so which one should I take over to her?","role":"user"}],"training_index_1based":247}
+{"messages":[{"content":"In our story the pig hides in a big box. The hen can hear him but cannot see him.","role":"user"},{"content":"The hen is by the box.","role":"assistant"},{"content":"Make her discover where he is and then let them play together, but I want him to stay in his hiding place. ","role":"user"}],"training_index_1based":248}
+{"messages":[{"content":"For our picnic I want a bun, a plum, and milk.","role":"user"},{"content":"A bun, a plum, and milk.","role":"assistant"},{"content":"The bun and the milk are both in my bag, but what is the other thing I said I wanted to take?","role":"user"}],"training_index_1based":249}
+{"messages":[{"content":"Mum has the red cup and Dad has the white cup.","role":"user"},{"content":"Mum has red. Dad has white.","role":"assistant"},{"content":"No, I mixed them up when I told you before, so please swap them and tell me who has which now. ","role":"user"}],"training_index_1based":250}
+{"messages":[{"content":"I found a feather.","role":"user"}],"training_index_1based":251}
+{"messages":[{"content":"What does trim mean?","role":"user"}],"training_index_1based":252}
+{"messages":[{"content":"Can hens lay eggs?","role":"user"}],"training_index_1based":253}
+{"messages":[{"content":"I spilled my milk.","role":"user"}],"training_index_1based":254}
+{"messages":[{"content":"I am so grumpy.","role":"user"}],"training_index_1based":255}
+{"messages":[{"content":"Can cows fly?","role":"user"}],"training_index_1based":256}
+{"messages":[{"content":"What rhymes with rug?","role":"user"}],"training_index_1based":257}
+{"messages":[{"content":"Is fog wet?","role":"user"}],"training_index_1based":258}
+{"messages":[{"content":"I made a mask.","role":"user"}],"training_index_1based":259}
+{"messages":[{"content":"Tell me something funny.","role":"user"}],"training_index_1based":260}
+{"messages":[{"content":"Can you hug me?","role":"user"}],"training_index_1based":261}
+{"messages":[{"content":"What does mend mean?","role":"user"}],"training_index_1based":262}
+{"messages":[{"content":"I can skip now!","role":"user"}],"training_index_1based":263}
+{"messages":[{"content":"I want a break.","role":"user"}],"training_index_1based":264}
+{"messages":[{"content":"Meg went to the pond. Ben went to the shop.","role":"user"},{"content":"They went out.","role":"assistant"},{"content":"Where did she go?","role":"user"}],"training_index_1based":265}
+{"messages":[{"content":"My cap was black. I left it on the bench.","role":"user"},{"content":"The cap is on the bench.","role":"assistant"},{"content":"What colour was it?","role":"user"}],"training_index_1based":266}
+{"messages":[{"content":"I had six plums and ate four.","role":"user"},{"content":"You ate four of them.","role":"assistant"},{"content":"And how many left?","role":"user"}],"training_index_1based":267}
+{"messages":[{"content":"In our story Ben has a tent. A gust of wind lifts the tent.","role":"user"},{"content":"The wind sent the tent up.","role":"assistant"},{"content":"What happened to him?","role":"user"}],"training_index_1based":268}
+{"messages":[{"content":"Mum put a brown bun in my bag. She said that one was mine.","role":"user"},{"content":"There is a brown bun in the bag.","role":"assistant"},{"content":"Is it for me?","role":"user"}],"training_index_1based":269}
+{"messages":[{"content":"Can you make a story about a red frog or a blue bug?","role":"user"},{"content":"What one do you want?","role":"assistant"},{"content":"The red one now.","role":"user"}],"training_index_1based":270}
+{"messages":[{"content":"Can you explain what a twig is?","role":"user"}],"training_index_1based":271}
+{"messages":[{"content":"How can I help Dad with the dirty dishes?","role":"user"}],"training_index_1based":272}
+{"messages":[{"content":"My kite is stuck really high in the tree.","role":"user"}],"training_index_1based":273}
+{"messages":[{"content":"I drew two dots three times so how many dots is that?","role":"user"}],"training_index_1based":274}
+{"messages":[{"content":"Please tell me a story about Meg and jam.","role":"user"}],"training_index_1based":275}
+{"messages":[{"content":"Make up a rhyme about a cat and rat.","role":"user"}],"training_index_1based":276}
+{"messages":[{"content":"I am scared of the dark at bedtime.","role":"user"}],"training_index_1based":277}
+{"messages":[{"content":"Will you eat some of my dinner with me?","role":"user"}],"training_index_1based":278}
+{"messages":[{"content":"What does brisk mean when someone says a brisk walk?","role":"user"}],"training_index_1based":279}
+{"messages":[{"content":"I have a plum and bun for my pretend shop.","role":"user"}],"training_index_1based":280}
+{"messages":[{"content":"Does a clam live inside a shell like this?","role":"user"}],"training_index_1based":281}
+{"messages":[{"content":"My dog fell asleep right on top of my bag.","role":"user"}],"training_index_1based":282}
+{"messages":[{"content":"The pan is really hot but I want to move it.","role":"user"}],"training_index_1based":283}
+{"messages":[{"content":"What can I make with just two sticks?","role":"user"}],"training_index_1based":284}
+{"messages":[{"content":"The bells go in the black box. The drums go in the brown box.","role":"user"},{"content":"Bells in black. Drums in brown.","role":"assistant"},{"content":"Where do I put the ones that ring?","role":"user"}],"training_index_1based":285}
+{"messages":[{"content":"My pretend fish is called Jill. The pretend crab is called Ben.","role":"user"},{"content":"Jill is the fish. Ben is the crab.","role":"assistant"},{"content":"What was the name I gave the fish?","role":"user"}],"training_index_1based":286}
+{"messages":[{"content":"I have six cups. Two are red and four are white.","role":"user"},{"content":"Two red cups and four white cups.","role":"assistant"},{"content":"If I take away the white ones, how many are left?","role":"user"}],"training_index_1based":287}
+{"messages":[{"content":"In our story Meg lost a pin. Ben found it in a box.","role":"user"},{"content":"Ben has the pin now.","role":"assistant"},{"content":"What can he say to her about it?","role":"user"}],"training_index_1based":288}
+{"messages":[{"content":"Let us rest, then sing, then clap.","role":"user"},{"content":"Rest, sing, then clap.","role":"assistant"},{"content":"What did we say we would do before the song?","role":"user"}],"training_index_1based":289}
+{"messages":[{"content":"My pink hat was in the bag. Now I put it on the bed.","role":"user"},{"content":"The pink hat is on the bed now.","role":"assistant"},{"content":"Is the pink one still where it was before?","role":"user"}],"training_index_1based":290}
+{"messages":[{"content":"Could you make up a little story about Jill who wants a nap but has to find her quilt first?","role":"user"}],"training_index_1based":291}
+{"messages":[{"content":"I had six buns and gave one to each of four friends so how many buns do I still have?","role":"user"}],"training_index_1based":292}
+{"messages":[{"content":"These cleaning rags are all mixed together and some are damp but some are dry so how can I sort them?","role":"user"}],"training_index_1based":293}
+{"messages":[{"content":"My friend says she does not want to play any more but I still want to keep playing with her.","role":"user"}],"training_index_1based":294}
+{"messages":[{"content":"Can we pretend this big box is a bus and all my toy animals want to go for a ride?","role":"user"}],"training_index_1based":295}
+{"messages":[{"content":"In the story they put all their clothes into a big trunk before the trip but what is a trunk?","role":"user"}],"training_index_1based":296}
+{"messages":[{"content":"Meg wants the pink flag. Ben wants the black flag.","role":"user"},{"content":"Pink for Meg. Black for Ben.","role":"assistant"},{"content":"He has already got his one but she is still waiting for hers, so which one should I give her?","role":"user"}],"training_index_1based":297}
+{"messages":[{"content":"In our story a duck hides a shell in a tent. A pig comes to find the shell.","role":"user"},{"content":"The pig is by the tent.","role":"assistant"},{"content":"Please have him find the thing that she hid and then let them both make something with it together. ","role":"user"}],"training_index_1based":298}
+{"messages":[{"content":"I will put the blocks away, ring the bell, and take a nap.","role":"user"},{"content":"Blocks away, then the bell, then a nap.","role":"assistant"},{"content":"I have done the first thing on the plan we made, so what are the two things I should do next?","role":"user"}],"training_index_1based":299}
+{"messages":[{"content":"Meg has a red drum and Ben has a blue drum.","role":"user"},{"content":"Meg has red. Ben has blue.","role":"assistant"},{"content":"Actually, they just swapped with each other after I told you that, so can you tell me which one she has now?","role":"user"}],"training_index_1based":300}

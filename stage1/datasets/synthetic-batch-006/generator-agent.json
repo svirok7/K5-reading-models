@@ -1,0 +1,29 @@
+{
+  "generator_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "agent_role": "SFT generator",
+  "agent_task": "/root/generator",
+  "batch": "synthetic-batch-006",
+  "id_range": [
+    "pilot-201",
+    "pilot-250"
+  ],
+  "instruction_sources_read": [
+    "sft_pipeline_300/frozen/GENERATOR.md",
+    "sft_pipeline_300/frozen/spec.json",
+    "sft_pipeline_300/frozen/system.txt",
+    "sft_pipeline_300/frozen/READER_PROFILE.txt",
+    "sft_pipeline_300/frozen/RUBRIC.md",
+    "sft_pipeline_300/frozen/dolch-through-grade1.json",
+    "datasets/sft-200-v1/README.md",
+    "datasets/sft-200-v1/sft.jsonl",
+    "datasets/sft-200-v1/review.jsonl",
+    "datasets/synthetic-batch-005/audit.md"
+  ],
+  "prior_target_sources_checked": [
+    "datasets/sft-200-v1/review.jsonl"
+  ],
+  "held_out_data_opened": false,
+  "audit_approval": false,
+  "system_sha256": "129a21f9b37e953c4b1d27d6ea015fc9775c32cabf6b7d8ef9bfde212d9ade6c"
+}

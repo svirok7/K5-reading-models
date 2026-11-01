@@ -1,0 +1,41 @@
+{
+  "version": "synthetic-batch-003-v1",
+  "count": 40,
+  "id_range": [
+    "pilot-061",
+    "pilot-100"
+  ],
+  "input_length_counts": {
+    "short": 16,
+    "medium": 16,
+    "long": 8
+  },
+  "context_dependent_count": 13,
+  "category_counts": {
+    "everyday_social": 8,
+    "complex_speech": 8,
+    "questions_explanations": 8,
+    "short_stories": 6,
+    "emotions_boundaries_identity": 4,
+    "context_changes_corrections": 6
+  },
+  "review_status": "model_reviewed_pending_human",
+  "word_review": "Every assistant target/history word checked for exact membership or explicit decoding evidence; self-review, not independent verification.",
+  "format": "TRL conversational prompt/completion; completion_only_loss=True; reasoning outside training text.",
+  "source_profile": "v1.5",
+  "system_sha256": "448f111aa33a5fbf04a211dd7f8e409089dd593a195bbf76958d65dd057a0745",
+  "artifacts": {
+    "sft.jsonl": "10b77c5deaf4875cb1200813929419f073fec7fd7ac1b87f6aba11845be68ae0",
+    "review.jsonl": "9393e0dbb016ef46752f5a64a7d0706894c06235f13ffafa2d1ac50199880160",
+    "review.md": "a6b1dcede49efaa09bb4b7f3735f0671a1b5f0074ac807cf7aaac561c78a222f",
+    "word-evidence.json": "a8f7d02c4261c0b44ba416ba6747b56f429926b7539ee0c3d15c81031edde979"
+  },
+  "full_dataset_audit": "Model-reviewed with corrections; see ../sft-100-v1/audit.md",
+  "artifact_hashes": {
+    "review.jsonl": "8ef6104531df7ab7ff45a150124128979e8786d2723211e50f8689a5b81e33da",
+    "review.md": "2ccaf0fe36ca027e1d5b5996534664164a22a258636727c91a7514750e483f53",
+    "word-evidence.json": "3104e7086c0ea4ba6fa6c811f0c28ffeffb30ead087802a1c0b0cc6beaf65237",
+    "system.txt": "448f111aa33a5fbf04a211dd7f8e409089dd593a195bbf76958d65dd057a0745",
+    "sft.jsonl": "946548b25bd970b372bf649a5634fa69cb89a41b38b81861b2c87f65e8bfc3ec"
+  }
+}

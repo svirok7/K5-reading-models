@@ -1,0 +1,14 @@
+{
+  "experiment": "https://drive.google.com/drive/folders/1GP8CDHTPPSm8JYFCVGKY37UqrdaJjcLa",
+  "same300-epoch1": "https://drive.google.com/drive/folders/14uKFaKhpsF_yxyFt8C55ZDdceWm7x7VB",
+  "same300-epoch2": "https://drive.google.com/drive/folders/1TnETMewKLxLlGdBAr83WiJicl7a2p9j2",
+  "same300-epoch3": "https://drive.google.com/drive/folders/1vi1DIZyb57jaud-mj71vX0A8wfU3yFUi",
+  "expanded600-epoch1": "https://drive.google.com/drive/folders/11ShSvkanHTvMW731WUoPelaO1hBjDx-D",
+  "expanded600-epoch2": "https://drive.google.com/drive/folders/1A-FLVwpsGLFqWphQC3bKU7czAViyWukT",
+  "expanded600-epoch3": "https://drive.google.com/drive/folders/1MfZq5vhaOMKgfRFkEdV_P-TNo3ErW9-C",
+  "blind-review": "https://drive.google.com/drive/folders/1hEHbjcB5HY-KuOmidzy6sjIRsNVTeU82",
+  "same300-loss-curves": "https://drive.google.com/drive/folders/1LrU5KCZEhpZC9JBTL0Zov63hpI9DHfIk",
+  "expanded600-loss-curves": "https://drive.google.com/drive/folders/1MTsDq3w1W3pFEbFH7W6dGVGpH1tENuJl",
+  "repeat-seed-1000003": "https://drive.google.com/drive/folders/1nHas7egp4_wgqy8adEZ0MFdNabtghY3N",
+  "repeat-seed-2000003": "https://drive.google.com/drive/folders/1Xm92RHp233KL9QcemKleg7SCA2zTbLeK"
+}

@@ -1,0 +1,51 @@
+{
+  "global_step": 0,
+  "mode": "lora",
+  "scaler_enabled": true,
+  "scaler_state": {
+    "scale": 65536,
+    "growth_factor": 2,
+    "backoff_factor": 0.5,
+    "growth_interval": 2000,
+    "_growth_tracker": 0
+  },
+  "scaler_found_inf_readonly_diagnostics": [
+    {
+      "stage": "OptState.UNSCALED",
+      "found_inf_per_device": {
+        "cuda:0": 1
+      }
+    }
+  ],
+  "loop_state": {
+    "grad_norm": "nan",
+    "_grad_norm": "nan",
+    "tr_loss": 7.057175636291504,
+    "tr_loss_step": 1.0874149799346924,
+    "step": 7,
+    "epoch": 0
+  },
+  "actual_batch_ids": [
+    "pilot-043",
+    "pilot-062",
+    "pilot-287",
+    "pilot-161",
+    "pilot-031",
+    "pilot-266",
+    "pilot-173",
+    "pilot-206"
+  ],
+  "finite_gradient_tensor_count": 0,
+  "nonfinite_gradient_tensor_count": 392,
+  "traceback_functions": [
+    "run_code",
+    "<cell line: 0>",
+    "full_train",
+    "train",
+    "_inner_training_loop",
+    "on_pre_optimizer_step",
+    "call_event",
+    "on_pre_optimizer_step",
+    "require"
+  ]
+}

@@ -1,0 +1,26 @@
+Both repeat pairs are ready for independent blind review; no adoption or UI change.
+Both repeat pairs are ready for independent blind review; no adoption or UI change.
+test_blind_inputs_exclude_variant_and_tokens (test_evaluate.EvaluationIntegrity.test_blind_inputs_exclude_variant_and_tokens) ... ok
+test_blind_rejects_different_precision_or_seed (test_evaluate.EvaluationIntegrity.test_blind_rejects_different_precision_or_seed) ... ok
+test_duplicate_or_incomplete_review_refused (test_evaluate.EvaluationIntegrity.test_duplicate_or_incomplete_review_refused) ... ok
+test_frozen_targets_and_notes_rejected_even_if_resealed (test_evaluate.EvaluationIntegrity.test_frozen_targets_and_notes_rejected_even_if_resealed) ... ok
+test_immutable_manifest_and_messages (test_evaluate.EvaluationIntegrity.test_immutable_manifest_and_messages) ... ok
+test_joint_and_new_serious_failure_by_type (test_evaluate.EvaluationIntegrity.test_joint_and_new_serious_failure_by_type) ... ok
+test_unsupported_word_cannot_score_reading_pass (test_evaluate.EvaluationIntegrity.test_unsupported_word_cannot_score_reading_pass) ... ok
+test_executor_reuses_bound_same300_and_current_then_trains_only600 (test_execution.ExecutionIntegrity.test_executor_reuses_bound_same300_and_current_then_trains_only600) ... ok
+test_executor_without_reuse_runs_both_fresh_and_evaluates_all_seven_variants (test_execution.ExecutionIntegrity.test_executor_without_reuse_runs_both_fresh_and_evaluates_all_seven_variants) ... ok
+test_full_coverage_and_decision_hash_prevent_partial_or_changed_primary_selection (test_execution.ExecutionIntegrity.test_full_coverage_and_decision_hash_prevent_partial_or_changed_primary_selection) ... ok
+test_inference_environment_rejects_changes_before_model_allocation (test_execution.ExecutionIntegrity.test_inference_environment_rejects_changes_before_model_allocation) ... ok
+test_model_hash_guard_rejects_changed_or_missing_bytes_before_model_loading (test_execution.ExecutionIntegrity.test_model_hash_guard_rejects_changed_or_missing_bytes_before_model_loading) ... ok
+test_repeat_continuation_keeps_completed_generations_and_checks_environment_before_gpu (test_execution.ExecutionIntegrity.test_repeat_continuation_keeps_completed_generations_and_checks_environment_before_gpu) ... ok
+test_reused_generation_requires_external_manifest_input_seed_and_group_binding (test_execution.ExecutionIntegrity.test_reused_generation_requires_external_manifest_input_seed_and_group_binding) ... ok
+test_reused_training_preserves_source_context_and_rejects_changed_config_or_index (test_execution.ExecutionIntegrity.test_reused_training_preserves_source_context_and_rejects_changed_config_or_index) ... ok
+test_adoption_requires_both_paired_repeats (test_selection.Selection.test_adoption_requires_both_paired_repeats) ... ok
+test_earlier_checkpoint_tie_and_repeats_required (test_selection.Selection.test_earlier_checkpoint_tie_and_repeats_required) ... ok
+test_new_serious_failure_cannot_be_compensated (test_selection.Selection.test_new_serious_failure_cannot_be_compensated) ... ok
+test_repeat_cannot_switch_checkpoint_or_cases (test_selection.Selection.test_repeat_cannot_switch_checkpoint_or_cases) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.380s
+
+OK

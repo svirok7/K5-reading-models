@@ -1,0 +1,14 @@
+{
+  "selected": "expanded600-epoch3",
+  "checkpoint": {
+    "epoch": 3,
+    "updates": 225
+  },
+  "primary_joint_gain_percentage_points": 35.294117647058826,
+  "new_serious_failures": [],
+  "independent_cases": 34,
+  "tie_policy": "Earlier epoch, then fewer optimizer updates, then stable label",
+  "recommendation": "pending_repeat_seeds",
+  "reason": "Qualifying primary result needs two additional paired seed comparisons",
+  "primary_summary_sha256": "80014b044251908ebc769742e9ea6f5bd3fa9205480ecff7b6191f2a0586adb7"
+}

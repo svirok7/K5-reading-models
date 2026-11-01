@@ -1,0 +1,23 @@
+[
+  {
+    "epoch": 1,
+    "updates": 75,
+    "rows_each_epoch": [
+      600
+    ],
+    "loss_records": 75,
+    "downloaded_metadata_hashes_pass": true,
+    "large_file_verification": "runtime_verified_not_downloaded_locally"
+  },
+  {
+    "epoch": 2,
+    "updates": 150,
+    "rows_each_epoch": [
+      600,
+      600
+    ],
+    "loss_records": 150,
+    "downloaded_metadata_hashes_pass": true,
+    "large_file_verification": "runtime_verified_not_downloaded_locally"
+  }
+]

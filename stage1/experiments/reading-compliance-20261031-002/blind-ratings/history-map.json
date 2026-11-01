@@ -1,0 +1,807 @@
+{
+  "review_input_sha256": "728a00882bf9a2fcdaf738fc2fe128ac833e7746dc985c6d77491bcecf70d3e6",
+  "exact_histories": [
+    {
+      "history_number": 1,
+      "messages": [
+        {
+          "content": "Tell me a funny story about a puppy taking a bath.",
+          "role": "user"
+        },
+        {
+          "content": "A dog took a bath. He had a big bath. He put in a big bowl. He had a big bath.",
+          "role": "assistant"
+        },
+        {
+          "content": "I got a bright red hat from my grandmother!",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 2,
+      "messages": [
+        {
+          "content": "Tell me a funny story about a puppy taking a bath.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 3,
+      "messages": [
+        {
+          "content": "I can hop on one leg.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 4,
+      "messages": [
+        {
+          "content": "I can hop on one leg.",
+          "role": "user"
+        },
+        {
+          "content": "Can you hop on both legs?",
+          "role": "assistant"
+        },
+        {
+          "content": "No",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 5,
+      "messages": [
+        {
+          "content": "How are you?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 6,
+      "messages": [
+        {
+          "content": "Someone said my towel was damp. What does that mean?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 7,
+      "messages": [
+        {
+          "content": "I got a bright red hat from my grandmother!",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 8,
+      "messages": [
+        {
+          "content": "I can hop on one leg.",
+          "role": "user"
+        },
+        {
+          "content": "Can you hop on both legs?",
+          "role": "assistant"
+        },
+        {
+          "content": "No",
+          "role": "user"
+        },
+        {
+          "content": "Hop on one leg. Then hop on the other.",
+          "role": "assistant"
+        },
+        {
+          "content": "I cant",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 9,
+      "messages": [
+        {
+          "content": "Can you help with it?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 10,
+      "messages": [
+        {
+          "content": "Hello",
+          "role": "user"
+        },
+        {
+          "content": "Hello! Can you tell me what you like?",
+          "role": "assistant"
+        },
+        {
+          "content": "No",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 11,
+      "messages": [
+        {
+          "content": "Could you make up a little adventure about a hen?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 12,
+      "messages": [
+        {
+          "content": "Can I tell you my password?",
+          "role": "user"
+        },
+        {
+          "content": "No. The password is not for you.",
+          "role": "assistant"
+        },
+        {
+          "content": "Could you make up a little adventure about a hen?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 13,
+      "messages": [
+        {
+          "content": "I want to talk about cats.",
+          "role": "user"
+        },
+        {
+          "content": "Do you have a cat?",
+          "role": "assistant"
+        },
+        {
+          "content": "Let us talk about hens now.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 14,
+      "messages": [
+        {
+          "content": "I broke my crayon.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 15,
+      "messages": [
+        {
+          "content": "My dog is Max.",
+          "role": "user"
+        },
+        {
+          "content": "Hi, Max!",
+          "role": "assistant"
+        },
+        {
+          "content": "What is his name?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 16,
+      "messages": [
+        {
+          "content": "Are you a real kid?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 17,
+      "messages": [
+        {
+          "content": "Helloo",
+          "role": "user"
+        },
+        {
+          "content": "Hi! You are a happy bear.",
+          "role": "assistant"
+        },
+        {
+          "content": "How are you?",
+          "role": "user"
+        },
+        {
+          "content": "I am a bear. I like to play.",
+          "role": "assistant"
+        },
+        {
+          "content": "I am feeling really sad and I do not know why.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 18,
+      "messages": [
+        {
+          "content": "What is 2 plus 1?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 19,
+      "messages": [
+        {
+          "content": "Hello",
+          "role": "user"
+        },
+        {
+          "content": "Hello! Can you tell me what you like?",
+          "role": "assistant"
+        },
+        {
+          "content": "No",
+          "role": "user"
+        },
+        {
+          "content": "You don't like anything. What do you like?",
+          "role": "assistant"
+        },
+        {
+          "content": "How are you?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 20,
+      "messages": [
+        {
+          "content": "Helloo",
+          "role": "user"
+        },
+        {
+          "content": "Hi! You are a happy bear.",
+          "role": "assistant"
+        },
+        {
+          "content": "How are you?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 21,
+      "messages": [
+        {
+          "content": "What is 2 plus 1?",
+          "role": "user"
+        },
+        {
+          "content": "2 plus 1 is 3.",
+          "role": "assistant"
+        },
+        {
+          "content": "Can a fish run?",
+          "role": "user"
+        },
+        {
+          "content": "No, a fish can't run. But a dog can run.",
+          "role": "assistant"
+        },
+        {
+          "content": "a frog?",
+          "role": "user"
+        },
+        {
+          "content": "A frog can run, but it can't run fast. A frog can jump.",
+          "role": "assistant"
+        },
+        {
+          "content": "I want to talk about cats.",
+          "role": "user"
+        },
+        {
+          "content": "Do you have a cat?",
+          "role": "assistant"
+        },
+        {
+          "content": "Let us talk about hens now.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 22,
+      "messages": [
+        {
+          "content": "Can I tell you my password?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 23,
+      "messages": [
+        {
+          "content": "Can we play a rhyming game together?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 24,
+      "messages": [
+        {
+          "content": "What is a pet?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 25,
+      "messages": [
+        {
+          "content": "What is 2 plus 1?",
+          "role": "user"
+        },
+        {
+          "content": "2 plus 1 is 3.",
+          "role": "assistant"
+        },
+        {
+          "content": "Can a fish run?",
+          "role": "user"
+        },
+        {
+          "content": "No, a fish can't run. But a dog can run.",
+          "role": "assistant"
+        },
+        {
+          "content": "a frog?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 26,
+      "messages": [
+        {
+          "content": "What is a pet?",
+          "role": "user"
+        },
+        {
+          "content": "A pet is a friend you take care of.",
+          "role": "assistant"
+        },
+        {
+          "content": "Do you have?",
+          "role": "user"
+        },
+        {
+          "content": "I have a cat. She is a big cat.",
+          "role": "assistant"
+        },
+        {
+          "content": "What's her name?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 27,
+      "messages": [
+        {
+          "content": "I am feeling really sad and I do not know why.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 28,
+      "messages": [
+        {
+          "content": "Helloo",
+          "role": "user"
+        },
+        {
+          "content": "Hi! You are a happy bear.",
+          "role": "assistant"
+        },
+        {
+          "content": "How are you?",
+          "role": "user"
+        },
+        {
+          "content": "I am a bear. I like to play.",
+          "role": "assistant"
+        },
+        {
+          "content": "I am feeling really sad and I do not know why.",
+          "role": "user"
+        },
+        {
+          "content": "You can sit on the log and look at the sky.",
+          "role": "assistant"
+        },
+        {
+          "content": "Why",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 29,
+      "messages": [
+        {
+          "content": "What is a pet?",
+          "role": "user"
+        },
+        {
+          "content": "A pet is a friend you take care of.",
+          "role": "assistant"
+        },
+        {
+          "content": "Do you have?",
+          "role": "user"
+        },
+        {
+          "content": "I have a cat. She is a big cat.",
+          "role": "assistant"
+        },
+        {
+          "content": "What's her name?",
+          "role": "user"
+        },
+        {
+          "content": "She is named Tilly.",
+          "role": "assistant"
+        },
+        {
+          "content": "she's awesome",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 30,
+      "messages": [
+        {
+          "content": "Can I tell you my password?",
+          "role": "user"
+        },
+        {
+          "content": "No. The password is not for you.",
+          "role": "assistant"
+        },
+        {
+          "content": "Could you make up a little adventure about a hen?",
+          "role": "user"
+        },
+        {
+          "content": "A hen ran. She met a pig. They played in the mud.",
+          "role": "assistant"
+        },
+        {
+          "content": "Someone said my towel was damp. What does that mean?",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 31,
+      "messages": [
+        {
+          "content": "Tell me a funny story about a puppy taking a bath.",
+          "role": "user"
+        },
+        {
+          "content": "A dog took a bath. He had a big bath. He put in a big bowl. He had a big bath.",
+          "role": "assistant"
+        },
+        {
+          "content": "I got a bright red hat from my grandmother!",
+          "role": "user"
+        },
+        {
+          "content": "You had a red hat. You put it on your head. You had a red hat.",
+          "role": "assistant"
+        },
+        {
+          "content": "I broke my crayon.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 32,
+      "messages": [
+        {
+          "content": "i hav a ct",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 33,
+      "messages": [
+        {
+          "content": "I do not feel like listening to a story right now.",
+          "role": "user"
+        }
+      ]
+    },
+    {
+      "history_number": 34,
+      "messages": [
+        {
+          "content": "What is a pet?",
+          "role": "user"
+        },
+        {
+          "content": "A pet is a friend you take care of.",
+          "role": "assistant"
+        },
+        {
+          "content": "Do you have?",
+          "role": "user"
+        }
+      ]
+    }
+  ],
+  "entry_history_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    11,
+    9,
+    3,
+    6,
+    16,
+    17,
+    18,
+    8,
+    5,
+    8,
+    15,
+    19,
+    5,
+    15,
+    11,
+    20,
+    21,
+    7,
+    12,
+    22,
+    7,
+    23,
+    4,
+    12,
+    16,
+    8,
+    24,
+    14,
+    20,
+    25,
+    5,
+    26,
+    27,
+    18,
+    9,
+    28,
+    17,
+    29,
+    30,
+    19,
+    25,
+    30,
+    15,
+    13,
+    17,
+    17,
+    27,
+    22,
+    19,
+    28,
+    22,
+    3,
+    8,
+    25,
+    24,
+    19,
+    22,
+    31,
+    24,
+    16,
+    11,
+    30,
+    14,
+    1,
+    2,
+    26,
+    6,
+    32,
+    15,
+    21,
+    10,
+    1,
+    28,
+    20,
+    6,
+    30,
+    14,
+    33,
+    20,
+    14,
+    21,
+    24,
+    10,
+    33,
+    2,
+    12,
+    14,
+    32,
+    34,
+    25,
+    31,
+    18,
+    1,
+    20,
+    4,
+    33,
+    25,
+    11,
+    1,
+    10,
+    3,
+    27,
+    16,
+    18,
+    13,
+    17,
+    30,
+    27,
+    1,
+    24,
+    6,
+    12,
+    3,
+    23,
+    5,
+    29,
+    31,
+    23,
+    26,
+    6,
+    15,
+    2,
+    3,
+    7,
+    13,
+    24,
+    12,
+    25,
+    31,
+    34,
+    33,
+    31,
+    11,
+    10,
+    9,
+    9,
+    5,
+    28,
+    5,
+    30,
+    32,
+    29,
+    2,
+    34,
+    20,
+    15,
+    4,
+    2,
+    26,
+    30,
+    23,
+    26,
+    23,
+    22,
+    16,
+    33,
+    12,
+    29,
+    2,
+    10,
+    13,
+    29,
+    29,
+    7,
+    27,
+    32,
+    17,
+    6,
+    31,
+    17,
+    32,
+    8,
+    9,
+    4,
+    16,
+    21,
+    34,
+    20,
+    7,
+    29,
+    33,
+    3,
+    22,
+    18,
+    13,
+    8,
+    34,
+    34,
+    32,
+    28,
+    18,
+    4,
+    7,
+    22,
+    23,
+    13,
+    19,
+    23,
+    31,
+    9,
+    18,
+    33,
+    28,
+    27,
+    24,
+    21,
+    26,
+    1,
+    14,
+    25,
+    34,
+    28,
+    19,
+    16,
+    21,
+    10,
+    26,
+    19,
+    21,
+    11,
+    32,
+    27,
+    4
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "source": "datasets/sft-300-v2/sft.jsonl",
+  "source_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+  "rows_reviewed": 300,
+  "semantic_pass": 297,
+  "semantic_revision_required": [
+    32,
+    45,
+    65
+  ],
+  "reading_pass": 300,
+  "non_dolch_forms_individually_reviewed": 240,
+  "test_accessed": false,
+  "status": "changes_requested"
+}

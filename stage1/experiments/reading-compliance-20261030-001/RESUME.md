@@ -1,0 +1,27 @@
+The experiment is incomplete because two external usage limits were reached. Do not report training or quality results until actual GPU execution and blind review finish.
+
+1. Colab rejected Connect T4 with “You cannot currently connect to a GPU due to usage limits in Colab.” The observed notebook URL and local hardware probe are in access-blocker.json. No purchase or precision/hardware substitution was made.
+2. All three explicitly configured GPT-6.1 Sol/high workers returned “You’ve hit your usage limit.” The service suggested trying again at11:17PM; that service-rendered time was not independently resolved to a timezone. No credits or subscription were purchased. Authoring and independent review remain incomplete.
+
+Preserved completed work:
+
+- Frozen34case evaluation set,16single-turn and18fixed histories. Full45candidate overlap review and exclusions are immutable in frozen/.
+- Integer multi-epoch helper and tests. Real CPU Trainer tests confirm114updates for300rows/three epochs and225updates for600rows. Tiny PEFT tests cover exact reload/resume, scheduler/optimizer/RNG/scaler record integrity, partial accumulation, row consumption, and completion masking. Actual T4 numerical/headroom gates are pending.
+-40tests pass from the extracted delivery kit;8notebook code cells compile. See verification.json and packaged-*-tests.log.
+-250new examples saved.150are independently approved after two rounds, with exact source hashes in audit/. The versioned immutable partial artifact is datasets/reading-new150-reviewed-v1; it is not a training-authorized600row dataset.
+- All300original examples were independently audited. Rows32/45/65 have semantic findings. The source remains unchanged. Proposed fixes were discussed by author/reviewer, but exact before/after export records were not saved; do not claim they are hash-bound approved changes yet.
+
+Resume with the same GPT-6.1 Sol/high author and independent reviewer when available. Their task identities were /root/author and /root/reviewer. Continue separate file ownership and at most three workers. Preserve audit rounds and approved batch bytes.
+
+- Batches1–3:50each, round2 approved. Verify exact hashes before reuse; do not rewrite these approved files.
+- Batch4:50saved; round1 reviewed49pass/1finding. Row50/new-200 wrongly grounds “You did all of it.” in a prior assistant statement rather than a child fact. Correct meaning/history or target, preserve before/after records, then request independent round2. At most three correction rounds total.
+- Batch5:50authored lines saved by the configured author in batch5.txt. The coordinator exported the unchanged text to batch-05 after the author stopped with an empty output folder. It has no independent audit and33missing word-evidence entries. Some forms may be unsupported, so do not fill evidence by assuming eligibility. Revise where needed, then independently review every row. Preserve the raw author text and export provenance.
+- Batch6: not authored. Need50long-history/recovery examples. Current250new rows contain125history rows,125with3–5prior assistant turns, and55flawed-history rows. The final50must contribute exactly25history rows to reach exactly150. Keep all six primary categories at50; ensure new examples do not copy or closely paraphrase any of the45frozen candidate situations/histories.
+- Materialize original32/45/65 corrections with exact before/after records and independent approval. Do not alter datasets/sft-300-v2.
+- Export exactly600rows only after all300new examples and original corrections pass independent review. Keep human_approved false. Validate quotas, evidence, full histories, semantic overlap, actual pinned-tokenizer lengths and final-completion masks. The existing validator currently rejects full approval and records partial progress.
+
+The sealed plan.json and reading_compliance_colab.ipynb in this preparation contain ONLY same300. Expanded600/adoption are explicitly blocked. Preserve the sealed archive/notebook/plan. Build a new version with complete dataset hashes when the full corpus is approved; never silently append an unapproved run to this plan. The current notebook can execute the unchanged-data experiment alone when freeT4access returns, but it must not support an adoption decision for the incomplete study.
+
+Use the full current reading prompt, pinned model/tokenizer revision, no-thinking mode, identicalT4/FP16inference and decoding/seeds across candidates. Generate a fresh current-adapter comparator; do not recycle UI responses or add the overlapping historical13case replay as cases. Each fresh training configuration must pass the existing numerical and15%headroom smoke gate. Stop and retain diagnostics on numerical/memory/integrity failure. No active or archived test contents may be opened. No sweeps, paid evaluator, purchases, RL, or live UI replacement.
+
+After both runs, independently score randomized concealed responses for joint reading+meaning+truthfulness+safety, with serious failures individually visible. The final selected checkpoint needs at least+20percentage points over current and no new serious paired failures, then positive gains and no new serious failures on both additional paired seeds. Keep repeated seeds and fixed-history limitations explicit. If no checkpoint qualifies, retain the current reference; recommend a next investment only from actual evidence, without launching it.

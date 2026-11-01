@@ -1,0 +1,144 @@
+{
+  "notebook": "sft_colab.ipynb",
+  "code_cells_compile": 11,
+  "all_outputs_empty": true,
+  "gpu_and_training_gates_default_false": true,
+  "default_training_mode": "lora",
+  "upload_kit_bytes": 50094,
+  "upload_kit_sha256": "84df1923ca4101eaefb4548687c27ff5c5737405eb388bbe11b935ef50bec939",
+  "upload_kit_files": [
+    "data/manifest.json",
+    "data/sft.jsonl",
+    "kit-manifest.json",
+    "requirements-sft-colab.txt",
+    "sft_train.py"
+  ],
+  "offline_tests_passed": 23,
+  "actual_collator_examples_checked": 300,
+  "actual_trainer_dataloader_examples_checked": 300,
+  "supervised_tokens": 4683,
+  "max_sequence_tokens": 1825,
+  "model_weights_loaded": true,
+  "training_executed": true,
+  "colab_cuda_preflight": {
+    "gpu": "Tesla T4",
+    "vram_bytes": 15637086208,
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "python": "3.13.16",
+    "drive_mounted": true,
+    "native_bf16_supported": false,
+    "compute_dtype": "float16",
+    "required_dependency_imports_verified": true
+  },
+  "colab_gpu_model_smoke_executed": true,
+  "baseline_manifest_sha256": "9215dc370204863e1ff58383d6e6083e709a883af54e74f80f9d7a54c82b89b6",
+  "evaluation_offline_tests_passed": 5,
+  "reading_lab_revision_pin_mock_verified": true,
+  "execution_blocker": null,
+  "notebook_sha256": "d09c8e85fc8dc28c6f6364b90142f48e9c6f72375148d059511cbd8bee8655a7",
+  "colab_actual_collator_examples_checked": 300,
+  "colab_supervised_tokens": 4683,
+  "colab_max_sequence_tokens": 1825,
+  "colab_gpu_model_smoke_status": "passed",
+  "colab_prior_smoke_failure": {
+    "run": "qwen-sft300-v2-lora-20261030-002",
+    "failure_kind": "runtime_error",
+    "error": "PEFT rejected optional preinstalled torchao0.10.0 (<0.16.0)",
+    "optimizer_steps": 0,
+    "remediation": "Removed optional incompatible torchao; cleared traceback references; verified allocated/reserved GPU memory zero"
+  },
+  "active_run": "qwen-sft300-v2-lora-allocator-20261030-008",
+  "full_training_completed": true,
+  "full_training_optimizer_steps": 38,
+  "full_training_failure": null,
+  "precision_diagnostic_status": "completed; scale1024 finite on exact failed rows; independent review accepted",
+  "selected_training_mode": "lora",
+  "final_adapter_exists": true,
+  "development_comparison_completed": true,
+  "final_smoke_runs": {
+    "lora": {
+      "report": "sft-diagnostics/colab-20261030/qwen-sft300-v2-lora-20261030-006/smoke/smoke-report.json",
+      "sha256": "6c6cbc632a5f31f37c0cc536768ae3498e62f938d93bf79c92c746586e39ae74",
+      "status": "insufficient_headroom",
+      "headroom_fraction": 0.06248454545835551,
+      "applied_optimizer_steps": 2,
+      "skipped_optimizer_steps": 0,
+      "save_reload_weights_equal": true,
+      "inference_verified": true
+    },
+    "qlora": {
+      "report": "sft-diagnostics/colab-20261030/qwen-sft300-v2-qlora-20261030-007/smoke/smoke-report.json",
+      "sha256": "58d710e57f6291ffa144b77a4877c25ce2d3ec4c0796a28f037919662b9dcd7d",
+      "status": "insufficient_headroom",
+      "headroom_fraction": 0.10701038964304724,
+      "applied_optimizer_steps": 2,
+      "skipped_optimizer_steps": 0,
+      "save_reload_weights_equal": true,
+      "inference_verified": true
+    },
+    "lora_allocator": {
+      "report": "sft-diagnostics/lora-allocator-008-smoke-report.json",
+      "status": "passed",
+      "headroom_fraction": 0.44752580646513246
+    }
+  },
+  "allocator_config": "expandable_segments:True",
+  "full_training_status": "training_completed",
+  "adapter_export_sha256": "6db5dd5f7da748b1fdba8c135084d47702fe23de8ba24b30dbbcfdf2ec936558",
+  "full_training_memory": {
+    "total_bytes": 15637086208,
+    "peak_allocated_bytes": 7307073536,
+    "peak_reserved_bytes": 8090812416,
+    "minimum_sampled_driver_free_bytes": 7396458496,
+    "initial_nonallocator_bytes": 149815296,
+    "free_memory_margin_fraction": 0.4730074642816729,
+    "required_margin_fraction": 0.15,
+    "headroom_passed": true,
+    "margin_scope": "Operational target: sampled driver free and peak reserved plus initial nonallocator use; external changes between samples may be missed"
+  },
+  "full_training_update_checks": {
+    "gradient_steps_checked": 38,
+    "applied_optimizer_steps": 38,
+    "skipped_optimizer_steps": 0,
+    "starting_global_step": 0,
+    "training_start_scaler_state": {
+      "scale": 1024,
+      "growth_factor": 2,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 0
+    },
+    "scaler_state_after_last_update": {
+      "scale": 1024,
+      "growth_factor": 2,
+      "backoff_factor": 0.5,
+      "growth_interval": 2000,
+      "_growth_tracker": 38
+    }
+  },
+  "final_reload": {
+    "save_reload_weights_equal": true,
+    "reload_loss": 0.5303304195404053,
+    "inference_verified": true,
+    "generated_token_ids": [
+      13048,
+      0,
+      1446,
+      646,
+      1977,
+      15588,
+      311,
+      752
+    ],
+    "generated_text": "Hi! You can say hi to me"
+  },
+  "adapter_local_verified": true,
+  "reading_lab_adapter_configured": true,
+  "development_comparison_status": "completed; coordinator model review; human review pending",
+  "local_adapter": "runs/qwen-sft300-v2-lora-allocator-20261030-008/adapter",
+  "development_cases": 13,
+  "sft_truncated": 0,
+  "development_report": "evaluation-sft-v1/results/comparison-001/REPORT.md",
+  "reading_lab_actual_engine_load_verified": true
+}

@@ -1,0 +1,50 @@
+{
+  "binding": {
+    "plan_sha256": "9277deeec7d2c6c628e3b2254fa6b499401f51bd789c57ec97b63c8ab4c9704a",
+    "primary_summary_sha256": "80014b044251908ebc769742e9ea6f5bd3fa9205480ecff7b6191f2a0586adb7",
+    "primary_decision_sha256": "57e2ad97f57cad5a19b4b8d8a1dd0a21a638d2c473dc7d4d3e28dc1603e505f5",
+    "selected": "expanded600-epoch3",
+    "seed_offset": 1000003,
+    "candidate_record_hashes": {
+      "current": "e663915ce39d7d9fc344865102e81da2498832063af334ea25b17c262cdc49cc",
+      "expanded600-epoch3": "1138bc944bf1fd4511111f0f0de7e2475a813b26c2a316d2124eb701c6b1dd01"
+    },
+    "comparison_group": {
+      "base_model": "Qwen/Qwen3-1.7B",
+      "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+      "template": "qwen-chat-v3; enable_thinking=False",
+      "enable_thinking": false,
+      "generation": {
+        "do_sample": true,
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "max_new_tokens": 128
+      },
+      "precision": "float16",
+      "hardware": "Tesla T4",
+      "cuda": "13.0",
+      "python": "3.13.16",
+      "packages": {
+        "torch": "2.11.0+cu130",
+        "transformers": "4.57.6",
+        "peft": "0.21.2",
+        "accelerate": "1.15.0",
+        "tokenizers": "0.22.2",
+        "huggingface_hub": "0.36.2",
+        "safetensors": "0.8.0"
+      },
+      "model_tokenizer_artifacts_sha256": "8922df67227a992c8624e60442f0b455a7a7e5804de384861f931e0d77025b85",
+      "actual_parameter_dtypes": {
+        "torch.float16": 310,
+        "torch.float32": 392
+      },
+      "attention_implementation": "sdpa"
+    }
+  },
+  "status": "generations_complete_pending_blind_review",
+  "runs": {
+    "current": "/content/drive/MyDrive/Reading-Model/sft/reading-compliance-20261031-002/repeat-seed-1000003/current",
+    "expanded600-epoch3": "/content/drive/MyDrive/Reading-Model/sft/reading-compliance-20261031-002/repeat-seed-1000003/expanded600-epoch3"
+  }
+}

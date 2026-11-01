@@ -1,0 +1,61 @@
+{
+  "experiment_id": "reading-compliance-20261031-002",
+  "status": "complete_user_adoption_decision_ready",
+  "parent_preparation": "reading-compliance-20261030-001",
+  "source_frozen_manifest_sha256": "de653bb59391303b437816c9a423ccee6bfa97afc9d96d7a6b105c5910be9331",
+  "gpu_access": "matching_T4_FP16",
+  "execution_gate": "all_training_generation_review_selection_confirmation_gates_complete",
+  "training_executed": true,
+  "expanded_dataset": "sealed_independently_approved_600",
+  "original_corpus_corrections": "independently_approved_3_changes",
+  "offline_tests_pass": 48,
+  "upload_authorization": "both_300_and_full600_kits_explicitly_approved",
+  "runtime_notebook_url": "https://colab.research.google.com/drive/1gqdgp3o34M-f9nPTNI5xQ_vAS8kSrmTj?authuser=1",
+  "current_reference": "34cases_complete_1truncated_raw_preserved",
+  "same300": {
+    "status": "training_and_3_epoch_generations_complete",
+    "updates": 114,
+    "epochs": 3,
+    "skipped_updates": 0,
+    "operational_headroom": 0.472873,
+    "raw_responses_per_epoch": 34,
+    "checkpoint_reloads_passed": 3
+  },
+  "expanded600": {
+    "status": "training_and_3_epoch_generations_complete",
+    "latest_logged_update": 185,
+    "planned_updates": 225,
+    "retained_epoch_checkpoints": [
+      75,
+      150
+    ],
+    "resume_checkpoint": "expanded600/full/checkpoints/checkpoint-150",
+    "resume_updates_remaining": 75,
+    "note": "Updates 151\u2013185 were logged but are not a retained epoch checkpoint. Resume must restore 150, then replay the final epoch.",
+    "resume_requested_from": 150,
+    "latest_verified_update": 225,
+    "epochs": 3,
+    "operational_headroom": 0.43679668738448385,
+    "reloaded_checkpoints": 3
+  },
+  "checked_at_utc": "2026-11-01T08:54:00Z",
+  "quality_review": "all374_responses_independently_blind_reviewed_and_sealed",
+  "adoption_recommendation": "recommend_for_user_adoption",
+  "next_action": "User review of selected checkpoint and remaining failure evidence; no automatic UI replacement",
+  "same300_loss_curves": "remote-evidence/same300-loss-curves/training-loss.png",
+  "primary_selected": "expanded600-epoch3",
+  "primary_joint_successes": {
+    "current": 6,
+    "selected": 18,
+    "n": 34
+  },
+  "primary_joint_gain_pp": 35.294117647058826,
+  "repeat_generation_verified": {
+    "1000003": 68,
+    "2000003": 68
+  },
+  "selected_artifact": "https://drive.google.com/drive/folders/1MfZq5vhaOMKgfRFkEdV_P-TNo3ErW9-C",
+  "human_review_pending": true,
+  "live_ui_changed": false,
+  "completed_at_utc": "2026-11-01T12:31:54Z"
+}

@@ -1,0 +1,89 @@
+{
+  "status": "approved",
+  "scope": "Independent semantic, truthfulness, safety, naturalness, exact final-word eligibility, source integrity, frozen-evaluation semantic separation, and input-only history annotations. Runtime tokenizer length/masking and GPU quality gates remain separate.",
+  "rows": 600,
+  "corrected_original_rows": 300,
+  "new_rows": 300,
+  "changed_original_indices_1based": [
+    32,
+    45,
+    65
+  ],
+  "new_primary_category_counts": {
+    "meaning_preserving_explanation": 50,
+    "exact_forms_lexical_boundaries": 50,
+    "corrections_refusals_topic_changes": 50,
+    "honest_identity_personal_experience": 50,
+    "emotional_support_safe_relevant_help": 50,
+    "long_history_tracking_recovery": 50
+  },
+  "new_history_rows": 150,
+  "new_prior_assistant_turn_distribution": {
+    "0": 150,
+    "3": 145,
+    "5": 2,
+    "4": 3
+  },
+  "new_intentionally_semantically_flawed_history_rows": 64,
+  "new_rows_with_any_historical_flaw": 143,
+  "source_approvals": [
+    {
+      "source": "experiments/reading-compliance-20261030-001/authoring/original-corrected",
+      "sft_sha256": "2ec1428629a43b82226ced3717d05ae0286c7ea5e3c82f5e143394bcb304a209",
+      "independent_approval": "experiments/reading-compliance-20261030-001/audit/original300-corrected-approval-summary.json",
+      "approval_sha256": "c4c6eab318d926613e57d1b69edfc87fb3dff2343c92c6e267835df171c35107"
+    },
+    {
+      "source": "experiments/reading-compliance-20261030-001/authoring/batch-01",
+      "sft_sha256": "d6c72ae616e6a698f77632d6b1e24447e8d1dd18d3ca6fb46d709eac06805315",
+      "independent_approval": "experiments/reading-compliance-20261030-001/audit/batch-01-round-2-summary.json",
+      "approval_sha256": "f27d00ac026601a43595f07398316d8f2d4253f57aed2695d02e9eec0e4616db"
+    },
+    {
+      "source": "experiments/reading-compliance-20261030-001/authoring/batch-02",
+      "sft_sha256": "2e499841106d39bb085045d43cc2d654585deb4f291ce893e0f2d0fbb8bb3d54",
+      "independent_approval": "experiments/reading-compliance-20261030-001/audit/batch-02-round-2-summary.json",
+      "approval_sha256": "4eacf5aad743f76e8163f17ec34ce375143f4d6b1b0552c86f7700e95056400c"
+    },
+    {
+      "source": "experiments/reading-compliance-20261030-001/authoring/batch-03",
+      "sft_sha256": "6b141c7a97f66cccdaecb6250079da83f3b0f4833f4ed96e35268a761afcc13f",
+      "independent_approval": "experiments/reading-compliance-20261030-001/audit/batch-03-round-2-summary.json",
+      "approval_sha256": "27908e4e18a3639644de53cdeefae6a08499cb4004b0f6b4ee5e2c1355d61982"
+    },
+    {
+      "source": "experiments/reading-compliance-20261030-001/authoring/batch-04",
+      "sft_sha256": "85d6826fb1bf87165f9f0f1255c522a538541a58fe85e0a4d5dc94c3ebbf8bbc",
+      "independent_approval": "experiments/reading-compliance-20261030-001/audit/batch-04-round-2-summary.json",
+      "approval_sha256": "ef642cb525375510afc87648ae827f88a3801a278030530827bc136446c89bf0"
+    },
+    {
+      "source": "experiments/reading-compliance-20261030-001/authoring/batch-05",
+      "sft_sha256": "9ceb7e298a765c35799834d3a5d7f080ad73abb3ca53be461b5ede2b05b3c6e2",
+      "independent_approval": "experiments/reading-compliance-20261030-001/audit/batch-05-round-1-summary.json",
+      "approval_sha256": "128fb3d032dbfaede3709ade9ce23af70c10919870159d451c0e72ee1f2937ae"
+    },
+    {
+      "source": "experiments/reading-compliance-20261030-001/authoring/batch-06",
+      "sft_sha256": "f9d8d9ba575c111c5901287a87bdc1a7334fdfea43f6ce355805b3da663b28d4",
+      "independent_approval": "experiments/reading-compliance-20261030-001/audit/batch-06-round-2-summary.json",
+      "approval_sha256": "2db11ad9864a432a06fde094ca67ab58d2dc5b669445f1bdaa1533b44d93f36d"
+    }
+  ],
+  "files": {
+    "sft.jsonl": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+    "review.jsonl": "07a4aced136602c4c88555e93bff7a9194ba9e2bb94bea4e46059efa17e6ca81",
+    "history-flaws.jsonl": "9d12b3f10fecdb07e971aa5df91313ab1d8d36ed6f6bde5518761d33e4dbdc40",
+    "history-lexicon.json": "73f74483bfb87e9f3849a229c21da7e83e3cedb7f3336b2b60bf74fac5d0bbfb",
+    "changes.jsonl": "53c7c9faeb473311f98d05a0dfaed65a14edf963fc8c0aea64f9bc44f3122200",
+    "provenance.json": "34c43af2eb6d88be675b3a024238436ee5852a0adcd36cad7ae8dd63367b1063"
+  },
+  "frozen_candidates_reviewed": 45,
+  "frozen_retained_cases": 34,
+  "new_close_semantic_evaluation_overlaps": [],
+  "open_findings": [],
+  "human_approved": false,
+  "reviewer": "Independent delegated GPT-6.1 Sol/high session",
+  "test_accessed": false,
+  "runs_or_quality_claims": false
+}

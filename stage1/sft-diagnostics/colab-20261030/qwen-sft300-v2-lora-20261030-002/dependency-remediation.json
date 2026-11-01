@@ -1,0 +1,12 @@
+{
+  "reason": "PEFT construction rejected unused preinstalled torchao 0.10.0 before training",
+  "mode": "lora",
+  "optimizer_steps_before_failure": 0,
+  "torchao_before": "0.10.0",
+  "pip_stdout": "Found existing installation: torchao 0.10.0\nUninstalling torchao-0.10.0:\n  Successfully uninstalled torchao-0.10.0\n",
+  "memory_after_cleanup": {
+    "allocated": 0,
+    "reserved": 0,
+    "driver_free": 15510339584
+  }
+}

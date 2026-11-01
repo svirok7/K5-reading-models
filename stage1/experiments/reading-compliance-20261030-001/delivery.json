@@ -1,0 +1,11 @@
+{
+  "status": "partial_preparation_gpu_and_independent_review_blocked",
+  "archive_sha256": "f28e9b44e280ff7e8b2328dd87ac4ea92205bf894a35878fbc738eb7c8850a5c",
+  "notebook_sha256": "59fbfd739ee7b1136b03fd377014d56669b7a0804e9a06f82458bf3bbf37b569",
+  "plan_sha256": "ec9412e26e238fa0489683382540881cc6b7ef021f4161d07d4fa817c8456638",
+  "dataset_manifest_sha256": null,
+  "expanded_data_approved": false,
+  "frozen_manifest_sha256": "de653bb59391303b437816c9a423ccee6bfa97afc9d96d7a6b105c5910be9331",
+  "kit_files": 34,
+  "kit_bytes": 247002
+}

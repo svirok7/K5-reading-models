@@ -1,0 +1,45 @@
+{
+  "dataset_version": "synthetic-pilot-v1.2",
+  "reading_profile_version": "1.5",
+  "count": 30,
+  "category_counts": {
+    "everyday_social": 6,
+    "complex_speech": 6,
+    "questions_explanations": 6,
+    "short_stories": 4,
+    "emotions_boundaries_identity": 3,
+    "context_changes_corrections": 5
+  },
+  "context_dependent_count": 10,
+  "training_targets": 30,
+  "assistant_history_turns": 40,
+  "creation_method": "Current assistant revision and self-review; no external generation calls.",
+  "review_status": "model_reviewed_pending_human",
+  "system_file": "system.txt",
+  "source_hashes": {
+    "READER_PROFILE.txt": "065b3ab985cba131c8fe1cedfcb702e73e7ed5c04c87374a19d0261e86e646bf",
+    "data/dolch-through-grade1.json": "241bcf6dda3614c9a4bf90444d6ac72e94f283a7e127639c8d616c5c1d058863",
+    "RUBRIC.md": "b0cf35738170abc15b033855e8e387d4c6e56199f8dd103909fcfe6f0d35b1d4",
+    "prompts/B.txt": "9e50178ae9db06e585a2f13c6f57f1628d9f35401735377510deeba0d7eb33ed",
+    "PROTOCOL.md": "6d0628497aaec15132fa1731b178835f1e5327b9fc49a1e097124da9bc87b861",
+    "engine.py": "e17bfad6e043a79774ec56e1cdad062fb756edba058114c921f770af0e611b17"
+  },
+  "artifact_hashes": {
+    "candidates.jsonl": "da3de2141f0ae1e0f8e2d0a8af13d8f0737904ab6774dae38435ba17bb0cbe03",
+    "review.md": "f61ed19f6e30c9ea9b12ba7d182e83172a3a5ce477412e55f2b16b30affd4f79",
+    "system.txt": "448f111aa33a5fbf04a211dd7f8e409089dd593a195bbf76958d65dd057a0745",
+    "word-evidence.json": "795c8c288cc6a670f1ae19c1912c214dbdad610ab71fa2c48d6a37481f8b1b03"
+  },
+  "training_format": "System message from system.txt, then context_messages, then target_response as assistant completion. Loss on target_response only; historical assistant turns are context. Use native Qwen chat template with enable_thinking=False. Metadata is never model input.",
+  "split_policy": "All variants of a scenario_family must stay together; this pilot is training-candidate material only.",
+  "contamination_limit": "No dev/test files, archived tests, or benchmark outputs read during this task. Author has prior conversational exposure to live chat examples; accidental semantic overlap cannot be excluded. Novelty against held-out data not measured.",
+  "evaluation": "No trained-model experiment or independent judge performed.",
+  "input_length_counts": {
+    "short": 12,
+    "medium": 12,
+    "long": 6
+  },
+  "revision_notes": "Replaced conversational design annotations with per-word eligibility reasoning; retained input/target pairs.",
+  "training_objective": "Word eligibility and accessible word selection under profile v1.5",
+  "annotation_policy": "word_choice_reasoning and lexical_evidence are editorial metadata, never normal SFT targets."
+}

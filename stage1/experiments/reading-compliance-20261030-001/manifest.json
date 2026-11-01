@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "status": "partial_preparation_experiment_incomplete",
+  "experiment_id": "reading-compliance-20261030-001",
+  "training_executed": false,
+  "quality_evaluation_executed": false,
+  "approved_new_examples": 150,
+  "authored_new_examples": 250,
+  "expanded_dataset_exported": false,
+  "live_ui_adapter_changed": false,
+  "files": {
+    "REQUEST.md": "c37c72a11c7c74e63afc961916b131a584e07b98080fce1fa865fae08572631c",
+    "plan.json": "ec9412e26e238fa0489683382540881cc6b7ef021f4161d07d4fa817c8456638",
+    "delivery.json": "0bf45ae52e7976451f5a771333a5b0f9ab6644b35f5c8e0af9312f98aa4ccd3e",
+    "reading_compliance_colab.ipynb": "59fbfd739ee7b1136b03fd377014d56669b7a0804e9a06f82458bf3bbf37b569",
+    "reading-compliance-colab.zip": "f28e9b44e280ff7e8b2328dd87ac4ea92205bf894a35878fbc738eb7c8850a5c",
+    "verification.json": "5734fd0a90d1c77367ceb9698f6c70da4517e42fed20be132c98ae41bcd3e154",
+    "baseline-tokenization.json": "8d307a2f3aefbf51dd192eefca8d64996fd828f64c303d8ccdb8b7bd9f0ae1fe",
+    "draft-tokenization.json": "dea3a9a8ce465468e9b9f97aceb71b00c041a594a9d8e662a667e2bc61b8dad7",
+    "prepared-model-artifacts.json": "9213a331cc020990fb27b14c4d252b7892070ff211ebb753396bee33679196ab",
+    "access-blocker.json": "46d1e7faf8ce0b5f8ac64535a2129c6466d403a6444526b7d877a1bb7ab19c6a",
+    "authoring-progress.json": "6df46d0aa0a9f20b5951680c313c38d8fc07d0a545fcd64b6a3fc8cd6799cba7",
+    "authoring-and-audit-snapshot-v1.zip": "5b6357c21b837b326b4c2fe57b56ed00d2263d590aaa4263447ed65794b0fb5e",
+    "RESUME.md": "1c77095638ecef911a0096eb6f3d40aea21af1ae40b562a89127ff4f8cb3674f",
+    "code-review.md": "70741a0544685236646ee461f0d4fb11ece224e827e53abc8400849e46e29e64",
+    "delivery-code-review.md": "5f1dfdccd53a67e4afaf017f50994365891139c9762d0bb4a1949f4a96ae1f88"
+  },
+  "reviewed_partial_dataset": {
+    "path": "datasets/reading-new150-reviewed-v1",
+    "manifest_sha256": "36c3aefa4d62dcb4973af36185f8a3cb6c318985aaa925d550818681bb3ded41"
+  },
+  "mutable_status": "status.json",
+  "limits": "GPU execution unavailable; independently approved600-row corpus unavailable; no behavioral results or adoption claim."
+}

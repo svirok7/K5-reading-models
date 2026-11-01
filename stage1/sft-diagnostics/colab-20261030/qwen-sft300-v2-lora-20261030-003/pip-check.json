@@ -1,0 +1,30 @@
+{
+  "returncode": 1,
+  "stdout": "ipython 7.34.0 requires jedi, which is not installed.\ngradio 6.30.0 has requirement huggingface-hub<3.0,>=1.16.0, but you have huggingface-hub 0.36.2.\ngradio-client 2.7.2 has requirement huggingface-hub<3.0,>=1.16.0, but you have huggingface-hub 0.36.2.\ndiffusers 0.42.0 has requirement huggingface-hub<3.0,>=1.32.0, but you have huggingface-hub 0.36.2.\n",
+  "stderr": "",
+  "optional_torchao_preflight": {
+    "before_version": null,
+    "minimum_if_present": "0.16.0",
+    "action": "absent",
+    "restart_required": false,
+    "peft_probe_cache_cleared": false,
+    "after_version": null
+  },
+  "peft_cpu_adapter_dispatch": {
+    "passed": true,
+    "model_downloaded": false,
+    "optimizer_steps": 0
+  },
+  "prior_dependency_remediation": {
+    "reason": "PEFT construction rejected unused preinstalled torchao 0.10.0 before training",
+    "mode": "lora",
+    "optimizer_steps_before_failure": 0,
+    "torchao_before": "0.10.0",
+    "pip_stdout": "Found existing installation: torchao 0.10.0\nUninstalling torchao-0.10.0:\n  Successfully uninstalled torchao-0.10.0\n",
+    "memory_after_cleanup": {
+      "allocated": 0,
+      "reserved": 0,
+      "driver_free": 15510339584
+    }
+  }
+}

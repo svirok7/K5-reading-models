@@ -1,0 +1,30 @@
+{
+  "training": {
+    "mode": "lora",
+    "seed": 42,
+    "max_length": 2048,
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "learning_rate": 0.0001,
+    "epochs": 1.0,
+    "microbatch": 1,
+    "gradient_accumulation": 8,
+    "fp16_initial_scale": 1024.0
+  },
+  "model": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "context": {
+    "precision_scale_evidence": {
+      "path": "/content/drive/MyDrive/Reading-Model/sft/qwen-sft300-v2-lora-scale-diagnostic-004/fp16-scale-replay.json",
+      "sha256": "42d7718fba78104d36435d1b2cda89a3a2bb1fb3e3b0331fbf7404ae87ab400d",
+      "chosen_initial_scale": 1024,
+      "dropout_scope": "Identical between scale trials; exact failed Trainer dropout stream unverified"
+    },
+    "kit_sha256": "53516179b02f2b63a4040461bbcb0fdae38f6d3cec9b17dc3c5e92a564f719c0",
+    "baseline_reference": "evaluation-sft-v1/baseline-reference/manifest.json sha256:9215dc370204863e1ff58383d6e6083e709a883af54e74f80f9d7a54c82b89b6",
+    "mode_reason": "Ordinary LoRA is the preferred initial experiment.",
+    "lora_failure_evidence": null
+  },
+  "source_manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3"
+}

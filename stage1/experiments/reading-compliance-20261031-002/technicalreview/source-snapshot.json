@@ -1,0 +1,14 @@
+{
+  "experiments/reading-compliance-20261030-001/evaluate.py": "a34b937d36cdf5ccd31f35c8abec21dd7671e20097f4a000aedeef6997e7456d",
+  "experiments/reading-compliance-20261030-001/execute.py": "f1191b679ff4b5af206c2911bc1723ecff94ea03ce925e49a391ae373738e2ed",
+  "experiments/reading-compliance-20261030-001/choose_checkpoint.py": "bc21f5122585b46a83d9fbd18be628f485382fc7bae15a423c0d47b6efdcc411",
+  "experiments/reading-compliance-20261030-001/repeat_seeds.py": "27f6b0be5f3fd75f07e2b70e35eaf0948ac5af2fa63be62eb2ef2b992b1a65a4",
+  "experiments/reading-compliance-20261030-001/test_evaluate.py": "f706857e1dd6fc5e6b0377a7c635d407aaaab3ab4608a28456e87c9c132a4bed",
+  "experiments/reading-compliance-20261030-001/test_selection.py": "075b47ee6a5628e286ae1918035552baba01aa805f75468ef225cf0132823faa",
+  "experiments/reading-compliance-20261030-001/plan.json": "ec9412e26e238fa0489683382540881cc6b7ef021f4161d07d4fa817c8456638",
+  "experiments/reading-compliance-20261030-001/reading-compliance-colab.zip": "f28e9b44e280ff7e8b2328dd87ac4ea92205bf894a35878fbc738eb7c8850a5c",
+  "experiments/reading-compliance-20261030-001/reading_compliance_colab.ipynb": "59fbfd739ee7b1136b03fd377014d56669b7a0804e9a06f82458bf3bbf37b569",
+  "experiments/reading-compliance-20261030-001/prepared-model-artifacts.json": "9213a331cc020990fb27b14c4d252b7892070ff211ebb753396bee33679196ab",
+  "sft_train.py": "1d19f350b8cbc7b38106c4795a28186a944bd39e60265f9837deac1d8df22ecb",
+  "test_sft_train.py": "198ec5c357dfdd9f89a5b5477efe29b639db1b18f6b34448766a8f9eb4a8c686"
+}

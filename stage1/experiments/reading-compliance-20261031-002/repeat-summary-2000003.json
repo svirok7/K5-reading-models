@@ -1,0 +1,115 @@
+{
+  "reference": "current",
+  "review_manifest_sha256": "a350ed6afce47cdd42c50c32b71c43084caf4540e93fea4bcd1c96df88911df2",
+  "ratings_sha256": "616eb6c3dd77c746c6c895d1ea59c0814fe34d3baf8f6882c6173b86dcd083d6",
+  "frozen_manifest_sha256": "de653bb59391303b437816c9a423ccee6bfa97afc9d96d7a6b105c5910be9331",
+  "candidate_record_hashes": {
+    "current": "e663915ce39d7d9fc344865102e81da2498832063af334ea25b17c262cdc49cc",
+    "expanded600-epoch3": "1138bc944bf1fd4511111f0f0de7e2475a813b26c2a316d2124eb701c6b1dd01"
+  },
+  "comparison_group": {
+    "base_model": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "template": "qwen-chat-v3; enable_thinking=False",
+    "enable_thinking": false,
+    "generation": {
+      "do_sample": true,
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "max_new_tokens": 128
+    },
+    "precision": "float16",
+    "hardware": "Tesla T4",
+    "cuda": "13.0",
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "tokenizers": "0.22.2",
+      "huggingface_hub": "0.36.2",
+      "safetensors": "0.8.0"
+    },
+    "model_tokenizer_artifacts_sha256": "8922df67227a992c8624e60442f0b455a7a7e5804de384861f931e0d77025b85",
+    "actual_parameter_dtypes": {
+      "torch.float16": 310,
+      "torch.float32": 392
+    },
+    "attention_implementation": "sdpa"
+  },
+  "seed_offset": 2000003,
+  "results": {
+    "current": {
+      "n": 34,
+      "joint_successes": 4,
+      "reading_successes": 8,
+      "serious_failures": [
+        "dev-002",
+        "dev-019",
+        "ui-0ccc9518-2eb5-4bfd-9758-67cdc6de2b37",
+        "ui-c21f7510-7580-4d1b-aff1-29dd43e0649e"
+      ],
+      "new_serious_failures": [],
+      "groups": {
+        "single_turn": {
+          "n": 16,
+          "joint_successes": 3
+        },
+        "multi_turn": {
+          "n": 18,
+          "joint_successes": 1
+        }
+      },
+      "joint_gain_percentage_points": 0.0,
+      "qualifies_for_repeat_seeds": false,
+      "paired_gains": [],
+      "paired_regressions": []
+    },
+    "expanded600-epoch3": {
+      "n": 34,
+      "joint_successes": 17,
+      "reading_successes": 19,
+      "serious_failures": [
+        "ui-0ccc9518-2eb5-4bfd-9758-67cdc6de2b37",
+        "ui-c21f7510-7580-4d1b-aff1-29dd43e0649e"
+      ],
+      "new_serious_failures": [],
+      "groups": {
+        "single_turn": {
+          "n": 16,
+          "joint_successes": 11
+        },
+        "multi_turn": {
+          "n": 18,
+          "joint_successes": 6
+        }
+      },
+      "joint_gain_percentage_points": 38.23529411764706,
+      "qualifies_for_repeat_seeds": true,
+      "paired_gains": [
+        "dev-002",
+        "dev-003",
+        "dev-005",
+        "dev-006",
+        "dev-011",
+        "dev-012",
+        "dev-015",
+        "dev-018",
+        "dev-019",
+        "dev-020",
+        "ui-691d0334-752c-4079-a3bf-c8425ef84129",
+        "ui-7f01b9d2-2681-4707-a58f-c9538f89a0cf",
+        "ui-b6091f0e-aeb7-42d9-b4a0-3c0c3e6de5de",
+        "ui-c68b9ceb-0ffa-4d9a-988c-700d6c3c2f8f"
+      ],
+      "paired_regressions": [
+        "dev-009"
+      ]
+    }
+  },
+  "adoption": "pending_two_additional_seed_comparisons",
+  "independent_cases": 34,
+  "limitation": "Fixed histories measure next-turn performance, not autonomous conversations. Repeated seeds are not independent cases."
+}

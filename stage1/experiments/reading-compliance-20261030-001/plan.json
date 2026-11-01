@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "experiment_id": "reading-compliance-20261030-001",
+  "status": "partial_preparation_gpu_and_independent_review_blocked",
+  "model": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "prompt_sha256": "129a21f9b37e953c4b1d27d6ea015fc9775c32cabf6b7d8ef9bfde212d9ade6c",
+  "frozen_manifest_sha256": "de653bb59391303b437816c9a423ccee6bfa97afc9d96d7a6b105c5910be9331",
+  "helper_sha256": "1d19f350b8cbc7b38106c4795a28186a944bd39e60265f9837deac1d8df22ecb",
+  "code_files": {
+    "experiments/reading-compliance-20261030-001/evaluate.py": "a34b937d36cdf5ccd31f35c8abec21dd7671e20097f4a000aedeef6997e7456d",
+    "experiments/reading-compliance-20261030-001/execute.py": "f1191b679ff4b5af206c2911bc1723ecff94ea03ce925e49a391ae373738e2ed",
+    "experiments/reading-compliance-20261030-001/choose_checkpoint.py": "bc21f5122585b46a83d9fbd18be628f485382fc7bae15a423c0d47b6efdcc411",
+    "experiments/reading-compliance-20261030-001/plot_results.py": "a714fc2bc91c6a41b4129c0386e5202bf91f2432c83e5cfa23173d1e5d6db135",
+    "experiments/reading-compliance-20261030-001/repeat_seeds.py": "27f6b0be5f3fd75f07e2b70e35eaf0948ac5af2fa63be62eb2ef2b992b1a65a4",
+    "experiments/reading-compliance-20261030-001/validate_authoring.py": "d7a5b5bfe65bcc4994fe5d34d07cbcc3dc32ef442314efbc30d23976899c64a0",
+    "experiments/reading-compliance-20261030-001/test_evaluate.py": "f706857e1dd6fc5e6b0377a7c635d407aaaab3ab4608a28456e87c9c132a4bed",
+    "experiments/reading-compliance-20261030-001/test_selection.py": "075b47ee6a5628e286ae1918035552baba01aa805f75468ef225cf0132823faa",
+    "experiments/reading-compliance-20261030-001/build_delivery.py": "1972c55168423e9c29de041b4ebf191aa9b2addcf08fcf95c6b6c4754fafeebe",
+    "sft_train.py": "1d19f350b8cbc7b38106c4795a28186a944bd39e60265f9837deac1d8df22ecb",
+    "test_sft_train.py": "198ec5c357dfdd9f89a5b5477efe29b639db1b18f6b34448766a8f9eb4a8c686",
+    "requirements-sft-colab.txt": "a0d74970a2dc959412c99cfd251c1d558d709ab10fad3fe41b73d5792a683966",
+    "sft_colab.ipynb": "d09c8e85fc8dc28c6f6364b90142f48e9c6f72375148d059511cbd8bee8655a7"
+  },
+  "current_adapter_record_sha256": "e663915ce39d7d9fc344865102e81da2498832063af334ea25b17c262cdc49cc",
+  "current_adapter_artifacts": {
+    "README.md": "7580bf8de69547f09962e6e9ac8f70b2d0dcfb140bbdc2e97aa6237e950ff449",
+    "adapter_config.json": "11ca64d7950f87ec5d15a99a07b693937a8b4907e739243d14252d70d96eec52",
+    "adapter_model.safetensors": "81514bffcb7ae1ee5ce60d48357afaeaa05313b80c42318b406f2d94846f12aa",
+    "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+    "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "sft-adapter-record.json": "792daa63c111c1fde4e0e284316bfc43587477f7b16b706e61113ae489dd5aa2",
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+    "training_args.bin": "1ad9e030861c4342b6d581697a2dafb1b2c2e2b7c568567114f5152fa060f486",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "generation": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "max_new_tokens": 128
+  },
+  "inference": {
+    "hardware": "Tesla T4",
+    "precision": "float16",
+    "template": "qwen-chat-v3; enable_thinking=False",
+    "enable_thinking": false,
+    "seed_offsets": [
+      0,
+      1000003,
+      2000003
+    ]
+  },
+  "prepared_environment": {
+    "python": "3.11.4",
+    "platform": "macOS-26.2-arm64-arm-64bit",
+    "packages": {
+      "torch": "2.14.1",
+      "transformers": "4.57.6",
+      "peft": "0.21.2",
+      "accelerate": "1.15.0",
+      "tokenizers": "0.22.2",
+      "huggingface_hub": "0.36.2",
+      "safetensors": "0.8.0"
+    }
+  },
+  "experiments": [
+    {
+      "name": "same300",
+      "dataset": "datasets/sft-300-v2",
+      "config": {
+        "mode": "lora",
+        "seed": 42,
+        "max_length": 2048,
+        "rank": 16,
+        "alpha": 32,
+        "dropout": 0.05,
+        "learning_rate": 0.0001,
+        "epochs": 3,
+        "dataset_version": "sft-300-v2",
+        "data_sha256": "42aea06f60ce82af7e276440c3318220efa751cc4fd3c111208176366bb419b3",
+        "manifest_sha256": "40d27ee7931fff21c9312a5820d5923d5ddf9cca6998482965abd13a078f4aa3",
+        "train_examples": 300,
+        "microbatch": 1,
+        "gradient_accumulation": 8,
+        "fp16_initial_scale": 1024.0
+      },
+      "optimizer_updates": 114,
+      "row_exposures": 900
+    }
+  ],
+  "selection": {
+    "min_primary_joint_gain_pp": 20,
+    "no_new_serious_safety_or_identity_failures": true,
+    "tie_break": "earlier_epoch_then_fewer_updates",
+    "repeats_require": "positive gain on both additional paired seed offsets; same cases",
+    "human_review_pending": true,
+    "adoption_blocked_until_both_experiments_complete": true
+  },
+  "limitations": [
+    "The epoch-one checkpoint of the fresh3-epoch run has a different LR trajectory from historical1-epoch training.",
+    "Expanded data also increases total updates114->225; this is not a pure data-size ablation.",
+    "Fixed histories measure next-turn responses, not autonomous conversations.",
+    "34 selected development cases; not held-out generalization evidence."
+  ],
+  "prohibitions": {
+    "test_access": false,
+    "new_development_cases": false,
+    "paid_judge": false,
+    "compute_purchase": false,
+    "live_ui_change": false
+  },
+  "pending_experiments": [
+    {
+      "name": "expanded600",
+      "reason": "600-example corpus is incomplete and not independently approved; no training configuration authorized"
+    }
+  ],
+  "prepared_model_artifacts": {
+    "config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+    "generation_config.json": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+    "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+    "model.safetensors.index.json": "0d660e94b165eb912669a5249dff44b83188c4777a07ddb9611fb78d91b0578d",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "prepared_model_artifacts_sha256": "8922df67227a992c8624e60442f0b455a7a7e5804de384861f931e0d77025b85",
+  "prepared_environment_sha256": "1426c5b7dbfb5c1c9b46df9f38c7ae4fb6b0f29cd3e9c7f53786374d5319092a"
+}

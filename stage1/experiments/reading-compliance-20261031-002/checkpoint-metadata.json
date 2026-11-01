@@ -1,0 +1,26 @@
+{
+  "same300-epoch1": {
+    "epoch": 1,
+    "updates": 38
+  },
+  "same300-epoch2": {
+    "epoch": 2,
+    "updates": 76
+  },
+  "same300-epoch3": {
+    "epoch": 3,
+    "updates": 114
+  },
+  "expanded600-epoch1": {
+    "epoch": 1,
+    "updates": 75
+  },
+  "expanded600-epoch2": {
+    "epoch": 2,
+    "updates": 150
+  },
+  "expanded600-epoch3": {
+    "epoch": 3,
+    "updates": 225
+  }
+}

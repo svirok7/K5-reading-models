@@ -1,0 +1,55 @@
+{
+  "version": "sft-expansion-300-v1",
+  "baseline": "datasets/sft-200-v1",
+  "destination": "datasets/sft-300-v1",
+  "batches": [
+    {
+      "batch": "006",
+      "count": 50,
+      "first_id": "pilot-201",
+      "last_id": "pilot-250"
+    },
+    {
+      "batch": "007",
+      "count": 50,
+      "first_id": "pilot-251",
+      "last_id": "pilot-300"
+    }
+  ],
+  "input_length": {
+    "measurement": "final user input whitespace-separated words",
+    "short": {
+      "min": 1,
+      "max": 5,
+      "count": 20
+    },
+    "medium": {
+      "min": 6,
+      "max": 15,
+      "count": 20
+    },
+    "long": {
+      "min": 16,
+      "count": 10
+    }
+  },
+  "requires_history_per_batch": 16,
+  "system": "frozen/system.txt exactly, derived from the first frozen baseline SFT row",
+  "review_schema": "Existing baseline review fields retained; add input_length_bucket. context_messages equals SFT prompt after system; target_response equals single assistant completion. lexical_evidence covers every distinct target and historical assistant word. Exactly 16 rows contain assistant history and require it; other 34 have no assistant history.",
+  "primary_objective": "Lexical-first: profile v1.5 word selection, every target and assistant-history word eligible by exact form or supported decoding, with accurate external reasoning; natural meaningful answer required; no eligibility-Q&A task and no reasoning in completions.",
+  "semantic_review": "Independent reviewer checks every target and historical assistant word against exact Dolch forms or demonstrated supported decoding; verifies reasoning, meaningful answer, history dependence, safety, and factual sense. Validator checks coverage, never claims to prove phonics or semantics.",
+  "independent_auditor": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high",
+    "distinct_agent_from_generator": true
+  },
+  "correction_round_limit": 3,
+  "held_out": "Do not open data/test.jsonl or any archived test examples; do not generate from or inspect held-out examples.",
+  "approval": "Each batch needs passing structural validation and exact-hash independent per-example audit with zero unresolved findings before acceptance; accept006 before starting007. Generator and independent auditor both gpt-6.1-sol/high, distinct agents. Human review pending; no training or model-quality claims.",
+  "baseline_count": 200,
+  "destination_count": 300,
+  "generator": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high"
+  }
+}

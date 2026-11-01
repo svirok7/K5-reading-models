@@ -1,0 +1,578 @@
+{
+  "batch": "004",
+  "spec_sha256": "abe144fa530582a8dccf231cf99a8a59715bf2e64402f78c3851eebb49ab3819",
+  "sft_sha256": "f4adfbf28059fbb2a5f9c4bacfca29ecc17264f0093079a4545737b449c8323a",
+  "review_sha256": "caf4ff061e7f909750d07398b3d9168e28c252ced730d7c61fe560091587b72a",
+  "auditor": {
+    "agent_id": "/root/auditor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high"
+  },
+  "examples": [
+    {
+      "id": "pilot-101",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-102",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-103",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-104",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-105",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-106",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-107",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-108",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-109",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-110",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-111",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-112",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-113",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-114",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-115",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-116",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-117",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-118",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-119",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-120",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-121",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-122",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-123",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-124",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-125",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-126",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-127",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-128",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-129",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-130",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-131",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-132",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-133",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-134",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-135",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-136",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-137",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-138",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-139",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-140",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-141",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-142",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-143",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-144",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-145",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-146",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-147",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-148",
+      "verdict": "fail",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": false
+      },
+      "findings": [
+        {
+          "id": "B004-F1",
+          "severity": "medium",
+          "status": "open",
+          "detail": "requires_history is true, but the final child turn explicitly supplies both the starting total (three) and the subtraction (one). The target “Take one away from three. Now you have two.” can be derived entirely from that final turn. Revise the final child turn so the prior total must be recovered from history, or replace this with a genuinely history-dependent example while preserving the batch history count."
+        }
+      ]
+    },
+    {
+      "id": "pilot-149",
+      "verdict": "pass",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": true
+      },
+      "findings": []
+    },
+    {
+      "id": "pilot-150",
+      "verdict": "fail",
+      "checks": {
+        "word_eligibility": true,
+        "reasoning_accuracy": true,
+        "meaningfulness": true,
+        "history_use": false
+      },
+      "findings": [
+        {
+          "id": "B004-F2",
+          "severity": "medium",
+          "status": "open",
+          "detail": "requires_history is true, but the final child turn restates the entire new plan: “ring the bell first and then put the blocks away.” The target simply repeats that complete plan and needs no earlier turn. Revise the final child turn to make the requested correction depend on earlier information, or replace this with a genuinely history-dependent example while preserving the batch history count."
+        }
+      ]
+    }
+  ],
+  "summary": "Independent model linguistic review of all 50 targets, all 23 historical assistant turns, every lexical_evidence entry, and every external word_choice_reasoning rationale against frozen profile v1.5 and its exact Dolch forms. 48 pass; 2 fail because their requires_history=true metadata is not supported by genuine history dependence. No clear unsupported assistant spellings, false exact-list claims, material factual errors, safety issues, excessive lengths, or question-count violations found. Structural agreement with SFT and frozen system also checked. Current pilot-132 count correction reviewed. No held-out or archived test material opened. This is model review, not human approval, proof of phonics mastery, training success, or generalization."
+}

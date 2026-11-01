@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "training_tests": 29,
+  "evaluation_selection_execution_tests": 19,
+  "total_tests": 48,
+  "notebook_code_cells_compile": 8,
+  "kit_files_verified": 35,
+  "approved_training_datasets": [
+    300,
+    600
+  ],
+  "frozen_development_cases": 34,
+  "prepared_model_tokenizer_files": 9,
+  "archive_sha256": "24be38ca94a924e635e6f06c7086cef1db1b41f0803e8d3ec411482d230424fb",
+  "notebook_sha256": "9dd7bcaf8f563b80a4464db28aaecb6e7c10a10bda2d1bcec4c820e419659c74",
+  "gpu_training_executed": false,
+  "behavioral_evaluation_executed": false,
+  "execution_blocker": "explicit_upload_authorization_pending"
+}
