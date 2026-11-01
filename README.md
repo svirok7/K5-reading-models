@@ -41,15 +41,15 @@ The child's spoken input is unrestricted. The reading constraints apply to the m
 
 Results from the saved UI testing snapshot on **1 November 2026**, merged across settings for each model:
 
-| Model | Passed | Failed | Total replies | Reading pass rate |
+| Model | Passed | Failed | Total | Reading pass rate |
 |:--|--:|--:|--:|--:|
 | GPT-6 Luna | 8 | 22 | 30 | **26.7%** |
 | Claude Haiku 5.5 | 17 | 17 | 34 | **50.0%** |
-| Qwen3-1.7B baseline | 0 | 13 | 16 | **0.0%** |
+| Qwen3-1.7B baseline | 0 | 13 | 13 | **0.0%** |
 | Qwen3-1.7B · 300 examples · 1 epoch | 2 | 23 | 25 | **8.0%** |
-| **Qwen3-1.7B · 600 examples · 3 epochs** | **35** | **9** | **46** | **79.5% ≈ 80%** |
+| **Qwen3-1.7B · 600 examples · 3 epochs** | **35** | **9** | **44** | **79.5% ≈ 80%** |
 
-**Pass rate = passed ÷ (passed + failed).** Total replies includes unevaluated records: three for the Qwen baseline and two for the 600-example adapter. Archived records are excluded. Saved manual decisions take precedence over evaluator verdicts; both agree on all decided records in this snapshot.
+**Total = passed + failed. Pass rate = passed ÷ total.** Unevaluated and archived records are excluded. Saved manual decisions take precedence over evaluator verdicts; both agree on all decided records in this snapshot.
 
 These are **exploratory live tests of reading accessibility**: permitted words, sentence length and rhythm. Models received different conversations, so these are not controlled comparisons or measures of overall conversation quality. Results merge UI settings within each model, including different token limits and Qwen baseline thinking configurations.
 
