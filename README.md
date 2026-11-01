@@ -37,29 +37,25 @@ The child's spoken input is unrestricted. The reading constraints apply to the m
 
 ## What we found
 
-### Controlled development comparison
+### Live UI testing
 
-The models below answered the **same 34 frozen inputs**: 16 single-turn cases and 18 fixed conversation histories.
+Results from the saved UI testing snapshot on **1 November 2026**, merged across settings for each model:
 
-| Adapter | Reading passes | Joint quality passes |
-|:--|--:|--:|
-| Historical 300-example, one-epoch adapter | 9/34 · **26.5%** | 6/34 · **17.6%** |
-| Fresh 300-example, three-epoch adapter | 17/34 · **50.0%** | 14/34 · **41.2%** |
-| **600-example, three-epoch adapter** | **22/34 · 64.7%** | **18/34 · 52.9%** |
+| Model | Passed | Failed | Total replies | Reading pass rate |
+|:--|--:|--:|--:|--:|
+| GPT-6 Luna | 8 | 22 | 30 | **26.7%** |
+| Claude Haiku 5.5 | 17 | 17 | 34 | **50.0%** |
+| Qwen3-1.7B baseline | 0 | 13 | 16 | **0.0%** |
+| Qwen3-1.7B · 300 examples · 1 epoch | 2 | 23 | 25 | **8.0%** |
+| **Qwen3-1.7B · 600 examples · 3 epochs** | **35** | **9** | **46** | **79.5% ≈ 80%** |
 
-**Reading passes** require acceptable word types, length and rhythm. **Joint quality passes** additionally require relevance, truthfulness, safety, appropriate correction/repetition handling and complete generation.
+**Pass rate = passed ÷ (passed + failed).** Total replies includes unevaluated records: three for the Qwen baseline and two for the 600-example adapter. Archived records are excluded. Saved manual decisions take precedence over evaluator verdicts; both agree on all decided records in this snapshot.
 
-The selected adapter improved joint success by **35.3 percentage points** over the historical adapter. Two additional generation seeds sustained the improvement, with 17/34 joint successes each. Those repeats reuse the same inputs; they are not independent new test cases.
+These are **exploratory live tests of reading accessibility**: permitted words, sentence length and rhythm. Models received different conversations, so these are not controlled comparisons or measures of overall conversation quality. Results merge UI settings within each model, including different token limits and Qwen baseline thinking configurations.
 
-These are development results. The comparison changed data coverage and training exposure, and does not isolate their individual effects. Human approval remains pending.
+### Were the live examples in training?
 
-[Full report and limitations](stage1/experiments/reading-compliance-20261031-002/FINAL_REPORT.md) · [Per-variant results](stage1/experiments/reading-compliance-20261031-002/primary-quality.csv)
-
-### Exploratory live testing
-
-A saved live-testing snapshot reached **35/44 reading passes (79.5%)**. This uses different inputs and a narrower metric than joint quality, so it is not directly comparable to the controlled results.
-
-An overlap check against the exact training dataset found:
+An overlap check of the 600-example adapter's live testing against its exact training dataset found:
 
 - **0** matching full conversation inputs after normalizing case and punctuation.
 - **1** matching final user message: “Then what happened?”, in a different history.
@@ -68,6 +64,8 @@ An overlap check against the exact training dataset found:
 This provides evidence beyond exact-example replay. It does not rule out memorized patterns, semantic overlap or overfitting. Some easy-to-read replies were repetitive or unhelpful, and the live judge deliberately does not score those weaknesses.
 
 [Overlap analysis](stage1/analysis/ui-training-overlap-20261101/overlap.json) · [Analysis script](stage1/analysis/ui-training-overlap-20261101/check.py)
+
+A separate controlled development experiment evaluates reading and broader conversation quality on identical inputs. Its results and limitations are documented in the [full experiment report](stage1/experiments/reading-compliance-20261031-002/FINAL_REPORT.md); they are separate from the UI results above.
 
 ## How it works
 
