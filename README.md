@@ -108,6 +108,31 @@ The dataset includes single-turn and conversation-history examples, with correct
 
 [Training report](stage1/experiments/reading-compliance-20261031-002/TRAINING_REPORT.md) · [Dataset documentation](stage1/datasets/sft-600-v1/README.md) · [Training implementation](stage1/sft_train.py)
 
+### How we trained Glimmer on Fireworks
+
+We used **Fireworks' Serverless Training API** for supervised fine-tuning of Muse Glimmer 30B with a LoRA adapter. A local Python process drove the pinned official Fireworks SFT recipe while Fireworks ran the forward passes, backward passes, and optimizer updates on shared GPUs. The base model stayed frozen.
+
+| Training setting | Glimmer run |
+|:--|:--|
+| Base model | `accounts/fireworks/models/muse-glimmer-30b` |
+| Method / compute | Supervised fine-tuning (SFT), serverless LoRA |
+| Training data | The same 600 audited examples used for Qwen |
+| Epochs / example exposures | 3 / 1,800 |
+| Batch size / optimizer updates | 16 / 114 |
+| LoRA rank / alpha | 16 / 32 |
+| Learning rate | 0.00005; 6-step linear warmup, then constant |
+| Weight decay / gradient clip norm | 0.01 / 1.0 |
+| Maximum sequence length | 8,192 tokens |
+| Loss supervision | Final assistant completion only; earlier conversation turns are context |
+| Tokenizer / renderer | Pinned Muse Glimmer tokenizer and native `muse_glimmer` renderer |
+| Checkpoints | Every 10 steps and at completion; final checkpoint `step-114` |
+
+Before training, we verified all 600 examples against the actual tokenizer and loss masks: no context tokens were supervised, and no examples were dropped or truncated. Training used Fireworks' free Glimmer SFT promotion; sampling and reading evaluation were budgeted separately. Automatic generation evaluation and dedicated GPU deployments were disabled during training. This was **SFT, not reinforcement learning**.
+
+The final model, `accounts/svirok123/models/reading-glimmer-sft600-r16-e3-20261116`, is tested in the existing Reading Lab UI through Fireworks checkpoint sampling, using the same reading profile and review controls.
+
+[Training configuration](stage1/experiments/glimmer-fireworks-20261116/training/config.json) · [Training implementation](stage1/experiments/glimmer-fireworks-20261116/training/train.py) · [Training report and recovery history](stage1/experiments/glimmer-fireworks-20261116/training/TRAINING_REPORT.md) · [Data verification](stage1/experiments/glimmer-fireworks-20261116/data/DATA_REPORT.md)
+
 ## Run the playground
 
 ### 1. Clone and start
