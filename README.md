@@ -6,7 +6,7 @@
 
 An experiment in teaching a language model to write replies a beginning reader can read independently.
 
-**Qwen3 · LoRA fine-tuning · 600 training examples · Local model playground**
+**Qwen3 + Muse Glimmer · LoRA fine-tuning · 600 training examples · Reading playground**
 
 [Get started](#run-the-playground) · [Results](#what-we-found) · [Training](#how-it-works) · [Experiment report](stage1/experiments/reading-compliance-20261031-002/FINAL_REPORT.md)
 
@@ -16,7 +16,7 @@ An experiment in teaching a language model to write replies a beginning reader c
 
 A conversational model can answer a child's question correctly and still use words the child cannot read. This project explores a narrower question: **can a small model learn to give useful replies within an explicit reading profile?**
 
-It combines a local chat playground, a versioned reading rubric, audited synthetic training examples, and controlled fine-tuning comparisons. The current local model is **Qwen3-1.7B with a LoRA adapter trained on 600 examples for three epochs**.
+It combines a local chat playground, a versioned reading rubric, audited synthetic training examples, and controlled fine-tuning comparisons. The current fine-tuned models are **Qwen3-1.7B running locally** and **Muse Glimmer 30B through Fireworks**, both trained on 600 examples for three epochs.
 
 > Research prototype and adult evaluation workbench. Reading accessibility and conversation quality are measured separately; this is not a validated child-facing product.
 
@@ -39,23 +39,28 @@ The child's spoken input is unrestricted. The reading constraints apply to the m
 
 ### Live UI testing
 
-Results from the saved UI testing snapshot on **1 November 2026**, merged across settings for each model:
+Results from the saved UI testing snapshot on **19 November 2026**, merged across settings for each model:
 
-| Model | Passed | Failed | Total | Reading pass rate |
-|:--|--:|--:|--:|--:|
-| GPT-6 Luna | 8 | 22 | 30 | **26.7%** |
-| Claude Haiku 5.5 | 17 | 17 | 34 | **50.0%** |
-| Qwen3-1.7B baseline | 0 | 13 | 13 | **0.0%** |
-| Qwen3-1.7B · 300 examples · 1 epoch | 2 | 23 | 25 | **8.0%** |
-| **Qwen3-1.7B · 600 examples · 3 epochs** | **35** | **9** | **44** | **79.5% ≈ 80%** |
+| Model | Passed | Failed | Total decided | Pending | Reading pass rate | Latency p50 / p95 |
+|:--|--:|--:|--:|--:|--:|--:|
+| GPT-6 Luna | 8 | 22 | 30 | 0 | **26.7%** | 1.85 / 7.69 s |
+| Claude Haiku 5.5 | 17 | 17 | 34 | 0 | **50.0%** | 3.53 / 6.35 s |
+| Qwen3-1.7B baseline | 0 | 13 | 13 | 3 | **0.0%** | 3.47 / 21.02 s |
+| Qwen3-1.7B · 300 examples · 1 epoch | 2 | 23 | 25 | 0 | **8.0%** | 3.72 / 5.07 s |
+| **Qwen3-1.7B · 600 examples · 3 epochs** | **35** | **9** | **44** | **2** | **79.5%** | **3.21 / 4.72 s** |
+| **Muse Glimmer 30B · 600 examples · 3 epochs** | **33** | **7** | **40** | **0** | **82.5%** | **9.55 / 13.35 s** |
 
-**Total = passed + failed. Pass rate = passed ÷ total.** Unevaluated and archived records are excluded. Saved manual decisions take precedence over evaluator verdicts; both agree on all decided records in this snapshot.
+**Total decided = passed + failed. Pass rate = passed ÷ total decided.** Saved manual decisions take precedence over evaluator verdicts. The snapshot contains **191 active responses: 186 decided and 5 pending**; 9 archived responses are excluded. Pending responses do not count as passes or failures.
+
+Latency covers completed companion replies, including pending records, and excludes the reading evaluator. p50 is the median; p95 is the time within which 95% of completed replies finished. Local Qwen and Fireworks Glimmer use different hardware and serving paths.
 
 These are **exploratory live tests of reading accessibility**: permitted words, sentence length and rhythm. Models received different conversations, so these are not controlled comparisons or measures of overall conversation quality. Results merge UI settings within each model, including different token limits and Qwen baseline thinking configurations.
 
+[Aggregate snapshot and configuration groups](stage1/analysis/live-ui-20261119/summary.json) · [Read-only snapshot script](stage1/analysis/live-ui-20261119/summarize.py) · [Glimmer training report](stage1/experiments/glimmer-fireworks-20261116/training/TRAINING_REPORT.md)
+
 ### Were the live examples in training?
 
-An overlap check of the 600-example adapter's live testing against its exact training dataset found:
+The **1 November Qwen 600-example adapter** overlap check against its exact training dataset found:
 
 - **0** matching full conversation inputs after normalizing case and punctuation.
 - **1** matching final user message: “Then what happened?”, in a different history.
@@ -73,7 +78,7 @@ A separate controlled development experiment evaluates reading and broader conve
 Versioned reading profile + conversation
                   │
                   ▼
-        Qwen3-1.7B + LoRA adapter
+      Qwen3-1.7B or Glimmer 30B + LoRA
                   │
                   ▼
              Model reply
@@ -85,9 +90,9 @@ Versioned reading profile + conversation
      Reading judge → adult review / override
 ```
 
-The base model stays frozen. Fine-tuning updates **17,432,576 adapter parameters**, approximately **1%** of the base model's parameter count.
+The base model stays frozen. For the local Qwen run, fine-tuning updates **17,432,576 adapter parameters**, approximately **1%** of the base model's parameter count.
 
-| Training setting | Selected run |
+| Training setting | Selected Qwen run |
 |:--|:--|
 | Base model | Qwen/Qwen3-1.7B, pinned revision |
 | Method | Ordinary LoRA, all linear layers |
@@ -115,7 +120,7 @@ python3 server.py
 
 Open **http://127.0.0.1:8765/**. The server binds to localhost. The UI and API-backed engines use Python's standard library.
 
-Choose an API-backed companion and configure its key in **Settings**, or install the optional local-model dependencies below. Keys entered in Settings stay in server memory and disappear when the server stops.
+The current server blocks general paid API generation and evaluation. Local models and manual review remain available. Its explicit exception is the trained Glimmer checkpoint: replies and automatic reading checks share a durable **$3.99 testing cap**. Glimmer requires the experiment's pinned worker environment and tokenizer, a Fireworks API key, and an OpenAI key for automatic reading checks. See the [checkpoint setup](stage1/experiments/glimmer-fireworks-20261116/serving/READINESS.md). Keys entered in Settings stay in server memory and disappear when the server stops.
 
 To load keys from an existing environment file instead:
 
@@ -136,11 +141,11 @@ python server.py
 
 First use downloads the base model. Local inference supports Apple Silicon MPS, CPU, and the configured CUDA path. CUDA quantization additionally requires `bitsandbytes`; it is not used on a Mac. Model weights require substantial disk space and memory.
 
-**Adapter setup:** trained weights are not included in Git. The checked-in `qwen_sft` entry in `stage1/models.json` records the original workstation's adapter path. To use SFT on another machine, obtain the matching adapter and update that entry to its absolute local path. Until then, select the Qwen baseline or an API-backed model.
+**Adapter setup:** trained weights are not included in Git. The checked-in `qwen_sft` entry in `stage1/models.json` records the original workstation's adapter path. To use SFT on another machine, obtain the matching adapter and update that entry to its absolute local path. Until then, select the Qwen baseline or configure the Glimmer worker.
 
 ### 3. Evaluate and review
 
-Each new reply is saved locally, then sent to a separate OpenAI reading judge. **Automatic evaluation requires an OpenAI API key even when the companion runs locally or uses Claude.** API generation and evaluation incur provider charges.
+Each new reply is saved locally before evaluation. In the current mode, local replies use manual review; eligible Glimmer replies can use a separate OpenAI reading judge within the shared testing cap. **Automatic evaluation requires an OpenAI API key.** API generation and evaluation incur provider charges; fine-tuning promotions do not make these calls free.
 
 The judge scores word types, length and rhythm. An adult can retry a failed evaluation or save a manual decision. Manual decisions take precedence while preserving the original judgment and edit history.
 
@@ -164,7 +169,9 @@ The experiment's [own notebook and instructions](stage1/experiments/reading-comp
 
 ## Validation
 
-The last pre-push check passed **53 offline tests**: 29 training tests, 5 earlier evaluation tests, and 19 experiment evaluation/selection/execution tests.
+The **19 November Glimmer integration check passed 50 offline tests**: 29 transport/budget/integration tests, 5 dataset tests, 7 training-launch tests, 3 sampler tests, and 6 UI evaluation tests. The JavaScript syntax check also passed. These checks use offline data and mocks; they make no billable model requests.
+
+The earlier Qwen validation passed **53 offline tests**: 29 training tests, 5 earlier evaluation tests, and 19 experiment evaluation/selection/execution tests.
 
 From `stage1/`, with the model environment installed:
 

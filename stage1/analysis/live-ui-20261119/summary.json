@@ -1,0 +1,796 @@
+{
+  "captured_at_utc": "2026-11-19T13:34:20.140140+00:00",
+  "source": "Local conversation-results.sqlite3; read-only snapshot; no provider requests",
+  "source_records_sha256": "6bea8ea6dff88f7837d017ae3bd2543366976b8ab1fb4a193785094dcd72025e",
+  "archived_excluded": 9,
+  "totals": {
+    "saved": 191,
+    "passed": 95,
+    "failed": 91,
+    "decided": 186,
+    "pending": 5,
+    "pass_rate_percent": 51.1,
+    "evaluator_ratings": 184,
+    "evaluator_passed": 89,
+    "manual_decisions": 181,
+    "manual_evaluator_disagreements": 4,
+    "incomplete": 2,
+    "unique_exact_inputs": 161,
+    "companion_latency_s": {
+      "n": 189,
+      "p50": 3.570070124929771,
+      "p95": 11.00789145892486
+    }
+  },
+  "models": {
+    "Muse Glimmer 30B \u00b7 600 examples \u00b7 3 epochs": {
+      "saved": 40,
+      "passed": 33,
+      "failed": 7,
+      "decided": 40,
+      "pending": 0,
+      "pass_rate_percent": 82.5,
+      "evaluator_ratings": 38,
+      "evaluator_passed": 27,
+      "manual_decisions": 39,
+      "manual_evaluator_disagreements": 4,
+      "incomplete": 0,
+      "unique_exact_inputs": 39,
+      "companion_latency_s": {
+        "n": 40,
+        "p50": 9.54766795807518,
+        "p95": 13.348447958938777
+      }
+    },
+    "Qwen3-1.7B baseline": {
+      "saved": 16,
+      "passed": 0,
+      "failed": 13,
+      "decided": 13,
+      "pending": 3,
+      "pass_rate_percent": 0.0,
+      "evaluator_ratings": 13,
+      "evaluator_passed": 0,
+      "manual_decisions": 12,
+      "manual_evaluator_disagreements": 0,
+      "incomplete": 1,
+      "unique_exact_inputs": 13,
+      "companion_latency_s": {
+        "n": 15,
+        "p50": 3.474088542163372,
+        "p95": 21.019072082825005
+      }
+    },
+    "Qwen3-1.7B \u00b7 300 examples \u00b7 1 epoch": {
+      "saved": 25,
+      "passed": 2,
+      "failed": 23,
+      "decided": 25,
+      "pending": 0,
+      "pass_rate_percent": 8.0,
+      "evaluator_ratings": 25,
+      "evaluator_passed": 2,
+      "manual_decisions": 25,
+      "manual_evaluator_disagreements": 0,
+      "incomplete": 0,
+      "unique_exact_inputs": 25,
+      "companion_latency_s": {
+        "n": 25,
+        "p50": 3.723828583024442,
+        "p95": 5.068223166046664
+      }
+    },
+    "Qwen3-1.7B \u00b7 600 examples \u00b7 3 epochs": {
+      "saved": 46,
+      "passed": 35,
+      "failed": 9,
+      "decided": 44,
+      "pending": 2,
+      "pass_rate_percent": 79.5,
+      "evaluator_ratings": 44,
+      "evaluator_passed": 35,
+      "manual_decisions": 43,
+      "manual_evaluator_disagreements": 0,
+      "incomplete": 0,
+      "unique_exact_inputs": 44,
+      "companion_latency_s": {
+        "n": 46,
+        "p50": 3.2133589170407504,
+        "p95": 4.722324375063181
+      }
+    },
+    "claude-haiku-5-5": {
+      "saved": 34,
+      "passed": 17,
+      "failed": 17,
+      "decided": 34,
+      "pending": 0,
+      "pass_rate_percent": 50.0,
+      "evaluator_ratings": 34,
+      "evaluator_passed": 17,
+      "manual_decisions": 33,
+      "manual_evaluator_disagreements": 0,
+      "incomplete": 1,
+      "unique_exact_inputs": 33,
+      "companion_latency_s": {
+        "n": 33,
+        "p50": 3.5273492080159485,
+        "p95": 6.346794000128284
+      }
+    },
+    "gpt-6-luna": {
+      "saved": 30,
+      "passed": 8,
+      "failed": 22,
+      "decided": 30,
+      "pending": 0,
+      "pass_rate_percent": 26.7,
+      "evaluator_ratings": 30,
+      "evaluator_passed": 8,
+      "manual_decisions": 29,
+      "manual_evaluator_disagreements": 0,
+      "incomplete": 0,
+      "unique_exact_inputs": 29,
+      "companion_latency_s": {
+        "n": 30,
+        "p50": 1.8468792920466512,
+        "p95": 7.689664416015148
+      }
+    }
+  },
+  "configuration_groups": [
+    {
+      "identity": {
+        "model": {
+          "backend": "claude",
+          "model": "claude-haiku-5-5",
+          "max_tokens": 4096,
+          "transport": "Anthropic Messages API; no retries"
+        },
+        "condition": "B",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "abe31bb35f8cf8162bd95606d0106d97982c74bb4af2a69c0a2700a4ed55db59"
+      },
+      "responses": 31,
+      "evaluated": 31,
+      "manual_overrides": 31,
+      "effective_decisions": {
+        "acceptable": 15,
+        "not_acceptable": 16
+      },
+      "pending": 0,
+      "incomplete_responses": 0,
+      "companion_latency_s": {
+        "n": 31,
+        "p50": 3.5273492080159485,
+        "p95": 6.346794000128284
+      },
+      "evaluator_latency_s": {
+        "n": 31,
+        "p50": 4.605797250056639,
+        "p95": 9.10203120787628
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": 2.967741935483871,
+        "length": 4.0,
+        "rhythm": 4.0
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 31,
+        "length": 31,
+        "rhythm": 31
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "qwen",
+          "model": "Qwen/Qwen3-1.7B",
+          "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+          "adapter": "qwen-sft300-v2-lora-allocator-20261030-008/adapter",
+          "adapter_hash": "ffd496ee2e6a9f2d84ccab21035d21999c728a5d5dbff34242ac10256ba9f256",
+          "device": "mps",
+          "precision": "float16",
+          "max_new_tokens": 128,
+          "do_sample": true,
+          "temperature": 0.7,
+          "top_p": 0.8,
+          "top_k": 20,
+          "template": "qwen-chat-v3; enable_thinking=False",
+          "hardware": "mps",
+          "enable_thinking": false
+        },
+        "condition": "B",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "abe31bb35f8cf8162bd95606d0106d97982c74bb4af2a69c0a2700a4ed55db59"
+      },
+      "responses": 25,
+      "evaluated": 25,
+      "manual_overrides": 25,
+      "effective_decisions": {
+        "acceptable": 2,
+        "not_acceptable": 23
+      },
+      "pending": 0,
+      "incomplete_responses": 0,
+      "companion_latency_s": {
+        "n": 25,
+        "p50": 3.723828583024442,
+        "p95": 5.068223166046664
+      },
+      "evaluator_latency_s": {
+        "n": 25,
+        "p50": 5.777095542056486,
+        "p95": 7.993473791982979
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": 2.16,
+        "length": 3.96,
+        "rhythm": 3.92
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 25,
+        "length": 25,
+        "rhythm": 25
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "qwen",
+          "model": "Qwen/Qwen3-1.7B",
+          "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+          "adapter": "qwen-sft600-v1-epoch3-20261101/adapter",
+          "adapter_hash": "bfe9b369c6605a8814fe36933680244fd9da7016ce738806fa0033f97f35ce38",
+          "device": "mps",
+          "precision": "float16",
+          "max_new_tokens": 128,
+          "do_sample": true,
+          "temperature": 0.7,
+          "top_p": 0.8,
+          "top_k": 20,
+          "template": "qwen-chat-v3; enable_thinking=False",
+          "hardware": "mps",
+          "enable_thinking": false
+        },
+        "condition": "B",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "abe31bb35f8cf8162bd95606d0106d97982c74bb4af2a69c0a2700a4ed55db59"
+      },
+      "responses": 46,
+      "evaluated": 44,
+      "manual_overrides": 43,
+      "effective_decisions": {
+        "acceptable": 35,
+        "not_acceptable": 9
+      },
+      "pending": 2,
+      "incomplete_responses": 0,
+      "companion_latency_s": {
+        "n": 46,
+        "p50": 3.2133589170407504,
+        "p95": 4.722324375063181
+      },
+      "evaluator_latency_s": {
+        "n": 44,
+        "p50": 2.767835082951933,
+        "p95": 5.183620875002816
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": 3.590909090909091,
+        "length": 4.0,
+        "rhythm": 4.0
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 44,
+        "length": 44,
+        "rhythm": 44
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "openai",
+          "model": "gpt-6-luna",
+          "max_output_tokens": 512,
+          "options": {
+            "reasoning": {
+              "effort": "none"
+            }
+          },
+          "transport": "Responses API; non-streaming; no retries"
+        },
+        "condition": "B",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "abe31bb35f8cf8162bd95606d0106d97982c74bb4af2a69c0a2700a4ed55db59"
+      },
+      "responses": 29,
+      "evaluated": 29,
+      "manual_overrides": 29,
+      "effective_decisions": {
+        "acceptable": 8,
+        "not_acceptable": 21
+      },
+      "pending": 0,
+      "incomplete_responses": 0,
+      "companion_latency_s": {
+        "n": 29,
+        "p50": 1.8670622080098838,
+        "p95": 7.689664416015148
+      },
+      "evaluator_latency_s": {
+        "n": 29,
+        "p50": 4.246075165923685,
+        "p95": 6.944366500014439
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": 2.5517241379310347,
+        "length": 3.9655172413793105,
+        "rhythm": 4.0
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 29,
+        "length": 29,
+        "rhythm": 29
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "fireworks_sampler",
+          "model": "accounts/svirok123/models/reading-glimmer-sft600-r16-e3-20261116",
+          "training_examples": 600,
+          "epochs": 3,
+          "max_tokens": 128,
+          "transport": "Fireworks checkpoint sampler; no deployment; no retries",
+          "options": {
+            "temperature": 0.7,
+            "top_p": 0.8,
+            "top_k": 20
+          }
+        },
+        "condition": "B",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "abe31bb35f8cf8162bd95606d0106d97982c74bb4af2a69c0a2700a4ed55db59"
+      },
+      "responses": 40,
+      "evaluated": 38,
+      "manual_overrides": 39,
+      "effective_decisions": {
+        "acceptable": 33,
+        "not_acceptable": 7
+      },
+      "pending": 0,
+      "incomplete_responses": 0,
+      "companion_latency_s": {
+        "n": 40,
+        "p50": 9.54766795807518,
+        "p95": 13.348447958938777
+      },
+      "evaluator_latency_s": {
+        "n": 38,
+        "p50": 4.139504832914099,
+        "p95": 7.060000583063811
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": 3.4210526315789473,
+        "length": 3.973684210526316,
+        "rhythm": 3.973684210526316
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 38,
+        "length": 38,
+        "rhythm": 38
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "qwen",
+          "model": "Qwen/Qwen3-1.7B",
+          "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+          "adapter": null,
+          "adapter_hash": null,
+          "device": "mps",
+          "precision": "float16",
+          "max_new_tokens": 128,
+          "do_sample": true,
+          "temperature": 0.7,
+          "top_p": 0.8,
+          "top_k": 20,
+          "template": "qwen-chat-v1; enable_thinking=False",
+          "hardware": "mps"
+        },
+        "condition": "A",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "9f98c4c5ff70607b60d3dad654ed47f1c46658e5cfc180761b3cf6e736cca356"
+      },
+      "responses": 1,
+      "evaluated": 0,
+      "manual_overrides": 0,
+      "effective_decisions": {
+        "acceptable": 0,
+        "not_acceptable": 0
+      },
+      "pending": 1,
+      "incomplete_responses": 0,
+      "companion_latency_s": {
+        "n": 1,
+        "p50": 2.2522029168903828,
+        "p95": 2.2522029168903828
+      },
+      "evaluator_latency_s": {
+        "n": 0,
+        "p50": null,
+        "p95": null
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": null,
+        "length": null,
+        "rhythm": null
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 0,
+        "length": 0,
+        "rhythm": 0
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "qwen",
+          "model": "Qwen/Qwen3-1.7B",
+          "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+          "adapter": null,
+          "adapter_hash": null,
+          "device": "mps",
+          "precision": "float16",
+          "max_new_tokens": 128,
+          "do_sample": true,
+          "temperature": 0.7,
+          "top_p": 0.8,
+          "top_k": 20,
+          "template": "qwen-chat-v1; enable_thinking=False",
+          "hardware": "mps"
+        },
+        "condition": "B",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "abe31bb35f8cf8162bd95606d0106d97982c74bb4af2a69c0a2700a4ed55db59"
+      },
+      "responses": 11,
+      "evaluated": 11,
+      "manual_overrides": 11,
+      "effective_decisions": {
+        "acceptable": 0,
+        "not_acceptable": 11
+      },
+      "pending": 0,
+      "incomplete_responses": 0,
+      "companion_latency_s": {
+        "n": 11,
+        "p50": 3.474088542163372,
+        "p95": 4.081384583143517
+      },
+      "evaluator_latency_s": {
+        "n": 11,
+        "p50": 4.952145499875769,
+        "p95": 5.64162562484853
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": 1.6363636363636365,
+        "length": 3.909090909090909,
+        "rhythm": 4.0
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 11,
+        "length": 11,
+        "rhythm": 11
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "qwen",
+          "model": "Qwen/Qwen3-1.7B",
+          "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+          "adapter": null,
+          "adapter_hash": null,
+          "device": "mps",
+          "precision": "float16",
+          "max_new_tokens": 2048,
+          "do_sample": true,
+          "temperature": 0.6,
+          "top_p": 0.95,
+          "top_k": 20,
+          "template": "qwen-chat-v2; enable_thinking=True",
+          "hardware": "mps",
+          "enable_thinking": true
+        },
+        "condition": "B",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "abe31bb35f8cf8162bd95606d0106d97982c74bb4af2a69c0a2700a4ed55db59"
+      },
+      "responses": 3,
+      "evaluated": 2,
+      "manual_overrides": 1,
+      "effective_decisions": {
+        "acceptable": 0,
+        "not_acceptable": 2
+      },
+      "pending": 1,
+      "incomplete_responses": 1,
+      "companion_latency_s": {
+        "n": 2,
+        "p50": 11.315969625022262,
+        "p95": 21.019072082825005
+      },
+      "evaluator_latency_s": {
+        "n": 2,
+        "p50": 5.149509000126272,
+        "p95": 5.420651209075004
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": 1.0,
+        "length": 2.0,
+        "rhythm": 2.0
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 2,
+        "length": 2,
+        "rhythm": 2
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "openai",
+          "model": "gpt-6-luna",
+          "max_output_tokens": 512,
+          "options": {
+            "reasoning": {
+              "effort": "none"
+            }
+          },
+          "transport": "Responses API; non-streaming; no retries"
+        },
+        "condition": "B",
+        "rubric_hash": "2d358ade9271ebbc9f5348a89034e602194a56fcc4a80643b8781a39fc55b73b",
+        "prompt_hash": "35fefea92dc9f08aa5819a0a82106e0bdf59d6038c011427b002fdaa071351a2"
+      },
+      "responses": 1,
+      "evaluated": 1,
+      "manual_overrides": 0,
+      "effective_decisions": {
+        "acceptable": 0,
+        "not_acceptable": 1
+      },
+      "pending": 0,
+      "incomplete_responses": 0,
+      "companion_latency_s": {
+        "n": 1,
+        "p50": 1.6186668751761317,
+        "p95": 1.6186668751761317
+      },
+      "evaluator_latency_s": {
+        "n": 1,
+        "p50": 3.8677334589883685,
+        "p95": 3.8677334589883685
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": 2.0,
+        "length": 4.0,
+        "rhythm": 4.0
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 1,
+        "length": 1,
+        "rhythm": 1
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "claude",
+          "model": "claude-haiku-5-5",
+          "max_tokens": 512,
+          "transport": "Anthropic Messages API; no retries"
+        },
+        "condition": "B",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "abe31bb35f8cf8162bd95606d0106d97982c74bb4af2a69c0a2700a4ed55db59"
+      },
+      "responses": 3,
+      "evaluated": 3,
+      "manual_overrides": 2,
+      "effective_decisions": {
+        "acceptable": 2,
+        "not_acceptable": 1
+      },
+      "pending": 0,
+      "incomplete_responses": 1,
+      "companion_latency_s": {
+        "n": 2,
+        "p50": 2.601051124976948,
+        "p95": 3.993804750032723
+      },
+      "evaluator_latency_s": {
+        "n": 3,
+        "p50": 2.9285429588053375,
+        "p95": 4.654028041055426
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": 4.0,
+        "length": 2.6666666666666665,
+        "rhythm": 2.6666666666666665
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 3,
+        "length": 3,
+        "rhythm": 3
+      }
+    },
+    {
+      "identity": {
+        "model": {
+          "backend": "qwen",
+          "model": "Qwen/Qwen3-1.7B",
+          "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+          "adapter": null,
+          "adapter_hash": null,
+          "device": "mps",
+          "precision": "float16",
+          "max_new_tokens": 128,
+          "do_sample": true,
+          "temperature": 0.7,
+          "top_p": 0.8,
+          "top_k": 20,
+          "template": "qwen-chat-v3; enable_thinking=False",
+          "hardware": "mps",
+          "enable_thinking": false
+        },
+        "condition": "B",
+        "rubric_hash": "d889cbab30562a67eb42e50f876fec3fc5f5280673f053d624d5460a8d711576",
+        "prompt_hash": "abe31bb35f8cf8162bd95606d0106d97982c74bb4af2a69c0a2700a4ed55db59"
+      },
+      "responses": 1,
+      "evaluated": 0,
+      "manual_overrides": 0,
+      "effective_decisions": {
+        "acceptable": 0,
+        "not_acceptable": 0
+      },
+      "pending": 1,
+      "incomplete_responses": 0,
+      "companion_latency_s": {
+        "n": 1,
+        "p50": 2.6153365408536047,
+        "p95": 2.6153365408536047
+      },
+      "evaluator_latency_s": {
+        "n": 0,
+        "p50": null,
+        "p95": null
+      },
+      "evaluator_score_means": {
+        "readability": null,
+        "correctness": null,
+        "relevance": null,
+        "flow": null,
+        "warmth": null,
+        "word_types": null,
+        "length": null,
+        "rhythm": null
+      },
+      "score_counts": {
+        "readability": 0,
+        "correctness": 0,
+        "relevance": 0,
+        "flow": 0,
+        "warmth": 0,
+        "word_types": 0,
+        "length": 0,
+        "rhythm": 0
+      }
+    }
+  ]
+}
