@@ -11,11 +11,17 @@ import records
 import evaluator
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
-from engine import ROOT, OpenAIEngine, ClaudeEngine, SarvamEngine, QwenEngine, prompt_for
+from engine import ROOT, OpenAIEngine, FireworksEngine, ClaudeEngine, SarvamEngine, QwenEngine, prompt_for
+
+from glimmer_testing import GlimmerTestingEngine, BudgetedReadingJudge, ledger, eligible_record
+from testing_budget import BudgetError
 
 LOCK = threading.Lock()
-STATE = {'key': os.environ.get('OPENAI_API_KEY',''), 'openai_model':os.environ.get('OPENAI_MODEL',''), 'claude_key':os.environ.get('ANTHROPIC_API_KEY',''), 'claude_model':os.environ.get('ANTHROPIC_MODEL',''), 'engine':None, 'engine_id':None}
+STATE = {'key': os.environ.get('OPENAI_API_KEY',''), 'openai_model':os.environ.get('OPENAI_MODEL',''), 'claude_key':os.environ.get('ANTHROPIC_API_KEY',''), 'claude_model':os.environ.get('ANTHROPIC_MODEL',''), 'fireworks_key':os.environ.get('FIREWORKS_API_KEY',''), 'fireworks_model':os.environ.get('FIREWORKS_MODEL',''), 'engine':None, 'engine_id':None}
 PORT = int(os.environ.get('READING_MODEL_PORT','8765'))
+# This session authorizes only the capped Glimmer test path. A legacy environment
+# flag must not silently unlock unrelated API spend.
+ZERO_COST_MODE = True
 
 def registry(): return json.loads((ROOT/'models.json').read_text())
 
@@ -34,12 +40,15 @@ class Handler(BaseHTTPRequestHandler):
             archived = self.path.endswith('/archived')
             rows = [r for r in records.all_records() if bool(r.get('archived_at')) == archived]
             return self.send(200, {'records': rows, 'summary': records.summaries(rows)})
+        if self.path == '/api/budget':
+            return self.send(200, ledger().status())
         if self.path == '/api/config':
             models=registry()
             for value in models.values():
                 value['available'] = not value.get('pending',False) or bool(value.get('adapter'))
-            return self.send(200,{'models':models,'key_set':bool(STATE['key']), 'openai_model':STATE['openai_model'],
+            return self.send(200,{'models':models,'zero_cost_mode':ZERO_COST_MODE,'budget_model_ids':['glimmer_sft'],'testing_budget':ledger().status(),'key_set':bool(STATE['key']), 'openai_model':STATE['openai_model'],
                 'api_models':json.loads((ROOT/'api-models.json').read_text()), 'claude_key_set':bool(STATE['claude_key']), 'claude_model':STATE['claude_model'],
+                'fireworks_key_set':bool(STATE['fireworks_key']), 'fireworks_model':STATE['fireworks_model'],
                 'dev':[json.loads(x) for x in (ROOT/'data/dev.jsonl').read_text().splitlines()],
                 'prompts':{k:prompt_for(k) for k in ['A','B']}})
         files={'/':('ui/index.html','text/html; charset=utf-8'),'/app.js':('ui/app.js','text/javascript'),
@@ -58,8 +67,8 @@ class Handler(BaseHTTPRequestHandler):
         if self.path == '/api/settings':
             with LOCK:
                 provider = data.get('provider', 'openai')
-                if provider not in ('openai', 'claude'): return self.send(400, {'error':'Unknown provider.'})
-                key_field = 'key' if provider == 'openai' else 'claude_key'
+                if provider not in ('openai', 'claude', 'fireworks'): return self.send(400, {'error':'Unknown provider.'})
+                key_field = 'key' if provider == 'openai' else provider+'_key'
                 if data.get('clear_key'): STATE[key_field]=''
                 elif data.get('api_key'): STATE[key_field]=str(data['api_key'])
                 STATE[provider+'_model']=str(data.get('model','')).strip()
@@ -70,16 +79,21 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send(200, {'record':row})
             except ValueError as exc: return self.send(400, {'error':str(exc)})
         if self.path == '/api/evaluate':
+            if ZERO_COST_MODE and data.get('model') != 'glimmer_sft':
+                return self.send(403, {'error':'$0 mode: the paid reading evaluator is disabled. Review the response manually and save a decision.'})
             if not LOCK.acquire(blocking=False): return self.send(409, {'error':'A generation is running; retry evaluation shortly.'})
             try:
                 row = records.get(data.get('id'))
+                budgeted = eligible_record(row)
+                if ZERO_COST_MODE and not budgeted:
+                    return self.send(403, {'error':'This record is not eligible for the Glimmer testing budget.'})
                 if not row.get('evaluation'):
                     try:
-                        value = evaluator.evaluate(row, STATE['key'])
+                        value = evaluator.evaluate(row, STATE['key'], engine_class=BudgetedReadingJudge) if budgeted else evaluator.evaluate(row, STATE['key'])
                         row = records.update(row['id'], evaluation=value, evaluation_error=None)
                     except Exception as exc:
                         # Never expose provider payloads or credentials.
-                        error = 'Evaluator unavailable ('+type(exc).__name__+'). Manual decision is available.'
+                        error = str(exc) if isinstance(exc, BudgetError) else 'Evaluator unavailable ('+type(exc).__name__+'). Manual decision is available.'
                         row = records.update(row['id'], evaluation_error=error)
                 return self.send(200, {'record':row})
             except ValueError as exc: return self.send(400, {'error':str(exc)})
@@ -89,11 +103,17 @@ class Handler(BaseHTTPRequestHandler):
         try:
             model_id=data.get('model'); spec=registry().get(model_id)
             if not spec: raise ValueError('Unknown model.')
+            if ZERO_COST_MODE and spec['backend'] in ('openai', 'claude', 'fireworks'):
+                return self.send(403, {'error':'$0 mode: API inference is disabled. Select a local model or review saved results.'})
             if spec.get('pending') and not spec.get('adapter'): raise ValueError('This model has not been trained. Configure a real adapter in models.json first.')
             messages=data.get('messages',[])
             if not messages or len(messages)>30 or messages[-1].get('role')!='user': raise ValueError('Start a new chat or send a user message.')
             if any(m.get('role') not in ('user','assistant') or not isinstance(m.get('content'),str) for m in messages): raise ValueError('Invalid chat messages.')
             if spec['backend']=='openai': engine=OpenAIEngine(STATE['openai_model'],STATE['key'], options={'reasoning':{'effort':'none'}} if STATE['openai_model']=='gpt-6-luna' else {})
+            elif spec['backend']=='fireworks_sampler':
+                if model_id != 'glimmer_sft': raise ValueError('Unknown checkpoint model.')
+                engine=GlimmerTestingEngine(STATE['fireworks_key'])
+            elif spec['backend']=='fireworks': engine=FireworksEngine(STATE['fireworks_model'],STATE['fireworks_key'])
             elif spec['backend']=='claude': engine=ClaudeEngine(STATE['claude_model'],STATE['claude_key'],max_tokens=4096)
             else:
                 identity=json.dumps(spec,sort_keys=True)
@@ -127,11 +147,13 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--env-file', type=Path, help='Read only API keys/model IDs from an existing dotenv file.')
     args = parser.parse_args()
-    if args.env_file:
+    for env_path in [args.env_file, ROOT.parent / '.env']:
+        if env_path is None or not env_path.is_file(): continue
         import shlex
         allowed = {'OPENAI_API_KEY':'key', 'ANTHROPIC_API_KEY':'claude_key',
-                   'OPENAI_MODEL':'openai_model', 'ANTHROPIC_MODEL':'claude_model'}
-        for line in args.env_file.read_text().splitlines():
+                   'OPENAI_MODEL':'openai_model', 'ANTHROPIC_MODEL':'claude_model',
+                   'FIREWORKS_API_KEY':'fireworks_key', 'FIREWORKS_MODEL':'fireworks_model'}
+        for line in env_path.read_text().splitlines():
             line = line.strip().removeprefix('export ')
             name, sep, raw = line.partition('=')
             if sep and name.strip() in allowed:
@@ -140,5 +162,6 @@ if __name__=='__main__':
                     STATE[allowed[name.strip()]] = parts[0]
     STATE['openai_model'] = STATE['openai_model'] or 'gpt-6-luna'
     STATE['claude_model'] = STATE['claude_model'] or 'claude-haiku-5-5'
+    STATE['fireworks_model'] = STATE['fireworks_model'] or 'accounts/fireworks/models/muse-glimmer-30b'
     print(f'Reading model: http://127.0.0.1:{PORT}',flush=True)
     ThreadingHTTPServer(('127.0.0.1',PORT),Handler).serve_forever()

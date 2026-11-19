@@ -1,0 +1,29 @@
+{
+  "version": "glimmer-fireworks-exact600-v1",
+  "count": 600,
+  "source_dataset": "stage1/datasets/sft-600-v1",
+  "source_manifest_sha256": "932e287304906a7e8dbf1f293011d0592a2a847e9450837081e0324f31024df3",
+  "supervision": "final_assistant_message_only",
+  "required_train_on_what": "last_assistant_message",
+  "token_mask_verification": "passed",
+  "no_source_changes": true,
+  "no_paid_calls": true,
+  "no_heldout_or_archive_content_inspected": true,
+  "artifacts": {
+    ".gitignore": "7987a8cc08d812464ff5162a9ab80e21af4e7e77703db73c18b663486cba8b2f",
+    "convert_dataset.py": "9535dcd50ec6d5a3f27c04c4b4811c3cf14592a0ce056a9f049f83e96825e07e",
+    "test_dataset.py": "b20ea1777a104170b7de8ce7ed0050014dabbe65ced9961c8d77bd83cb8f097d",
+    "verify_token_masks.py": "db49b548e96ee5873ccbd266d23513cda3ec0695cd03f22b3b8b4dcae133ffda",
+    "download_tokenizer.py": "702c8c9e5564197f8282837a5d8c61ad8414104489d722806177b180af88ab8f",
+    "train.messages.jsonl": "662bfadd4f3f17bcce91e718c5df4d67c775d79945933f1eb239c1c0687c9ef7",
+    "row_identity_and_mask_plan.jsonl": "9b7e9c39e779d8926f7a33e74ee50c4a32f6fb642ee6e5383f4ad6cbbdba70c2",
+    "validation.json": "08591886c56aa2ca8dd37a79475f226dff3cf9f5426f0b932c51973518412d1b",
+    "DATA_REPORT.md": "440035517b38947054b41d2e9c0a534ffc7c3f008c9553d74e203d3d077a5579",
+    "tokenizer/snapshot_manifest.json": "8013c2851988d55805c184d71dcc6e15a8cf5e6ad625ff1e35e8f83539fe830e",
+    "token_mask_validation.json": "2dc2a6a3e5bd74574e558aacca27af0ddcbcf3f7fdf78a437815764de92900c4",
+    "token_mask_proofs.jsonl": "7ebdbd1a0879506a73b5c4f770fdf0b258d652f8b6614be04ecd0c8bf092dbc7"
+  },
+  "model_token_loss_masks_verified": true,
+  "cookbook_revision": "74e103ab4249d508912ccf264793e655980eead0",
+  "tokenizer_revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68"
+}

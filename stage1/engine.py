@@ -51,7 +51,7 @@ class OpenAIEngine:
             raise ValueError('Set an OpenAI model ID and API key first.')
         self.model_id, self.api_key = model_id, api_key
         self.max_tokens, self.options = max_tokens, options or {}
-        if set(self.options) - {'temperature', 'top_p', 'reasoning', 'text'}:
+        if set(self.options) - {'temperature', 'top_p', 'reasoning', 'text', 'service_tier'}:
             raise ValueError('Unsupported OpenAI override; use temperature, top_p, reasoning, or text.')
         self.metadata = {'backend': 'openai', 'model': model_id, 'max_output_tokens': max_tokens,
                          'options': self.options, 'transport': 'Responses API; non-streaming; no retries'}
@@ -77,6 +77,41 @@ class OpenAIEngine:
                 'truncated': status == 'incomplete', 'usage': obj.get('usage'),
                 'resolved_model': obj.get('model'), 'response_id': obj.get('id'),
                 'finish_details': obj.get('incomplete_details'), 'diagnostics': diagnostics(text)}
+
+class FireworksEngine:
+    """Fireworks chat inference; preserve visible output and provider metadata."""
+    def __init__(self, model_id, api_key, max_tokens=128, options=None):
+        if not model_id or not api_key:
+            raise ValueError('Set a Fireworks model ID and API key first.')
+        self.model_id, self.api_key = model_id, api_key
+        self.max_tokens, self.options = max_tokens, options or {}
+        if set(self.options) - {'temperature', 'top_p', 'reasoning_effort'}:
+            raise ValueError('Unsupported Fireworks generation option.')
+        self.metadata = {'backend': 'fireworks', 'model': model_id,
+                         'max_tokens': max_tokens, 'options': self.options,
+                         'transport': 'Fireworks Chat Completions; non-streaming; no retries'}
+
+    def generate(self, instructions, messages):
+        start = time.perf_counter()
+        body = {'model': self.model_id, 'messages': [{'role': 'system', 'content': instructions}] + messages,
+                'max_tokens': self.max_tokens, **self.options}
+        req = urllib.request.Request('https://api.fireworks.ai/inference/v1/chat/completions',
+            data=json.dumps(body).encode(), headers={'Authorization': 'Bearer ' + self.api_key,
+            'Content-Type': 'application/json'}, method='POST')
+        with urllib.request.urlopen(req, timeout=180, context=api_tls_context()) as response:
+            obj = json.load(response)
+        choice = obj['choices'][0]
+        message = choice.get('message', {})
+        text = message.get('content') or ''
+        if not isinstance(text, str):
+            raise ValueError('Unexpected Fireworks response content.')
+        reason = choice.get('finish_reason')
+        return {'text': text, 'latency_s': time.perf_counter()-start,
+                'status': 'completed' if reason == 'stop' and text.strip() else 'incomplete',
+                'truncated': reason == 'length', 'usage': obj.get('usage'),
+                'resolved_model': obj.get('model'), 'response_id': obj.get('id'),
+                'finish_details': reason, 'reasoning_content': message.get('reasoning_content'),
+                'raw_response': obj, 'diagnostics': diagnostics(text)}
 
 class ClaudeEngine:
     def __init__(self, model_id, api_key, max_tokens=512, options=None):

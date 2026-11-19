@@ -52,5 +52,15 @@
     "backend": "qwen",
     "adapter": null,
     "pending": true
+  },
+  "fireworks": {
+    "label": "Muse Glimmer 30B \u00b7 Fireworks API",
+    "backend": "fireworks"
+  },
+  "glimmer_sft": {
+    "label": "Muse Glimmer 30B \u00b7 SFT \u00b7 600 examples / 3 epochs",
+    "backend": "fireworks_sampler",
+    "model": "accounts/svirok123/models/reading-glimmer-sft600-r16-e3-20261116",
+    "pending": false
   }
 }

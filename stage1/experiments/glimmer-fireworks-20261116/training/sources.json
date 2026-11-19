@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/fw-ai-external/cookbook",
+  "commit": "74e103ab4249d508912ccf264793e655980eead0",
+  "retrieved_utc": "2026-11-16",
+  "local_source_sha256": {
+    "training/recipes/sft_loop.py": "c8d0fd4c6cae968d6853b6a57eee4aa052259d394debd374d37ab73eee13d122",
+    "training/pyproject.toml": "964bde42908e670d6342773d5846c2049207a121046ee8e1c6404348685d6916",
+    "training/uv.lock": "98dcdef6743cd899be964636015a75f4209c678a86c486b41b4dd1777de1da92",
+    "training/utils/serverless.py": "b739c2edd40dffd76dcd304afe9e90b59d82cf36c7ac46c6a7d92c6cc5ada836",
+    "training/utils/checkpoints.py": "b214fc4c2358e34abfdb68e9eecdcd15a738398c70b42e85cdd6d4e95b22b3f7"
+  },
+  "official_docs": [
+    "https://docs.fireworks.ai/fine-tuning/migrate-from-managed-training",
+    "https://docs.fireworks.ai/fine-tuning/training-api/serverless",
+    "https://docs.fireworks.ai/fine-tuning/training-api/cookbook/muse-glimmer",
+    "https://docs.fireworks.ai/fine-tuning/training-api/cookbook/sft",
+    "https://docs.fireworks.ai/fine-tuning/models",
+    "https://fireworks.ai/pricing"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "row_count": 600,
+  "source_manifest_sha256": "932e287304906a7e8dbf1f293011d0592a2a847e9450837081e0324f31024df3",
+  "source_artifact_hashes_verified": {
+    "README.md": "9f4f531e4c5a285d4a22aa26c8ed9cca8f06a4d545097e17502aaebfc0c0a50f",
+    "audit-history.jsonl": "bf43991aed67b9c82fc4bd4199ff0cff01b2219c2201b5803ccb0ba84b287435",
+    "audit-rows.jsonl": "4f84c73c88af489eddb3e1c292f8d9e0dd55aa138d48b22c6425852d822b35cf",
+    "audit.json": "a7c9c33d39043711ad409fc454bf9177bdd169c40eedbc9211fb45366fa73a43",
+    "audit.md": "db733793d41c56429de0759e440d9fd801e1f726bfa269ea67728b9557d78203",
+    "changes.jsonl": "53c7c9faeb473311f98d05a0dfaed65a14edf963fc8c0aea64f9bc44f3122200",
+    "history-flaws.jsonl": "9d12b3f10fecdb07e971aa5df91313ab1d8d36ed6f6bde5518761d33e4dbdc40",
+    "history-lexicon.json": "73f74483bfb87e9f3849a229c21da7e83e3cedb7f3336b2b60bf74fac5d0bbfb",
+    "original-changes-independent-approval.jsonl": "b33588b0a0df79001b65ca8639cf8cc5c035818fb804cecd47d2316a8a82830c",
+    "provenance.json": "34c43af2eb6d88be675b3a024238436ee5852a0adcd36cad7ae8dd63367b1063",
+    "review.jsonl": "07a4aced136602c4c88555e93bff7a9194ba9e2bb94bea4e46059efa17e6ca81",
+    "sft.jsonl": "844223c79402af7d93937c9485f182d7c5381434b4e2234381a989663466424e",
+    "validation.json": "cd6ba6d645887adb5b8ec5869914c7993d3c4190e41f726e70e0c31b5e8d99e1"
+  },
+  "originals_unchanged": true,
+  "all_message_roles_and_contents_identical": true,
+  "all_system_prompts_identical_to_source": true,
+  "all_final_completions_identical_to_source": true,
+  "all_history_messages_preserved": true,
+  "rows_with_history": 247,
+  "historical_assistant_turns_context_only_planned": 601,
+  "rows_with_annotated_history_flaws": 143,
+  "message_loss_plan_verified": true,
+  "train_on_what_required": "last_assistant_message",
+  "token_mask_validation_performed_by_this_check": false,
+  "token_verification_note": "This check verifies content and message plans only. token_mask_validation.json separately records actual model token-mask proof."
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "existing-active-ui-record-export",
+  "created_at": "2026-11-16T17:06:25.872846+00:00",
+  "source_database": "/Users/viroksharma/Desktop/Personal/Projects for Fun/Reading-Model/stage1/runs/conversation-results.sqlite3",
+  "source_read_only": true,
+  "archived_rows_loaded": false,
+  "record_count": 151,
+  "selection": {
+    "backend": null,
+    "adapter": "any",
+    "condition": null,
+    "rubric_version": null,
+    "adapter_hash": null
+  },
+  "files": {
+    "records.jsonl": "ff9580db96f984148f4a90c5338060b22264d4f74e48c1003499148567122e64",
+    "summary.json": "5b208da98fd19253c58676fb6169abd41bb90af344cd3d7a30587199fdc8b06e"
+  }
+}

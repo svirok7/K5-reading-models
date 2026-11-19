@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "row_count": 600,
+  "dataset_sha256": "662bfadd4f3f17bcce91e718c5df4d67c775d79945933f1eb239c1c0687c9ef7",
+  "source_manifest_sha256": "932e287304906a7e8dbf1f293011d0592a2a847e9450837081e0324f31024df3",
+  "cookbook_revision": "74e103ab4249d508912ccf264793e655980eead0",
+  "tokenizer_model": "meta-models/Muse-Glimmer-30B",
+  "tokenizer_revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68",
+  "tokenizer_snapshot_manifest_sha256": "8013c2851988d55805c184d71dcc6e15a8cf5e6ad625ff1e35e8f83539fe830e",
+  "tokenizer_files_sha256": {
+    "tokenizer.json": "c9dbee66967b58f31a7c27f723c3760da3526ccd0427578e8905b0abb0031c4d",
+    "tokenizer_config.json": "781e6c74f571642c71202167b67d9255b28cc439bdda1582ff31346182f5a9c5",
+    "config.json": "5a9df2d8a385b3d361ab6ae68d73586f4e775033933bd0cd863fb7f3820e6a14",
+    "chat_template.jinja": "cfc67e5f349f37690dfd31ed1f18bc4442a9dd32fe39a648f993cb4eb3cae678",
+    "processor_config.json": "97e2a486dd9866b81f40cf4b8bc0c9ced9a7cd8a5bc65aa4cc2f4de0712dae77"
+  },
+  "tokenizer_trust_remote_code": false,
+  "renderer": "muse_glimmer",
+  "train_on_what": "last_assistant_message",
+  "reduction": "mean",
+  "rendered_current_date": "2026-11-16",
+  "max_seq_len": 8192,
+  "all_rows_match_pinned_hf_chat_template": true,
+  "production_render_worker_initialization_verified": true,
+  "context_loss_positions": 0,
+  "dropped_rows": 0,
+  "truncated_rows": 0,
+  "split_rows": 0,
+  "min_sequence_tokens": 1727,
+  "max_sequence_tokens": 1879,
+  "total_sequence_tokens": 1059725,
+  "total_supervised_tokens": 9104,
+  "proofs_sha256": "7ebdbd1a0879506a73b5c4f770fdf0b258d652f8b6614be04ecd0c8bf092dbc7",
+  "native_assistant_output_includes": " to=user<|message|> + exact completion content + <|eot|>",
+  "packages": {
+    "fireworks-ai": "1.2.32",
+    "torch": "2.14.1",
+    "transformers": "5.10.4",
+    "huggingface-hub": "1.33.0",
+    "numpy": "2.4.6",
+    "pillow": "12.3.0"
+  }
+}

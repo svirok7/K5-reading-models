@@ -46,8 +46,8 @@ def validate(value):
         raise ValueError('Evaluator decision contradicts reading scores.')
     return value
 
-def evaluate(row, api_key):
-    engine=OpenAIEngine(MODEL,api_key,max_tokens=3000,options={
+def evaluate(row, api_key, *, engine_class=None):
+    engine=(engine_class or OpenAIEngine)(MODEL,api_key,max_tokens=3000,options={
         'reasoning':{'effort':'low'},
         'text':{'format':{'type':'json_schema','name':'reading_evaluation','strict':True,'schema':SCHEMA}}})
     instructions=INSTRUCTION+'\n\nRUBRIC:\n'+row['rubric']
@@ -60,6 +60,7 @@ def evaluate(row, api_key):
     if row['response']['truncated'] or not row['response']['text'].strip():
         value['verdict']='not_acceptable'
         value['serious_flags'].append('Empty or truncated companion output.')
+    if result.get('budget_warning'): value['budget_warning'] = result['budget_warning']
     value.update(model=MODEL,resolved_model=result.get('resolved_model'),usage=result['usage'],
         latency_s=result['latency_s'],rubric_version=row['rubric_version'],rubric_hash=row['rubric_hash'],
         judge_prompt_hash=digest(instructions),settings=engine.metadata,calibrated=False)

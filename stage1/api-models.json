@@ -26,5 +26,11 @@
       "id": "claude-opus-5-5",
       "label": "Claude Opus 5.5"
     }
+  ],
+  "fireworks": [
+    {
+      "id": "accounts/fireworks/models/muse-glimmer-30b",
+      "label": "Muse Glimmer 30B \u00b7 base (deployment required)"
+    }
   ]
 }
